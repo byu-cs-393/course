@@ -57,26 +57,30 @@ The core mechanic of the redesign:
   reports the work and posts credit to Canvas.
 - **Manual path:** the student submits the item themselves (URLs / a short template).
 
-To keep the extension integration simple and the student experience uniform, **prefer
-Canvas Assignments** (their API is easy to submit/grade programmatically; New Quizzes are
-not). Labor-saver worth knowing: Canvas's **"Set Default Grade"** grants full credit to all
-submitters in one action, so honor-system assignments are *not* hand-graded one by one.
+**Decided: everything is a Canvas Assignment — no quizzes.** Assignments keep the extension
+integration simple (easy to submit/grade via API) and the student experience uniform.
+
+**Time is always self-reported, even by extension users.** Study time is often spent at a
+whiteboard or in discussion — work the extension can't observe — so hours are entered by the
+student regardless of whether they use the extension. The extension still helps where it can
+(pre-filling completed-problem links, mock, and topic-exam reporting).
+
+Labor-savers: Canvas's **"Set Default Grade"** grants full credit to all submitters in one
+action (good for completion-style items like mock/topic). For the rubric-graded Study report,
+a possible **AI-assisted grader** could pre-score the 4/4/5 rubric from the submission text —
+_TBD._
 
 ## Per-item mechanism
 
 | Item | Canvas type | Completion |
 |---|---|---|
-| **Study — problems** | Assignment (URL + text) | Extension auto-submits, or manual links + tapered template |
-| **Study — hours** | _see open decision_ | Self-report |
+| **Study** (hours + problems) | Assignment — one item | Hours **always self-reported**; problem links manual or extension-prefilled. Points by the **4/4/5 rubric** (see below). |
 | **Mock interview** | Assignment | Manual: who you paired with + which problem |
 | **Topic exam** | Assignment | Manual template, or extension (see [topic-exams](topic-exams/)) |
 
-**Open decision — how to score Study hours:**
-- **Option A (one clean item):** a single Study assignment; "met the ~9-hr bar = full
-  credit" via Set Default Grade. Keeps one item per category; loses proportional partial credit.
-- **Option B (proportional):** split hours into a short **auto-scored quiz** (points = hours
-  reported) + the problems assignment. Gains honest partial credit; costs an extra gradebook
-  column, and the hours quiz is the one thing the extension can't cleanly auto-fill.
+The Study assignment description carries the rubric so students see how points are earned.
+Grading is by the 4/4/5 rubric — potentially with an AI-assisted first pass (TBD) to keep
+the TA workload down.
 
 ## Tapering the manual path
 
@@ -131,11 +135,16 @@ gradebook stays consistent; only the manual template shrinks.
 
 Topic-exam template already lives at [`topic-exams/submission-template.md`](topic-exams/submission-template.md).
 
+## Decisions made
+
+- **No quizzes.** Every item is a Canvas Assignment.
+- **Study is one assignment** with hours **always self-reported** (even by extension users,
+  since whiteboard/discussion time is invisible to the extension), graded by the 4/4/5 rubric.
+- **AI-assisted grader** for the Study rubric is a possible labor-saver — _TBD._
+
 ## Open decisions
 
-1. **Study hours scoring** — Option A (one clean assignment, bar-based) vs Option B
-   (proportional auto-scored quiz). _(Leaning: A for clarity; B has a real honesty argument.)_
-2. **Required collaborative hours outside class** — currently just 1; raise?
-3. **Peer mock interviews fully replace** counting TA/instructor interviews toward the mock
+1. **Required collaborative hours outside class** — currently just 1 (3 of 4 come from class); raise?
+2. **Peer mock interviews fully replace** counting TA/instructor interviews toward the mock
    requirement? (Topic-exam live interviews stay with TAs — just not double-counted.)
-4. **Feedback policy** — feedback to everyone, or only to students who opt in?
+3. **Feedback policy** — feedback to everyone, or only to students who opt in?
