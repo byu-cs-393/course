@@ -42,8 +42,50 @@ Study is **9 hours/week** total (class counts as 3), with collaboration built in
 | 5 | **5 hours of personal study** (may be collaborative, but doesn't have to be) |
 | **13** | **weekly total** |
 
-> _Open decision:_ only **1 collaborative hour is required outside class** (3 of the 4 come
-> from class). If collaboration is a headline value, consider raising it.
+> **Decided:** only **1 collaborative hour is required outside class** (3 of the 4 come from
+> class; students who skip class owe all 4 on their own). The **5 personal hours** are the
+> point — sharpening your own skills is what makes you a better collaborator and prepares you
+> to be put on the spot.
+
+## 14-week schedule (draft)
+
+Topic sequence follows the existing weekly materials: **Data Structures → Graphs → Dynamic
+Programming → Sorting/Two-Pointer**, with review at the end. Each topic runs its three exams
+(**OA → Performance → Live**) across its weeks. Peer mock interviews run every week **except
+live-exam weeks**; the **professional** mock replaces the peer mock in the final week.
+
+| Wk | Topic focus | Topic exam due | Mock interview |
+|---:|---|---|---|
+| 1 | Data Structures | DS — Online Assessment | Connect with class |
+| 2 | Data Structures | DS — Performance | Peer |
+| 3 | Data Structures | DS — **Live** | — *(live-exam week)* |
+| 4 | Graphs | Graphs — Online Assessment | Peer |
+| 5 | Graphs | Graphs — Performance | Peer |
+| 6 | Graphs | Graphs — **Live** | — *(live-exam week)* |
+| 7 | Dynamic Programming | DP — Online Assessment | Peer |
+| 8 | Dynamic Programming | DP — Performance | Peer |
+| 9 | Dynamic Programming | *(catch-up / practice)* | Peer |
+| 10 | Dynamic Programming | DP — **Live** | — *(live-exam week)* |
+| 11 | Sorting, Two-Pointer | Sorting — Online Assessment | Peer |
+| 12 | Sorting, Two-Pointer | Sorting — Performance | Peer |
+| 13 | Sorting, Two-Pointer | Sorting — **Live** | — *(live-exam week)* |
+| 14 | Review & final prep | — | **Professional** (in lieu of peer) |
+
+**Study is due every week** (constant, so not shown). Totals: **12 topic exams**, **14 study**,
+**10 communication** items (8 peer + 1 connect + 1 professional), **1 final**.
+
+It fits: 12 exams land one per week across weeks 1–13, with **week 9 as DP breathing room**
+(DP is the hardest — 4 weeks, 3 exams). Caveats to design around:
+
+- **The professional mock needs ~a month of lead time.** Reaching a professional takes weeks
+  of outreach (see [LinkedIn outreach](mock-interviews/linkedin-outreach.md)). Due week 14 →
+  students must start by ~week 10. Plant a reminder/assignment around weeks 9–10.
+- **Instructor pass/fail interview** (required to pass) is not a weekly item — it floats.
+  Students complete it with the instructor by ~week 14; satisfiable by a mock *or* a topic
+  exam done with the instructor.
+- **Final exam** is the last two days of class (week 14 / finals period).
+- **Week numbers are relative to when each topic is taught** and slide to the real Fall
+  calendar. In practice the first DS OA may be assigned week 1 and due week 2.
 
 ## Completion: the dual-path pattern
 
@@ -140,11 +182,17 @@ Topic-exam template already lives at [`topic-exams/submission-template.md`](topi
 - **No quizzes.** Every item is a Canvas Assignment.
 - **Study is one assignment** with hours **always self-reported** (even by extension users,
   since whiteboard/discussion time is invisible to the extension), graded by the 4/4/5 rubric.
+  Only **1 collaborative hour required outside class**; the 5 personal hours are the point.
+- **Peer mock interviews are their own thing** — not double-counted with TA/instructor
+  interviews. **No peer mock in a live-exam week.** The **professional** mock is required and
+  lands in the **final week in lieu of** the peer mock.
+- **Feedback is opt-in.** Everyone always gets the rubric **score**; qualitative **written
+  feedback** goes only to students who request it (with encouragement to ask, and proactive
+  outreach to strugglers).
 - **AI-assisted grader** for the Study rubric is a possible labor-saver — _TBD._
 
 ## Open decisions
 
-1. **Required collaborative hours outside class** — currently just 1 (3 of 4 come from class); raise?
-2. **Peer mock interviews fully replace** counting TA/instructor interviews toward the mock
-   requirement? (Topic-exam live interviews stay with TAs — just not double-counted.)
-3. **Feedback policy** — feedback to everyone, or only to students who opt in?
+- **Professional-mock lead time** — where to plant the outreach reminder (weeks 9–10?).
+- **Instructor pass/fail interview** — exact placement / deadline.
+- Fit the draft schedule to the **real Fall 2026 calendar** (start date, holidays, finals).
