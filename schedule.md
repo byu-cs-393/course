@@ -1,14 +1,13 @@
 # CS 393 — Fall 2026 Weekly Schedule
 
 A Tuesday/Thursday section. This is the student-facing "what should I be doing this week"
-view. For *why* the course is built this way, see [`course-design.md`](course-design.md);
-for the topic exams, see [`topic-exams/`](topic-exams/).
+view. For the topic exams, see [`topic-exams/`](topic-exams/).
 
 ## What you do every week
 
 1. **Study — ~9 hours** (class counts as 3). Log your hours and problems in the weekly
    Study assignment. Rubric: 4 pts collaborative (incl. class) · 4 pts required problems ·
-   5 pts personal. See [`course-design.md`](course-design.md).
+   5 pts personal.
 2. **Required problems** — 2 assigned HW + the in-class problems. *On weeks with an Online
    Assessment (OA), the OA replaces the 2 HW; the in-class problems are your required ones.*
 3. **Peer mock interview** — every week **except live-exam weeks and Thanksgiving**.
