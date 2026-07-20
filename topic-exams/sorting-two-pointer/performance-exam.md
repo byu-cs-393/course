@@ -6,11 +6,12 @@
 
 ## The question
 
-<!-- TODO (instructor): add the performance-exam question(s) for Sorting, Two-Pointer, etc..
-     This should be a problem students can practice ahead of time, sitting in difficulty
-     between the Online Assessment and the Live Interview. -->
+**[Design Twitter](https://leetcode.com/problems/design-twitter/)**
 
-_Question to be added._
+Design a simplified Twitter supporting `postTweet`, `follow`, `unfollow`, and a
+`getNewsFeed` that returns the 10 most recent tweets from a user and everyone they follow.
+Exercises merging ordered streams with a **heap / priority queue** plus hash maps for the
+follow graph.
 
 ## How it works
 

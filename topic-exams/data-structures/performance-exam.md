@@ -6,11 +6,10 @@
 
 ## The question
 
-<!-- TODO (instructor): add the performance-exam question(s) for Data Structures.
-     This should be a problem students can practice ahead of time, sitting in difficulty
-     between the Online Assessment and the Live Interview. -->
+**[LRU Cache](https://leetcode.com/problems/lru-cache/)**
 
-_Question to be added._
+Design a data structure with `O(1)` `get` and `put` that evicts the least-recently-used key
+when at capacity. A strong solution combines a hash map with a doubly linked list.
 
 ## How it works
 

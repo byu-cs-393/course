@@ -6,11 +6,11 @@
 
 ## The question
 
-<!-- TODO (instructor): add the performance-exam question(s) for Graphs.
-     This should be a problem students can practice ahead of time, sitting in difficulty
-     between the Online Assessment and the Live Interview. -->
+**[Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/)**
 
-_Question to be added._
+Given prerequisite pairs, answer queries about whether one course is a prerequisite
+(directly or indirectly) of another. Exercises directed-graph reachability — DFS/BFS from
+each node, or a transitive-closure approach.
 
 ## How it works
 

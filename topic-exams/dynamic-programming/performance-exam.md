@@ -6,11 +6,11 @@
 
 ## The question
 
-<!-- TODO (instructor): add the performance-exam question(s) for Dynamic Programming & Counting.
-     This should be a problem students can practice ahead of time, sitting in difficulty
-     between the Online Assessment and the Live Interview. -->
+**[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)**
 
-_Question to be added._
+Count the ways to roll `n` dice with `k` faces each to reach a target sum, modulo
+`10^9 + 7`. A classic counting DP — DFS with memoization over `(dice remaining, target)`, or
+a bottom-up table.
 
 ## How it works
 

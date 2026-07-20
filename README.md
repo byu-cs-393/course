@@ -7,8 +7,8 @@ course's public content; it is mirrored into Canvas each semester for delivery.
 - **Org:** [`byu-cs-393`](https://github.com/byu-cs-393)
 
 > **Status:** Being set up for Fall 2026. Content has been migrated from the previous
-> semester's materials. Items marked _TODO_ are still pending — most importantly, the four
-> new **performance-exam** questions.
+> semester's materials, including the four new **performance-exam** questions. Still to do:
+> review, then mirror the structure into Canvas.
 
 ## Course at a glance
 
