@@ -16,4 +16,4 @@ Book a slot on the instructor's Microsoft Bookings page:
 **[tinyurl.com/mtr26](https://tinyurl.com/mtr26)**
 
 Pick an open slot and book it. If you anticipate needing more time, book multiple contiguous
-slots. You can also **message the instructor on Microsoft Teams** (preferred) to arrange a time.
+slots. 
