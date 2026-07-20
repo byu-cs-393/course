@@ -143,7 +143,6 @@ gradebook stays consistent; only the manual template shrinks.
 ### Study — Week 1 (rich)
 
 ```
-- BYU Net ID:
 - Required problems (paste passing-submission URLs):
     1.
     2.
@@ -162,7 +161,6 @@ gradebook stays consistent; only the manual template shrinks.
 ### Study — later weeks (light)
 
 ```
-- BYU Net ID:
 - Required problem URLs: 1) __  2) __
 - Hours: collaborative __ / personal __
 - Anything you want feedback on? (optional)
@@ -171,7 +169,6 @@ gradebook stays consistent; only the manual template shrinks.
 ### Mock interview
 
 ```
-- BYU Net ID:
 - Peer you interviewed with:
 - Problem(s) worked on:
 - How it went / what you practiced:
