@@ -17,7 +17,11 @@ a TA, or (ideally) a real professional in industry.
 ## Recording completion
 
 Each mock interview is a **Canvas assignment**. Submit a short report: who you interviewed
-with, when, what problem(s) you worked on, and what feedback you received.
+with, when, what problem(s) you worked on, what feedback you received, and a **self-rating**:
+
+- **1** — Showed up, went poorly.
+- **2** — Got to a solution.
+- **3** — Collaborated well and definitely want to hire!
 
 > Previously these were true/false self-report quizzes in Learning Suite. For Fall 2026 they
 > are Canvas assignments so the report content is captured directly.

@@ -16,6 +16,12 @@ while you solve a problem, may give hints, and awards a **1 / 2 / 3 score**.
 
 ## Scoring
 
-The interviewer awards a **1, 2, or 3**. Live exams target final-exam difficulty; ideally
-the interviewer will not pass you until you demonstrate you're ready for the final on that
-topic. You may retry as many times as you need — the time counts toward your practice time.
+**Rate yourself 1, 2, or 3** on how it went:
+
+- **1** — Showed up, went poorly.
+- **2** — Got to a solution.
+- **3** — Collaborated well and definitely want to hire!
+
+Live exams target final-exam difficulty; ideally the interviewer will not pass you until you
+demonstrate you're ready for the final on that topic. You may retry as many times as you
+need — the time counts toward your practice time.

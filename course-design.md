@@ -141,6 +141,10 @@ manual template shrinks. (This also keeps a future extension integration trivial
 > attempt → copy the address bar. It looks like:
 > `https://leetcode.com/problems/two-sum/submissions/1046917577/`
 
+> **Self-rating (mock interviews):** rate how it went —
+> **1** = showed up, went poorly · **2** = got to a solution · **3** = collaborated well and
+> definitely want to hire!
+
 ### Study — Week 1 (rich)
 
 ```
@@ -173,6 +177,7 @@ manual template shrinks. (This also keeps a future extension integration trivial
 - Peer you interviewed with:
 - Problem(s) worked on:
 - How it went / what you practiced:
+- Self-rating (1–3):
 ```
 
 ### Professional mock interview (Wk 14)
@@ -182,6 +187,7 @@ manual template shrinks. (This also keeps a future extension integration trivial
 - Company & role:
 - Problem(s) worked on:
 - How it went & feedback received:
+- Self-rating (1–3):
 ```
 
 Topic-exam templates (three — OA / Performance / Live) live at
@@ -201,6 +207,8 @@ Topic-exam templates (three — OA / Performance / Live) live at
 - **Feedback is opt-in.** Everyone always gets the rubric **score**; qualitative **written
   feedback** goes only to students who request it (with encouragement to ask, and proactive
   outreach to strugglers).
+- **Self-rating (1/2/3)** on **all live exams and mock interviews** — 1 = showed up, went
+  poorly; 2 = got to a solution; 3 = collaborated well and definitely want to hire!
 - **Instructor pass/fail interview** — students **schedule it on Day 1** (Wk 1); see
   [`scheduling.md`](scheduling.md). Satisfiable by a mock or an instructor-run topic exam.
 - **Schedule** fit to the real Fall 2026 calendar — done ([`schedule.md`](schedule.md));
