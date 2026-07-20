@@ -2,9 +2,7 @@
 
 Reading:
 
-[BYU Library reserve](https://apps.lib.byu.edu/lms-tools/link/?type=guide&link=[BYU Library reserve](https://apps.lib.byu.edu/reserve/docs/39812/&source=CS.393.Reynolds))
-
-[Page 33 Chapter 8 ](https://apps.lib.byu.edu/lms-tools/link/?type=guide&link=[BYU Library reserve](https://apps.lib.byu.edu/reserve/docs/39812/&source=CS.393.Reynolds))
+[BYU Library reserve — Cracking the Coding Interview, Ch. 8 (p. 33)](https://apps.lib.byu.edu/lms-tools/link/?type=guide&link=https://apps.lib.byu.edu/reserve/docs/39812/&source=CS.393.Reynolds)
 
 Conference Talk (given up? Maybe look for hope in Christ?):
 
