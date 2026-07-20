@@ -38,7 +38,7 @@ Study is **9 hours/week** total (class counts as 3), with collaboration built in
 | Points | For |
 |---:|---|
 | 4 | **4 hours of collaborative study** (class counts toward this) |
-| 4 | **Required problems done** (2 HW problems + in-class problems; others recommended) |
+| 4 | **Required problems done** (2 assigned HW + in-class problems; others recommended. *On OA weeks the OA replaces the 2 HW — see note below.*) |
 | 5 | **5 hours of personal study** (may be collaborative, but doesn't have to be) |
 | **13** | **weekly total** |
 
@@ -46,6 +46,21 @@ Study is **9 hours/week** total (class counts as 3), with collaboration built in
 > class; students who skip class owe all 4 on their own). The **5 personal hours** are the
 > point — sharpening your own skills is what makes you a better collaborator and prepares you
 > to be put on the spot.
+
+**On OA weeks, the required problems are the in-class problems** — the two assigned HW
+problems are replaced by the OA, which students do on their own as that week's outside
+practice. Benefits:
+
+- The **OA stays a clean Topic-Exam checkpoint** — no cross-category double-count.
+- The week's required problems are the ones worked **collaboratively in class**, so it
+  **rewards attendance** and reinforces the collaboration theme precisely when no outside HW
+  is assigned.
+- **Outside-of-class load stays sane:** the OA is the outside practice; the required problems
+  were done in class.
+
+The Study rubric is unchanged (still 4 pts for required problems); only that week's
+*definition* of "required problems" shifts, which the weekly assignment description spells
+out. So the study survey stays uniform.
 
 ## 14-week schedule (draft)
 
@@ -88,6 +103,12 @@ It fits: 12 exams land one per week across weeks 1–13, with **week 9 as DP bre
 - **Final exam** is the last two days of class (week 14 / finals period).
 - **Week numbers are relative to when each topic is taught** and slide to the real Fall
   calendar. In practice the first DS OA may be assigned week 1 and due week 2.
+- **OA timing is intentional.** The OA lands at the *start* of a topic, before it's fully
+  taught — as a diagnostic + practice instrument (attempt 1 cold surfaces gaps; later
+  attempts use resources/help). It's non-failable, with a **passing attempt accepted through
+  the following week**, so early timing primes the topic rather than penalizing unpreparedness.
+  On OA weeks the required study problems come from **class**, not extra HW (see the Study
+  rubric note).
 
 ## Completion: the dual-path pattern
 
