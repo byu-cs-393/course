@@ -8,13 +8,13 @@ Class #1
 
 Class #2
 
-[from previous week] [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
+[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) (review)
 
-[from previous week] [Coin Change II](https://leetcode.com/problems/coin-change-ii/)
+[Coin Change II](https://leetcode.com/problems/coin-change-ii/) (review)
 
-[from next week] [Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/)
+[Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/) (preview)
 
-[from next week] [Coin Change](https://leetcode.com/problems/coin-change/)
+[Coin Change](https://leetcode.com/problems/coin-change/) (preview)
 
 Outside of Class
 

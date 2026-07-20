@@ -23,9 +23,6 @@ with, when, what problem(s) you worked on, what feedback you received, and a **s
 - **2** — Got to a solution.
 - **3** — Collaborated well and definitely want to hire!
 
-> Previously these were true/false self-report quizzes in Learning Suite. For Fall 2026 they
-> are Canvas assignments so the report content is captured directly.
-
 ## Extra credit
 
 Real interview reports and real offer reports are available as extra credit — submit them

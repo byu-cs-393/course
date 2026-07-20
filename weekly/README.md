@@ -57,5 +57,4 @@ Each week's recommended problems (aim for ~10/week, including anything due that 
 | [Week 03](week-03.md) | [Week 07](week-07.md) | [Week 11](week-11.md) | |
 | [Week 04](week-04.md) | [Week 08](week-08.md) | [Week 12](week-12.md) | |
 
-> Weekly lists are carried over from a previous semester and refer to specific in-class days;
-> adjust to the Fall 2026 calendar as needed.
+> Some weeks note in-class days (Class #1, Class #2).

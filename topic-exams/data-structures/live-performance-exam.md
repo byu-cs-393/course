@@ -1,8 +1,7 @@
 # Topic Exam (Performance) — Data Structures
 
-> **New for Fall 2026.** The performance exam is the second of the three topic exams. Unlike
-> the live interview, you are allowed to **practice the question ahead of time** and then
-> perform it. See [Topic Exams](../README.md) for how the three exams fit together.
+> **Practice this question ahead of time**, then perform it live for a TA. See
+> [Topic Exams](../README.md) for how the three exams fit together.
 
 ## The question
 
