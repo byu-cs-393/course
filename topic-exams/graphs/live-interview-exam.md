@@ -2,7 +2,7 @@
 
 The live interview is the same across all topics. See the shared instructions:
 
-**→ [Interview Exam — Instructions (All Topics)](../interview-exam.md)**
+**→ [Interview Exam — Instructions (All Topics)](../live-interview-exam.md)**
 
 For this topic, expect a problem at the difficulty of the [online assessment](online-assessment.md)
-and [performance exam](performance-exam.md) for Graphs.
+and [performance exam](live-performance-exam.md) for Graphs.
