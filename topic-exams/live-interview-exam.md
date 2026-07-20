@@ -5,8 +5,9 @@ while you solve a problem, may give hints, and awards a **1 / 2 / 3 score**.
 
 ## Steps
 
-1. **Schedule a time** to meet with a TA or the instructor. _If you anticipate needing more
-   time, schedule multiple contiguous appointments._
+1. **Schedule a time** to meet with a TA or the instructor. You can schedule
+   **optimistically** — before you've passed the performance exam. _If you anticipate needing
+   more time, schedule multiple contiguous appointments._
 2. **Complete the Online Assessment (OA)** for the topic before your scheduled time.
 3. **Meet and take the exam.** Solve a problem in the amount of time you signed up for. The
    interviewer may give hints — asking for hints is expected and encouraged.

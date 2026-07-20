@@ -15,7 +15,9 @@ total.
 
 ## The three exams per topic
 
-For each topic, students progress through three exams in order:
+For each topic, complete the three exams **in this order** — pass each before starting the next:
+
+**OA → Performance → Live**
 
 1. **Online Assessment (OA)** — `online-assessment.md`
    A timed, HackerRank-style assessment completed on your own. **Designed to be passable by
@@ -31,6 +33,11 @@ For each topic, students progress through three exams in order:
    on how it went (1 = showed up, went poorly · 2 = got to a solution · 3 = collaborated well
    and definitely want to hire!), and the **TA also awards a 1/2/3**. Attempt it before you
    feel ready — you may retry as many times as you need. Live exams target final-exam difficulty.
+
+**Scheduling tip:** you can book live-exam appointments **optimistically** — schedule them
+hoping you'll pass the performance exam first — and book **multiple contiguous appointments**
+for a longer block if you'd like. The goal is that you're genuinely ready by the live
+interview, so it isn't wasted time for you or the TA.
 
 ## Recording completion
 
