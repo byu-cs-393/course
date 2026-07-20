@@ -35,10 +35,11 @@ Each of the four topics has **three exams** (12 total). See [`topic-exams/`](top
 for full details:
 
 1. **Online Assessment (OA)** — a timed, HackerRank-style assessment you complete on your own. Designed to be passable by everyone (three attempts; the last allows TA/instructor help).
-2. **Performance Exam** — a question you may practice ahead of time, then perform in 15 minutes or less.
+2. **Performance Exam** — a question you may practice ahead of time, then perform in 15 minutes or less for a TA.
 3. **Live Interview** — a live interview with a TA or the instructor, who gives hints and awards a 1/2/3 score. Try this before you think you're ready; you can retry as many times as you need.
 
-Live exams target final difficulty  — ideally the TA or instructor will not pass you until you demonstrate you are ready for the final on that topic.
+Complete in this order for each topic:
+**OA -> Performance -> Live** - You can schedule appointments optimistically for live exam hoping that you'll pass the performance one. Schedule multiple contigous appointments to get longer running blocks of time as desired. The hope is you really are ready when you get to the live interview exam.
 
 ## Final Exam
 
@@ -58,7 +59,7 @@ A: Yes — please ask for hints. Hints help you get unstuck and move to partial,
 
 **Required to pass class**
 
-You'll need to pass an interview (mock interview or topic exam) with the instructor to pass the course. If you fail this interview, apply a growth mindset, learn and practice what you need, and try again until you succeed.
+You'll need to pass an interview with the instructor to pass the course. The topic will be random from the topics explored in class to the point of your interview. You should be caught up on your topic exams before taking this interview and have passed at least one performance interview. If you fail this interview, apply a growth mindset, learn and practice what you need, and try again until you succeed.
 
 Passing means you solved the problem well enough, accurately described space and runtime efficiency, demonstrated a growth (learning) mindset, demonstrated fluency in the programming language of your choice, and anything else a potential employer might expect.
 
