@@ -47,6 +47,8 @@ See the full [**syllabus**](syllabus.md).
 | Path | Contents |
 |---|---|
 | [`syllabus.md`](syllabus.md) | Full course syllabus |
+| [`schedule.md`](schedule.md) | Fall 2026 week-by-week schedule (real dates) |
+| [`course-design.md`](course-design.md) | Design rationale (exposure ladder, weekly model, decisions) |
 | [`topic-exams/`](topic-exams/) | The 12 topic exams (4 topics × OA + Performance + Live) and submission process |
 | [`weekly/`](weekly/) | W01–W14 recommended problem sets |
 | [`mock-interviews/`](mock-interviews/) | Mock-interview requirement + LinkedIn outreach templates |

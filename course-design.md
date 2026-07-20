@@ -62,53 +62,32 @@ The Study rubric is unchanged (still 4 pts for required problems); only that wee
 *definition* of "required problems" shifts, which the weekly assignment description spells
 out. So the study survey stays uniform.
 
-## 14-week schedule (draft)
+## Semester schedule
 
-Topic sequence follows the existing weekly materials: **Data Structures → Graphs → Dynamic
-Programming → Sorting/Two-Pointer**, with review at the end. Each topic runs its three exams
-(**OA → Performance → Live**) across its weeks. Peer mock interviews run every week **except
-live-exam weeks**. Peer mocks are kept even on performance weeks — they're the low-stakes
-rehearsal for the live interview and final, and a key source of fresh on-the-spot
-problem-solving reps. The **professional** mock replaces the peer mock in the final week.
+The dated, student-facing schedule is [`schedule.md`](schedule.md) (the Fall 2026 Tue/Thu
+section — 15 real weeks). Design notes behind it:
 
-| Wk | Topic focus | Topic exam due | Mock interview |
-|---:|---|---|---|
-| 1 | Data Structures | DS — Online Assessment | Connect with class |
-| 2 | Data Structures | DS — Performance | Peer |
-| 3 | Data Structures | DS — **Live** | — *(live-exam week)* |
-| 4 | Graphs | Graphs — Online Assessment | Peer |
-| 5 | Graphs | Graphs — Performance | Peer |
-| 6 | Graphs | Graphs — **Live** | — *(live-exam week)* |
-| 7 | Dynamic Programming | DP — Online Assessment | Peer |
-| 8 | Dynamic Programming | DP — Performance | Peer |
-| 9 | Dynamic Programming | *(catch-up / practice)* | Peer |
-| 10 | Dynamic Programming | DP — **Live** | — *(live-exam week)* |
-| 11 | Sorting, Two-Pointer | Sorting — Online Assessment | Peer |
-| 12 | Sorting, Two-Pointer | Sorting — Performance | Peer |
-| 13 | Sorting, Two-Pointer | Sorting — **Live** | — *(live-exam week)* |
-| 14 | Review & final prep | — | **Professional** (in lieu of peer) |
-
-**Study is due every week** (constant, so not shown). Totals: **12 topic exams**, **14 study**,
-**10 communication** items (8 peer + 1 connect + 1 professional), **1 final**.
-
-It fits: 12 exams land one per week across weeks 1–13, with **week 9 as DP breathing room**
-(DP is the hardest — 4 weeks, 3 exams). Caveats to design around:
-
-- **The professional mock needs ~a month of lead time.** Reaching a professional takes weeks
-  of outreach (see [LinkedIn outreach](mock-interviews/linkedin-outreach.md)). Due week 14 →
-  students must start by ~week 10. Plant a reminder/assignment around weeks 9–10.
-- **Instructor pass/fail interview** (required to pass) is not a weekly item — it floats.
-  Students complete it with the instructor by ~week 14; satisfiable by a mock *or* a topic
-  exam done with the instructor.
-- **Final exam** is the last two days of class (week 14 / finals period).
-- **Week numbers are relative to when each topic is taught** and slide to the real Fall
-  calendar. In practice the first DS OA may be assigned week 1 and due week 2.
-- **OA timing is intentional.** The OA lands at the *start* of a topic, before it's fully
-  taught — as a diagnostic + practice instrument (attempt 1 cold surfaces gaps; later
-  attempts use resources/help). It's non-failable, with a **passing attempt accepted through
-  the following week**, so early timing primes the topic rather than penalizing unpreparedness.
-  On OA weeks the required study problems come from **class**, not extra HW (see the Study
-  rubric note).
+- **Topic sequence follows the existing weekly problem sets** — DS (W01–03) → Graphs
+  (W04–06) → DP (W07–10) → Sorting (W11–14), review at the end. Each topic runs
+  **OA → Performance → Live**.
+- **Week 1 is a half week done at half load** — students do *all* the weekly activities
+  (study, problems, peer mock, connect, start the DS OA). It's the best intro to the rhythm.
+- **Peer mocks every week except live-exam weeks and Thanksgiving** (9 peer mocks). Kept on
+  performance weeks — the low-stakes rehearsal for the live interview and final, and the main
+  source of fresh on-the-spot reps. **Connect with class** (post + Teams photo) is a separate
+  trivial onboarding item, *not* a mock.
+- **Thanksgiving (Wk 13)** is a natural flex/catch-up half week (only Tue Nov 24). Labor Day
+  costs nothing (it's a Monday).
+- **Professional mock is due Wk 14** (before the final crunch); plant the outreach reminder
+  ~Wk 10 given the ~month of lead time.
+- **Instructor pass/fail interview** (required to pass) floats — complete with the instructor
+  by ~Wk 14; a mock or an instructor-run topic exam counts.
+- **OA timing is intentional.** The OA lands at the *start* of a topic as a non-failable
+  diagnostic + practice instrument (attempt 1 cold surfaces gaps; later attempts use help);
+  a passing attempt is accepted **through the following week**. On OA weeks the required study
+  problems come from **class**, not extra HW (see the Study rubric note above).
+- **Final** — one exam across three sittings: Tue Dec 8 (75 min) + Thu Dec 10 (75 min) +
+  Thu Dec 17, 7–10 am (3 hrs) = **5½ hours, 12 questions**.
 
 ## Completion: the dual-path pattern
 
@@ -207,10 +186,10 @@ Topic-exam template already lives at [`topic-exams/submission-template.md`](topi
   since whiteboard/discussion time is invisible to the extension), graded by the 4/4/5 rubric.
   Only **1 collaborative hour required outside class**; the 5 personal hours are the point.
 - **Peer mock interviews are their own thing** — not double-counted with TA/instructor
-  interviews. **No peer mock only in a live-exam week.** Peer mocks are kept on performance
-  weeks — they're the rehearsal for the live interview and final and the main source of fresh
-  on-the-spot reps. The **professional** mock is required and lands in the **final week in
-  lieu of** the peer mock.
+  interviews. **No peer mock only in a live-exam week** (or Thanksgiving). Peer mocks are kept
+  on performance weeks — they're the rehearsal for the live interview and final and the main
+  source of fresh on-the-spot reps. The **professional** mock is required and is **due Wk 14**
+  (before finals). **Connect with class** is a separate trivial onboarding item, not a mock.
 - **Feedback is opt-in.** Everyone always gets the rubric **score**; qualitative **written
   feedback** goes only to students who request it (with encouragement to ask, and proactive
   outreach to strugglers).
