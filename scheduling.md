@@ -16,11 +16,11 @@ wrong time. Set it to **Mountain Time** so it matches campus:
 
 ## Step 2 — Book a time
 
-<!-- TODO (instructor): add the actual booking link/method — e.g. a Microsoft Bookings page
-     or the Teams "Schedule a meeting" flow. -->
+Book a slot on the instructor's Microsoft Bookings page:
+**[tinyurl.com/mtr26](https://tinyurl.com/mtr26)**
 
-_Booking link to be added._ Pick an open slot and book it. If you anticipate needing more
-time, book multiple contiguous slots.
+Pick an open slot and book it. If you anticipate needing more time, book multiple contiguous
+slots. You can also **message the instructor on Microsoft Teams** (preferred) to arrange a time.
 
 ## Notes
 

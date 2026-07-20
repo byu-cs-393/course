@@ -16,9 +16,12 @@ Please see the shared BYU Syllabus Statements.
 We use **Microsoft Teams**. Section codes are handed out at the start of the semester.
 
 - **Meets:** Tuesday & Thursday, **8:00–9:15 am** (same room as the final exam).
-- **Instructor:** Michael Reynolds
+- **Instructor — Michael Reynolds**
+    - Message me on **Microsoft Teams** (preferred)
+    - mtr26@byu.edu · 208.502.0425
+    - Meet in person or online: [tinyurl.com/mtr26](https://tinyurl.com/mtr26) (Microsoft Bookings)
 - **Teaching Assistants:** TBD for Fall 2026 (Jack Leonard confirmed).
-- **Scheduling time with the instructor:** see [`scheduling.md`](scheduling.md).
+- **Scheduling an interview with the instructor:** see [`scheduling.md`](scheduling.md).
 
 ## Topics
 
