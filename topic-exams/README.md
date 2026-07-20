@@ -1,52 +1,58 @@
 # Topic Exams
 
-Topic exams are short, focused assessments where a student demonstrates a data-structures
-/ algorithms topic. There are **12 topic exams** for Fall 2026.
+Topic exams are focused assessments where a student demonstrates a data-structures /
+algorithms topic. There are **four topics**, each with **three exams** — **12 topic exams**
+total.
 
 ## Topics
 
-The four established topics — each currently examined **online (OA)** and **live** — are:
+| Topic | Folder |
+|---|---|
+| Data Structures | [`data-structures/`](data-structures/) |
+| Graphs | [`graphs/`](graphs/) |
+| Dynamic Programming & Counting | [`dynamic-programming/`](dynamic-programming/) |
+| Sorting, Two-Pointer, etc. | [`sorting-two-pointer/`](sorting-two-pointer/) |
 
-1. Data Structures
-2. Graphs
-3. Dynamic Programming & Counting
-4. Sorting, Two-Pointer, etc.
+## The three exams per topic
 
-Four additional topic exams are being added for Fall 2026. _(Topics and online/live
-format: TODO — pending instructor.)_
+For each topic, students progress through three exams in order:
 
-## How a topic exam works
+1. **Online Assessment (OA)** — `online-assessment.md`
+   A timed, HackerRank-style assessment completed on your own. **Designed to be passable by
+   everyone:** three attempts, taken in order, with the final attempt allowing help from a
+   TA or the instructor.
 
-1. The student prepares the topic (see the per-topic instructions and the LIVE exam
-   instructions).
-2. The student takes the exam — online (OA) or live with a TA/instructor.
-3. Completion is **recorded in Canvas** by one of the two paths below.
+2. **Performance Exam** — `performance-exam.md`
+   A question you are allowed to **practice ahead of time**, then perform. This bridges the
+   self-paced OA and the live interview.
+
+3. **Live Interview** — see [`live-exam-instructions.md`](live-exam-instructions.md)
+   A live interview with a TA or the instructor. The TA may give hints and awards a
+   **1 / 2 / 3 score**. Attempt it before you feel ready — you may retry as many times as
+   you need, and the time counts toward your practice time. Live exams target final-exam
+   difficulty.
 
 ## Recording completion
 
+Completion of each topic exam is recorded in **Canvas**. There are two paths, and the
+course fully supports students who use neither the extension nor anything beyond a normal
+Canvas submission:
+
 ### Path A — Chrome extension (optional)
 
-Using [Jack Leonard's extension](https://github.com/byu-cs-393/extension), a TA can
-approve a completed live exam and the result flows directly into Canvas. This is a
-convenience only.
+[Jack Leonard's extension](https://github.com/byu-cs-393/extension) lets a TA approve a
+completed live exam and push the result straight into Canvas. This is a convenience layer
+and is **never required**.
 
 ### Path B — Manual Canvas assignment (always available)
 
-Every topic exam has its **own Canvas assignment**. The student submits a short report
-covering:
-
-- **Which exam** (topic + online/live)
-- **Who** administered / tested with them (TA or instructor name)
-- **When** it was completed
-- **What** was covered / how it went
-
-The TA or instructor **grades it manually** in Canvas. This path requires no extension
-and is the supported default for any student who prefers not to install it.
-
-> A submission template lives in [`submission-template.md`](submission-template.md).
+Every topic exam has its **own Canvas assignment**. The student submits a short report of
+what they did and who they tested with; a TA or the instructor **grades it manually**. Use
+[`submission-template.md`](submission-template.md).
 
 ## Files
 
-- `submission-template.md` — copy/paste template for the manual submission path.
-- Per-topic exam instructions — _TODO (migrate from Drive `.docx` files)._
-- LIVE exam instructions (all topics) — _TODO._
+- [`submission-template.md`](submission-template.md) — manual submission template.
+- [`live-exam-instructions.md`](live-exam-instructions.md) — shared instructions for the live interview (all topics).
+- `<topic>/online-assessment.md` — the OA problem set for each topic.
+- `<topic>/performance-exam.md` — the performance-exam question for each topic.
