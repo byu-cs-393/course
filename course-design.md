@@ -140,10 +140,15 @@ gradebook stays consistent; only the manual template shrinks.
 
 ## Manual submission templates
 
+> **How to paste a submission URL:** paste the link to your *accepted* submission — not the
+> problem page. On LeetCode: open the problem → **Submissions** tab → click your accepted
+> attempt → copy the address bar. It looks like:
+> `https://leetcode.com/problems/two-sum/submissions/1046917577/`
+
 ### Study — Week 1 (rich)
 
 ```
-- Required problems (paste passing-submission URLs):
+- Required problems (paste your accepted-submission URLs — see note above):
     1.
     2.
 - In-class problems (URLs or "done in class"):
@@ -161,7 +166,7 @@ gradebook stays consistent; only the manual template shrinks.
 ### Study — later weeks (light)
 
 ```
-- Required problem URLs: 1) __  2) __
+- Required problem URLs (accepted-submission links, e.g. .../submissions/1046917577/): 1) __  2) __
 - Hours: collaborative __ / personal __
 - Anything you want feedback on? (optional)
 ```
