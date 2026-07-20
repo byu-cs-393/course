@@ -26,7 +26,7 @@ For each topic, students progress through three exams in order:
    A question you are allowed to **practice ahead of time**, then perform. This bridges the
    self-paced OA and the live interview.
 
-3. **Live Interview** — see [`live-exam-instructions.md`](live-exam-instructions.md)
+3. **Live Interview** — `interview-exam.md` (per topic) → [`interview-exam.md`](interview-exam.md) (shared)
    A live interview with a TA or the instructor. The TA may give hints and awards a
    **1 / 2 / 3 score**. Attempt it before you feel ready — you may retry as many times as
    you need, and the time counts toward your practice time. Live exams target final-exam
@@ -53,6 +53,7 @@ what they did and who they tested with; a TA or the instructor **grades it manua
 ## Files
 
 - [`submission-template.md`](submission-template.md) — manual submission template.
-- [`live-exam-instructions.md`](live-exam-instructions.md) — shared instructions for the live interview (all topics).
+- [`interview-exam.md`](interview-exam.md) — shared instructions for the live interview (all topics).
 - `<topic>/online-assessment.md` — the OA problem set for each topic.
 - `<topic>/performance-exam.md` — the performance-exam question for each topic.
+- `<topic>/interview-exam.md` — per-topic pointer to the shared interview instructions.
