@@ -52,27 +52,28 @@ Study is **9 hours/week** total (class counts as 3), with collaboration built in
 Topic sequence follows the existing weekly materials: **Data Structures → Graphs → Dynamic
 Programming → Sorting/Two-Pointer**, with review at the end. Each topic runs its three exams
 (**OA → Performance → Live**) across its weeks. Peer mock interviews run every week **except
-live-exam weeks**; the **professional** mock replaces the peer mock in the final week.
+weeks with an in-person topic exam** (Performance or Live) — that exam already provides the
+on-the-spot exposure. The **professional** mock replaces the peer mock in the final week.
 
 | Wk | Topic focus | Topic exam due | Mock interview |
 |---:|---|---|---|
 | 1 | Data Structures | DS — Online Assessment | Connect with class |
-| 2 | Data Structures | DS — Performance | Peer |
-| 3 | Data Structures | DS — **Live** | — *(live-exam week)* |
+| 2 | Data Structures | DS — Performance | — *(in-person exam week)* |
+| 3 | Data Structures | DS — **Live** | — *(in-person exam week)* |
 | 4 | Graphs | Graphs — Online Assessment | Peer |
-| 5 | Graphs | Graphs — Performance | Peer |
-| 6 | Graphs | Graphs — **Live** | — *(live-exam week)* |
+| 5 | Graphs | Graphs — Performance | — *(in-person exam week)* |
+| 6 | Graphs | Graphs — **Live** | — *(in-person exam week)* |
 | 7 | Dynamic Programming | DP — Online Assessment | Peer |
-| 8 | Dynamic Programming | DP — Performance | Peer |
+| 8 | Dynamic Programming | DP — Performance | — *(in-person exam week)* |
 | 9 | Dynamic Programming | *(catch-up / practice)* | Peer |
-| 10 | Dynamic Programming | DP — **Live** | — *(live-exam week)* |
+| 10 | Dynamic Programming | DP — **Live** | — *(in-person exam week)* |
 | 11 | Sorting, Two-Pointer | Sorting — Online Assessment | Peer |
-| 12 | Sorting, Two-Pointer | Sorting — Performance | Peer |
-| 13 | Sorting, Two-Pointer | Sorting — **Live** | — *(live-exam week)* |
+| 12 | Sorting, Two-Pointer | Sorting — Performance | — *(in-person exam week)* |
+| 13 | Sorting, Two-Pointer | Sorting — **Live** | — *(in-person exam week)* |
 | 14 | Review & final prep | — | **Professional** (in lieu of peer) |
 
 **Study is due every week** (constant, so not shown). Totals: **12 topic exams**, **14 study**,
-**10 communication** items (8 peer + 1 connect + 1 professional), **1 final**.
+**6 communication** items (4 peer — weeks 4, 7, 9, 11 — + 1 connect + 1 professional), **1 final**.
 
 It fits: 12 exams land one per week across weeks 1–13, with **week 9 as DP breathing room**
 (DP is the hardest — 4 weeks, 3 exams). Caveats to design around:
@@ -184,8 +185,9 @@ Topic-exam template already lives at [`topic-exams/submission-template.md`](topi
   since whiteboard/discussion time is invisible to the extension), graded by the 4/4/5 rubric.
   Only **1 collaborative hour required outside class**; the 5 personal hours are the point.
 - **Peer mock interviews are their own thing** — not double-counted with TA/instructor
-  interviews. **No peer mock in a live-exam week.** The **professional** mock is required and
-  lands in the **final week in lieu of** the peer mock.
+  interviews. **No peer mock in a week with an in-person topic exam** (Performance or Live) —
+  that exam already provides the on-the-spot exposure. The **professional** mock is required
+  and lands in the **final week in lieu of** the peer mock.
 - **Feedback is opt-in.** Everyone always gets the rubric **score**; qualitative **written
   feedback** goes only to students who request it (with encouragement to ask, and proactive
   outreach to strugglers).
