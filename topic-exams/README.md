@@ -23,15 +23,14 @@ For each topic, students progress through three exams in order:
    TA or the instructor.
 
 2. **Performance Exam** — `live-performance-exam.md`
-   A question you are allowed to **practice ahead of time**, then perform. This bridges the
-   self-paced OA and the live interview.
+   A question you are allowed to **practice ahead of time**, then perform in **15 minutes or
+   less**. **Pass/fail** (no 1/2/3 rating). This bridges the self-paced OA and the live interview.
 
 3. **Live Interview** — `live-interview-exam.md` (per topic) → [`live-interview-exam.md`](live-interview-exam.md) (shared)
    A live interview with a TA or the instructor, who may give hints. You **self-rate 1 / 2 / 3**
    on how it went (1 = showed up, went poorly · 2 = got to a solution · 3 = collaborated well
-   and definitely want to hire!). Attempt it before you feel ready — you may retry as many
-   times as you need, and the time counts toward your practice time. Live exams target
-   final-exam difficulty.
+   and definitely want to hire!), and the **TA also awards a 1/2/3**. Attempt it before you
+   feel ready — you may retry as many times as you need. Live exams target final-exam difficulty.
 
 ## Recording completion
 

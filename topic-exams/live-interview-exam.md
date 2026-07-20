@@ -22,6 +22,7 @@ while you solve a problem, may give hints, and awards a **1 / 2 / 3 score**.
 - **2** — Got to a solution.
 - **3** — Collaborated well and definitely want to hire!
 
+The TA or instructor **also** awards a 1/2/3 on the same scale (live interview only).
+
 Live exams target final-exam difficulty; ideally the interviewer will not pass you until you
-demonstrate you're ready for the final on that topic. You may retry as many times as you
-need — the time counts toward your practice time.
+demonstrate you're ready for the final on that topic. You may retry as many times as you need.

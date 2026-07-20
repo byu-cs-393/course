@@ -207,8 +207,10 @@ Topic-exam templates (three — OA / Performance / Live) live at
 - **Feedback is opt-in.** Everyone always gets the rubric **score**; qualitative **written
   feedback** goes only to students who request it (with encouragement to ask, and proactive
   outreach to strugglers).
-- **Self-rating (1/2/3)** on **all live exams and mock interviews** — 1 = showed up, went
-  poorly; 2 = got to a solution; 3 = collaborated well and definitely want to hire!
+- **Self-rating (1/2/3)** on **live interviews and mock interviews** — 1 = showed up, went
+  poorly; 2 = got to a solution; 3 = collaborated well and definitely want to hire! For the
+  **live interview**, the TA/instructor **also** awards a 1/2/3. The **performance exam is
+  pass/fail** (no rating), as is the **OA**.
 - **Instructor pass/fail interview** — students **schedule it on Day 1** (Wk 1); see
   [`scheduling.md`](scheduling.md). Satisfiable by a mock or an instructor-run topic exam.
 - **Schedule** fit to the real Fall 2026 calendar — done ([`schedule.md`](schedule.md));

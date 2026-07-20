@@ -16,7 +16,7 @@ follow graph.
 ## How it works
 
 1. Practice the question above ahead of time.
-2. Perform it for a TA or the instructor.
+2. Perform it for a TA or the instructor **in 15 minutes or less** (pass/fail).
 3. Record completion in Canvas with the
    [submission template](../submission-templates.md#performance-exam).
 
