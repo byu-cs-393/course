@@ -78,8 +78,8 @@ section — 15 real weeks). Design notes behind it:
   trivial onboarding item, *not* a mock.
 - **Thanksgiving (Wk 13)** is a natural flex/catch-up half week (only Tue Nov 24). Labor Day
   costs nothing (it's a Monday).
-- **Professional mock is due Wk 14** (before the final crunch); plant the outreach reminder
-  ~Wk 10 given the ~month of lead time.
+- **Professional mock is due Wk 14** (before the final crunch); students **schedule it in
+  Wk 10** given the ~month of lead time.
 - **Instructor pass/fail interview** (required to pass) floats — complete with the instructor
   by ~Wk 14; a mock or an instructor-run topic exam counts.
 - **OA timing is intentional.** The OA lands at the *start* of a topic as a non-failable

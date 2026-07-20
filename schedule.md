@@ -31,7 +31,7 @@ for the topic exams, see [`topic-exams/`](topic-exams/).
 | 7 | Oct 13 / 15 | W07 | **Graphs — Live** | — |
 | 8 | Oct 20 / 22 | W08 | DP — Online Assessment | Peer |
 | 9 | Oct 27 / 29 | W09 | DP — Performance | Peer |
-| 10 | Nov 3 / 5 | W10 | **DP — Live** | — |
+| 10 | Nov 3 / 5 | W10 | **DP — Live** | *Schedule professional mock* |
 | 11 | Nov 10 / 12 | W11 | Sorting — Online Assessment | Peer |
 | 12 | Nov 17 / 19 | W12 | Sorting — Performance | Peer |
 | 13 | Tue **Nov 24** *(½ week — Thanksgiving)* | W13 | — *(flex / catch-up)* | — |
@@ -60,8 +60,8 @@ hints apply (see the [syllabus](syllabus.md)).
   Graphs (W04–06), DP (W07–10), Sorting (W11–14). Each topic runs **Online Assessment →
   Performance → Live**. OAs open at the start of a topic; a passing attempt is accepted
   **through the following week**.
-- **Professional mock** is due Wk 14 — **start your LinkedIn outreach by ~Wk 10** (it takes
-  about a month to line up). See [outreach templates](mock-interviews/linkedin-outreach.md).
+- **Professional mock** is due Wk 14. **Schedule it in Wk 10** — reaching a professional takes
+  about a month of outreach. See [outreach templates](mock-interviews/linkedin-outreach.md).
 - **Instructor pass/fail interview** (required to pass) floats — complete it with the
   instructor by ~Wk 14; a mock or a topic exam done with the instructor counts.
 
