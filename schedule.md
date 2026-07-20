@@ -22,7 +22,7 @@ for the topic exams, see [`topic-exams/`](topic-exams/).
 
 | Wk | Tue / Thu | Weekly problems | Topic exam | Mock interview |
 |---:|---|---|---|---|
-| 1 | Thu **Sep 3** *(½ week)* | W01 — Big O + warm-up | DS OA opens | Peer + **Connect w/ class** |
+| 1 | Thu **Sep 3** *(½ week)* | W01 — Big O + warm-up | DS OA opens | Peer · Connect w/ class · **Schedule instructor interview** |
 | 2 | Sep 8 / 10 | W02 | **DS — Online Assessment** due | Peer |
 | 3 | Sep 15 / 17 | W03 | DS — Performance | Peer |
 | 4 | Sep 22 / 24 | W04 | **DS — Live** | — |
@@ -62,8 +62,9 @@ hints apply (see the [syllabus](syllabus.md)).
   **through the following week**.
 - **Professional mock** is due Wk 14. **Schedule it in Wk 10** — reaching a professional takes
   about a month of outreach. See [outreach templates](mock-interviews/linkedin-outreach.md).
-- **Instructor pass/fail interview** (required to pass) floats — complete it with the
-  instructor by ~Wk 14; a mock or a topic exam done with the instructor counts.
+- **Instructor pass/fail interview** (required to pass): **schedule it on Day 1** — see
+  [scheduling.md](scheduling.md) — and complete it by ~Wk 14. A mock or an instructor-run
+  topic exam counts.
 
 > Dates are the official BYU Fall 2026 calendar. No "Monday-instruction"/shifted days apply
 > to this Tue/Thu section.

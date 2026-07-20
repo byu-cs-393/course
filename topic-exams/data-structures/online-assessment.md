@@ -46,8 +46,6 @@ If you already solved these problems please click the “reset” button and sol
 
 Take attempts in order. You only need to pass **one** attempt. Record completion through the [topic-exam submission process](../README.md).
 
-Submit your passing solutions: [Solution submission form](https://forms.gle/eNHbcVZQJye6Lvh1A)
-
 
 ## Learning Outcomes
 

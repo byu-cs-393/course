@@ -24,6 +24,7 @@ so these templates don't repeat that. Paste the matching one into your submissio
 - Who you worked with (TA / instructor):
 - How long it took:
 - Attempt you passed on:
+- Link to your passing solution:
 ```
 
 ## Live Interview

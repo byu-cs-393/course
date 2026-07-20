@@ -49,6 +49,8 @@ See the full [**syllabus**](syllabus.md).
 | [`syllabus.md`](syllabus.md) | Full course syllabus |
 | [`schedule.md`](schedule.md) | Fall 2026 week-by-week schedule (real dates) |
 | [`course-design.md`](course-design.md) | Design rationale (exposure ladder, weekly model, decisions) |
+| [`extra-credit.md`](extra-credit.md) | Extra-credit options (Interview Ready, real interview/offer reports) |
+| [`scheduling.md`](scheduling.md) | How to schedule your instructor interview |
 | [`topic-exams/`](topic-exams/) | The 12 topic exams (4 topics × OA + Performance + Live) and submission process |
 | [`weekly/`](weekly/) | W01–W14 recommended problem sets |
 | [`mock-interviews/`](mock-interviews/) | Mock-interview requirement + LinkedIn outreach templates |

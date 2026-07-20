@@ -109,10 +109,8 @@ whiteboard or in discussion — work the extension can't observe — so hours ar
 student regardless of whether they use the extension. The extension still helps where it can
 (pre-filling completed-problem links, mock, and topic-exam reporting).
 
-Labor-savers: Canvas's **"Set Default Grade"** grants full credit to all submitters in one
-action (good for completion-style items like mock/topic). For the rubric-graded Study report,
-a possible **AI-assisted grader** could pre-score the 4/4/5 rubric from the submission text —
-_TBD._
+Labor-saver: Canvas's **"Set Default Grade"** grants full credit to all submitters in one
+action (good for completion-style items like mock/topic).
 
 ## Per-item mechanism
 
@@ -205,10 +203,13 @@ Topic-exam templates (three — OA / Performance / Live) live at
 - **Feedback is opt-in.** Everyone always gets the rubric **score**; qualitative **written
   feedback** goes only to students who request it (with encouragement to ask, and proactive
   outreach to strugglers).
-- **AI-assisted grader** for the Study rubric is a possible labor-saver — _TBD._
+- **Instructor pass/fail interview** — students **schedule it on Day 1** (Wk 1); see
+  [`scheduling.md`](scheduling.md). Satisfiable by a mock or an instructor-run topic exam.
+- **Schedule** fit to the real Fall 2026 calendar — done ([`schedule.md`](schedule.md));
+  professional mock scheduled Wk 10, due Wk 14.
+- **Extra credit** — handled via Canvas weighted categories that can exceed 100%; items in
+  [`extra-credit.md`](extra-credit.md).
 
 ## Open decisions
 
-- **Professional-mock lead time** — where to plant the outreach reminder (weeks 9–10?).
-- **Instructor pass/fail interview** — exact placement / deadline.
-- Fit the draft schedule to the **real Fall 2026 calendar** (start date, holidays, finals).
+- **Fall 2026 TAs** — TBD (Jack Leonard confirmed).

@@ -15,8 +15,10 @@ Please see the shared BYU Syllabus Statements.
 
 We use **Microsoft Teams**. Section codes are handed out at the start of the semester.
 
+- **Meets:** Tuesday & Thursday, **8:00–9:15 am** (same room as the final exam).
 - **Instructor:** Michael Reynolds
-- **Teaching Assistants:** _(listed each semester in Teams / Canvas)_
+- **Teaching Assistants:** TBD for Fall 2026 (Jack Leonard confirmed).
+- **Scheduling time with the instructor:** see [`scheduling.md`](scheduling.md).
 
 ## Topics
 
