@@ -48,7 +48,7 @@ See the full [**syllabus**](syllabus.md).
 |---|---|
 | [`syllabus.md`](syllabus.md) | Full course syllabus (includes the week-by-week schedule) |
 | [`extra-credit.md`](extra-credit.md) | Extra-credit options (Interview Ready, real interview/offer reports) |
-| [`scheduling.md`](scheduling.md) | How to schedule your instructor interview |
+| [`fix-your-timezone.md`](fix-your-timezone.md) | Fix your Microsoft time zone, then book a time |
 | [`topic-exams/`](topic-exams/) | The 12 topic exams (4 topics × OA + Performance + Live) and submission process |
 | [`weekly/`](weekly/) | W01–W14 recommended problem sets |
 | [`mock-interviews/`](mock-interviews/) | Mock-interview requirement + LinkedIn outreach templates |

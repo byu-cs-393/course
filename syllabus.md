@@ -18,7 +18,7 @@ We use **Microsoft Teams**. Section codes are handed out at the start of the sem
 - **Instructor — Michael Reynolds**
     - Message me on **Microsoft Teams** (preferred)
     - mtr26@byu.edu · 208.502.0425
-    - Meet in person or online: [tinyurl.com/mtr26](https://tinyurl.com/mtr26) see [`scheduling.md`](scheduling.md)
+    - Meet in person or online: [tinyurl.com/mtr26](https://tinyurl.com/mtr26) — first [fix your time zone](fix-your-timezone.md)
 - **Teaching Assistants:** TBD for Fall 2026
 
 ## Topics
@@ -147,5 +147,5 @@ it works.
 [so-live]: topic-exams/sorting-two-pointer/live-interview-exam.md
 [peer]: mock-interviews/README.md
 [prof]: mock-interviews/linkedin-outreach.md
-[sched]: scheduling.md
+[sched]: fix-your-timezone.md
 [final]: final/README.md
