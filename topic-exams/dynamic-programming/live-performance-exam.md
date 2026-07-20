@@ -17,7 +17,7 @@ a bottom-up table.
 1. Practice the question above ahead of time.
 2. Perform it for a TA or the instructor.
 3. Record completion in Canvas — via the Chrome extension, or the
-   [manual submission template](../submission-template.md).
+   [manual submission template](../submission-templates.md#performance-exam).
 
 ## Learning outcomes
 

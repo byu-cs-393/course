@@ -46,13 +46,13 @@ and is **never required**.
 
 ### Path B — Manual Canvas assignment (always available)
 
-Every topic exam has its **own Canvas assignment**. The student submits a short report of
-what they did and who they tested with; a TA or the instructor **grades it manually**. Use
-[`submission-template.md`](submission-template.md).
+Every topic exam has its **own Canvas assignment**. The student submits a short report; a TA
+or the instructor **grades it manually**. Use the matching template in
+[`submission-templates.md`](submission-templates.md) (one each for OA, Performance, Live).
 
 ## Files
 
-- [`submission-template.md`](submission-template.md) — manual submission template.
+- [`submission-templates.md`](submission-templates.md) — manual submission templates (OA / Performance / Live).
 - [`live-interview-exam.md`](live-interview-exam.md) — shared instructions for the live interview (all topics).
 - `<topic>/online-assessment.md` — the OA problem set for each topic.
 - `<topic>/live-performance-exam.md` — the performance-exam question for each topic.

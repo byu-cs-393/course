@@ -171,7 +171,7 @@ gradebook stays consistent; only the manual template shrinks.
 - Anything you want feedback on? (optional)
 ```
 
-### Mock interview
+### Peer mock interview
 
 ```
 - Peer you interviewed with:
@@ -179,7 +179,17 @@ gradebook stays consistent; only the manual template shrinks.
 - How it went / what you practiced:
 ```
 
-Topic-exam template already lives at [`topic-exams/submission-template.md`](topic-exams/submission-template.md).
+### Professional mock interview (Wk 14)
+
+```
+- Professional you interviewed with (name):
+- Company & role:
+- Problem(s) worked on:
+- How it went & feedback received:
+```
+
+Topic-exam templates (three — OA / Performance / Live) live at
+[`topic-exams/submission-templates.md`](topic-exams/submission-templates.md).
 
 ## Decisions made
 

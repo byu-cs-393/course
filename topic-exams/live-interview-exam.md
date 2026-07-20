@@ -12,7 +12,8 @@ while you solve a problem, may give hints, and awards a **1 / 2 / 3 score**.
    interviewer may give hints — asking for hints is expected and encouraged.
 4. **Submit your solution:** [Solution submission form](https://forms.gle/eNHbcVZQJye6Lvh1A)
 5. **Record completion in Canvas** — via the Chrome extension, or by submitting the
-   [manual template](submission-template.md) with who you tested with and your score.
+   [manual template](submission-templates.md#live-interview) with how it went, your
+   self-rating (1/2/3), and a link to your passing solution.
 
 ## Scoring
 
