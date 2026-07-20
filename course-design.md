@@ -89,40 +89,38 @@ section — 15 real weeks). Design notes behind it:
 - **Final** — one exam across three sittings: Tue Dec 8 (75 min) + Thu Dec 10 (75 min) +
   Thu Dec 17, 7–10 am (3 hrs) = **5½ hours, 12 questions**.
 
-## Completion: the dual-path pattern
+## Completion
 
-The core mechanic of the redesign:
+Every weekly item is completed by a **manual Canvas submission** — the student enters URLs
+and a short template, and it's graded in Canvas. Same one-assignment-per-item structure
+everywhere.
 
-> **Every weekly item can be completed two ways — via the extension (auto-credit), or
-> manually. Same gradebook column either way. The extension is the investment in ease of
-> use; the manual path guarantees no one is forced to use it.**
+**Decided: everything is a Canvas Assignment — no quizzes.** Assignments keep the student
+experience uniform and are easy to grade (and, later, to automate).
 
-- **Extension path:** [Jack Leonard's extension](https://github.com/byu-cs-393/extension)
-  reports the work and posts credit to Canvas.
-- **Manual path:** the student submits the item themselves (URLs / a short template).
-
-**Decided: everything is a Canvas Assignment — no quizzes.** Assignments keep the extension
-integration simple (easy to submit/grade via API) and the student experience uniform.
-
-**Time is always self-reported, even by extension users.** Study time is often spent at a
-whiteboard or in discussion — work the extension can't observe — so hours are entered by the
-student regardless of whether they use the extension. The extension still helps where it can
-(pre-filling completed-problem links, mock, and topic-exam reporting).
+**Time is always self-reported.** Study time is often spent at a whiteboard or in discussion,
+so hours are simply entered by the student.
 
 Labor-saver: Canvas's **"Set Default Grade"** grants full credit to all submitters in one
 action (good for completion-style items like mock/topic).
+
+> **Extension-ready, not extension-dependent.** This structure (uniform Canvas Assignments,
+> one per item, with fields an API could fill) is deliberately built so that
+> [Jack Leonard's extension](https://github.com/byu-cs-393/extension) can later post credit
+> automatically. It is **not integrated yet** — the course runs entirely on the manual path
+> for now, and we'll add the extension once it's tested and working. Nothing about the manual
+> design changes when it lands.
 
 ## Per-item mechanism
 
 | Item | Canvas type | Completion |
 |---|---|---|
-| **Study** (hours + problems) | Assignment — one item | Hours **always self-reported**; problem links manual or extension-prefilled. Points by the **4/4/5 rubric** (see below). |
+| **Study** (hours + problems) | Assignment — one item | Hours **always self-reported**; problem links pasted manually. Points by the **4/4/5 rubric** (see below). |
 | **Mock interview** | Assignment | Manual: who you paired with + which problem |
-| **Topic exam** | Assignment | Manual template, or extension (see [topic-exams](topic-exams/)) |
+| **Topic exam** | Assignment | Manual template (see [topic-exams](topic-exams/)) |
 
 The Study assignment description carries the rubric so students see how points are earned.
-Grading is by the 4/4/5 rubric — potentially with an AI-assisted first pass (TBD) to keep
-the TA workload down.
+Grading is by the 4/4/5 rubric.
 
 ## Tapering the manual path
 
@@ -133,8 +131,8 @@ clicking/overhead grates. So **taper the manual template, not the Canvas item ty
   more valuable to your growth?"), full detail. Great while motivation is high.
 - **Later weeks:** streamlined self-report — hours + links + a line on what you did.
 
-Because the item type never changes, the extension path stays identical all semester and the
-gradebook stays consistent; only the manual template shrinks.
+Because the item type never changes, the gradebook stays consistent all semester; only the
+manual template shrinks. (This also keeps a future extension integration trivial.)
 
 ## Manual submission templates
 
@@ -192,8 +190,8 @@ Topic-exam templates (three — OA / Performance / Live) live at
 ## Decisions made
 
 - **No quizzes.** Every item is a Canvas Assignment.
-- **Study is one assignment** with hours **always self-reported** (even by extension users,
-  since whiteboard/discussion time is invisible to the extension), graded by the 4/4/5 rubric.
+- **Study is one assignment** with hours **always self-reported** (whiteboard/discussion time
+  can't be auto-captured), graded by the 4/4/5 rubric.
   Only **1 collaborative hour required outside class**; the 5 personal hours are the point.
 - **Peer mock interviews are their own thing** — not double-counted with TA/instructor
   interviews. **No peer mock only in a live-exam week** (or Thanksgiving). Peer mocks are kept

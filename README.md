@@ -37,10 +37,10 @@ See the full [**syllabus**](syllabus.md).
 2. **Topic exams: 8 → 12.** Each of the four topics now has **three** exams — an Online
    Assessment, a new **Performance Exam** (practiceable ahead of time), and a Live
    Interview. See [`topic-exams/`](topic-exams/).
-3. **Two submission paths, extension always optional.** Topic-exam completion can flow in
-   through [Jack Leonard's Chrome extension](https://github.com/byu-cs-393/extension) *or*
-   through a plain, manually-graded Canvas assignment. The course works fully **without**
-   the extension.
+3. **Manual Canvas submissions.** Every item is submitted and graded in Canvas — no Chrome
+   extension required. The design is deliberately *extension-ready*
+   ([Jack Leonard's extension](https://github.com/byu-cs-393/extension) can later auto-post
+   credit), but that is **not integrated yet** and the course runs fully without it.
 
 ## Repository layout
 

@@ -1,8 +1,8 @@
 # Topic Exam — Manual Submission Templates
 
-Use these only if you are **not** using the Chrome extension. Each topic exam is its own
-Canvas assignment, and the assignment title already says which **topic** and which **exam** —
-so these templates don't repeat that. Paste the matching one into your submission.
+Each topic exam is its own Canvas assignment, and the assignment title already says which
+**topic** and which **exam** — so these templates don't repeat that. Paste the matching one
+into your Canvas submission.
 
 > **How to paste a submission URL:** link to your *accepted* submission, not the problem page.
 > On LeetCode: open the problem → **Submissions** tab → click your accepted attempt → copy the

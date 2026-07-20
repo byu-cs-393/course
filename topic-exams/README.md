@@ -34,21 +34,14 @@ For each topic, students progress through three exams in order:
 
 ## Recording completion
 
-Completion of each topic exam is recorded in **Canvas**. There are two paths, and the
-course fully supports students who use neither the extension nor anything beyond a normal
-Canvas submission:
-
-### Path A — Chrome extension (optional)
-
-[Jack Leonard's extension](https://github.com/byu-cs-393/extension) lets a TA approve a
-completed live exam and push the result straight into Canvas. This is a convenience layer
-and is **never required**.
-
-### Path B — Manual Canvas assignment (always available)
-
-Every topic exam has its **own Canvas assignment**. The student submits a short report; a TA
-or the instructor **grades it manually**. Use the matching template in
+Completion of each topic exam is recorded in **Canvas**. Every topic exam has its **own
+Canvas assignment**: the student submits a short report and a TA or the instructor **grades
+it manually**. Use the matching template in
 [`submission-templates.md`](submission-templates.md) (one each for OA, Performance, Live).
+
+> A Chrome extension ([Jack Leonard's](https://github.com/byu-cs-393/extension)) that lets a
+> TA push completion straight into Canvas is planned, but **not integrated yet** — the course
+> runs entirely on the manual submission above.
 
 ## Files
 

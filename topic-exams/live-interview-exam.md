@@ -10,8 +10,8 @@ while you solve a problem, may give hints, and awards a **1 / 2 / 3 score**.
 2. **Complete the Online Assessment (OA)** for the topic before your scheduled time.
 3. **Meet and take the exam.** Solve a problem in the amount of time you signed up for. The
    interviewer may give hints — asking for hints is expected and encouraged.
-4. **Record completion in Canvas** — via the Chrome extension, or by submitting the
-   [manual template](submission-templates.md#live-interview) with how it went, your
+4. **Record completion in Canvas** by submitting the
+   [submission template](submission-templates.md#live-interview) with how it went, your
    self-rating (1/2/3), and a link to your passing solution.
 
 ## Scoring
