@@ -85,33 +85,38 @@ Expect to work at least **9 hours a week** (including class): interviewing, prac
 
 ## Schedule
 
-Tuesday/Thursday. **Study is due every week** (log your hours + problems); each week also has
-the items below. Every entry links to how it works.
+Tuesday/Thursday. Columns are the two learning categories (see **Grading** for weights).
+**📅 = book a time** (with a peer, TA, professional, or instructor). Every entry links to how
+it works.
 
-| Wk | Tue / Thu | Study / problems | Topic exam | Mock / other |
-|---:|---|---|---|---|
-| 1 | Thu **Sep 3** *(½ wk)* | [W01][w01] | [DS OA][ds-oa] *(opens)* | [Peer][peer] · [Connect][peer] · [Schedule instructor interview][sched] |
-| 2 | Sep 8 / 10 | [W02][w02] | [DS OA][ds-oa] *(due)* | [Peer][peer] |
-| 3 | Sep 15 / 17 | [W03][w03] | [DS Performance][ds-perf] | [Peer][peer] |
-| 4 | Sep 22 / 24 | [W04][w04] | [DS **Live**][ds-live] | — |
-| 5 | Sep 29 / Oct 1 | [W05][w05] | [Graphs OA][gr-oa] | [Peer][peer] |
-| 6 | Oct 6 / 8 | [W06][w06] | [Graphs Performance][gr-perf] | [Peer][peer] |
-| 7 | Oct 13 / 15 | [W07][w07] | [Graphs **Live**][gr-live] | — |
-| 8 | Oct 20 / 22 | [W08][w08] | [DP OA][dp-oa] | [Peer][peer] |
-| 9 | Oct 27 / 29 | [W09][w09] | [DP Performance][dp-perf] | [Peer][peer] |
-| 10 | Nov 3 / 5 | [W10][w10] | [DP **Live**][dp-live] | [Schedule professional mock][prof] |
-| 11 | Nov 10 / 12 | [W11][w11] | [Sorting OA][so-oa] | [Peer][peer] |
-| 12 | Nov 17 / 19 | [W12][w12] | [Sorting Performance][so-perf] | [Peer][peer] |
-| 13 | Tue **Nov 24** *(½ — Thanksgiving)* | [W13][w13] | flex / catch-up | — |
-| 14 | Dec 1 / 3 | [W14][w14] | [Sorting **Live**][so-live] | [Professional mock][prof] |
-| 15 | Dec 8 / **10** | Review | [**Final** begins][final] | — |
-| Finals | Thu **Dec 17, 7–10 am** | — | [**Final** concludes][final] | — |
+| Wk | Tue / Thu | Practice | Performance |
+|---:|---|---|---|
+| 1 | Thu **Sep 3** *(½ wk)* | [W01][w01] | [DS OA][ds-oa] *(opens)* · 📅 [Peer mock][peer] |
+| 2 | Sep 8 / 10 | [W02][w02] | [DS OA][ds-oa] *(due)* · 📅 [Peer mock][peer] |
+| 3 | Sep 15 / 17 | [W03][w03] | 📅 [DS Performance][ds-perf] · 📅 [Peer mock][peer] |
+| 4 | Sep 22 / 24 | [W04][w04] | 📅 [DS **Live**][ds-live] |
+| 5 | Sep 29 / Oct 1 | [W05][w05] | [Graphs OA][gr-oa] · 📅 [Peer mock][peer] |
+| 6 | Oct 6 / 8 | [W06][w06] | 📅 [Graphs Performance][gr-perf] · 📅 [Peer mock][peer] |
+| 7 | Oct 13 / 15 | [W07][w07] | 📅 [Graphs **Live**][gr-live] |
+| 8 | Oct 20 / 22 | [W08][w08] | [DP OA][dp-oa] · 📅 [Peer mock][peer] |
+| 9 | Oct 27 / 29 | [W09][w09] | 📅 [DP Performance][dp-perf] · 📅 [Peer mock][peer] |
+| 10 | Nov 3 / 5 | [W10][w10] | 📅 [DP **Live**][dp-live] |
+| 11 | Nov 10 / 12 | [W11][w11] | [Sorting OA][so-oa] · 📅 [Peer mock][peer] |
+| 12 | Nov 17 / 19 | [W12][w12] | 📅 [Sorting Performance][so-perf] · 📅 [Peer mock][peer] |
+| 13 | Tue **Nov 24** *(½ — Thanksgiving)* | [W13][w13] | flex / catch-up |
+| 14 | Dec 1 / 3 | [W14][w14] | 📅 [Sorting **Live**][so-live] · 📅 [Professional mock][prof] |
+| 15 | Dec 8 / **10** | Review | [**Final** begins][final] |
+| Finals | Thu **Dec 17, 7–10 am** | — | [**Final** concludes][final] |
 
-**Notes:** Week 1 is a half week — do everything at half load. Labor Day (Mon Sep 7) costs no
-class. Thanksgiving (Wk 13) is a flex/catch-up half week with no peer mock. OAs open at the
-start of a topic; a passing attempt is accepted through the following week. No peer mock on
-**live** weeks (4, 7, 10, 14) — that exam is your on-the-spot rep. Schedule your professional
-mock in Wk 10 (it takes ~a month to line up).
+**Notes:**
+- **Week 1** is a half week — do everything at half load. Also: connect with class (post +
+  Teams photo) and **📅 schedule your [instructor interview][sched]**.
+- **Wk 10:** **📅 schedule your professional mock** — it takes ~a month to line up.
+- **Thanksgiving** (Wk 13): flex/catch-up half week, no peer mock. Labor Day (Mon Sep 7) costs no class.
+- **OAs** open at the start of a topic; a passing attempt is accepted through the following week.
+- **No peer mock on live weeks** (4, 7, 10, 14) — that exam is your on-the-spot rep.
+- **The final** runs across three sittings: Dec 8 + Dec 10 (75 min each, in class) +
+  **Thu Dec 17, 7–10 am** (3 hrs) = 5½ hours.
 
 [w01]: weekly/week-01.md
 [w02]: weekly/week-02.md

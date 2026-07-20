@@ -46,8 +46,7 @@ See the full [**syllabus**](syllabus.md).
 
 | Path | Contents |
 |---|---|
-| [`syllabus.md`](syllabus.md) | Full course syllabus |
-| [`schedule.md`](schedule.md) | Fall 2026 week-by-week schedule (real dates) |
+| [`syllabus.md`](syllabus.md) | Full course syllabus (includes the week-by-week schedule) |
 | [`extra-credit.md`](extra-credit.md) | Extra-credit options (Interview Ready, real interview/offer reports) |
 | [`scheduling.md`](scheduling.md) | How to schedule your instructor interview |
 | [`topic-exams/`](topic-exams/) | The 12 topic exams (4 topics × OA + Performance + Live) and submission process |
