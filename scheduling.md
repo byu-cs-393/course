@@ -1,9 +1,5 @@
 # Scheduling Time with the Instructor
 
-You must pass an **interview with the instructor** (a mock interview or a topic exam) to pass
-the course. **Schedule it on Day 1** — you can complete it any time up to ~Week 14, but
-getting on the calendar early keeps you from being crowded out at the end of the semester.
-
 ## Step 1 — Fix your time zone (do this first!)
 
 Appointment times are shown in *your* Microsoft time zone. If it's wrong, you'll book the
@@ -21,9 +17,3 @@ Book a slot on the instructor's Microsoft Bookings page:
 
 Pick an open slot and book it. If you anticipate needing more time, book multiple contiguous
 slots. You can also **message the instructor on Microsoft Teams** (preferred) to arrange a time.
-
-## Notes
-
-- The instructor interview can be satisfied by a **mock interview** or a **topic exam** taken
-  with the instructor.
-- The same time-zone fix helps when scheduling **live/performance topic exams** with TAs.
