@@ -18,11 +18,6 @@ for the topic exams, see [`topic-exams/`](topic-exams/).
 > **all** of the above at roughly **half load** — it's the best way to get into the flow of
 > the course from day one.
 
-> **No late penalties.** The dates below are targets to keep you on pace, but work is accepted
-> with **no late penalty through the last day of class (Thu Dec 10)**. The **final** is the
-> exception — it happens only at its scheduled sittings. Stay on pace anyway: the topic exams
-> build on each other, and the live/performance exams need a TA appointment.
-
 ## Schedule
 
 | Wk | Tue / Thu | Weekly problems | Topic exam | Mock interview |

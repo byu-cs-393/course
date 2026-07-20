@@ -193,8 +193,6 @@ Topic-exam template already lives at [`topic-exams/submission-template.md`](topi
 - **Feedback is opt-in.** Everyone always gets the rubric **score**; qualitative **written
   feedback** goes only to students who request it (with encouragement to ask, and proactive
   outreach to strugglers).
-- **No late penalties.** Due dates are pacing targets; work is accepted with no penalty
-  through the last day of class. The **final** is the exception (fixed sittings).
 - **AI-assisted grader** for the Study rubric is a possible labor-saver — _TBD._
 
 ## Open decisions
