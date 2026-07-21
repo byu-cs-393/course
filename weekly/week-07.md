@@ -1,9 +1,5 @@
 # Week 07 — Recommended Problems
 
-## Learning objectives
-
-- <first objective>
-
 ## Reading
 
 - [Dynamic Programming from Cracking the Coding Interview Page 33 Chapter 8](https://apps.lib.byu.edu/lms-tools/link/?type=guide&link=https://apps.lib.byu.edu/reserve/docs/39812/&source=CS.393.Reynolds)
@@ -25,3 +21,7 @@
 ## Reflection
 
 > Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?
+
+## Learning objectives
+
+- <first objective>

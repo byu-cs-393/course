@@ -1,9 +1,5 @@
 # Week 11 — Recommended Problems
 
-## Learning objectives
-
-- <first objective>
-
 ## Class 1
 - [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)*(in class)*
 - [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) *(in class)*
@@ -20,3 +16,7 @@
 ## Reflection
 
 > Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?
+
+## Learning objectives
+
+- <first objective>

@@ -1,9 +1,5 @@
 # Week 08 — Recommended Problems
 
-## Learning objectives
-
-- <first objective>
-
 ## Class 1
 - [Number of Ways to Select Buildings](https://leetcode.com/problems/number-of-ways-to-select-buildings/) *(in class)*
 - [Range Sum Query Immutable](https://leetcode.com/problems/range-sum-query-immutable/) *(in class)*
@@ -22,3 +18,7 @@
 ## Reflection
 
 > Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?
+
+## Learning objectives
+
+- <first objective>

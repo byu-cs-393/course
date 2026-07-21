@@ -1,9 +1,5 @@
 # Week 09 — Recommended Problems
 
-## Learning objectives
-
-- <first objective>
-
 ## Class 1
 
 - [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) *Could you write a solution that runs in O(m + n) time and use only O(1) memory?* *(in class)*
@@ -28,3 +24,7 @@
 ## Reflection
 
 > Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?
+
+## Learning objectives
+
+- <first objective>
