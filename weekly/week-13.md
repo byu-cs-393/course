@@ -1,5 +1,9 @@
 # Week 13
 
+## Learning objectives
+
+- <first objective>
+
 - [Removing Minimum and Maximum from Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/) *(in class)*
 
 - [Count Elements with Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) *(recommended)*
@@ -35,3 +39,7 @@
 
 ## Extra Credit
 - [Interview Ready extension](https://chromewebstore.google.com/detail/interview-ready/llicapjcmjifdbafkbicgplkmamfchmd?authuser=1&hl=en) *(Maybe use the extension to practice?)*
+
+## Reflection
+
+> Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?

@@ -1,5 +1,9 @@
 # Week 12 — Recommended Problems
 
+## Learning objectives
+
+- <first objective>
+
 ## Class 1
 
 - [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) *(in class)*
@@ -16,3 +20,7 @@
 - **Sorting, +Other Online Assessment Topic Exam**
 
 - [Interview Ready extension](https://chromewebstore.google.com/detail/interview-ready/llicapjcmjifdbafkbicgplkmamfchmd?authuser=1&hl=en) *Go for extra credit! Get every category “green”:*
+
+## Reflection
+
+> Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?

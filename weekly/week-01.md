@@ -1,5 +1,11 @@
 # Week 01 - Wahoo!!!
 
+## Learning objectives
+
+- <first objective>
+
+## Problems
+
 - [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) *(in class)*
 - [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) *(in class)*
 - [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) *(in class)*
@@ -12,3 +18,7 @@
 Other study
 
 - [Review BigO from Cracking the Coding Interview](https://docs.google.com/document/d/1sKqplOIW5IQyRRCPicYGbFAM8p_oCumbI8iv511l6As/edit?tab=t.0)
+
+## Reflection
+
+> Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?

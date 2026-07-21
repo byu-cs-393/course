@@ -1,5 +1,9 @@
 # Week 03
 
+## Learning objectives
+
+- <first objective>
+
 - [All O'one Data Structure](https://leetcode.com/problems/all-oone-data-structure/) *(in class)*
 
 - [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) *(in class)*
@@ -46,3 +50,7 @@
 - [LRU Cache](https://leetcode.com/problems/lru-cache/)
 - [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
 - [Pascals Triangle](https://leetcode.com/problems/pascals-triangle/)
+
+## Reflection
+
+> Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?

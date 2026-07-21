@@ -1,4 +1,9 @@
 # Week 11 — Recommended Problems
+
+## Learning objectives
+
+- <first objective>
+
 ## Class 1
 - [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)*(in class)*
 - [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) *(in class)*
@@ -12,3 +17,6 @@
 - [Binary Search](https://leetcode.com/problems/binary-search/) *(Easy)*
 - [Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/) *(Hard)* (*[spoiler insight](https://www.youtube.com/watch?v=yFHV7weZ_as&t=84s)*) *(recommended)*
 
+## Reflection
+
+> Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?

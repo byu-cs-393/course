@@ -1,5 +1,9 @@
 # Week 06 — Recommended Problems
 
+## Learning objectives
+
+- <first objective>
+
 ## Do all of these these problems
 
 - [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) *(required)*
@@ -45,3 +49,7 @@
 - [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)
 - [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/) *BFS*
 - [Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/) *BFS*
+
+## Reflection
+
+> Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?

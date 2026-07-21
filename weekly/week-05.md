@@ -1,5 +1,9 @@
 # Week 05
 
+## Learning objectives
+
+- <first objective>
+
 ## Review
 
 - [Flood Fill](https://leetcode.com/problems/flood-fill/) *(maybe try with BFS?)*
@@ -22,3 +26,7 @@
 Skills: BFS should be as easy as a for loop for you at this point!
 
 [**Topic Exam Graphs Online Assessment**](../topic-exams/graphs/online-assessment.md)
+
+## Reflection
+
+> Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?

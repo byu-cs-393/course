@@ -1,5 +1,9 @@
 # Week 10
 
+## Learning objectives
+
+- <first objective>
+
 Do problems from the OA, review, or explore something new! 4 problems (*required*)
 
 - [Combine Two Tables](https://leetcode.com/problems/combine-two-tables) (SQL) *(recommended)*
@@ -21,3 +25,7 @@ Do problems from the OA, review, or explore something new! 4 problems (*required
 - [Number of Ways to Select Buildings](https://leetcode.com/problems/number-of-ways-to-select-buildings/)
 - [Coin Change](https://leetcode.com/problems/coin-change/)
 - [Number of Dice Rolls with Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)
+
+## Reflection
+
+> Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?

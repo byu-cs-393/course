@@ -15,7 +15,7 @@ when at capacity. A strong solution combines a hash map with a doubly linked lis
 3. Record completion in Canvas with the
    [submission template](../submission-templates.md#performance-exam).
 
-## Learning outcomes
+## Learning objectives
 
 This exam targets the same outcomes as the [online assessment](online-assessment.md):
 

@@ -56,7 +56,7 @@ If you already solved a problem just click the “reset” button and do it agai
 Take attempts in order. You only need to pass **one** attempt. Record completion through the [topic-exam submission process](../README.md).
 
 
-## Learning Outcomes
+## Learning objectives
 
 Perform an implementation of binary search in common contexts (rotated int array, median of two sorted arrays)
 

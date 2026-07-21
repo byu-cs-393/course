@@ -46,7 +46,7 @@ If you already solved these problems please click the “reset” button and sol
 Take attempts in order. You only need to pass **one** attempt. Record completion through the [topic-exam submission process](../README.md).
 
 
-## Learning Outcomes
+## Learning objectives
 
 Implement solutions requiring hashset, dictionaries, or key/value constant time lookup structures.
 

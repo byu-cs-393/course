@@ -17,7 +17,7 @@ follow graph.
 3. Record completion in Canvas with the
    [submission template](../submission-templates.md#performance-exam).
 
-## Learning outcomes
+## Learning objectives
 
 This exam targets the same outcomes as the [online assessment](online-assessment.md):
 

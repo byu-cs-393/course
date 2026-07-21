@@ -72,7 +72,7 @@ If you already solved a problem just click the “reset” button and do it agai
 Take attempts in order. You only need to pass **one** attempt. Record completion through the [topic-exam submission process](../README.md).
 
 
-## Learning Outcomes
+## Learning objectives
 
 Implement solutions requiring DFS.
 

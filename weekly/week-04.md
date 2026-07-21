@@ -1,5 +1,11 @@
 # Week 04 - Graphs and Traversal
 
+## Learning objectives
+
+- <first objective>
+
+## Problems
+
 - [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) *(in class)*
 - [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) *(in class)*
 - [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) *(in class)*
@@ -10,3 +16,7 @@
 - [Flood Fill](https://leetcode.com/problems/flood-fill/) *(required)*
 - [Number of Islands](https://leetcode.com/problems/number-of-islands/) *(in class)*
 - [Course Schedule](https://leetcode.com/problems/course-schedule/) *(in class)*
+
+## Reflection
+
+> Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?
