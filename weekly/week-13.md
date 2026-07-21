@@ -1,5 +1,10 @@
 # Week 13
 
+- [Removing Minimum and Maximum from Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/) *(in class)*
+- [Count Elements with Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) *(recommended)*
+- [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) *(in class)*
+- [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/)
+
 ## Review from previous OA
 
 - [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
@@ -35,11 +40,3 @@
 ## Learning objectives
 
 - <first objective>
-
-- [Removing Minimum and Maximum from Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/) *(in class)*
-
-- [Count Elements with Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) *(recommended)*
-
-- [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) *(in class)*
-
-- [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/)

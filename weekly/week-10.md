@@ -1,5 +1,10 @@
 # Week 10
 
+Do problems from the OA, review, or explore something new! 4 problems (*required*)
+
+- [Combine Two Tables](https://leetcode.com/problems/combine-two-tables) (SQL) *(recommended)*
+- Some Random DP Problem *(recommended)*
+
 ## Previous OA
 
 - [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
@@ -24,8 +29,3 @@
 ## Learning objectives
 
 - <first objective>
-
-Do problems from the OA, review, or explore something new! 4 problems (*required*)
-
-- [Combine Two Tables](https://leetcode.com/problems/combine-two-tables) (SQL) *(recommended)*
-- Some Random DP Problem *(recommended)*
