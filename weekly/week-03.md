@@ -1,35 +1,25 @@
-# Week 03 — Recommended Problems
+# Week 03
 
-## Hard (solve!)
+- [All O'one Data Structure](https://leetcode.com/problems/all-oone-data-structure/) *(in class)*
 
-- [All O'one Data Structure](https://leetcode.com/problems/all-oone-data-structure/) *← solve this one*
+- [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) *(in class)*
 
-**Solve up to a total of 6+ new problems this week!**
 
-_These should be quick reviews and hopefully for some of them you are using a dictionary:_
-
-### Math
-
-- [Valid Boomerang](https://leetcode.com/problems/valid-boomerang/)
-
-### String/Stack/Two-Pointer
-
-- [Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/)
-- [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) *(can you do it again faster?)*
+- [Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/) *(in class)*
+- [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) *(can you do it again faster?)* *(in class)*
 - [Reverse String](https://leetcode.com/problems/reverse-string/)
 - [Reverse String II](https://leetcode.com/problems/reverse-string-ii/)
 - [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
 
 ### Dictionary
 
-- [Decode the Message](https://leetcode.com/problems/decode-the-message/)
-- [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)
+- [Decode the Message](https://leetcode.com/problems/decode-the-message/) *(required)*
 
 ### Combination
 
-- [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)
+- [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) *(annoying but often comes up often - learn how to do in a single pass using a dictionary)* *(required)*
 
-**Do (if you haven’t already done or redo if you’d like) from the OA:**
+## Online Assessment from last week 😊
 
 - [Check If the Sentence is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)
 - [Rings and Rods](https://leetcode.com/problems/rings-and-rods/)

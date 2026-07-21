@@ -2,12 +2,12 @@
 
 ## Do all of these these problems
 
-- [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)
-- [Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)
-- [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) *(Can you solve with BFS and DFS?)*
-- [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) *(DFS with a helper method?)*
+- [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) *(required)*
+- [Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) *(required)*
+- [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) *(Can you solve with BFS and DFS?)* *(required)*
+- [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) *(DFS with a helper method?)* *(required)*
 
-**Do at least ten total problems each week! Consider using some of these from the topic exam:**
+## Consider doing some of these from the last topic exam:
 
 - [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 - [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)

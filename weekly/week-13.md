@@ -1,6 +1,14 @@
-# Week 13 — Recommended Problems
+# Week 13
 
-## Review or do (pick 4 or more)
+- [Removing Minimum and Maximum from Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/) *(in class)*
+
+- [Count Elements with Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) *(recommended)*
+
+- [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) *(in class)*
+
+- [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/)
+
+## Review from previous OA
 
 - [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
 - [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
@@ -25,16 +33,5 @@
 - [Sort an Array](https://leetcode.com/problems/sort-an-array/)
 - [Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)
 
-Find your own problems to work on (10 total for the week)! Maybe use the extension to practice?
-
-- [Interview Ready extension](https://chromewebstore.google.com/detail/interview-ready/llicapjcmjifdbafkbicgplkmamfchmd?authuser=1&hl=en)
-
-## In class
-
-- [Count Elements with Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/)
-
-## In class
-
-- [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/)
-- [Removing Minimum and Maximum from Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/)
-- [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/)
+## Extra Credit
+- [Interview Ready extension](https://chromewebstore.google.com/detail/interview-ready/llicapjcmjifdbafkbicgplkmamfchmd?authuser=1&hl=en) *(Maybe use the extension to practice?)*

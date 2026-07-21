@@ -1,6 +1,11 @@
-# Week 10 — Recommended Problems
+# Week 10
 
-Do 10 new problems! Use these if you haven’t done them yet
+Do problems from the OA, review, or explore something new! 4 problems (*required*)
+
+- [Combine Two Tables](https://leetcode.com/problems/combine-two-tables) (SQL) *(recommended)*
+- Some Random DP Problem *(recommended)*
+
+## Previous OA
 
 - [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 - [N Th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)

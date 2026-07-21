@@ -31,15 +31,18 @@ We use **Microsoft Teams**. Section codes are handed out at the start of the sem
 
 ## Topic Exams
 
-Each of the four topics has **three exams** (12 total). See [`topic-exams/`](topic-exams/)
+Each of the four topics has **two exams** (8 total). See [`topic-exams/`](topic-exams/)
 for full details:
 
 1. **Online Assessment (OA)** — a timed, HackerRank-style assessment you complete on your own. Designed to be passable by everyone (three attempts; the last allows TA/instructor help).
 2. **Performance Exam** — a question you may practice ahead of time, then perform in 15 minutes or less for a TA.
-3. **Live Interview** — a live interview with a TA or the instructor, who gives hints and awards a 1/2/3 score. Try this before you think you're ready; you can retry as many times as you need.
 
-Complete in this order for each topic:
-**OA -> Performance -> Live** - You can schedule appointments optimistically for live exam hoping that you'll pass the performance one. Schedule multiple contigous appointments to get longer running blocks of time as desired. The hope is you really are ready when you get to the live interview exam.
+## Live Interview Exams
+
+Once you have completed your OA and Topic exams you are ready for a live interview! You'll have the opportunity to do three of these. You can retake them as often as you'd like. [Learn more][live-interview]
+
+
+
 
 ## Final Exam
 
@@ -67,7 +70,7 @@ Passing means you solved the problem well enough, accurately described space and
 
 | Weight | Category |
 |---:|---|
-| 40% | Practice (study hours, assigned problems) |
+| 40% | Study (study hours, assigned problems) |
 | 40% | Performance (Peer Interviews, Instructor Required Interview, Topic Exams) |
 | 20% | Final (must pass to pass the class) |
 | +25% | Extra Credit (available) |
@@ -90,22 +93,22 @@ Tuesday/Thursday. Columns are the two learning categories (see **Grading** for w
 **📅 = book a time** (with a peer, TA, professional, or instructor). Every entry links to how
 it works.
 
-| Wk | Tue / Thu | Practice | Performance |
-|---:|---|---|---|
-| 1 | Thu **Sep 3** *(½ wk)* | [W01][w01] | [DS OA][ds-oa] *(opens)* · 📅 [Peer mock][peer] |
-| 2 | Sep 8 / 10 | [W02][w02] | [DS OA][ds-oa] *(due)* · 📅 [Peer mock][peer] |
-| 3 | Sep 15 / 17 | [W03][w03] | 📅 [DS Performance][ds-perf] · 📅 [Peer mock][peer] |
-| 4 | Sep 22 / 24 | [W04][w04] | 📅 [DS **Live**][ds-live] |
-| 5 | Sep 29 / Oct 1 | [W05][w05] | [Graphs OA][gr-oa] · 📅 [Peer mock][peer] |
-| 6 | Oct 6 / 8 | [W06][w06] | 📅 [Graphs Performance][gr-perf] · 📅 [Peer mock][peer] |
-| 7 | Oct 13 / 15 | [W07][w07] | 📅 [Graphs **Live**][gr-live] |
-| 8 | Oct 20 / 22 | [W08][w08] | [DP OA][dp-oa] · 📅 [Peer mock][peer] |
-| 9 | Oct 27 / 29 | [W09][w09] | 📅 [DP Performance][dp-perf] · 📅 [Peer mock][peer] |
-| 10 | Nov 3 / 5 | [W10][w10] | 📅 [DP **Live**][dp-live] |
-| 11 | Nov 10 / 12 | [W11][w11] | [Sorting OA][so-oa] · 📅 [Peer mock][peer] |
-| 12 | Nov 17 / 19 | [W12][w12] | 📅 [Sorting Performance][so-perf] · 📅 [Peer mock][peer] |
-| 13 | Tue **Nov 24** *(½ — Thanksgiving)* | [W13][w13] | flex / catch-up |
-| 14 | Dec 1 / 3 | [W14][w14] | 📅 [Sorting **Live**][so-live] · 📅 [Professional mock][prof] |
+| Wk | Tue / Thu | Study | Performance | Other
+|---:|---|---|---|---|
+| 1 | Thu **Sep 3** *(½ wk)* | [W01][w01] | 📅 [Peer Mock][peer] | BigO Reading
+| 2 | Sep 8 / 10 | [W02][w02] | 🖥️ [Data Structures Online Assessment][ds-oa]<br>📅 [Peer Mock][peer] |
+| 3 | Sep 15 / 17 | [W03][w03] | 📅 [Data Structures  Performance][ds-perf]<br>📅 [Peer Mock][peer] |
+| 4 | Sep 22 / 24 | [W04][w04] | 📅 [**Live Interview 1**][live-interview] |
+| 5 | Sep 29 / Oct 1 | [W05][w05] | 🖥️ [Graphs Online Assessment][gr-oa]<br>📅 [Peer Mock][peer] |
+| 6 | Oct 6 / 8 | [W06][w06] | 📅 [Graphs Performance][gr-perf]<br>📅 [Peer Mock][peer] |
+| 7 | Oct 13 / 15 | [W07][w07] | 📅 [**Live Interview 2**][live-interview] | DP Reading
+| 8 | Oct 20 / 22 | [W08][w08] | 📅 [Peer Mock][peer] |
+| 9 | Oct 27 / 29 | [W09][w09] | 🖥️ [Dynamic Programming Online Assessment][dp-oa]<br>📅 [Peer Mock][peer] |
+| 10 | Nov 3 / 5 | [W10][w10] | 📅 [Dynamic Programming Performance][dp-perf]<br>📅 [Peer Mock][peer] |
+| 11 | Nov 10 / 12 | [W11][w11] | 📅 [**Live Interview 3**][live-interview] |
+| 12 | Nov 17 / 19 | [W12][w12] | 🖥️ [Sorting +Other Online Assessment][so-oa]<br>📅 [Peer Mock][peer] |
+| 13 | Tue **Nov 24** <br>*(½ — Thanksgiving)* | [W13][w13] | 📅 [Sorting Performance][so-perf] |
+| 14 | Dec 1 / 3 | [W14][w14] | 📅 [**Professional** Mock Interview][prof] |
 | 15 | Dec 8 / **10** | Review | [**Final** begins][final] |
 | Finals | Thu **Dec 17, 7–10 am** | — | [**Final** concludes][final] |
 
@@ -133,6 +136,7 @@ it works.
 [w12]: weekly/week-12.md
 [w13]: weekly/week-13.md
 [w14]: weekly/week-14.md
+[live-interview]: topic-exams/live-interview-exam.md
 [ds-oa]: topic-exams/data-structures/online-assessment.md
 [ds-perf]: topic-exams/data-structures/live-performance-exam.md
 [ds-live]: topic-exams/data-structures/live-interview-exam.md
