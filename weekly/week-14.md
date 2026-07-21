@@ -9,4 +9,4 @@ Do 4 random problems on leetcode *(required)*
 
 ## Learning objectives
 
-- <first objective>
+- Solving problems without being told what type they are

@@ -23,4 +23,6 @@
 
 ## Learning objectives
 
-- <first objective>
+- Identify and apply appropriate alogrithms to a problem with unknown category
+- Creating and using structures that give logN complexity
+- Finding even better time complexities than you thought possible

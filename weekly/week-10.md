@@ -28,4 +28,6 @@ Do problems from the OA, review, or explore something new! 4 problems (*required
 
 ## Learning objectives
 
-- <first objective>
+- SQL awareness
+- DP awareness that they can be very difficult even if you've studied
+

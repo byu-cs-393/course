@@ -27,4 +27,8 @@
 
 ## Learning objectives
 
-- <first objective>
+- Linked lists review
+- DP as DFS with memoization, DFS with constraints
+- DP considering what unique ways means
+- Prepare for interviews by practicing common problems
+

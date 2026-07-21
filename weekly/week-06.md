@@ -1,9 +1,16 @@
 # Week 06 — Recommended Problems
 
-## Do all of these these problems
+## Class 1
 
-- [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) *(required)*
-- [Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) *(required)*
+- [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) *(in class)*
+
+## Class 2
+
+- [Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) *(in class)*
+
+
+## Other
+
 - [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) *(Can you solve with BFS and DFS?)* *(required)*
 - [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) *(DFS with a helper method?)* *(required)*
 
@@ -37,19 +44,10 @@
 - [Path Sum II](https://leetcode.com/problems/path-sum-ii/)
 - [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
 
-## Review
-
-- [Flood Fill](https://leetcode.com/problems/flood-fill/)
-- [Number of Islands](https://leetcode.com/problems/number-of-islands/)
-- [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
-- [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)
-- [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/) *BFS*
-- [Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/) *BFS*
-
 ## Reflection
 
 > Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?
 
 ## Learning objectives
 
-- <first objective>
+- BFS with other constraints

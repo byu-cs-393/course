@@ -19,4 +19,7 @@
 
 ## Learning objectives
 
-- <first objective>
+- Cut problems in half to cut runtime from N to LogN (e.g. a million steps cut down to twenty steps)
+- Priority queues are very useful to find a the smallest item in a frequently added to set. 
+- Two pointer, sorting, heapifying strategies for overlapping intervals
+- Expose those who are bored with this class to something interesting in the Longest Duplicate Substring problem

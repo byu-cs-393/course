@@ -19,6 +19,10 @@ Other study
 
 > Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?
 
+
 ## Learning objectives
 
-- Rem
+- Remember and get serious about understanding BigO runtime and memory complexity.
+- Remember sets, dictionaries, lists, etc and when and why we would use them.
+- Pointers
+- Strings

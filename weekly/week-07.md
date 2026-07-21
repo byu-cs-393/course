@@ -24,4 +24,6 @@
 
 ## Learning objectives
 
-- <first objective>
+- DP as DFS with memoization
+- DP as not re calculating what you already calculated
+- Designing a DP solution to fit time and size constraints considering efficiency tradeoffs for different framings of the problem.

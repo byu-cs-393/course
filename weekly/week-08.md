@@ -21,4 +21,6 @@
 
 ## Learning objectives
 
-- <first objective>
+- Counting problems as a subset of DP
+- Prefix and postfix creating faster ways to get data
+- DP as a way to pass once and remember as you go what you need

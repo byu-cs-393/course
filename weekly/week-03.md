@@ -1,5 +1,18 @@
 # Week 03
 
+## Class 1
+- [All O'one Data Structure](https://leetcode.com/problems/all-oone-data-structure/) *(in class)*
+- [Decode the Message](https://leetcode.com/problems/decode-the-message/) *(required)*
+- [Brick Wall](https://leetcode.com/problems/brick-wall/) *(required)*
+
+## Class 2
+
+- [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) *(in class)*
+- [Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/) *(in class)*
+- [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) *(can you do it again faster?)* *(in class)*
+- [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) *(annoying but often comes up often - learn how to do in a single pass using a dictionary)* *(required)*
+
+
 ## Online Assessment from last week 😊
 
 - [Check If the Sentence is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)
@@ -18,15 +31,6 @@
 - [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)
 - [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)
 
-## Consider Reviewing
-
-- [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)
-- [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
-- [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
-- [Delete Nodes from Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/)
-- [LRU Cache](https://leetcode.com/problems/lru-cache/)
-- [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
-- [Pascals Triangle](https://leetcode.com/problems/pascals-triangle/)
 
 ## Reflection
 
@@ -35,22 +39,3 @@
 ## Learning objectives
 
 - <first objective>
-
-- [All O'one Data Structure](https://leetcode.com/problems/all-oone-data-structure/) *(in class)*
-
-- [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) *(in class)*
-
-
-- [Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/) *(in class)*
-- [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) *(can you do it again faster?)* *(in class)*
-- [Reverse String](https://leetcode.com/problems/reverse-string/)
-- [Reverse String II](https://leetcode.com/problems/reverse-string-ii/)
-- [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)
-
-### Dictionary
-
-- [Decode the Message](https://leetcode.com/problems/decode-the-message/) *(required)*
-
-### Combination
-
-- [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) *(annoying but often comes up often - learn how to do in a single pass using a dictionary)* *(required)*
