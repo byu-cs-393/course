@@ -1,8 +1,9 @@
 # Topic Exams
 
 Topic exams are focused assessments where a student demonstrates a data-structures /
-algorithms topic. There are **four topics**, each with **three exams** — **12 topic exams**
-total.
+algorithms topic. There are **four topics**, each with **two exams** — the Online Assessment
+and the Performance Exam — for **8 topic exams** total. (The **live interviews** are separate
+and not per-topic — see [`live-interview-exam.md`](live-interview-exam.md).)
 
 ## Topics
 
@@ -13,11 +14,11 @@ total.
 | Dynamic Programming & Counting | [`dynamic-programming/`](dynamic-programming/) |
 | Sorting, Two-Pointer, etc. | [`sorting-two-pointer/`](sorting-two-pointer/) |
 
-## The three exams per topic
+## The two exams per topic
 
-For each topic, complete the three exams **in this order** — pass each before starting the next:
+Complete them **in this order** — pass the OA before the Performance exam:
 
-**OA → Performance → Live**
+**OA → Performance**
 
 1. **Online Assessment (OA)** — `online-assessment.md`
    A timed, HackerRank-style assessment completed on your own. **Designed to be passable by
@@ -26,34 +27,29 @@ For each topic, complete the three exams **in this order** — pass each before 
 
 2. **Performance Exam** — `live-performance-exam.md`
    A question you are allowed to **practice ahead of time**, then perform in **15 minutes or
-   less**. **Pass/fail** (no 1/2/3 rating). This bridges the self-paced OA and the live interview.
+   less** for a TA. **Pass/fail** (no 1/2/3 rating).
 
-3. **Live Interview** — `live-interview-exam.md` (per topic) → [`live-interview-exam.md`](live-interview-exam.md) (shared)
-   A live interview with a TA or the instructor, who may give hints. You **self-rate 1 / 2 / 3**
-   on how it went (1 = showed up, went poorly · 2 = got to a solution · 3 = collaborated well
-   and definitely want to hire!), and the **TA also awards a 1/2/3**. Attempt it before you
-   feel ready — you may retry as many times as you need. Live exams target final-exam difficulty.
+**Scheduling tip:** you can book performance-exam appointments **optimistically**, and book
+**multiple contiguous appointments** for a longer block if you'd like.
 
-**Scheduling tip:** you can book live-exam appointments **optimistically** — schedule them
-hoping you'll pass the performance exam first — and book **multiple contiguous appointments**
-for a longer block if you'd like. The goal is that you're genuinely ready by the live
-interview, so it isn't wasted time for you or the TA.
+## Live interviews (separate)
+
+Beyond the topic exams, there are **three live interviews** across the semester — a problem
+you may or may not have studied, testing *how* you solve, not just *whether*. They aren't tied
+to a topic. See [`live-interview-exam.md`](live-interview-exam.md).
 
 ## Recording completion
 
-Completion of each topic exam is recorded in **Canvas**. Every topic exam has its **own
-Canvas assignment**: the student submits a short report and a TA or the instructor **grades
-it manually**. Use the matching template in
-[`submission-templates.md`](submission-templates.md) (one each for OA, Performance, Live).
+Each item is its own **Canvas assignment** — you submit a short report and a TA or the
+instructor grades it. The templates (the source for the Canvas assignment descriptions) are in
+[`submission-templates.md`](submission-templates.md).
 
 > A Chrome extension ([Jack Leonard's](https://github.com/byu-cs-393/extension)) that lets a
-> TA push completion straight into Canvas is planned, but **not integrated yet** — the course
-> runs entirely on the manual submission above.
+> TA push completion straight into Canvas is planned, but **not integrated yet**.
 
 ## Files
 
-- [`submission-templates.md`](submission-templates.md) — manual submission templates (OA / Performance / Live).
-- [`live-interview-exam.md`](live-interview-exam.md) — shared instructions for the live interview (all topics).
+- [`submission-templates.md`](submission-templates.md) — submission templates (OA / Performance / Live interview).
+- [`live-interview-exam.md`](live-interview-exam.md) — live interview instructions.
 - `<topic>/online-assessment.md` — the OA problem set for each topic.
 - `<topic>/live-performance-exam.md` — the performance-exam question for each topic.
-- `<topic>/live-interview-exam.md` — per-topic pointer to the shared interview instructions.

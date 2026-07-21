@@ -90,8 +90,8 @@ Expect to work at least **9 hours a week** (including class): interviewing, prac
 ## Schedule
 
 Tuesday/Thursday. Columns are the two learning categories (see **Grading** for weights).
-**📅 = book a time** (with a peer, TA, professional, or instructor). Every entry links to how
-it works.
+**📅 = book a time** (peer, TA, professional, or instructor) · **🖥️ = online, on your own.**
+Every entry links to how it works.
 
 | Wk | Tue / Thu | Study | Performance | Other
 |---:|---|---|---|---|
@@ -116,9 +116,7 @@ it works.
 - **Week 1** is a half week — do everything at half load. Also: connect with class (post +
   Teams photo) and **📅 schedule your [instructor interview][sched]**.
 - **Wk 10:** **📅 schedule your professional mock** — it takes ~a month to line up.
-- **Thanksgiving** (Wk 13): flex/catch-up half week, no peer mock. Labor Day (Mon Sep 7) costs no class.
 - **OAs** open at the start of a topic; a passing attempt is accepted through the following week.
-- **No peer mock on live weeks** (4, 7, 10, 14) — that exam is your on-the-spot rep.
 - **The final** runs across three sittings: Dec 8 + Dec 10 (75 min each, in class) +
   **Thu Dec 17, 7–10 am** (3 hrs) = 5½ hours.
 

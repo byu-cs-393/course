@@ -1,6 +1,6 @@
 # Topic Exam (Online Assessment) — Data Structures
 
-> The online assessment mimics a timed, HackerRank-style OA. It is designed to be **passable by everyone**: take the attempts in order, and the final attempt allows help from a TA or the instructor. See [Topic Exams](../README.md) for how the three exams per topic fit together.
+> The online assessment mimics a timed, HackerRank-style OA. It is designed to be **passable by everyone**: take the attempts in order, and the final attempt allows help from a TA or the instructor. See [Topic Exams](../README.md) for how the two exams per topic fit together.
 
 ## Online Assessment Style Questions
 
@@ -34,7 +34,7 @@ If you already solved these problems please click the “reset” button and sol
 
 - [Brick Wall](https://leetcode.com/problems/brick-wall/)
 
-### Attempt 3 - Solve these problems! Reach out to classmates or TAs for help (no internet solutions though)
+### Attempt 3 - Solve these problems! Reach out to classmates or TAs for help (not AI, not online solutions)
 
 - [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)
 

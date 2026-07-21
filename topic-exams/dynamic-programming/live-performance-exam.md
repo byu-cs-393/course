@@ -1,7 +1,7 @@
 # Topic Exam (Performance) — Dynamic Programming & Counting
 
 > **Practice this question ahead of time**, then perform it live for a TA. See
-> [Topic Exams](../README.md) for how the three exams fit together.
+> [Topic Exams](../README.md) for how the two exams per topic fit together.
 
 ## The question
 

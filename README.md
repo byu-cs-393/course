@@ -6,7 +6,7 @@ it has everything, including the week-by-week schedule.
 | Path | Contents |
 |---|---|
 | [`syllabus.md`](syllabus.md) | Full syllabus + schedule |
-| [`topic-exams/`](topic-exams/) | The 12 topic exams (OA → Performance → Live) |
+| [`topic-exams/`](topic-exams/) | 8 topic exams (OA + Performance per topic) + 3 live interviews |
 | [`weekly/`](weekly/) | Weekly study: rubric, template, and problem sets |
 | [`mock-interviews/`](mock-interviews/) | Mock interviews + reaching professionals |
 | [`final/`](final/) | Final-exam format + past questions to practice |

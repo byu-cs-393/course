@@ -9,8 +9,8 @@ into your Canvas submission.
 > address bar — e.g. `https://leetcode.com/problems/two-sum/submissions/1046917577/`.
 
 > **Self-rating (live interview):** rate how it went — **1** = showed up, went poorly ·
-> **2** = got to a solution · **3** = collaborated well and definitely want to hire! For the
-> live interview the TA or instructor **also** awards a rating on this same scale.
+> **2** = got to a solution · **3** = collaborated well and went great! The TA or instructor
+> **also** awards a 1/2/3 (a **3** means they'd want to hire you).
 
 ## Online Assessment (OA)
 

@@ -1,6 +1,6 @@
 # Topic Exam (Online Assessment) — Graphs
 
-> The online assessment mimics a timed, HackerRank-style OA. It is designed to be **passable by everyone**: take the attempts in order, and the final attempt allows help from a TA or the instructor. See [Topic Exams](../README.md) for how the three exams per topic fit together.
+> The online assessment mimics a timed, HackerRank-style OA. It is designed to be **passable by everyone**: take the attempts in order, and the final attempt allows help from a TA or the instructor. See [Topic Exams](../README.md) for how the two exams per topic fit together.
 
 If you already solved a problem just click the “reset” button and do it again without looking back to your previous solution!
 
