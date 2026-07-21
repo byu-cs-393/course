@@ -1,8 +1,6 @@
 # Topic Exam (Performance) — Dynamic Programming & Counting
 
-> **Practice this question ahead of time**, then perform it live for a TA. See
-> [Topic Exams](../README.md) for how the two exams per topic fit together.
-
+> **Practice this question ahead of time**, then perform it live for a TA.
 ## The question
 
 **[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)**

@@ -89,65 +89,6 @@ Expect to work at least **9 hours a week** (including class): interviewing, prac
 
 ## Schedule
 
-Tuesday/Thursday. Columns are the two learning categories (see **Grading** for weights).
-**📅 = book a time** (peer, TA, professional, or instructor) · **🖥️ = online, on your own.**
-Every entry links to how it works.
+See **[`schedule.md`](schedule.md)** — the full week-by-week plan (topics, study, exams, and due dates).
 
-| Wk | Tue / Thu | Study | Performance | Other
-|---:|---|---|---|---|
-| 1 | Thu **Sep 3** *(½ wk)* | [W01][w01] | 📅 [Peer Mock][peer] | BigO Reading
-| 2 | Sep 8 / 10 | [W02][w02] | 🖥️ [Data Structures Online Assessment][ds-oa]<br>📅 [Peer Mock][peer] |
-| 3 | Sep 15 / 17 | [W03][w03] | 📅 [Data Structures  Performance][ds-perf]<br>📅 [Peer Mock][peer] |
-| 4 | Sep 22 / 24 | [W04][w04] | 📅 [**Live Interview 1**][live-interview] |
-| 5 | Sep 29 / Oct 1 | [W05][w05] | 🖥️ [Graphs Online Assessment][gr-oa]<br>📅 [Peer Mock][peer] |
-| 6 | Oct 6 / 8 | [W06][w06] | 📅 [Graphs Performance][gr-perf]<br>📅 [Peer Mock][peer] |
-| 7 | Oct 13 / 15 | [W07][w07] | 📅 [**Live Interview 2**][live-interview] | DP Reading
-| 8 | Oct 20 / 22 | [W08][w08] | 📅 [Peer Mock][peer] |
-| 9 | Oct 27 / 29 | [W09][w09] | 🖥️ [Dynamic Programming Online Assessment][dp-oa]<br>📅 [Peer Mock][peer] |
-| 10 | Nov 3 / 5 | [W10][w10] | 📅 [Dynamic Programming Performance][dp-perf]<br>📅 [Peer Mock][peer] |
-| 11 | Nov 10 / 12 | [W11][w11] | 📅 [**Live Interview 3**][live-interview] |
-| 12 | Nov 17 / 19 | [W12][w12] | 🖥️ [Sorting +Other Online Assessment][so-oa]<br>📅 [Peer Mock][peer] |
-| 13 | Tue **Nov 24** <br>*(½ — Thanksgiving)* | [W13][w13] | 📅 [Sorting Performance][so-perf] |
-| 14 | Dec 1 / 3 | [W14][w14] | 📅 [**Professional** Mock Interview][prof] |
-| 15 | Dec 8 / **10** | Review | [**Final** begins][final] |
-| Finals | Thu **Dec 17, 7–10 am** | — | [**Final** concludes][final] |
-
-**Notes:**
-- **Week 1** is a half week — do everything at half load. Also: connect with class (post +
-  Teams photo) and **📅 schedule your [instructor interview][sched]**.
-- **Wk 10:** **📅 schedule your professional mock** — it takes ~a month to line up.
-- **OAs** open at the start of a topic; a passing attempt is accepted through the following week.
-- **The final** runs across three sittings: Dec 8 + Dec 10 (75 min each, in class) +
-  **Thu Dec 17, 7–10 am** (3 hrs) = 5½ hours.
-
-[w01]: weekly/week-01.md
-[w02]: weekly/week-02.md
-[w03]: weekly/week-03.md
-[w04]: weekly/week-04.md
-[w05]: weekly/week-05.md
-[w06]: weekly/week-06.md
-[w07]: weekly/week-07.md
-[w08]: weekly/week-08.md
-[w09]: weekly/week-09.md
-[w10]: weekly/week-10.md
-[w11]: weekly/week-11.md
-[w12]: weekly/week-12.md
-[w13]: weekly/week-13.md
-[w14]: weekly/week-14.md
 [live-interview]: topic-exams/live-interview-exam.md
-[ds-oa]: topic-exams/data-structures/online-assessment.md
-[ds-perf]: topic-exams/data-structures/live-performance-exam.md
-[ds-live]: topic-exams/data-structures/live-interview-exam.md
-[gr-oa]: topic-exams/graphs/online-assessment.md
-[gr-perf]: topic-exams/graphs/live-performance-exam.md
-[gr-live]: topic-exams/graphs/live-interview-exam.md
-[dp-oa]: topic-exams/dynamic-programming/online-assessment.md
-[dp-perf]: topic-exams/dynamic-programming/live-performance-exam.md
-[dp-live]: topic-exams/dynamic-programming/live-interview-exam.md
-[so-oa]: topic-exams/sorting-two-pointer/online-assessment.md
-[so-perf]: topic-exams/sorting-two-pointer/live-performance-exam.md
-[so-live]: topic-exams/sorting-two-pointer/live-interview-exam.md
-[peer]: mock-interviews/README.md
-[prof]: mock-interviews/linkedin-outreach.md
-[sched]: fix-your-timezone.md
-[final]: final/README.md

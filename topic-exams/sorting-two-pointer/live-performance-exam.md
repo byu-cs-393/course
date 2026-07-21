@@ -1,8 +1,6 @@
 # Topic Exam (Performance) — Sorting, Two-Pointer, etc.
 
-> **Practice this question ahead of time**, then perform it live for a TA. See
-> [Topic Exams](../README.md) for how the two exams per topic fit together.
-
+> **Practice this question ahead of time**, then perform it live for a TA.
 ## The question
 
 **[Design Twitter](https://leetcode.com/problems/design-twitter/)**

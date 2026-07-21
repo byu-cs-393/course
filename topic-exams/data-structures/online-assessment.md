@@ -1,7 +1,6 @@
 # Topic Exam (Online Assessment) — Data Structures
 
-> The online assessment mimics a timed, HackerRank-style OA. It is designed to be **passable by everyone**: take the attempts in order, and the final attempt allows help from a TA or the instructor. See [Topic Exams](../README.md) for how the two exams per topic fit together.
-
+> The online assessment mimics a timed, HackerRank-style OA. It is designed to be **passable by everyone**: take the attempts in order, and the final attempt allows help from a TA or the instructor.
 ## Online Assessment Style Questions
 
 Please try attempt #1 in a single sitting. If you don’t pass, you can try attempt #2 at some future time. Please at least do a faithful effort on attempt #1 before the due date.

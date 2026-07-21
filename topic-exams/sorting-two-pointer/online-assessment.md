@@ -1,7 +1,6 @@
 # Topic Exam (Online Assessment) — Sorting, Two-Pointer, etc.
 
-> The online assessment mimics a timed, HackerRank-style OA. It is designed to be **passable by everyone**: take the attempts in order, and the final attempt allows help from a TA or the instructor. See [Topic Exams](../README.md) for how the two exams per topic fit together.
-
+> The online assessment mimics a timed, HackerRank-style OA. It is designed to be **passable by everyone**: take the attempts in order, and the final attempt allows help from a TA or the instructor.
 If you already solved a problem just click the “reset” button and do it again without looking back to your previous solution!
 
 ### Attempt 1 (Solve all these problems in 2 hours, no external help from friends, solutions, AI, TA, etc)

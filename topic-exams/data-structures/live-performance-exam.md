@@ -1,8 +1,6 @@
 # Topic Exam (Performance) — Data Structures
 
-> **Practice this question ahead of time**, then perform it live for a TA. See
-> [Topic Exams](../README.md) for how the two exams per topic fit together.
-
+> **Practice this question ahead of time**, then perform it live for a TA.
 ## The question
 
 **[LRU Cache](https://leetcode.com/problems/lru-cache/)**
