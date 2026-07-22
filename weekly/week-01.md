@@ -1,7 +1,7 @@
 # Week 01 - BigO, Strings, Linked Lists, Sets
 
-
 ## Class
+
 - [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) *(in class)*
 - [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) *(in class)*
 - [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) *(in class)*

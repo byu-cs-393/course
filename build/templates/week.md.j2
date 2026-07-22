@@ -1,0 +1,33 @@
+# Week {{ "%02d"|format(w.week) }} - {{ w.title }}
+
+{% for heading, items in placements %}
+## {{ heading }}
+
+{% for it in items %}
+- {{ it|item }}
+{% endfor %}
+
+{% endfor %}
+{% if prev_oa %}
+## Online Assessment from last week 😊
+
+{% for it in prev_oa %}
+- {{ it|item }}
+{% endfor %}
+
+{% endif %}
+## Reflection
+
+> {{ journaling }}
+
+## This week
+
+{% for line in this_week %}
+- {{ line }}
+{% endfor %}
+
+## Learning objectives
+
+{% for o in objectives %}
+- {{ o }}
+{% endfor %}

@@ -6,6 +6,7 @@
 - [Sort Colors](https://leetcode.com/problems/sort-colors/) *(in class)*
 
 ## Class 2
+
 - [Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/) *(in class)*
 - [Range Sum Query Mutable](https://leetcode.com/problems/range-sum-query-mutable/) *(in class)*
 
@@ -20,7 +21,7 @@
 
 ## This week
 
-- 🖥️ [Sorting Online Assessment](../topic-exams/sorting-two-pointer/online-assessment.md)
+- 🖥️ [Sorting, Two-Pointer, etc. Online Assessment](../topic-exams/sorting-two-pointer/online-assessment.md)
 - 📅 [Peer Mock](../mock-interviews/README.md)
 
 ## Learning objectives

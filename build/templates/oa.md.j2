@@ -1,0 +1,18 @@
+# Topic Exam (Online Assessment) — {{ topic.label }}
+
+> Take attempts in order; you only need to pass **one**. See the shared [Online Assessment instructions](../README.md#online-assessment-instructions).
+
+{% for a in oa.attempts %}
+### Attempt {{ a.n }} — {{ a.desc }}
+
+{% for p in a.problems %}
+- {{ p|item }}
+
+{% endfor %}
+{% endfor %}
+## Learning objectives
+
+{% for o in oa.objectives %}
+- {{ o }}
+
+{% endfor %}

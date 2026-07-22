@@ -24,7 +24,7 @@
 
 - [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) - O(1) space solution only
 
-- [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)  - O(1) space solution only
+- [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) - O(1) space solution only
 
 - [Brick Wall](https://leetcode.com/problems/brick-wall/)
 
@@ -32,7 +32,7 @@
 
 - [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)
 
-- [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/)  <- Solution must be linear time!
+- [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/) <- Solution must be linear time!
 
 - [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)
 

@@ -13,7 +13,8 @@
 - [Dice Roll Simulation](https://leetcode.com/problems/dice-roll-simulation/) *(recommended)*
 
 ## Outside of Class
-- 4 other *new* problems of any category any difficulty  *(recommended)*
+
+- 4 other *new* problems of any category any difficulty *(recommended)*
 - [Dynamic Programming from Cracking the Coding Interview Page 33 Chapter 8](https://apps.lib.byu.edu/lms-tools/link/?type=guide&link=https://apps.lib.byu.edu/reserve/docs/39812/&source=CS.393.Reynolds) *(recommended)*
 
 ## Reflection

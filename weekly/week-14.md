@@ -1,12 +1,15 @@
 # Week 14 - Classifying Random Problems, Humility
 
 ## Class 1
+
 - Random problem, classify it, solve it! *(in class)*
 
 ## Class 2
+
 - Random problem, classify it, solve it! *(in class)*
 
 ## Outside of Class
+
 - Do 4 random problems on leetcode *(required)*
 
 ## Reflection

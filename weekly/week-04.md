@@ -1,6 +1,7 @@
 # Week 04 - Graphs and Traversal
 
 ## Class 1
+
 - [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) *(in class)*
 - [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) *(in class)*
 - [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) *(in class)*
@@ -10,6 +11,7 @@
 - [Second Minimum Node in a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)
 
 ## Class 2
+
 - [Number of Islands](https://leetcode.com/problems/number-of-islands/) *(in class)*
 - [Course Schedule](https://leetcode.com/problems/course-schedule/) *(in class)*
 - [Flood Fill](https://leetcode.com/problems/flood-fill/) *(required)*
@@ -21,6 +23,7 @@
 ## This week
 
 - 📅 [Live Interview 1](../topic-exams/live-interview-exam.md)
+- 📅 Schedule your [instructor interview](../fix-your-timezone.md)
 
 ## Learning objectives
 

@@ -11,11 +11,9 @@
 - [Coin Change II](https://leetcode.com/problems/coin-change-ii/) *(in class)*
 - [Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/) *(in class)*
 
-
 ## Outside of Class
 
 - [Interview Ready extension](https://chromewebstore.google.com/detail/interview-ready/llicapjcmjifdbafkbicgplkmamfchmd?authuser=1&hl=en) *Go for extra credit! Get every category “green”:*
-
 
 ## Reflection
 
@@ -23,7 +21,7 @@
 
 ## This week
 
-- 🖥️ [Dynamic Programming Online Assessment](../topic-exams/dynamic-programming/online-assessment.md)
+- 🖥️ [Dynamic Programming & Counting Online Assessment](../topic-exams/dynamic-programming/online-assessment.md)
 - 📅 [Peer Mock](../mock-interviews/README.md)
 
 ## Learning objectives
@@ -32,4 +30,3 @@
 - DP as DFS with memoization, DFS with constraints
 - DP considering what unique ways means
 - Prepare for interviews by practicing common problems
-

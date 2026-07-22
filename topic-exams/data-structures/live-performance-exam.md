@@ -1,6 +1,7 @@
 # Topic Exam (Performance) — Data Structures
 
 > **Practice this question ahead of time**, then perform it live for a TA.
+
 ## The question
 
 **[LRU Cache](https://leetcode.com/problems/lru-cache/)**

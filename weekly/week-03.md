@@ -1,6 +1,7 @@
 # Week 03 - Super Advanced Data Structures, Sets, Dictionaries, Memoizing, Strings
 
 ## Class 1
+
 - [All O'one Data Structure](https://leetcode.com/problems/all-oone-data-structure/) *(in class)*
 
 ## Class 2
@@ -12,7 +13,6 @@
 - [Brick Wall](https://leetcode.com/problems/brick-wall/) *(required)*
 - [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) *(annoying but often comes up - learn how to do in a single pass using a dictionary)* *(required)*
 
-
 ## Online Assessment from last week 😊
 
 - [Check If the Sentence is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)
@@ -23,14 +23,13 @@
 - [Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
 - [Watering Plants](https://leetcode.com/problems/watering-plants/)
 - [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
-- [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) *- O(1) space solution only*
-- [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) *- O(1) space solution only*
+- [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) - O(1) space solution only
+- [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) - O(1) space solution only
 - [Brick Wall](https://leetcode.com/problems/brick-wall/)
 - [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)
-- [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/) *<- Solution must be linear time!*
+- [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/) <- Solution must be linear time!
 - [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)
 - [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)
-
 
 ## Reflection
 
