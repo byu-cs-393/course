@@ -6,7 +6,7 @@ Tuesday/Thursday, 8:00–9:15 am. Dates are the Monday–Saturday span of each w
 
 | Wk | Dates | Topic | Study | Performance | Other |
 |---:|---|---|---|---|---|
-| 1 | Sep 2–5 *(½ wk)* | Data Structures · Big O | [W01][w01] | 📅 [Peer Mock][peer] | 📖 Big O reading<br>Connect with class<br>📅 schedule [instructor interview][sched] |
+| 1 | Sep 2–5 *(½ wk)* | Data Structures · Big O | [W01][w01] | 📅 [Peer Mock][peer] | 📖 Big O reading<br>Connect with class |
 | 2 | Sep 7–12 | Data Structures | [W02][w02] | 🖥️ [DS Online Assessment][ds-oa]<br>📅 [Peer Mock][peer] | |
 | 3 | Sep 14–19 | Data Structures | [W03][w03] | 📅 [DS Performance][ds-perf]<br>📅 [Peer Mock][peer] | |
 | 4 | Sep 21–26 | Graphs | [W04][w04] | 📅 [**Live Interview 1**][live-interview] | 📅 schedule [instructor interview][sched] |
