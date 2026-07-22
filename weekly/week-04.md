@@ -24,4 +24,6 @@
 
 ## Learning objectives
 
-- <first objective>
+- DFS in a grid
+- Tree traversal
+- Tree creation, adjacency lists

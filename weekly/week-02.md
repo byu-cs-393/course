@@ -8,9 +8,9 @@
 - [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) *(in class)*
 - [Pascals Triangle](https://leetcode.com/problems/pascals-triangle/) *(in class)*
 
-Do the topic exam! 
+## Outside of Class
 
-Do easy problems if you have extra time! *(recommended)*
+- Do easy problems if you have extra time! *(recommended)*
 
 ## Reflection
 

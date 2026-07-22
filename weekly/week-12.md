@@ -9,12 +9,9 @@
 - [Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/) *(in class)*
 - [Range Sum Query Mutable](https://leetcode.com/problems/range-sum-query-mutable/) *(in class)*
 
-## Other
+## Outside of Class
 
 - [Sort an Array](https://leetcode.com/problems/sort-an-array/)
-
-- **Sorting, +Other Online Assessment Topic Exam**
-
 - [Interview Ready extension](https://chromewebstore.google.com/detail/interview-ready/llicapjcmjifdbafkbicgplkmamfchmd?authuser=1&hl=en) *Go for extra credit! Get every category “green”:*
 
 ## Reflection

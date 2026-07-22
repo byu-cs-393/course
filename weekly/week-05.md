@@ -11,16 +11,13 @@
 - [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) *(required)*
 - [Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/) *(recommended)*
 
-## Other
+## Outside of Class
 
 - [Flood Fill](https://leetcode.com/problems/flood-fill/) *(maybe try with BFS?)*
 - [Number of Islands](https://leetcode.com/problems/number-of-islands/) *(maybe try with BFS?)*
 - [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
+- 4 other problems! (Easy or Medium) *(recommended)*
 
-4 other problems! (Easy or Medium) *(recommended)*
-
-
-[**Topic Exam Graphs Online Assessment**](../topic-exams/graphs/online-assessment.md)
 
 ## Reflection
 

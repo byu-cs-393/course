@@ -17,9 +17,6 @@
 - [Interview Ready extension](https://chromewebstore.google.com/detail/interview-ready/llicapjcmjifdbafkbicgplkmamfchmd?authuser=1&hl=en) *Go for extra credit! Get every category “green”:*
 
 
-
-**Dynamic Programming Topic Online Assessment**
-
 ## Reflection
 
 > Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?

@@ -16,7 +16,8 @@
 - [Number of Distinct Roll Sequences](https://leetcode.com/problems/number-of-distinct-roll-sequences/) *(recommended)*
 - [Dice Roll Simulation](https://leetcode.com/problems/dice-roll-simulation/) *(recommended)*
 
-4 other *new* problems of any category any difficulty  *(recommended)*
+## Outside of Class
+- 4 other *new* problems of any category any difficulty  *(recommended)*
 
 ## Reflection
 

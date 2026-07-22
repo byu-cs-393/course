@@ -2,15 +2,15 @@
 
 ## Class 1
 - [All O'one Data Structure](https://leetcode.com/problems/all-oone-data-structure/) *(in class)*
-- [Decode the Message](https://leetcode.com/problems/decode-the-message/) *(required)*
-- [Brick Wall](https://leetcode.com/problems/brick-wall/) *(required)*
 
 ## Class 2
 
 - [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) *(in class)*
 - [Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/) *(in class)*
 - [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) *(can you do it again faster?)* *(in class)*
-- [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) *(annoying but often comes up often - learn how to do in a single pass using a dictionary)* *(required)*
+- [Decode the Message](https://leetcode.com/problems/decode-the-message/) *(required)*
+- [Brick Wall](https://leetcode.com/problems/brick-wall/) *(required)*
+- [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) *(annoying but often comes up - learn how to do in a single pass using a dictionary)* *(required)*
 
 
 ## Online Assessment from last week 😊
@@ -43,4 +43,5 @@
 
 ## Learning objectives
 
-- <first objective>
+- Implement the most complicated of data structures keeping an eye on runtime and space efficiency
+- Sets, dictinoaries, and strings!

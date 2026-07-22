@@ -1,7 +1,13 @@
 # Week 14
 
+## Class 1
+- Random problem, classify it, solve it! *(in class)*
 
-Do 4 random problems on leetcode *(required)*
+## Class 2
+- Random problem, classify it, solve it! *(in class)*
+
+## Outside of Class
+- Do 4 random problems on leetcode *(required)*
 
 ## Reflection
 
@@ -13,4 +19,5 @@ Do 4 random problems on leetcode *(required)*
 
 ## Learning objectives
 
-- Solving problems without being told what type they are
+- Solving problems without being told what type they are.
+- Networking with paid professionals in your field.

@@ -8,7 +8,7 @@
 - [Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/) *(in class)*
 - [Video Stitching](https://leetcode.com/problems/video-stitching/) *(in class)*
 
-## Other
+## Outside of Class
 
 - [Binary Search](https://leetcode.com/problems/binary-search/) *(Easy)*
 - [Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/) *(Hard)* (*[spoiler insight](https://www.youtube.com/watch?v=yFHV7weZ_as&t=84s)*) *(recommended)*

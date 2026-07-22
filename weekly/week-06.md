@@ -9,7 +9,7 @@
 - [Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) *(in class)*
 
 
-## Other
+## Outside of Class
 
 - [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) *(Can you solve with BFS and DFS?)* *(required)*
 - [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) *(DFS with a helper method?)* *(required)*
@@ -56,3 +56,4 @@
 ## Learning objectives
 
 - BFS with other constraints
+- BFS starting sets

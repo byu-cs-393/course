@@ -1,9 +1,15 @@
 # Week 10
 
-Do problems from the OA, review, or explore something new! 4 problems (*required*)
+## Class 1
+- Random problem or voted on problem from the OA *(in class)*
+
+## Class 2
 
 - [Combine Two Tables](https://leetcode.com/problems/combine-two-tables) (SQL) *(recommended)*
-- Some Random DP Problem *(recommended)*
+- Some Random DP Problem *(in class)*
+
+## Outside of Class
+- Do problems from the OA, review, or explore something new! 4 problems (*required*)
 
 ## Previous OA
 

@@ -11,7 +11,7 @@
 
 
 
-## Other
+## Outside of Class
 - [Number of Boomerangs](https://leetcode.com/problems/number-of-boomerangs/) *my least favorite type of problem... I don't recommend it, but it might be good for you...*
 - [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 
