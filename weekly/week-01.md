@@ -22,7 +22,6 @@
 - 📅 [Peer Mock](../mock-interviews/README.md)
 - 📖 Big O reading
 - Connect with class
-- 📅 Schedule your [instructor interview](../fix-your-timezone.md)
 
 ## Learning objectives
 
