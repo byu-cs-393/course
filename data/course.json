@@ -1,0 +1,1580 @@
+{
+  "course": {
+    "code": "CS 393",
+    "title": "Advanced Algorithms and Problem Solving",
+    "term": "Fall 2026",
+    "meets": "Tuesday & Thursday, 8:00–9:15 am",
+    "weeklyHours": 9
+  },
+  "grading": {
+    "categories": [
+      {
+        "id": "study",
+        "label": "Study",
+        "weight": 40,
+        "desc": "study hours, assigned problems"
+      },
+      {
+        "id": "performance",
+        "label": "Performance",
+        "weight": 40,
+        "desc": "Peer Interviews, Instructor Required Interview, Topic Exams"
+      },
+      {
+        "id": "final",
+        "label": "Final",
+        "weight": 20,
+        "desc": "must pass to pass the class"
+      },
+      {
+        "id": "extra-credit",
+        "label": "Extra Credit",
+        "weight": 25,
+        "extraCredit": true
+      }
+    ]
+  },
+  "static": {
+    "journalingPrompt": "Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?",
+    "oaInstructions": "*(These apply to every OA.)* The online assessment is designed to be **eventually passable by everyone**. Take the attempts **in order** — you only need to pass **one**. Attempt 1 is on your own; the final attempt allows help from a TA or the instructor. If you already solved a problem, click **reset** and do it again without looking back at your previous solution."
+  },
+  "topics": [
+    {
+      "id": "data-structures",
+      "label": "Data Structures",
+      "short": "DS"
+    },
+    {
+      "id": "graphs",
+      "label": "Graphs",
+      "short": "Graphs"
+    },
+    {
+      "id": "dynamic-programming",
+      "label": "Dynamic Programming & Counting",
+      "short": "DP"
+    },
+    {
+      "id": "sorting-two-pointer",
+      "label": "Sorting, Two-Pointer, etc.",
+      "short": "Sorting"
+    }
+  ],
+  "schedule": [
+    {
+      "week": 1,
+      "dates": "Sep 2–5",
+      "half": true,
+      "study": true,
+      "performance": [
+        {
+          "type": "peer-mock"
+        }
+      ],
+      "other": [
+        {
+          "type": "reading",
+          "label": "Big O reading"
+        },
+        {
+          "ref": "connect-with-class"
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "dates": "Sep 7–12",
+      "study": true,
+      "performance": [
+        {
+          "type": "oa",
+          "topic": "data-structures"
+        },
+        {
+          "type": "peer-mock"
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "dates": "Sep 14–19",
+      "study": true,
+      "performance": [
+        {
+          "type": "performance",
+          "topic": "data-structures"
+        },
+        {
+          "type": "peer-mock"
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "dates": "Sep 21–26",
+      "study": true,
+      "performance": [
+        {
+          "type": "live-interview",
+          "index": 1
+        }
+      ],
+      "other": [
+        {
+          "type": "reminder",
+          "action": "schedule",
+          "ref": "instructor-interview"
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "dates": "Sep 28–Oct 3",
+      "study": true,
+      "performance": [
+        {
+          "type": "oa",
+          "topic": "graphs"
+        },
+        {
+          "type": "peer-mock"
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "dates": "Oct 5–10",
+      "study": true,
+      "performance": [
+        {
+          "type": "performance",
+          "topic": "graphs"
+        },
+        {
+          "type": "peer-mock"
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "dates": "Oct 12–17",
+      "study": true,
+      "performance": [
+        {
+          "type": "live-interview",
+          "index": 2
+        }
+      ],
+      "other": [
+        {
+          "type": "reading",
+          "label": "DP reading"
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "dates": "Oct 19–24",
+      "study": true,
+      "performance": [
+        {
+          "type": "peer-mock"
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "dates": "Oct 26–31",
+      "study": true,
+      "performance": [
+        {
+          "type": "oa",
+          "topic": "dynamic-programming"
+        },
+        {
+          "type": "peer-mock"
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "dates": "Nov 2–7",
+      "study": true,
+      "performance": [
+        {
+          "type": "performance",
+          "topic": "dynamic-programming"
+        },
+        {
+          "type": "peer-mock"
+        }
+      ],
+      "other": [
+        {
+          "type": "reminder",
+          "action": "schedule",
+          "ref": "professional-mock"
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "dates": "Nov 9–14",
+      "study": true,
+      "performance": [
+        {
+          "type": "live-interview",
+          "index": 3
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "dates": "Nov 16–21",
+      "study": true,
+      "performance": [
+        {
+          "type": "oa",
+          "topic": "sorting-two-pointer"
+        },
+        {
+          "type": "peer-mock"
+        }
+      ]
+    },
+    {
+      "week": 13,
+      "dates": "Nov 23–24",
+      "thanksgiving": true,
+      "study": true,
+      "performance": [
+        {
+          "type": "performance",
+          "topic": "sorting-two-pointer"
+        }
+      ]
+    },
+    {
+      "week": 14,
+      "dates": "Nov 30–Dec 5",
+      "study": true,
+      "performance": [
+        {
+          "type": "professional-mock"
+        }
+      ]
+    },
+    {
+      "week": 15,
+      "dates": "Dec 7–12",
+      "review": true,
+      "performance": [
+        {
+          "type": "final",
+          "phase": "begins"
+        }
+      ]
+    },
+    {
+      "id": "finals",
+      "label": "Finals",
+      "dates": "Thu Dec 17, 7–10 am",
+      "performance": [
+        {
+          "type": "final",
+          "phase": "concludes"
+        }
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "title": "BigO, Strings, Linked Lists, Sets",
+      "placements": {
+        "class": [
+          {
+            "name": "Find First Palindromic String in the Array",
+            "url": "https://leetcode.com/problems/find-first-palindromic-string-in-the-array/",
+            "tag": "in class"
+          },
+          {
+            "name": "Valid Palindrome",
+            "url": "https://leetcode.com/problems/valid-palindrome/",
+            "tag": "in class"
+          },
+          {
+            "name": "Reverse Linked List",
+            "url": "https://leetcode.com/problems/reverse-linked-list/",
+            "tag": "in class"
+          },
+          {
+            "name": "Delete Nodes from Linked List Present in Array",
+            "url": "https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/",
+            "tag": "in class"
+          }
+        ],
+        "outside": [
+          {
+            "notes": "**Find and solve at least 5 other EASY problems on leetcode.**",
+            "tag": "recommended"
+          },
+          {
+            "notes": "**Solve at least 1 medium problem on leetcode.**",
+            "tag": "required"
+          },
+          {
+            "name": "Review BigO from Cracking the Coding Interview",
+            "url": "https://docs.google.com/document/d/1sKqplOIW5IQyRRCPicYGbFAM8p_oCumbI8iv511l6As/edit?tab=t.0",
+            "tag": "recommended"
+          }
+        ]
+      },
+      "objectives": [
+        "Remember and get serious about understanding BigO runtime and memory complexity.",
+        "Remember sets, dictionaries, lists, etc and when and why we would use them.",
+        "Pointers",
+        "Strings"
+      ]
+    },
+    {
+      "week": 2,
+      "title": "BigO, Dictionaries, 2D Arrays, Linked Lists",
+      "placements": {
+        "class1": [
+          {
+            "name": "Big O Together Quiz",
+            "url": "https://docs.google.com/presentation/d/1jgXYQxPTG28GfzyFwcynhDH-VXrH2ze7C4pMfGU8JuM/edit?usp=sharing",
+            "tag": "in class"
+          },
+          {
+            "name": "LRU Cache",
+            "url": "https://leetcode.com/problems/lru-cache/",
+            "tag": "in class"
+          }
+        ],
+        "class2": [
+          {
+            "name": "Valid Sudoku",
+            "url": "https://leetcode.com/problems/valid-sudoku/",
+            "tag": "in class"
+          },
+          {
+            "name": "Pascals Triangle",
+            "url": "https://leetcode.com/problems/pascals-triangle/",
+            "tag": "in class"
+          }
+        ],
+        "outside": [
+          {
+            "notes": "Do easy problems if you have extra time!",
+            "tag": "recommended"
+          }
+        ]
+      },
+      "objectives": [
+        "Identify practices that cause inflated runtime or memory efficiency and implement solutions.",
+        "Work with 2d arrays which is very popular among interviews.",
+        "Sneakily expose you to DP with pascals triangle."
+      ]
+    },
+    {
+      "week": 3,
+      "title": "Super Advanced Data Structures, Sets, Dictionaries, Memoizing, Strings",
+      "placements": {
+        "class1": [
+          {
+            "name": "All O'one Data Structure",
+            "url": "https://leetcode.com/problems/all-oone-data-structure/",
+            "tag": "in class"
+          }
+        ],
+        "class2": [
+          {
+            "name": "Jewels and Stones",
+            "url": "https://leetcode.com/problems/jewels-and-stones/",
+            "tag": "in class"
+          },
+          {
+            "name": "Split Strings by Separator",
+            "url": "https://leetcode.com/problems/split-strings-by-separator/",
+            "tag": "in class"
+          },
+          {
+            "name": "Valid Palindrome",
+            "url": "https://leetcode.com/problems/valid-palindrome/",
+            "notes": "*(can you do it again faster?)*",
+            "tag": "in class"
+          },
+          {
+            "name": "Decode the Message",
+            "url": "https://leetcode.com/problems/decode-the-message/",
+            "tag": "required"
+          },
+          {
+            "name": "Brick Wall",
+            "url": "https://leetcode.com/problems/brick-wall/",
+            "tag": "required"
+          },
+          {
+            "name": "Number of Good Pairs",
+            "url": "https://leetcode.com/problems/number-of-good-pairs/",
+            "notes": "*(annoying but often comes up - learn how to do in a single pass using a dictionary)*",
+            "tag": "required"
+          }
+        ]
+      },
+      "objectives": [
+        "Implement the most complicated of data structures keeping an eye on runtime and space efficiency",
+        "Sets, dictinoaries, and strings!"
+      ]
+    },
+    {
+      "week": 4,
+      "title": "Graphs and Traversal",
+      "placements": {
+        "class1": [
+          {
+            "name": "Binary Tree Inorder Traversal",
+            "url": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+            "tag": "in class"
+          },
+          {
+            "name": "Binary Tree Preorder Traversal",
+            "url": "https://leetcode.com/problems/binary-tree-preorder-traversal/",
+            "tag": "in class"
+          },
+          {
+            "name": "Binary Tree Postorder Traversal",
+            "url": "https://leetcode.com/problems/binary-tree-postorder-traversal/",
+            "tag": "in class"
+          },
+          {
+            "name": "Maximum Depth of Binary Tree",
+            "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree/"
+          },
+          {
+            "name": "Count Complete Tree Nodes",
+            "url": "https://leetcode.com/problems/count-complete-tree-nodes/",
+            "tag": "in class"
+          },
+          {
+            "name": "Search in a Binary Search Tree",
+            "url": "https://leetcode.com/problems/search-in-a-binary-search-tree/",
+            "tag": "in class"
+          },
+          {
+            "name": "Second Minimum Node in a Binary Tree",
+            "url": "https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/"
+          }
+        ],
+        "class2": [
+          {
+            "name": "Number of Islands",
+            "url": "https://leetcode.com/problems/number-of-islands/",
+            "tag": "in class"
+          },
+          {
+            "name": "Course Schedule",
+            "url": "https://leetcode.com/problems/course-schedule/",
+            "tag": "in class"
+          },
+          {
+            "name": "Flood Fill",
+            "url": "https://leetcode.com/problems/flood-fill/",
+            "tag": "required"
+          }
+        ]
+      },
+      "objectives": [
+        "DFS in a grid",
+        "Tree traversal",
+        "Tree creation, adjacency lists"
+      ]
+    },
+    {
+      "week": 5,
+      "title": "BFS",
+      "placements": {
+        "class1": [
+          {
+            "name": "Rotting Oranges",
+            "url": "https://leetcode.com/problems/rotting-oranges/",
+            "tag": "in class"
+          },
+          {
+            "name": "As Far from Land As Possible",
+            "url": "https://leetcode.com/problems/as-far-from-land-as-possible/",
+            "tag": "recommended"
+          }
+        ],
+        "class2": [
+          {
+            "name": "Snakes and Ladders",
+            "url": "https://leetcode.com/problems/snakes-and-ladders/",
+            "tag": "in class"
+          },
+          {
+            "name": "Keys and Rooms",
+            "url": "https://leetcode.com/problems/keys-and-rooms/",
+            "tag": "required"
+          },
+          {
+            "name": "Shortest Path with Alternating Colors",
+            "url": "https://leetcode.com/problems/shortest-path-with-alternating-colors/",
+            "tag": "recommended"
+          }
+        ],
+        "outside": [
+          {
+            "name": "Flood Fill",
+            "url": "https://leetcode.com/problems/flood-fill/",
+            "tag": "maybe try with BFS?"
+          },
+          {
+            "name": "Number of Islands",
+            "url": "https://leetcode.com/problems/number-of-islands/",
+            "tag": "maybe try with BFS?"
+          },
+          {
+            "name": "Surrounded Regions",
+            "url": "https://leetcode.com/problems/surrounded-regions/"
+          },
+          {
+            "notes": "4 other problems! (Easy or Medium)",
+            "tag": "recommended"
+          }
+        ]
+      },
+      "objectives": [
+        "BFS with counting steps or layers should be as easy as as a for loop.",
+        "DFS should be easy and natural for traversal and changing what you return should not be too foreign."
+      ]
+    },
+    {
+      "week": 6,
+      "title": "BFS Advanced",
+      "placements": {
+        "class1": [
+          {
+            "name": "Shortest Path in a Grid with Obstacles Elimination",
+            "url": "https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/",
+            "tag": "in class"
+          }
+        ],
+        "class2": [
+          {
+            "name": "Shortest Bridge",
+            "url": "https://leetcode.com/problems/shortest-bridge/",
+            "tag": "in class"
+          }
+        ],
+        "outside": [
+          {
+            "name": "Minimum Depth of Binary Tree",
+            "url": "https://leetcode.com/problems/minimum-depth-of-binary-tree/",
+            "notes": "*(Can you solve with BFS and DFS?)*",
+            "tag": "required"
+          },
+          {
+            "name": "Count Good Nodes in Binary Tree",
+            "url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/",
+            "notes": "*(DFS with a helper method?)*",
+            "tag": "required"
+          }
+        ]
+      },
+      "objectives": [
+        "BFS with other constraints",
+        "BFS starting sets"
+      ]
+    },
+    {
+      "week": 7,
+      "title": "DP",
+      "placements": {
+        "class1": [
+          {
+            "name": "Fibonacci Number",
+            "url": "https://leetcode.com/problems/fibonacci-number/",
+            "tag": "in class"
+          },
+          {
+            "name": "Word Break",
+            "url": "https://leetcode.com/problems/word-break/",
+            "tag": "in class"
+          }
+        ],
+        "class2": [
+          {
+            "name": "Knight Dialer",
+            "url": "https://leetcode.com/problems/knight-dialer/",
+            "tag": "in class"
+          },
+          {
+            "name": "Number of Dice Rolls with Target Sum",
+            "url": "https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/",
+            "tag": "in class"
+          },
+          {
+            "name": "Number of Distinct Roll Sequences",
+            "url": "https://leetcode.com/problems/number-of-distinct-roll-sequences/",
+            "tag": "recommended"
+          },
+          {
+            "name": "Dice Roll Simulation",
+            "url": "https://leetcode.com/problems/dice-roll-simulation/",
+            "tag": "recommended"
+          }
+        ],
+        "outside": [
+          {
+            "notes": "4 other *new* problems of any category any difficulty",
+            "tag": "recommended"
+          },
+          {
+            "name": "Dynamic Programming from Cracking the Coding Interview Page 33 Chapter 8",
+            "url": "https://apps.lib.byu.edu/lms-tools/link/?type=guide&link=https://apps.lib.byu.edu/reserve/docs/39812/&source=CS.393.Reynolds",
+            "tag": "recommended"
+          }
+        ]
+      },
+      "objectives": [
+        "DP as DFS with memoization",
+        "DP as not re calculating what you already calculated",
+        "Designing a DP solution to fit time and size constraints considering efficiency tradeoffs for different framings of the problem."
+      ]
+    },
+    {
+      "week": 8,
+      "title": "DP, Counting, Prefix",
+      "placements": {
+        "class1": [
+          {
+            "name": "Number of Ways to Select Buildings",
+            "url": "https://leetcode.com/problems/number-of-ways-to-select-buildings/",
+            "tag": "in class"
+          },
+          {
+            "name": "Range Sum Query Immutable",
+            "url": "https://leetcode.com/problems/range-sum-query-immutable/",
+            "tag": "in class"
+          },
+          {
+            "name": "Maximum Subarray",
+            "url": "https://leetcode.com/problems/maximum-subarray/",
+            "tag": "recommended"
+          }
+        ],
+        "class2": [
+          {
+            "name": "Range Sum Query 2D Immutable",
+            "url": "https://leetcode.com/problems/range-sum-query-2d-immutable/",
+            "tag": "in class"
+          },
+          {
+            "name": "Sum of Distances",
+            "url": "https://leetcode.com/problems/sum-of-distances/",
+            "tag": "in class"
+          }
+        ],
+        "outside": [
+          {
+            "name": "Number of Boomerangs",
+            "url": "https://leetcode.com/problems/number-of-boomerangs/",
+            "notes": "*my least favorite type of problem... I don't recommend it, but it might be good for you...*"
+          },
+          {
+            "name": "Climbing Stairs",
+            "url": "https://leetcode.com/problems/climbing-stairs/"
+          }
+        ]
+      },
+      "objectives": [
+        "Counting problems as a subset of DP",
+        "Prefix and postfix creating faster ways to get data",
+        "DP as a way to pass once and remember as you go what you need"
+      ]
+    },
+    {
+      "week": 9,
+      "title": "DP",
+      "placements": {
+        "class1": [
+          {
+            "name": "Intersection of Two Linked Lists",
+            "url": "https://leetcode.com/problems/intersection-of-two-linked-lists/",
+            "notes": "*Could you write a solution that runs in O(m + n) time and use only O(1) memory?*",
+            "tag": "in class"
+          },
+          {
+            "name": "Coin Change",
+            "url": "https://leetcode.com/problems/coin-change/",
+            "tag": "in class"
+          },
+          {
+            "name": "Min Cost Climbing Stairs",
+            "url": "https://leetcode.com/problems/min-cost-climbing-stairs/",
+            "tag": "recommended"
+          }
+        ],
+        "class2": [
+          {
+            "name": "Coin Change II",
+            "url": "https://leetcode.com/problems/coin-change-ii/",
+            "tag": "in class"
+          },
+          {
+            "name": "Number of Increasing Paths in a Grid",
+            "url": "https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/",
+            "tag": "in class"
+          }
+        ],
+        "outside": [
+          {
+            "name": "Interview Ready extension",
+            "url": "https://chromewebstore.google.com/detail/interview-ready/llicapjcmjifdbafkbicgplkmamfchmd?authuser=1&hl=en",
+            "notes": "*Go for extra credit! Get every category “green”:*"
+          }
+        ]
+      },
+      "objectives": [
+        "Linked lists review",
+        "DP as DFS with memoization, DFS with constraints",
+        "DP considering what unique ways means",
+        "Prepare for interviews by practicing common problems"
+      ]
+    },
+    {
+      "week": 10,
+      "title": "SQL, DP",
+      "placements": {
+        "class1": [
+          {
+            "notes": "Random problem or voted on problem from the OA",
+            "tag": "in class"
+          }
+        ],
+        "class2": [
+          {
+            "name": "Combine Two Tables",
+            "url": "https://leetcode.com/problems/combine-two-tables",
+            "notes": "(SQL)",
+            "tag": "recommended"
+          },
+          {
+            "notes": "Some Random DP Problem",
+            "tag": "in class"
+          }
+        ],
+        "outside": [
+          {
+            "notes": "Do problems from the OA, review, or explore something new! 4 problems",
+            "tag": "required"
+          }
+        ]
+      },
+      "objectives": [
+        "SQL awareness",
+        "DP awareness that they can be very difficult even if you've studied"
+      ]
+    },
+    {
+      "week": 11,
+      "title": "Logarithmic Algorithms, Two Pointer, Heaps",
+      "placements": {
+        "class1": [
+          {
+            "name": "Guess Number Higher or Lower",
+            "url": "https://leetcode.com/problems/guess-number-higher-or-lower/",
+            "tag": "in class"
+          },
+          {
+            "name": "Koko Eating Bananas",
+            "url": "https://leetcode.com/problems/koko-eating-bananas/",
+            "tag": "in class"
+          }
+        ],
+        "class2": [
+          {
+            "name": "Furthest Building You Can Reach",
+            "url": "https://leetcode.com/problems/furthest-building-you-can-reach/",
+            "tag": "in class"
+          },
+          {
+            "name": "Video Stitching",
+            "url": "https://leetcode.com/problems/video-stitching/",
+            "tag": "in class"
+          }
+        ],
+        "outside": [
+          {
+            "name": "Binary Search",
+            "url": "https://leetcode.com/problems/binary-search/",
+            "tag": "Easy"
+          },
+          {
+            "name": "Longest Duplicate Substring",
+            "url": "https://leetcode.com/problems/longest-duplicate-substring/",
+            "notes": "*(Hard)* (*[spoiler insight](https://www.youtube.com/watch?v=yFHV7weZ_as&t=84s)*)",
+            "tag": "recommended"
+          }
+        ]
+      },
+      "objectives": [
+        "Cut problems in half to cut runtime from N to LogN (e.g. a million steps cut down to twenty steps)",
+        "Priority queues are very useful to find a the smallest item in a frequently added to set.",
+        "Two pointer, sorting, heapifying strategies for overlapping intervals",
+        "Expose those who are bored with this class to something interesting in the Longest Duplicate Substring problem"
+      ]
+    },
+    {
+      "week": 12,
+      "title": "Two Pointer, Faster Sort, Heap, Segment Tree",
+      "placements": {
+        "class1": [
+          {
+            "name": "Trapping Rain Water",
+            "url": "https://leetcode.com/problems/trapping-rain-water/",
+            "tag": "in class"
+          },
+          {
+            "name": "Sort Colors",
+            "url": "https://leetcode.com/problems/sort-colors/",
+            "tag": "in class"
+          }
+        ],
+        "class2": [
+          {
+            "name": "Meeting Rooms III",
+            "url": "https://leetcode.com/problems/meeting-rooms-iii/",
+            "tag": "in class"
+          },
+          {
+            "name": "Range Sum Query Mutable",
+            "url": "https://leetcode.com/problems/range-sum-query-mutable/",
+            "tag": "in class"
+          }
+        ],
+        "outside": [
+          {
+            "name": "Sort an Array",
+            "url": "https://leetcode.com/problems/sort-an-array/"
+          },
+          {
+            "name": "Interview Ready extension",
+            "url": "https://chromewebstore.google.com/detail/interview-ready/llicapjcmjifdbafkbicgplkmamfchmd?authuser=1&hl=en",
+            "notes": "*Go for extra credit! Get every category “green”:*"
+          }
+        ]
+      },
+      "objectives": [
+        "Identify and apply appropriate alogrithms to a problem with unknown category",
+        "Creating and using structures that give logN complexity",
+        "Finding even better time complexities than you thought possible"
+      ]
+    },
+    {
+      "week": 13,
+      "title": "Sort, Order",
+      "placements": {
+        "class": [
+          {
+            "name": "Removing Minimum and Maximum from Array",
+            "url": "https://leetcode.com/problems/removing-minimum-and-maximum-from-array/",
+            "tag": "in class"
+          },
+          {
+            "name": "Minimum Area Rectangle",
+            "url": "https://leetcode.com/problems/minimum-area-rectangle/",
+            "tag": "in class"
+          },
+          {
+            "name": "Count Elements with Strictly Smaller and Greater Elements",
+            "url": "https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/",
+            "tag": "recommended"
+          },
+          {
+            "name": "Distant Barcodes",
+            "url": "https://leetcode.com/problems/distant-barcodes/"
+          }
+        ],
+        "outside": [
+          {
+            "name": "Interview Ready extension",
+            "url": "https://chromewebstore.google.com/detail/interview-ready/llicapjcmjifdbafkbicgplkmamfchmd?authuser=1&hl=en",
+            "tag": "Maybe use the extension to practice?"
+          }
+        ]
+      },
+      "objectives": [
+        "Identify when sorting helps"
+      ]
+    },
+    {
+      "week": 14,
+      "title": "Classifying Random Problems, Humility",
+      "placements": {
+        "class1": [
+          {
+            "notes": "Random problem, classify it, solve it!",
+            "tag": "in class"
+          }
+        ],
+        "class2": [
+          {
+            "notes": "Random problem, classify it, solve it!",
+            "tag": "in class"
+          }
+        ],
+        "outside": [
+          {
+            "notes": "Do 4 random problems on leetcode",
+            "tag": "required"
+          }
+        ]
+      },
+      "objectives": [
+        "Solving problems without being told what type they are.",
+        "Networking with paid professionals in your field."
+      ]
+    }
+  ],
+  "oas": [
+    {
+      "id": "oa-data-structures",
+      "topic": "data-structures",
+      "attempts": [
+        {
+          "n": 1,
+          "desc": "Solve all these questions in 1.5 total hours",
+          "problems": [
+            {
+              "name": "Check If the Sentence is Pangram",
+              "url": "https://leetcode.com/problems/check-if-the-sentence-is-pangram/"
+            },
+            {
+              "name": "Rings and Rods",
+              "url": "https://leetcode.com/problems/rings-and-rods/"
+            },
+            {
+              "name": "Merge Nodes in Between Zeros",
+              "url": "https://leetcode.com/problems/merge-nodes-in-between-zeros/"
+            },
+            {
+              "name": "Spiral Matrix",
+              "url": "https://leetcode.com/problems/spiral-matrix/"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "desc": "Solve 3 of these questions without help (solve one of the problems in under 25 minutes)",
+          "problems": [
+            {
+              "name": "String Compression",
+              "url": "https://leetcode.com/problems/string-compression/"
+            },
+            {
+              "name": "Find the Minimum and Maximum Number of Nodes Between Critical Points",
+              "url": "https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/"
+            },
+            {
+              "name": "Watering Plants",
+              "url": "https://leetcode.com/problems/watering-plants/"
+            },
+            {
+              "name": "Set Matrix Zeroes",
+              "url": "https://leetcode.com/problems/set-matrix-zeroes/"
+            },
+            {
+              "name": "Reverse Linked List",
+              "url": "https://leetcode.com/problems/reverse-linked-list/",
+              "notes": "- O(1) space solution only"
+            },
+            {
+              "name": "Reverse Linked List II",
+              "url": "https://leetcode.com/problems/reverse-linked-list-ii/",
+              "notes": "- O(1) space solution only"
+            },
+            {
+              "name": "Brick Wall",
+              "url": "https://leetcode.com/problems/brick-wall/"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "desc": "Solve these problems! Reach out to classmates or TAs for help (not AI, not online solutions)",
+          "problems": [
+            {
+              "name": "Concatenation of Array",
+              "url": "https://leetcode.com/problems/concatenation-of-array/"
+            },
+            {
+              "name": "Number of Arithmetic Triplets",
+              "url": "https://leetcode.com/problems/number-of-arithmetic-triplets/",
+              "notes": "<- Solution must be linear time!"
+            },
+            {
+              "name": "Spiral Matrix IV",
+              "url": "https://leetcode.com/problems/spiral-matrix-iv/"
+            },
+            {
+              "name": "Zigzag Conversion",
+              "url": "https://leetcode.com/problems/zigzag-conversion/"
+            }
+          ]
+        }
+      ],
+      "objectives": [
+        "Implement solutions requiring hashset, dictionaries, or key/value constant time lookup structures.",
+        "Implement solutions involving 2D Arrays.",
+        "Implement solutions involving iterating over characters of a string.",
+        "Implement solutions involving modifying a linked list.",
+        "Implement solutions requiring indexing into a linked list from a dictionary."
+      ]
+    },
+    {
+      "id": "oa-graphs",
+      "topic": "graphs",
+      "attempts": [
+        {
+          "n": 1,
+          "desc": "Solve all these problems in 1.5 hours, no external help from friends, solutions, AI, TA, etc",
+          "problems": [
+            {
+              "name": "Minimum Depth of Binary Tree",
+              "url": "https://leetcode.com/problems/minimum-depth-of-binary-tree/"
+            },
+            {
+              "name": "Count Good Nodes in Binary Tree",
+              "url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/"
+            },
+            {
+              "name": "Shortest Bridge",
+              "url": "https://leetcode.com/problems/shortest-bridge/"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "desc": "Solve 3 of these problems with at least at least 1 of the 3 solved in under 25 minutes, no external help from friends, solutions, AI, TA, etc",
+          "problems": [
+            {
+              "name": "Pacific Atlantic Water Flow",
+              "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/"
+            },
+            {
+              "name": "Shortest Path in Binary Matrix",
+              "url": "https://leetcode.com/problems/shortest-path-in-binary-matrix/"
+            },
+            {
+              "name": "Reachable Nodes with Restrictions",
+              "url": "https://leetcode.com/problems/reachable-nodes-with-restrictions/"
+            },
+            {
+              "name": "Number of Operations to Make Network Connected",
+              "url": "https://leetcode.com/problems/number-of-operations-to-make-network-connected/"
+            },
+            {
+              "name": "Clone Graph",
+              "url": "https://leetcode.com/problems/clone-graph/",
+              "notes": "(for python users be careful about static/class variables being used across multiple test cases.)"
+            },
+            {
+              "name": "Path Sum II",
+              "url": "https://leetcode.com/problems/path-sum-ii/"
+            },
+            {
+              "name": "Sum Root to Leaf Numbers",
+              "url": "https://leetcode.com/problems/sum-root-to-leaf-numbers/"
+            },
+            {
+              "name": "Course Schedule II",
+              "url": "https://leetcode.com/problems/course-schedule-ii/"
+            },
+            {
+              "name": "Lowest Common Ancestor of a Binary Tree",
+              "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/"
+            },
+            {
+              "name": "Serialize and Deserialize Binary Tree",
+              "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+              "notes": "(hard)"
+            },
+            {
+              "name": "Pacific Atlantic Water Flow",
+              "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/"
+            },
+            {
+              "name": "Minesweeper",
+              "url": "https://leetcode.com/problems/minesweeper/"
+            },
+            {
+              "name": "Number of Enclaves",
+              "url": "https://leetcode.com/problems/number-of-enclaves/"
+            },
+            {
+              "name": "Minimum Time to Collect All Apples in a Tree",
+              "url": "https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/"
+            },
+            {
+              "name": "Maximum Binary Tree",
+              "url": "https://leetcode.com/problems/maximum-binary-tree/"
+            },
+            {
+              "name": "Count Good Nodes in Binary Tree",
+              "url": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/"
+            },
+            {
+              "name": "Delete Nodes and Return Forest",
+              "url": "https://leetcode.com/problems/delete-nodes-and-return-forest/"
+            },
+            {
+              "name": "Count Nodes with the Highest Score",
+              "url": "https://leetcode.com/problems/count-nodes-with-the-highest-score/"
+            },
+            {
+              "name": "Most Frequent Subtree Sum",
+              "url": "https://leetcode.com/problems/most-frequent-subtree-sum/"
+            },
+            {
+              "name": "Path Sum III",
+              "url": "https://leetcode.com/problems/path-sum-iii/",
+              "notes": "(fyi - intermediate sums can get larger than ‘int’)"
+            },
+            {
+              "name": "Word Ladder",
+              "url": "https://leetcode.com/problems/word-ladder/",
+              "notes": "(hard)"
+            },
+            {
+              "name": "Coloring a Border",
+              "url": "https://leetcode.com/problems/coloring-a-border/"
+            },
+            {
+              "name": "Maximum Product of Splitted Binary Tree",
+              "url": "https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/"
+            },
+            {
+              "name": "Lowest Common Ancestor of a Binary Tree",
+              "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "desc": "Solve all these problems *no time limit* with (or without) realtime two-way interactive help from humans",
+          "problems": [
+            {
+              "name": "Path Sum",
+              "url": "https://leetcode.com/problems/path-sum/"
+            },
+            {
+              "name": "Path Sum II",
+              "url": "https://leetcode.com/problems/path-sum-ii/"
+            },
+            {
+              "name": "Sum Root to Leaf Numbers",
+              "url": "https://leetcode.com/problems/sum-root-to-leaf-numbers/"
+            }
+          ]
+        }
+      ],
+      "objectives": [
+        "Implement solutions requiring DFS.",
+        "Implement solutions requiring BFS.",
+        "Implement solutions requiring cycle detection in a graph."
+      ]
+    },
+    {
+      "id": "oa-dynamic-programming",
+      "topic": "dynamic-programming",
+      "attempts": [
+        {
+          "n": 1,
+          "desc": "Solve all 5 problems, allowed 3 hours, no solution lookups, ai, or people help",
+          "problems": [
+            {
+              "name": "Fibonacci Number",
+              "url": "https://leetcode.com/problems/fibonacci-number/"
+            },
+            {
+              "name": "N Th Tribonacci Number",
+              "url": "https://leetcode.com/problems/n-th-tribonacci-number/"
+            },
+            {
+              "name": "Range Sum Query Immutable",
+              "url": "https://leetcode.com/problems/range-sum-query-immutable/",
+              "notes": "(sumRange function must run in O(1) time aka constant time)"
+            },
+            {
+              "name": "Word Break",
+              "url": "https://leetcode.com/problems/word-break/"
+            },
+            {
+              "name": "Find the Substring with Maximum Cost",
+              "url": "https://leetcode.com/problems/find-the-substring-with-maximum-cost/",
+              "notes": "(need an order N solution)"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "desc": "Solve 2 of these problems, allowed 2 hours, no solution lookups, ai, or people help",
+          "problems": [
+            {
+              "name": "Divisor Game",
+              "url": "https://leetcode.com/problems/divisor-game/"
+            },
+            {
+              "name": "Edit Distance",
+              "url": "https://leetcode.com/problems/edit-distance/"
+            },
+            {
+              "name": "House Robber",
+              "url": "https://leetcode.com/problems/house-robber/"
+            },
+            {
+              "name": "Range Sum Query 2D Immutable",
+              "url": "https://leetcode.com/problems/range-sum-query-2d-immutable/"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "desc": "Solve 3 of these problems, no time limit, no solution lookups, ai, but please ask for help from any human - friend, TA, instructor",
+          "problems": [
+            {
+              "name": "Min Cost Climbing Stairs",
+              "url": "https://leetcode.com/problems/min-cost-climbing-stairs/"
+            },
+            {
+              "name": "Vowels of All Substrings",
+              "url": "https://leetcode.com/problems/vowels-of-all-substrings/"
+            },
+            {
+              "name": "Number of Ways to Select Buildings",
+              "url": "https://leetcode.com/problems/number-of-ways-to-select-buildings/"
+            },
+            {
+              "name": "Coin Change",
+              "url": "https://leetcode.com/problems/coin-change/"
+            },
+            {
+              "name": "Number of Dice Rolls with Target Sum",
+              "url": "https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/"
+            }
+          ]
+        }
+      ],
+      "objectives": [
+        "Implement DP solutions using DFS with memoization (boolean, sum, min/max)",
+        "Implement counting solutions where a formula is used to increment a total count at each iteration (e.g. N(N-1)/2 for subsequences)",
+        "Implement solutions that use a prefix or postfix to make them more efficient",
+        "Implement bottom up solutions that build up from some base case iteratively"
+      ]
+    },
+    {
+      "id": "oa-sorting-two-pointer",
+      "topic": "sorting-two-pointer",
+      "attempts": [
+        {
+          "n": 1,
+          "desc": "Solve all these problems in 2 hours, no external help from friends, solutions, AI, TA, etc",
+          "problems": [
+            {
+              "name": "How Many Numbers Are Smaller Than the Current Number",
+              "url": "https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/"
+            },
+            {
+              "name": "Merge Sorted Array",
+              "url": "https://leetcode.com/problems/merge-sorted-array/"
+            },
+            {
+              "name": "Container with Most Water",
+              "url": "https://leetcode.com/problems/container-with-most-water/"
+            },
+            {
+              "name": "Merge Intervals",
+              "url": "https://leetcode.com/problems/merge-intervals/"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "desc": "Solve 3 of these problems with at least at least 1 of the 3 solved in under 25 minutes",
+          "problems": [
+            {
+              "name": "Maximum Length of Pair Chain",
+              "url": "https://leetcode.com/problems/maximum-length-of-pair-chain/"
+            },
+            {
+              "name": "Count Complete Tree Nodes",
+              "url": "https://leetcode.com/problems/count-complete-tree-nodes/",
+              "notes": "Runtime less than O(N)"
+            },
+            {
+              "name": "Minimum Number of Arrows to Burst Balloons",
+              "url": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/"
+            },
+            {
+              "name": "Sort Colors",
+              "url": "https://leetcode.com/problems/sort-colors/",
+              "notes": "Runtime O(N), Space O(1)"
+            },
+            {
+              "name": "Sort List",
+              "url": "https://leetcode.com/problems/sort-list/"
+            },
+            {
+              "name": "Largest Divisible Subset",
+              "url": "https://leetcode.com/problems/largest-divisible-subset/"
+            },
+            {
+              "name": "Task Scheduler",
+              "url": "https://leetcode.com/problems/task-scheduler/"
+            },
+            {
+              "name": "Number of Atoms",
+              "url": "https://leetcode.com/problems/number-of-atoms/"
+            },
+            {
+              "name": "Minimum Area Rectangle",
+              "url": "https://leetcode.com/problems/minimum-area-rectangle/"
+            },
+            {
+              "name": "Search a 2D Matrix",
+              "url": "https://leetcode.com/problems/search-a-2d-matrix/",
+              "notes": "Runtime O(log(m * n)) or better, Space O(1)"
+            },
+            {
+              "name": "Minimum Score by Changing Two Elements",
+              "url": "https://leetcode.com/problems/minimum-score-by-changing-two-elements/"
+            },
+            {
+              "name": "Maximize Greatness of an Array",
+              "url": "https://leetcode.com/problems/maximize-greatness-of-an-array/"
+            },
+            {
+              "name": "Design a Number Container System",
+              "url": "https://leetcode.com/problems/design-a-number-container-system/"
+            },
+            {
+              "name": "Sort an Array",
+              "url": "https://leetcode.com/problems/sort-an-array/"
+            },
+            {
+              "name": "Furthest Building You Can Reach",
+              "url": "https://leetcode.com/problems/furthest-building-you-can-reach/"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "desc": "Solve all these problems *no time limit* with (or without) realtime two-way interactive help from live humans",
+          "problems": [
+            {
+              "name": "Sort List",
+              "url": "https://leetcode.com/problems/sort-list/"
+            },
+            {
+              "name": "Sort an Array",
+              "url": "https://leetcode.com/problems/sort-an-array/"
+            },
+            {
+              "name": "Furthest Building You Can Reach",
+              "url": "https://leetcode.com/problems/furthest-building-you-can-reach/"
+            }
+          ]
+        }
+      ],
+      "objectives": [
+        "Perform an implementation of binary search in common contexts (rotated int array, median of two sorted arrays)",
+        "Apply binary search in a variety of novel contexts (e.g. space coordinates, number lists, strings, graphs, etc)",
+        "Perform an implementation of common search algorithms (quicksort, mergesort, bucket sort or counting sort)",
+        "Perform an implementation that uses an ordered structure or creates an ordered structure to solve a novel problem.",
+        "Priority Queue (Heap) problems.",
+        "Implement various two-pointer algorithms.",
+        "Perform an implementation of algorithms that require iterating through a data set and keeping track of multiple things (intervals, multiple constraints)."
+      ]
+    }
+  ],
+  "performance": [
+    {
+      "id": "perf-data-structures",
+      "topic": "data-structures",
+      "question": {
+        "name": "LRU Cache",
+        "url": "https://leetcode.com/problems/lru-cache/",
+        "desc": "Design a data structure with `O(1)` `get` and `put` that evicts the least-recently-used key\nwhen at capacity. A strong solution combines a hash map with a doubly linked list."
+      },
+      "objectives": [
+        "Implement solutions requiring hashset, dictionaries, or key/value constant-time lookup structures.",
+        "Implement solutions involving 2D arrays.",
+        "Implement solutions involving iterating over characters of a string.",
+        "Implement solutions involving modifying a linked list.",
+        "Implement solutions requiring indexing into a linked list from a dictionary."
+      ]
+    },
+    {
+      "id": "perf-graphs",
+      "topic": "graphs",
+      "question": {
+        "name": "Course Schedule IV",
+        "url": "https://leetcode.com/problems/course-schedule-iv/",
+        "desc": "Given prerequisite pairs, answer queries about whether one course is a prerequisite\n(directly or indirectly) of another. Exercises directed-graph reachability — DFS/BFS from\neach node, or a transitive-closure approach."
+      },
+      "objectives": [
+        "Implement solutions requiring DFS.",
+        "Implement solutions requiring BFS.",
+        "Implement solutions requiring cycle detection in a graph."
+      ]
+    },
+    {
+      "id": "perf-dynamic-programming",
+      "topic": "dynamic-programming",
+      "question": {
+        "name": "Number of Dice Rolls With Target Sum",
+        "url": "https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/",
+        "desc": "Count the ways to roll `n` dice with `k` faces each to reach a target sum, modulo\n`10^9 + 7`. A classic counting DP — DFS with memoization over `(dice remaining, target)`, or\na bottom-up table."
+      },
+      "objectives": [
+        "Implement DP solutions using DFS with memoization (boolean, sum, min/max).",
+        "Implement counting solutions where a formula increments a total count at each iteration (e.g., N(N-1)/2 for subsequences).",
+        "Implement solutions that use a prefix or postfix to be more efficient.",
+        "Implement bottom-up solutions that build from a base case iteratively."
+      ]
+    },
+    {
+      "id": "perf-sorting-two-pointer",
+      "topic": "sorting-two-pointer",
+      "question": {
+        "name": "Design Twitter",
+        "url": "https://leetcode.com/problems/design-twitter/",
+        "desc": "Design a simplified Twitter supporting `postTweet`, `follow`, `unfollow`, and a\n`getNewsFeed` that returns the 10 most recent tweets from a user and everyone they follow.\nExercises merging ordered streams with a **heap / priority queue** plus hash maps for the\nfollow graph."
+      },
+      "objectives": [
+        "Implement binary search in common contexts (rotated int array, median of two sorted arrays).",
+        "Apply binary search in novel contexts (space coordinates, number lists, strings, graphs, etc.).",
+        "Implement common search algorithms (quicksort, mergesort, bucket/counting sort).",
+        "Use or create an ordered structure to solve a novel problem.",
+        "Solve priority queue (heap) problems.",
+        "Implement various two-pointer algorithms.",
+        "Iterate through a data set while tracking multiple things (intervals, multiple constraints)."
+      ]
+    }
+  ],
+  "peerMock": {
+    "idFormat": "peer-mock-w{week}",
+    "category": "performance",
+    "doc": "mock-interviews/README.md",
+    "selfRating": {
+      "1": "Showed up, went poorly.",
+      "2": "Got to a solution.",
+      "3": "Collaborated well and went great!"
+    }
+  },
+  "professionalMock": {
+    "id": "professional-mock",
+    "category": "performance",
+    "week": 14,
+    "doc": "mock-interviews/README.md#real-professional-mock-interview",
+    "outreach": "mock-interviews/linkedin-outreach.md"
+  },
+  "liveInterview": {
+    "count": 3,
+    "ids": [
+      "live-1",
+      "live-2",
+      "live-3"
+    ],
+    "weeks": [
+      4,
+      7,
+      11
+    ],
+    "category": "performance",
+    "retakeable": true,
+    "doc": "topic-exams/live-interview-exam.md",
+    "selfRating": {
+      "1": "Showed up, went poorly.",
+      "2": "Got to a solution.",
+      "3": "Collaborated well and went great!"
+    },
+    "graderRating": "The TA or instructor also awards a 1/2/3; a 3 means they'd want to hire you."
+  },
+  "final": {
+    "id": "final",
+    "mustPass": true,
+    "questions": 12,
+    "hours": 5.5,
+    "toPass": 3,
+    "forFull": 5,
+    "partialCredit": "passing half the test cases counts as a partial on up to 2 problems; two partials = one solved (up to two partials)",
+    "sittings": [
+      {
+        "when": "Dec 8",
+        "minutes": 75,
+        "where": "in class"
+      },
+      {
+        "when": "Dec 10",
+        "minutes": 75,
+        "where": "in class"
+      },
+      {
+        "when": "Thu Dec 17, 7–10 am",
+        "minutes": 180,
+        "where": "scheduled block"
+      }
+    ],
+    "doc": "final/README.md",
+    "archive": "final/previous-final-questions.md"
+  },
+  "assignments": [
+    {
+      "id": "connect-with-class",
+      "title": "Connect with Class",
+      "category": "study",
+      "week": 1,
+      "desc": "Join the class Microsoft Teams and update your photo."
+    },
+    {
+      "id": "instructor-interview",
+      "title": "Instructor Pass/Fail Interview",
+      "category": "performance",
+      "gate": true,
+      "doc": "syllabus.md#instructor-passfail-interview",
+      "desc": "Required to pass the course. A random-topic live interview with the instructor; be caught up on topic exams and have passed at least one performance exam first."
+    },
+    {
+      "id": "final",
+      "title": "Final Exam",
+      "category": "final",
+      "gate": true,
+      "doc": "final/README.md"
+    },
+    {
+      "id": "ec-interview-ready",
+      "title": "Interview Ready Extension",
+      "category": "extra-credit",
+      "doc": "extra-credit.md#interview-ready-extension"
+    },
+    {
+      "id": "ec-real-interview-report",
+      "title": "Real Interview Report",
+      "category": "extra-credit",
+      "repeatable": true,
+      "doc": "extra-credit.md#real-interview-report"
+    },
+    {
+      "id": "ec-real-offer-report",
+      "title": "Real Offer Report",
+      "category": "extra-credit",
+      "repeatable": true,
+      "doc": "extra-credit.md#real-offer-report"
+    }
+  ]
+}
