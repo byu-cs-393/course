@@ -1,4 +1,4 @@
-# Week 07 — Recommended Problems
+# Week 07 - DP
 
 ## Reading
 

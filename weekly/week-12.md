@@ -1,4 +1,4 @@
-# Week 12 — Recommended Problems
+# Week 12 - Two Pointer, Faster Sort, Heap, Segment Tree
 
 ## Class 1
 

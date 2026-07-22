@@ -1,4 +1,4 @@
-# Week 02 — Recommended Problems
+# Week 02 - BigO, Dictionaries, 2D Arrays, Linked Lists
 
 ## Class 1
 - [Big O Together Quiz](https://docs.google.com/presentation/d/1jgXYQxPTG28GfzyFwcynhDH-VXrH2ze7C4pMfGU8JuM/edit?usp=sharing) *(in class)*

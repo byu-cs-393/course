@@ -1,4 +1,4 @@
-# Week 11 — Recommended Problems
+# Week 11 - Logarithmic Algorithms, Two Pointer, Heaps
 
 ## Class 1
 - [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)*(in class)*

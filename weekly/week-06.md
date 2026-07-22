@@ -1,4 +1,4 @@
-# Week 06 — Recommended Problems
+# Week 06 - BFS Advanced
 
 ## Class 1
 

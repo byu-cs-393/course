@@ -1,4 +1,4 @@
-# Week 13
+# Week 13 - Sort, Order
 
 ## Class
 - [Removing Minimum and Maximum from Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/) *(in class)*

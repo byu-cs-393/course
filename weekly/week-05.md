@@ -1,4 +1,4 @@
-# Week 05
+# Week 05 - BFS
 
 ## Class 1
 

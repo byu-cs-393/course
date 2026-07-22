@@ -1,4 +1,4 @@
-# Week 03
+# Week 03 - Super Advanced Data Structures, Sets, Dictionaries, Memoizing, Strings
 
 ## Class 1
 - [All O'one Data Structure](https://leetcode.com/problems/all-oone-data-structure/) *(in class)*

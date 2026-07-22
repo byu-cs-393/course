@@ -1,4 +1,4 @@
-# Week 14
+# Week 14 - Classifying Random Problems, Humility
 
 ## Class 1
 - Random problem, classify it, solve it! *(in class)*

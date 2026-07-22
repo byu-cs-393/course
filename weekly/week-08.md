@@ -1,4 +1,4 @@
-# Week 08 — Recommended Problems
+# Week 08 - DP, Counting, Prefix
 
 ## Class 1
 - [Number of Ways to Select Buildings](https://leetcode.com/problems/number-of-ways-to-select-buildings/) *(in class)*

@@ -1,4 +1,4 @@
-# Week 01 - Wahoo!!!
+# Week 01 - BigO, Strings, Linked Lists, Sets
 
 
 ## Class

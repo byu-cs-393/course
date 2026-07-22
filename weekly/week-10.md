@@ -1,4 +1,4 @@
-# Week 10
+# Week 10 - SQL, DP
 
 ## Class 1
 - Random problem or voted on problem from the OA *(in class)*
