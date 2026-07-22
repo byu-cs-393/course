@@ -21,6 +21,11 @@
 
 > Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?
 
+## This week
+
+- 🖥️ [Sorting Online Assessment](../topic-exams/sorting-two-pointer/online-assessment.md)
+- 📅 [Peer Mock](../mock-interviews/README.md)
+
 ## Learning objectives
 
 - Identify and apply appropriate alogrithms to a problem with unknown category

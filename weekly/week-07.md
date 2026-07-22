@@ -22,6 +22,11 @@
 
 > Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?
 
+## This week
+
+- 📅 [Live Interview 2](../topic-exams/live-interview-exam.md)
+- 📖 DP reading
+
 ## Learning objectives
 
 - DP as DFS with memoization

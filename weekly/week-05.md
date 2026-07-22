@@ -26,6 +26,11 @@
 
 > Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?
 
+## This week
+
+- 🖥️ [Graphs Online Assessment](../topic-exams/graphs/online-assessment.md)
+- 📅 [Peer Mock](../mock-interviews/README.md)
+
 ## Learning objectives
 
 - BFS with counting steps or layers should be as easy as as a for loop.

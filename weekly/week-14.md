@@ -7,6 +7,10 @@ Do 4 random problems on leetcode *(required)*
 
 > Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?
 
+## This week
+
+- 📅 [Professional Mock](../mock-interviews/linkedin-outreach.md)
+
 ## Learning objectives
 
 - Solving problems without being told what type they are

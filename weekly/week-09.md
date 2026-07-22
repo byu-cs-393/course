@@ -15,7 +15,6 @@
 ## Outside of Class
 
 - [Interview Ready extension](https://chromewebstore.google.com/detail/interview-ready/llicapjcmjifdbafkbicgplkmamfchmd?authuser=1&hl=en) *Go for extra credit! Get every category “green”:*
-- [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) 
 
 
 
@@ -24,6 +23,11 @@
 ## Reflection
 
 > Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?
+
+## This week
+
+- 🖥️ [Dynamic Programming Online Assessment](../topic-exams/dynamic-programming/online-assessment.md)
+- 📅 [Peer Mock](../mock-interviews/README.md)
 
 ## Learning objectives
 

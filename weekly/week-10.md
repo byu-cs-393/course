@@ -26,6 +26,12 @@ Do problems from the OA, review, or explore something new! 4 problems (*required
 
 > Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?
 
+## This week
+
+- 📅 [Dynamic Programming Performance](../topic-exams/dynamic-programming/live-performance-exam.md)
+- 📅 [Peer Mock](../mock-interviews/README.md)
+- 📅 Schedule your [professional mock](../mock-interviews/linkedin-outreach.md)
+
 ## Learning objectives
 
 - SQL awareness
