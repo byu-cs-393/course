@@ -9,9 +9,9 @@
 - Some Random DP Problem *(in class)*
 
 ## Outside of Class
-- Do problems from the OA, review, or explore something new! 4 problems (*required*)
+- Do problems from the OA, review, or explore something new! 4 problems *(required)*
 
-## Previous OA
+## Online Assessment from last week 😊
 
 - [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
 - [N Th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)

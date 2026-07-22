@@ -14,7 +14,7 @@
 - [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) *(Can you solve with BFS and DFS?)* *(required)*
 - [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) *(DFS with a helper method?)* *(required)*
 
-## Consider doing some of these from the last topic exam:
+## Online Assessment from last week 😊
 
 - [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 - [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)

@@ -1,7 +1,7 @@
 # Week 11 - Logarithmic Algorithms, Two Pointer, Heaps
 
 ## Class 1
-- [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)*(in class)*
+- [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) *(in class)*
 - [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) *(in class)*
 
 ## Class 2

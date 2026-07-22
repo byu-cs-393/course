@@ -6,7 +6,7 @@
 - [Count Elements with Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) *(recommended)*
 - [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/)
 
-## Review from previous OA
+## Online Assessment from last week 😊
 
 - [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
 - [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
