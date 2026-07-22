@@ -1,7 +1,9 @@
 # Topic Exam (Online Assessment) — Dynamic Programming & Counting
 
-> The online assessment mimics a timed, HackerRank-style OA. It is designed to be **passable by everyone**: take the attempts in order, and the final attempt allows help from a TA or the instructor.
+> The online assessment is designed to be **eventually passable by everyone**: take the attempts in order, and the final attempt allows help from a TA or the instructor.
 If you already solved a problem just click the “reset” button and do it again without looking back to your previous solution!
+
+Take attempts in order. You only need to pass **one** attempt. Record completion through the [topic-exam submission process](../README.md).
 
 ### Attempt 1 (Solve all 5 problems, allowed 3 hours, no solution lookups, ai, or people help)
 

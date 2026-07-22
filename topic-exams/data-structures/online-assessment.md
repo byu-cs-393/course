@@ -1,11 +1,9 @@
 # Topic Exam (Online Assessment) — Data Structures
 
-> The online assessment mimics a timed, HackerRank-style OA. It is designed to be **passable by everyone**: take the attempts in order, and the final attempt allows help from a TA or the instructor.
-## Online Assessment Style Questions
+> The online assessment is designed to be **eventually passable by everyone**: take the attempts in order, and the final attempt allows help from a TA or the instructor.
+If you already solved a problem just click the “reset” button and do it again without looking back to your previous solution!
 
-Please try attempt #1 in a single sitting. If you don’t pass, you can try attempt #2 at some future time. Please at least do a faithful effort on attempt #1 before the due date.
-
-If you already solved these problems please click the “reset” button and solve it again.
+Take attempts in order. You only need to pass **one** attempt. Record completion through the [topic-exam submission process](../README.md).
 
 ### Attempt 1 -  Solve all these questions in 1.5 total hours
 
@@ -57,21 +55,3 @@ Implement solutions involving iterating over characters of a string.
 Implement solutions involving modifying a linked list.
 
 Implement solutions requiring indexing into a linked list from a dictionary.
-
-## Practice Problems
-
-[Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)
-
-[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
-
-[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
-
-[Delete Nodes from Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/)
-
-[All O'one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)
-
-[Lru Cache](https://leetcode.com/problems/lru-cache/)
-
-[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
-
-[Pascals Triangle](https://leetcode.com/problems/pascals-triangle/)

@@ -1,9 +1,5 @@
 # Week 07 - DP
 
-## Reading
-
-- [Dynamic Programming from Cracking the Coding Interview Page 33 Chapter 8](https://apps.lib.byu.edu/lms-tools/link/?type=guide&link=https://apps.lib.byu.edu/reserve/docs/39812/&source=CS.393.Reynolds)
-
 ## Class 1
 
 - [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) *(in class)*
@@ -18,6 +14,7 @@
 
 ## Outside of Class
 - 4 other *new* problems of any category any difficulty  *(recommended)*
+- [Dynamic Programming from Cracking the Coding Interview Page 33 Chapter 8](https://apps.lib.byu.edu/lms-tools/link/?type=guide&link=https://apps.lib.byu.edu/reserve/docs/39812/&source=CS.393.Reynolds) *(recommended)*
 
 ## Reflection
 

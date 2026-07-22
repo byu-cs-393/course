@@ -1,7 +1,9 @@
 # Topic Exam (Online Assessment) — Graphs
 
-> The online assessment mimics a timed, HackerRank-style OA. It is designed to be **passable by everyone**: take the attempts in order, and the final attempt allows help from a TA or the instructor.
+> The online assessment is designed to be **eventually passable by everyone**: take the attempts in order, and the final attempt allows help from a TA or the instructor.
 If you already solved a problem just click the “reset” button and do it again without looking back to your previous solution!
+
+Take attempts in order. You only need to pass **one** attempt. Record completion through the [topic-exam submission process](../README.md).
 
 ### Attempt 1 (Solve all these problems in 1.5 hours, no external help from friends, solutions, AI, TA, etc)
 
@@ -69,8 +71,6 @@ If you already solved a problem just click the “reset” button and do it agai
 
 - [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
 
-Take attempts in order. You only need to pass **one** attempt. Record completion through the [topic-exam submission process](../README.md).
-
 
 ## Learning objectives
 
@@ -79,17 +79,3 @@ Implement solutions requiring DFS.
 Implement solutions requiring BFS.
 
 Implement solutions requiring cycle detection in a graph.
-
-## Practice Problems
-
-[Flood Fill](https://leetcode.com/problems/flood-fill/)
-
-[Number of Islands](https://leetcode.com/problems/number-of-islands/)
-
-[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
-
-[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)
-
-[Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/) BFS
-
-[Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/) BFS

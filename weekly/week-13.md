@@ -6,6 +6,9 @@
 - [Count Elements with Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/) *(recommended)*
 - [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/)
 
+## Outside of Class
+- [Interview Ready extension](https://chromewebstore.google.com/detail/interview-ready/llicapjcmjifdbafkbicgplkmamfchmd?authuser=1&hl=en) *(Maybe use the extension to practice?)*
+
 ## Online Assessment from last week 😊
 
 - [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
@@ -30,9 +33,6 @@
 - [Sort List](https://leetcode.com/problems/sort-list/)
 - [Sort an Array](https://leetcode.com/problems/sort-an-array/)
 - [Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)
-
-## Extra Credit
-- [Interview Ready extension](https://chromewebstore.google.com/detail/interview-ready/llicapjcmjifdbafkbicgplkmamfchmd?authuser=1&hl=en) *(Maybe use the extension to practice?)*
 
 ## Reflection
 

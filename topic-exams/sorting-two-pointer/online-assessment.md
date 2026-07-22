@@ -1,7 +1,9 @@
 # Topic Exam (Online Assessment) — Sorting, Two-Pointer, etc.
 
-> The online assessment mimics a timed, HackerRank-style OA. It is designed to be **passable by everyone**: take the attempts in order, and the final attempt allows help from a TA or the instructor.
+> The online assessment is designed to be **eventually passable by everyone**: take the attempts in order, and the final attempt allows help from a TA or the instructor.
 If you already solved a problem just click the “reset” button and do it again without looking back to your previous solution!
+
+Take attempts in order. You only need to pass **one** attempt. Record completion through the [topic-exam submission process](../README.md).
 
 ### Attempt 1 (Solve all these problems in 2 hours, no external help from friends, solutions, AI, TA, etc)
 
@@ -53,7 +55,6 @@ If you already solved a problem just click the “reset” button and do it agai
 
 - [Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)
 
-Take attempts in order. You only need to pass **one** attempt. Record completion through the [topic-exam submission process](../README.md).
 
 
 ## Learning objectives

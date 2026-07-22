@@ -11,7 +11,7 @@
 
 - **Find and solve at least 5 other EASY problems on leetcode.** *(recommended)*
 - **Solve at least 1 medium problem on leetcode.** *(required)*
-- [Review BigO from Cracking the Coding Interview](https://docs.google.com/document/d/1sKqplOIW5IQyRRCPicYGbFAM8p_oCumbI8iv511l6As/edit?tab=t.0)
+- [Review BigO from Cracking the Coding Interview](https://docs.google.com/document/d/1sKqplOIW5IQyRRCPicYGbFAM8p_oCumbI8iv511l6As/edit?tab=t.0) *(recommended)*
 
 ## Reflection
 
