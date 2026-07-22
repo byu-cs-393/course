@@ -1,11 +1,8 @@
 # Topic Exam (Online Assessment) — Graphs
 
-> The online assessment is designed to be **eventually passable by everyone**: take the attempts in order, and the final attempt allows help from a TA or the instructor.
-If you already solved a problem just click the “reset” button and do it again without looking back to your previous solution!
+> Take attempts in order; you only need to pass **one**. See the shared [Online Assessment instructions](../README.md#online-assessment-instructions).
 
-Take attempts in order. You only need to pass **one** attempt. Record completion through the [topic-exam submission process](../README.md).
-
-### Attempt 1 (Solve all these problems in 1.5 hours, no external help from friends, solutions, AI, TA, etc)
+### Attempt 1 — Solve all these problems in 1.5 hours, no external help from friends, solutions, AI, TA, etc
 
 - [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
 
@@ -13,7 +10,7 @@ Take attempts in order. You only need to pass **one** attempt. Record completion
 
 - [Shortest Bridge](https://leetcode.com/problems/shortest-bridge/)
 
-### Attempt 2 (Solve 3 of these problems with at least at least 1 of the 3 solved in under 25 minutes, no external help from friends, solutions, AI, TA, etc)
+### Attempt 2 — Solve 3 of these problems with at least at least 1 of the 3 solved in under 25 minutes, no external help from friends, solutions, AI, TA, etc
 
 - [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 
@@ -63,7 +60,7 @@ Take attempts in order. You only need to pass **one** attempt. Record completion
 
 - [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 
-### Attempt 3 (Solve all these problems *no time limit* with (or without) realtime two-way interactive help from humans)
+### Attempt 3 — Solve all these problems *no time limit* with (or without) realtime two-way interactive help from humans
 
 - [Path Sum](https://leetcode.com/problems/path-sum/)
 
@@ -71,11 +68,10 @@ Take attempts in order. You only need to pass **one** attempt. Record completion
 
 - [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
 
-
 ## Learning objectives
 
-Implement solutions requiring DFS.
+- Implement solutions requiring DFS.
 
-Implement solutions requiring BFS.
+- Implement solutions requiring BFS.
 
-Implement solutions requiring cycle detection in a graph.
+- Implement solutions requiring cycle detection in a graph.

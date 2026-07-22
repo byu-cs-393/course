@@ -32,6 +32,13 @@ Complete them **in this order** — pass the OA before the Performance exam:
 **Scheduling tip:** you can book performance-exam appointments **optimistically**, and book
 **multiple contiguous appointments** for a longer block if you'd like.
 
+## Online Assessment instructions
+
+*(These apply to every OA.)* The online assessment is designed to be **eventually passable by
+everyone**. Take the attempts **in order** — you only need to pass **one**. Attempt 1 is on
+your own; the final attempt allows help from a TA or the instructor. If you already solved a
+problem, click **reset** and do it again without looking back at your previous solution.
+
 ## Live interviews (separate)
 
 Beyond the topic exams, there are **three live interviews** across the semester — a problem

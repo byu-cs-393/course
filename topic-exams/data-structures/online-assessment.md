@@ -1,11 +1,8 @@
 # Topic Exam (Online Assessment) — Data Structures
 
-> The online assessment is designed to be **eventually passable by everyone**: take the attempts in order, and the final attempt allows help from a TA or the instructor.
-If you already solved a problem just click the “reset” button and do it again without looking back to your previous solution!
+> Take attempts in order; you only need to pass **one**. See the shared [Online Assessment instructions](../README.md#online-assessment-instructions).
 
-Take attempts in order. You only need to pass **one** attempt. Record completion through the [topic-exam submission process](../README.md).
-
-### Attempt 1 -  Solve all these questions in 1.5 total hours
+### Attempt 1 — Solve all these questions in 1.5 total hours
 
 - [Check If the Sentence is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/)
 
@@ -15,7 +12,7 @@ Take attempts in order. You only need to pass **one** attempt. Record completion
 
 - [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 
-### Attempt 2 - Solve 3 of these questions without help (solve one of the problems in under 25 minutes)
+### Attempt 2 — Solve 3 of these questions without help (solve one of the problems in under 25 minutes)
 
 - [String Compression](https://leetcode.com/problems/string-compression/)
 
@@ -31,7 +28,7 @@ Take attempts in order. You only need to pass **one** attempt. Record completion
 
 - [Brick Wall](https://leetcode.com/problems/brick-wall/)
 
-### Attempt 3 - Solve these problems! Reach out to classmates or TAs for help (not AI, not online solutions)
+### Attempt 3 — Solve these problems! Reach out to classmates or TAs for help (not AI, not online solutions)
 
 - [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)
 
@@ -41,17 +38,14 @@ Take attempts in order. You only need to pass **one** attempt. Record completion
 
 - [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)
 
-Take attempts in order. You only need to pass **one** attempt. Record completion through the [topic-exam submission process](../README.md).
-
-
 ## Learning objectives
 
-Implement solutions requiring hashset, dictionaries, or key/value constant time lookup structures.
+- Implement solutions requiring hashset, dictionaries, or key/value constant time lookup structures.
 
-Implement solutions involving 2D Arrays.
+- Implement solutions involving 2D Arrays.
 
-Implement solutions involving iterating over characters of a string.
+- Implement solutions involving iterating over characters of a string.
 
-Implement solutions involving modifying a linked list.
+- Implement solutions involving modifying a linked list.
 
-Implement solutions requiring indexing into a linked list from a dictionary.
+- Implement solutions requiring indexing into a linked list from a dictionary.

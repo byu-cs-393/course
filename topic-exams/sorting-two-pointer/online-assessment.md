@@ -1,11 +1,8 @@
 # Topic Exam (Online Assessment) — Sorting, Two-Pointer, etc.
 
-> The online assessment is designed to be **eventually passable by everyone**: take the attempts in order, and the final attempt allows help from a TA or the instructor.
-If you already solved a problem just click the “reset” button and do it again without looking back to your previous solution!
+> Take attempts in order; you only need to pass **one**. See the shared [Online Assessment instructions](../README.md#online-assessment-instructions).
 
-Take attempts in order. You only need to pass **one** attempt. Record completion through the [topic-exam submission process](../README.md).
-
-### Attempt 1 (Solve all these problems in 2 hours, no external help from friends, solutions, AI, TA, etc)
+### Attempt 1 — Solve all these problems in 2 hours, no external help from friends, solutions, AI, TA, etc
 
 - [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
 
@@ -15,7 +12,7 @@ Take attempts in order. You only need to pass **one** attempt. Record completion
 
 - [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 
-### Attempt 2 (Solve 3 of these problems with at least at least 1 of the 3 solved in under 25 minutes)
+### Attempt 2 — Solve 3 of these problems with at least at least 1 of the 3 solved in under 25 minutes
 
 - [Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)
 
@@ -47,7 +44,7 @@ Take attempts in order. You only need to pass **one** attempt. Record completion
 
 - [Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)
 
-### Attempt 3 (Solve all these problems *no time limit* with (or without) realtime two-way interactive help from live humans)
+### Attempt 3 — Solve all these problems *no time limit* with (or without) realtime two-way interactive help from live humans
 
 - [Sort List](https://leetcode.com/problems/sort-list/)
 
@@ -55,20 +52,18 @@ Take attempts in order. You only need to pass **one** attempt. Record completion
 
 - [Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)
 
-
-
 ## Learning objectives
 
-Perform an implementation of binary search in common contexts (rotated int array, median of two sorted arrays)
+- Perform an implementation of binary search in common contexts (rotated int array, median of two sorted arrays)
 
-Apply binary search in a variety of novel contexts (e.g. space coordinates, number lists, strings, graphs, etc)
+- Apply binary search in a variety of novel contexts (e.g. space coordinates, number lists, strings, graphs, etc)
 
-Perform an implementation of common search algorithms (quicksort, mergesort, bucket sort or counting sort)
+- Perform an implementation of common search algorithms (quicksort, mergesort, bucket sort or counting sort)
 
-Perform an implementation that uses an ordered structure or creates an ordered structure to solve a novel problem.
+- Perform an implementation that uses an ordered structure or creates an ordered structure to solve a novel problem.
 
-Priority Queue (Heap) problems.
+- Priority Queue (Heap) problems.
 
-Implement various two-pointer algorithms.
+- Implement various two-pointer algorithms.
 
-Perform an implementation of algorithms that require iterating through a data set and keeping track of multiple things (intervals, multiple constraints).
+- Perform an implementation of algorithms that require iterating through a data set and keeping track of multiple things (intervals, multiple constraints).
