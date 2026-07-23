@@ -27,7 +27,8 @@ took to get an offer**. Please consider including:
 2. **Who did you network with** to get the interview or job?
 3. **What tips** do you have for other people?
 4. Was this offer over 50k/yr?
-4. **Did this offer meet your expectations**, on a scale from **10 (YES — perfectly)** to
+5. Full time or Internship or Other?
+6. **Did this offer meet your expectations**, on a scale from **10 (YES — perfectly)** to
    **1 (NO — not at all)?**
 
 Please share anything else you think would be helpful for other students! Post in the Offer
