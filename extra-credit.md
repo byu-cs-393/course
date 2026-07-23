@@ -1,7 +1,7 @@
 # Extra Credit
 
 
-## Interview Ready extension
+## Interview Ready Chrome Extension
 
 Install the [**Interview Ready** Chrome extension](https://chromewebstore.google.com/detail/interview-ready/llicapjcmjifdbafkbicgplkmamfchmd?hl=en) and pursue getting **all categories to
 "green"** and 150+ solved problems.
