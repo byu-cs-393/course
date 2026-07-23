@@ -192,6 +192,7 @@ if unrouted:
 
 # ---- apply (idempotent Canvas writes, recorded in deploy map) ----
 DEPLOY = os.path.join(ROOT, "build", "deploy.fall-2026.json")
+STATE = os.path.join(ROOT, "build", "canvas-state.json")
 
 
 def get_token():
@@ -295,6 +296,44 @@ def prune(tok, dm):
     if blocked:
         print(f"\n  ⚠ {blocked} assignment(s) kept despite not being in the plan "
               f"(student work present) — resolve manually if intentional.")
+
+
+def pull_state(tok):
+    """Fetch the ACTUAL Canvas state (not our plan) into a committed, diffable snapshot."""
+    course = canvas(tok, "GET", f"/courses/{COURSE_ID}?include[]=syllabus_body")
+    lp = canvas(tok, "GET", f"/courses/{COURSE_ID}/late_policy")
+    lp = (lp or {}).get("late_policy") or {}
+    groups = canvas_list(tok, f"/courses/{COURSE_ID}/assignment_groups")
+    asg = canvas_list(tok, f"/courses/{COURSE_ID}/assignments")
+    pages = canvas_list(tok, f"/courses/{COURSE_ID}/pages")
+    mods = canvas_list(tok, f"/courses/{COURSE_ID}/modules?include[]=items")
+    state = {
+        "course": {"id": COURSE_ID, "workflow_state": course["workflow_state"],
+                   "weightedGroups": course.get("apply_assignment_group_weights"),
+                   "syllabusChars": len(course.get("syllabus_body") or "")},
+        "latePolicy": {k: lp.get(k) for k in ("missing_submission_deduction_enabled",
+                       "missing_submission_deduction", "late_submission_deduction_enabled")},
+        "groups": sorted(({"id": g["id"], "name": g["name"], "weight": g["group_weight"]}
+                          for g in groups), key=lambda x: x["name"]),
+        "assignments": sorted(({"id": a["id"], "name": a["name"], "points": a["points_possible"],
+                                "group": a["assignment_group_id"], "due": a["due_at"],
+                                "published": a["published"], "submit": a.get("submission_types"),
+                                "descChars": len(a.get("description") or "")} for a in asg),
+                              key=lambda x: x["name"]),
+        "pages": sorted(({"pageId": p["page_id"], "url": p["url"], "title": p["title"],
+                          "published": p["published"]} for p in pages), key=lambda x: x["title"]),
+        "modules": sorted(({"id": m["id"], "name": m["name"], "published": m["published"],
+                            "items": [{"type": it["type"], "title": it.get("title")}
+                                      for it in m.get("items", [])]} for m in mods),
+                          key=lambda x: x["name"]),
+    }
+    with open(STATE, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(state, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+    print(f"pulled Canvas state -> build/canvas-state.json "
+          f"({len(state['groups'])} groups, {len(state['assignments'])} assignments, "
+          f"{len(state['pages'])} pages, {len(state['modules'])} modules)")
+    return state
 
 
 def set_missing_policy(tok):
@@ -420,11 +459,17 @@ def apply():
     save_dm(dm)
     print(f"\ndeploy map: build/deploy.fall-2026.json ({len(dm['groups'])} groups, "
           f"{len(dm['assignments'])} assignments, {len(dm['pages'])} pages, {len(dm['modules'])} modules)")
+    pull_state(tok)         # snapshot actual Canvas state after the mirror
 
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--apply", action="store_true",
                     help="mirror course.json to Canvas (create/update in plan, prune the rest)")
-if parser.parse_args().apply:
+parser.add_argument("--pull", action="store_true",
+                    help="snapshot actual Canvas state to build/canvas-state.json (read-only)")
+args = parser.parse_args()
+if args.apply:
     print(f"\nAPPLY -> Canvas course {COURSE_ID} (mirror)\n")
     apply()
+elif args.pull:
+    pull_state(get_token())

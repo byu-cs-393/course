@@ -1,0 +1,1055 @@
+{
+  "course": {
+    "id": 35464,
+    "workflow_state": "unpublished",
+    "weightedGroups": true,
+    "syllabusChars": 6633
+  },
+  "latePolicy": {
+    "missing_submission_deduction_enabled": true,
+    "missing_submission_deduction": 100.0,
+    "late_submission_deduction_enabled": false
+  },
+  "groups": [
+    {
+      "id": 164499,
+      "name": "Extra Credit",
+      "weight": 61.0
+    },
+    {
+      "id": 164498,
+      "name": "Final",
+      "weight": 20.0
+    },
+    {
+      "id": 164497,
+      "name": "Performance",
+      "weight": 40.0
+    },
+    {
+      "id": 164496,
+      "name": "Study",
+      "weight": 40.0
+    }
+  ],
+  "assignments": [
+    {
+      "id": 1387077,
+      "name": "Amazing Project — Community/World",
+      "points": 5.0,
+      "group": 164499,
+      "due": "2026-12-11T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1381
+    },
+    {
+      "id": 1387078,
+      "name": "Amazing Project — Earns Money",
+      "points": 5.0,
+      "group": 164499,
+      "due": "2026-12-11T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1381
+    },
+    {
+      "id": 1387079,
+      "name": "Amazing Project — Personal",
+      "points": 5.0,
+      "group": 164499,
+      "due": "2026-12-11T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1381
+    },
+    {
+      "id": 1387076,
+      "name": "Connect with Class",
+      "points": 1.0,
+      "group": 164496,
+      "due": "2026-09-06T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 316
+    },
+    {
+      "id": 1387096,
+      "name": "Data Structures — Online Assessment",
+      "points": 1.0,
+      "group": 164497,
+      "due": "2026-09-20T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 3056
+    },
+    {
+      "id": 1387109,
+      "name": "Data Structures — Performance Exam",
+      "points": 5.0,
+      "group": 164497,
+      "due": "2026-09-20T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1674
+    },
+    {
+      "id": 1387097,
+      "name": "Dynamic Programming & Counting — Online Assessment",
+      "points": 1.0,
+      "group": 164497,
+      "due": "2026-11-08T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 3006
+    },
+    {
+      "id": 1387110,
+      "name": "Dynamic Programming & Counting — Performance Exam",
+      "points": 5.0,
+      "group": 164497,
+      "due": "2026-11-08T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1752
+    },
+    {
+      "id": 1387091,
+      "name": "Final Exam",
+      "points": 20.0,
+      "group": 164498,
+      "due": "2026-12-18T06:59:00Z",
+      "published": true,
+      "submit": [
+        "on_paper"
+      ],
+      "descChars": 1310
+    },
+    {
+      "id": 1387080,
+      "name": "Get a Friend an Interview",
+      "points": 3.0,
+      "group": 164499,
+      "due": "2026-12-11T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 435
+    },
+    {
+      "id": 1387081,
+      "name": "Get a Friend an Offer",
+      "points": 5.0,
+      "group": 164499,
+      "due": "2026-12-11T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 436
+    },
+    {
+      "id": 1387098,
+      "name": "Graphs — Online Assessment",
+      "points": 1.0,
+      "group": 164497,
+      "due": "2026-10-11T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 4797
+    },
+    {
+      "id": 1387111,
+      "name": "Graphs — Performance Exam",
+      "points": 5.0,
+      "group": 164497,
+      "due": "2026-10-11T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1463
+    },
+    {
+      "id": 1387092,
+      "name": "Instructor Pass/Fail Interview",
+      "points": 2.0,
+      "group": 164497,
+      "due": null,
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 985
+    },
+    {
+      "id": 1387082,
+      "name": "Interview Ready Chrome Extension",
+      "points": 8.0,
+      "group": 164499,
+      "due": "2026-12-11T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 522
+    },
+    {
+      "id": 1387093,
+      "name": "Live Interview 1",
+      "points": 3.0,
+      "group": 164497,
+      "due": "2026-09-27T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1106
+    },
+    {
+      "id": 1387094,
+      "name": "Live Interview 2",
+      "points": 3.0,
+      "group": 164497,
+      "due": "2026-10-18T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1106
+    },
+    {
+      "id": 1387095,
+      "name": "Live Interview 3",
+      "points": 3.0,
+      "group": 164497,
+      "due": "2026-11-15T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1106
+    },
+    {
+      "id": 1387100,
+      "name": "Peer Mock Interview",
+      "points": 1.0,
+      "group": 164497,
+      "due": "2026-09-06T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 2400
+    },
+    {
+      "id": 1387101,
+      "name": "Peer Mock Interview",
+      "points": 1.0,
+      "group": 164497,
+      "due": "2026-11-08T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 2400
+    },
+    {
+      "id": 1387102,
+      "name": "Peer Mock Interview",
+      "points": 1.0,
+      "group": 164497,
+      "due": "2026-11-22T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 2400
+    },
+    {
+      "id": 1387103,
+      "name": "Peer Mock Interview",
+      "points": 1.0,
+      "group": 164497,
+      "due": "2026-09-13T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 2400
+    },
+    {
+      "id": 1387104,
+      "name": "Peer Mock Interview",
+      "points": 1.0,
+      "group": 164497,
+      "due": "2026-09-20T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 2400
+    },
+    {
+      "id": 1387105,
+      "name": "Peer Mock Interview",
+      "points": 1.0,
+      "group": 164497,
+      "due": "2026-10-04T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 2400
+    },
+    {
+      "id": 1387106,
+      "name": "Peer Mock Interview",
+      "points": 1.0,
+      "group": 164497,
+      "due": "2026-10-11T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 2400
+    },
+    {
+      "id": 1387107,
+      "name": "Peer Mock Interview",
+      "points": 1.0,
+      "group": 164497,
+      "due": "2026-10-25T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 2400
+    },
+    {
+      "id": 1387108,
+      "name": "Peer Mock Interview",
+      "points": 1.0,
+      "group": 164497,
+      "due": "2026-11-01T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 2400
+    },
+    {
+      "id": 1387113,
+      "name": "Professional Mock Interview",
+      "points": 3.0,
+      "group": 164497,
+      "due": "2026-12-06T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 2400
+    },
+    {
+      "id": 1387083,
+      "name": "Real Interview Report 1",
+      "points": 3.0,
+      "group": 164499,
+      "due": "2026-12-11T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 808
+    },
+    {
+      "id": 1387084,
+      "name": "Real Interview Report 2",
+      "points": 3.0,
+      "group": 164499,
+      "due": "2026-12-11T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 808
+    },
+    {
+      "id": 1387085,
+      "name": "Real Interview Report 3",
+      "points": 3.0,
+      "group": 164499,
+      "due": "2026-12-11T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 808
+    },
+    {
+      "id": 1387086,
+      "name": "Real Interview Report 4",
+      "points": 3.0,
+      "group": 164499,
+      "due": "2026-12-11T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 808
+    },
+    {
+      "id": 1387087,
+      "name": "Real Interview Report 5",
+      "points": 3.0,
+      "group": 164499,
+      "due": "2026-12-11T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 808
+    },
+    {
+      "id": 1387088,
+      "name": "Real Offer Report 1",
+      "points": 5.0,
+      "group": 164499,
+      "due": "2026-12-11T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1057
+    },
+    {
+      "id": 1387089,
+      "name": "Real Offer Report 2",
+      "points": 5.0,
+      "group": 164499,
+      "due": "2026-12-11T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1057
+    },
+    {
+      "id": 1387090,
+      "name": "Real Offer Report 3",
+      "points": 5.0,
+      "group": 164499,
+      "due": "2026-12-11T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1057
+    },
+    {
+      "id": 1387099,
+      "name": "Sorting, Two-Pointer, etc. — Online Assessment",
+      "points": 1.0,
+      "group": 164497,
+      "due": "2026-11-25T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 4300
+    },
+    {
+      "id": 1387112,
+      "name": "Sorting, Two-Pointer, etc. — Performance Exam",
+      "points": 5.0,
+      "group": 164497,
+      "due": "2026-11-25T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1993
+    },
+    {
+      "id": 1387114,
+      "name": "Weekly Study",
+      "points": 3.0,
+      "group": 164496,
+      "due": "2026-09-06T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 3741
+    },
+    {
+      "id": 1387115,
+      "name": "Weekly Study",
+      "points": 3.0,
+      "group": 164496,
+      "due": "2026-11-08T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 3741
+    },
+    {
+      "id": 1387116,
+      "name": "Weekly Study",
+      "points": 3.0,
+      "group": 164496,
+      "due": "2026-11-15T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 3741
+    },
+    {
+      "id": 1387117,
+      "name": "Weekly Study",
+      "points": 3.0,
+      "group": 164496,
+      "due": "2026-11-22T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 3741
+    },
+    {
+      "id": 1387118,
+      "name": "Weekly Study",
+      "points": 3.0,
+      "group": 164496,
+      "due": "2026-11-25T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 3741
+    },
+    {
+      "id": 1387119,
+      "name": "Weekly Study",
+      "points": 3.0,
+      "group": 164496,
+      "due": "2026-12-06T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 3741
+    },
+    {
+      "id": 1387120,
+      "name": "Weekly Study",
+      "points": 3.0,
+      "group": 164496,
+      "due": "2026-09-13T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 3741
+    },
+    {
+      "id": 1387121,
+      "name": "Weekly Study",
+      "points": 3.0,
+      "group": 164496,
+      "due": "2026-09-20T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 3741
+    },
+    {
+      "id": 1387122,
+      "name": "Weekly Study",
+      "points": 3.0,
+      "group": 164496,
+      "due": "2026-09-27T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 3741
+    },
+    {
+      "id": 1387123,
+      "name": "Weekly Study",
+      "points": 3.0,
+      "group": 164496,
+      "due": "2026-10-04T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 3741
+    },
+    {
+      "id": 1387124,
+      "name": "Weekly Study",
+      "points": 3.0,
+      "group": 164496,
+      "due": "2026-10-11T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 3741
+    },
+    {
+      "id": 1387125,
+      "name": "Weekly Study",
+      "points": 3.0,
+      "group": 164496,
+      "due": "2026-10-18T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 3741
+    },
+    {
+      "id": 1387126,
+      "name": "Weekly Study",
+      "points": 3.0,
+      "group": 164496,
+      "due": "2026-10-25T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 3741
+    },
+    {
+      "id": 1387127,
+      "name": "Weekly Study",
+      "points": 3.0,
+      "group": 164496,
+      "due": "2026-11-01T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 3741
+    }
+  ],
+  "pages": [
+    {
+      "pageId": 1595196,
+      "url": "week-01-bigo-strings-linked-lists-sets",
+      "title": "Week 01 — BigO, Strings, Linked Lists, Sets",
+      "published": true
+    },
+    {
+      "pageId": 1595197,
+      "url": "week-02-bigo-dictionaries-2d-arrays-linked-lists",
+      "title": "Week 02 — BigO, Dictionaries, 2D Arrays, Linked Lists",
+      "published": true
+    },
+    {
+      "pageId": 1595198,
+      "url": "week-03-super-advanced-data-structures-sets-dictionaries-memoizing-strings",
+      "title": "Week 03 — Super Advanced Data Structures, Sets, Dictionaries, Memoizing, Strings",
+      "published": true
+    },
+    {
+      "pageId": 1595199,
+      "url": "week-04-graphs-and-traversal",
+      "title": "Week 04 — Graphs and Traversal",
+      "published": true
+    },
+    {
+      "pageId": 1595200,
+      "url": "week-05-bfs",
+      "title": "Week 05 — BFS",
+      "published": true
+    },
+    {
+      "pageId": 1595201,
+      "url": "week-06-bfs-advanced",
+      "title": "Week 06 — BFS Advanced",
+      "published": true
+    },
+    {
+      "pageId": 1595202,
+      "url": "week-07-dp",
+      "title": "Week 07 — DP",
+      "published": true
+    },
+    {
+      "pageId": 1595203,
+      "url": "week-08-dp-counting-prefix",
+      "title": "Week 08 — DP, Counting, Prefix",
+      "published": true
+    },
+    {
+      "pageId": 1595204,
+      "url": "week-09-dp",
+      "title": "Week 09 — DP",
+      "published": true
+    },
+    {
+      "pageId": 1595205,
+      "url": "week-10-sql-dp",
+      "title": "Week 10 — SQL, DP",
+      "published": true
+    },
+    {
+      "pageId": 1595206,
+      "url": "week-11-logarithmic-algorithms-two-pointer-heaps",
+      "title": "Week 11 — Logarithmic Algorithms, Two Pointer, Heaps",
+      "published": true
+    },
+    {
+      "pageId": 1595207,
+      "url": "week-12-two-pointer-faster-sort-heap-segment-tree",
+      "title": "Week 12 — Two Pointer, Faster Sort, Heap, Segment Tree",
+      "published": true
+    },
+    {
+      "pageId": 1595208,
+      "url": "week-13-sort-order",
+      "title": "Week 13 — Sort, Order",
+      "published": true
+    },
+    {
+      "pageId": 1595209,
+      "url": "week-14-classifying-random-problems-humility",
+      "title": "Week 14 — Classifying Random Problems, Humility",
+      "published": true
+    }
+  ],
+  "modules": [
+    {
+      "id": 397146,
+      "name": "Data Structures",
+      "published": true,
+      "items": [
+        {
+          "type": "Page",
+          "title": "Week 01 — BigO, Strings, Linked Lists, Sets"
+        },
+        {
+          "type": "Assignment",
+          "title": "Connect with Class"
+        },
+        {
+          "type": "Assignment",
+          "title": "Weekly Study"
+        },
+        {
+          "type": "Assignment",
+          "title": "Peer Mock Interview"
+        },
+        {
+          "type": "Page",
+          "title": "Week 02 — BigO, Dictionaries, 2D Arrays, Linked Lists"
+        },
+        {
+          "type": "Assignment",
+          "title": "Weekly Study"
+        },
+        {
+          "type": "Assignment",
+          "title": "Data Structures — Online Assessment"
+        },
+        {
+          "type": "Assignment",
+          "title": "Peer Mock Interview"
+        },
+        {
+          "type": "Page",
+          "title": "Week 03 — Super Advanced Data Structures, Sets, Dictionaries, Memoizing, Strings"
+        },
+        {
+          "type": "Assignment",
+          "title": "Weekly Study"
+        },
+        {
+          "type": "Assignment",
+          "title": "Data Structures — Performance Exam"
+        },
+        {
+          "type": "Assignment",
+          "title": "Peer Mock Interview"
+        }
+      ]
+    },
+    {
+      "id": 397148,
+      "name": "Dynamic Programming",
+      "published": true,
+      "items": [
+        {
+          "type": "Page",
+          "title": "Week 07 — DP"
+        },
+        {
+          "type": "Assignment",
+          "title": "Weekly Study"
+        },
+        {
+          "type": "Page",
+          "title": "Week 08 — DP, Counting, Prefix"
+        },
+        {
+          "type": "Assignment",
+          "title": "Weekly Study"
+        },
+        {
+          "type": "Assignment",
+          "title": "Peer Mock Interview"
+        },
+        {
+          "type": "Page",
+          "title": "Week 09 — DP"
+        },
+        {
+          "type": "Assignment",
+          "title": "Weekly Study"
+        },
+        {
+          "type": "Assignment",
+          "title": "Dynamic Programming & Counting — Online Assessment"
+        },
+        {
+          "type": "Assignment",
+          "title": "Peer Mock Interview"
+        },
+        {
+          "type": "Page",
+          "title": "Week 10 — SQL, DP"
+        },
+        {
+          "type": "Assignment",
+          "title": "Weekly Study"
+        },
+        {
+          "type": "Assignment",
+          "title": "Dynamic Programming & Counting — Performance Exam"
+        },
+        {
+          "type": "Assignment",
+          "title": "Peer Mock Interview"
+        }
+      ]
+    },
+    {
+      "id": 397150,
+      "name": "Extra Credit",
+      "published": true,
+      "items": [
+        {
+          "type": "Assignment",
+          "title": "Amazing Project — Community/World"
+        },
+        {
+          "type": "Assignment",
+          "title": "Amazing Project — Earns Money"
+        },
+        {
+          "type": "Assignment",
+          "title": "Amazing Project — Personal"
+        },
+        {
+          "type": "Assignment",
+          "title": "Get a Friend an Interview"
+        },
+        {
+          "type": "Assignment",
+          "title": "Get a Friend an Offer"
+        },
+        {
+          "type": "Assignment",
+          "title": "Interview Ready Chrome Extension"
+        },
+        {
+          "type": "Assignment",
+          "title": "Real Interview Report 1"
+        },
+        {
+          "type": "Assignment",
+          "title": "Real Interview Report 2"
+        },
+        {
+          "type": "Assignment",
+          "title": "Real Interview Report 3"
+        },
+        {
+          "type": "Assignment",
+          "title": "Real Interview Report 4"
+        },
+        {
+          "type": "Assignment",
+          "title": "Real Interview Report 5"
+        },
+        {
+          "type": "Assignment",
+          "title": "Real Offer Report 1"
+        },
+        {
+          "type": "Assignment",
+          "title": "Real Offer Report 2"
+        },
+        {
+          "type": "Assignment",
+          "title": "Real Offer Report 3"
+        }
+      ]
+    },
+    {
+      "id": 397147,
+      "name": "Graphs",
+      "published": true,
+      "items": [
+        {
+          "type": "Page",
+          "title": "Week 04 — Graphs and Traversal"
+        },
+        {
+          "type": "Assignment",
+          "title": "Weekly Study"
+        },
+        {
+          "type": "Page",
+          "title": "Week 05 — BFS"
+        },
+        {
+          "type": "Assignment",
+          "title": "Weekly Study"
+        },
+        {
+          "type": "Assignment",
+          "title": "Graphs — Online Assessment"
+        },
+        {
+          "type": "Assignment",
+          "title": "Peer Mock Interview"
+        },
+        {
+          "type": "Page",
+          "title": "Week 06 — BFS Advanced"
+        },
+        {
+          "type": "Assignment",
+          "title": "Weekly Study"
+        },
+        {
+          "type": "Assignment",
+          "title": "Graphs — Performance Exam"
+        },
+        {
+          "type": "Assignment",
+          "title": "Peer Mock Interview"
+        }
+      ]
+    },
+    {
+      "id": 397145,
+      "name": "Milestones",
+      "published": true,
+      "items": [
+        {
+          "type": "Assignment",
+          "title": "Live Interview 1"
+        },
+        {
+          "type": "Assignment",
+          "title": "Live Interview 2"
+        },
+        {
+          "type": "Assignment",
+          "title": "Live Interview 3"
+        },
+        {
+          "type": "Assignment",
+          "title": "Professional Mock Interview"
+        },
+        {
+          "type": "Assignment",
+          "title": "Final Exam"
+        },
+        {
+          "type": "Assignment",
+          "title": "Instructor Pass/Fail Interview"
+        }
+      ]
+    },
+    {
+      "id": 397149,
+      "name": "Sorting, Two-Pointer, etc.",
+      "published": true,
+      "items": [
+        {
+          "type": "Page",
+          "title": "Week 11 — Logarithmic Algorithms, Two Pointer, Heaps"
+        },
+        {
+          "type": "Assignment",
+          "title": "Weekly Study"
+        },
+        {
+          "type": "Page",
+          "title": "Week 12 — Two Pointer, Faster Sort, Heap, Segment Tree"
+        },
+        {
+          "type": "Assignment",
+          "title": "Weekly Study"
+        },
+        {
+          "type": "Assignment",
+          "title": "Sorting, Two-Pointer, etc. — Online Assessment"
+        },
+        {
+          "type": "Assignment",
+          "title": "Peer Mock Interview"
+        },
+        {
+          "type": "Page",
+          "title": "Week 13 — Sort, Order"
+        },
+        {
+          "type": "Assignment",
+          "title": "Weekly Study"
+        },
+        {
+          "type": "Assignment",
+          "title": "Sorting, Two-Pointer, etc. — Performance Exam"
+        },
+        {
+          "type": "Page",
+          "title": "Week 14 — Classifying Random Problems, Humility"
+        },
+        {
+          "type": "Assignment",
+          "title": "Weekly Study"
+        }
+      ]
+    }
+  ]
+}
