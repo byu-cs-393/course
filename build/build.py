@@ -84,6 +84,79 @@ def this_week_lines(week):
     return out
 
 
+TOPIC_REF = {"data-structures": "ds", "graphs": "gr",
+             "dynamic-programming": "dp", "sorting-two-pointer": "so"}
+
+
+def sched_study_cell(s):
+    if s.get("study"):
+        return f"[W{s['week']:02d}][w{s['week']:02d}]"
+    if s.get("review"):
+        return "Review"
+    return "—"
+
+
+def sched_dates_cell(s):
+    d = s["dates"]
+    if s.get("half"):
+        d += " *(½ wk)*"
+    if s.get("thanksgiving"):
+        d += " *(Thanksgiving)*"
+    return d
+
+
+def sched_perf_cell(items):
+    out = []
+    for p in items:
+        t = p["type"]
+        if t == "peer-mock":
+            out.append("📅 [Peer Mock][peer]")
+        elif t == "oa":
+            out.append(f"🖥️ [{TOPIC[p['topic']]['short']} Online Assessment]"
+                       f"[{TOPIC_REF[p['topic']]}-oa]")
+        elif t == "performance":
+            out.append(f"📅 [{TOPIC[p['topic']]['short']} Performance]"
+                       f"[{TOPIC_REF[p['topic']]}-perf]")
+        elif t == "live-interview":
+            out.append(f"📅 [**Live Interview {p['index']}**][live-interview]")
+        elif t == "professional-mock":
+            out.append("📅 [**Professional Mock**][prof]")
+        elif t == "final":
+            out.append(f"[**Final** {p['phase']}][final]")
+    return "<br>".join(out)
+
+
+SCHED_REMINDER = {"instructor-interview": ("instructor interview", "sched"),
+                  "professional-mock": ("professional mock", "prof")}
+
+
+def sched_other_cell(items):
+    out = []
+    for o in items or []:
+        if o.get("type") == "reading":
+            out.append(f"📖 {o['label']}")
+        elif o.get("type") == "reminder" and o.get("action") == "schedule":
+            label, key = SCHED_REMINDER[o["ref"]]
+            out.append(f"📅 schedule [{label}][{key}]")
+        elif o.get("ref") == "connect-with-class":
+            out.append("Connect with class")
+    return "<br>".join(out)
+
+
+def schedule_refs():
+    refs = [(f"w{w['week']:02d}", f"weekly/week-{w['week']:02d}.md") for w in C["weeks"]]
+    refs.append(("live-interview", "topic-exams/live-interview-exam.md"))
+    for t in C["topics"]:
+        r = TOPIC_REF[t["id"]]
+        refs.append((f"{r}-oa", f"topic-exams/{t['id']}/online-assessment.md"))
+        refs.append((f"{r}-perf", f"topic-exams/{t['id']}/live-performance-exam.md"))
+    refs += [("peer", "mock-interviews/README.md"),
+             ("prof", "mock-interviews/linkedin-outreach.md"),
+             ("sched", "fix-your-timezone.md"),
+             ("final", "final/README.md")]
+    return refs
+
+
 def prev_oa_problems(week):
     topic = OA_WEEK.get(week - 1)
     if not topic:
@@ -100,6 +173,7 @@ env.filters["item"] = render_item
 def normalize(text):
     """Collapse 3+ blank lines to one, strip trailing ws, end with single newline."""
     text = re.sub(r"[ \t]+\n", "\n", text)
+    text = re.sub(r"\|  +\|", "| |", text)   # empty table cells -> single space
     text = re.sub(r"\n{3,}", "\n\n", text)
     return text.rstrip() + "\n"
 
@@ -136,5 +210,15 @@ for p in C["performance"]:
     write(f"topic-exams/{p['topic']}/live-performance-exam.md",
           perf_tpl.render(q=p["question"], topic=TOPIC[p["topic"]],
                           objectives=p.get("objectives", [])))
+
+# ---- schedule ----
+sched_tpl = env.get_template("schedule.md.j2")
+rows = [{"wk": s.get("week", s.get("label")),
+         "dates": sched_dates_cell(s),
+         "study": sched_study_cell(s),
+         "perf": sched_perf_cell(s.get("performance", [])),
+         "other": sched_other_cell(s.get("other"))}
+        for s in C["schedule"]]
+write("schedule.md", sched_tpl.render(rows=rows, refs=schedule_refs()))
 
 print("done")

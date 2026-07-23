@@ -1,0 +1,21 @@
+# CS 393 — Fall 2026 Schedule
+
+Tuesday/Thursday, 8:00–9:15 am. Dates are the Monday–Saturday span of each week.
+**Study** is due every week. **📅 = book a time** · **🖥️ = online, on your own** ·
+**📖 = reading.** Every item links to how it works.
+
+| Wk | Dates | Study | Performance | Other |
+|---:|---|---|---|---|
+{% for r in rows %}
+| {{ r.wk }} | {{ r.dates }} | {{ r.study }} | {{ r.perf }} | {{ r.other }} |
+{% endfor %}
+
+**Notes:**
+- **Week 1** is a half week (Wednesday start) — do everything at half load.
+- **OAs** open at the start of a topic; a passing attempt is accepted through the following week.
+- **The final** runs across three sittings: Dec 8 + Dec 10 (75 min each, in class) +
+  **Thu Dec 17, 7–10 am** (3 hrs) = 5½ hours.
+
+{% for key, target in refs %}
+[{{ key }}]: {{ target }}
+{% endfor %}
