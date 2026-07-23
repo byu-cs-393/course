@@ -73,7 +73,7 @@ Passing means you solved the problem well enough, accurately described space and
 | 40% | Study (study hours, assigned problems) |
 | 40% | Performance (Peer Interviews, Instructor Required Interview, Topic Exams) |
 | 20% | Final (must pass to pass the class) |
-| +25% | Extra Credit (available) |
+| +61% | Extra Credit (available) |
 
 ## Class
 
