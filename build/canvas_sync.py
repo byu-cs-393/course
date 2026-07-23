@@ -213,9 +213,10 @@ def canvas(tok, method, path, payload=None):
         "Authorization": "Bearer " + tok, "Content-Type": "application/json"})
     try:
         with urllib.request.urlopen(req) as r:
-            return json.load(r)
+            body = r.read()
     except urllib.error.HTTPError as e:
         raise SystemExit(f"{method} {path} -> {e.code}: {e.read().decode()[:300]}")
+    return json.loads(body) if body.strip() else None   # 204 No Content -> None
 
 
 def canvas_list(tok, path):
