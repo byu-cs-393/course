@@ -179,11 +179,14 @@ DEPLOY = os.path.join(ROOT, "build", "deploy.fall-2026.json")
 
 
 def get_token():
-    r = subprocess.run(["gcloud", "secrets", "versions", "access", "latest",
-                        "--secret=CANVAS_API_TOKEN", "--project=personal-automation-mt"],
-                       capture_output=True, text=True)
+    t = os.environ.get("CANVAS_TOKEN")
+    if t and t.strip():
+        return t.strip()
+    r = subprocess.run("gcloud secrets versions access latest "
+                       "--secret=CANVAS_API_TOKEN --project=personal-automation-mt",
+                       capture_output=True, text=True, shell=True)
     if r.returncode or not r.stdout.strip():
-        raise SystemExit("could not read Canvas token from personal-automation-mt")
+        raise SystemExit("set CANVAS_TOKEN env var (or ensure gcloud is on PATH)")
     return r.stdout.strip()
 
 
