@@ -61,6 +61,22 @@
     "study-w8": 1387126,
     "study-w9": 1387127
   },
+  "pages": {
+    "week-1": "week-01-bigo-strings-linked-lists-sets",
+    "week-2": "week-02-bigo-dictionaries-2d-arrays-linked-lists",
+    "week-3": "week-03-super-advanced-data-structures-sets-dictionaries-memoizing-strings",
+    "week-4": "week-04-graphs-and-traversal",
+    "week-5": "week-05-bfs",
+    "week-6": "week-06-bfs-advanced",
+    "week-7": "week-07-dp",
+    "week-8": "week-08-dp-counting-prefix",
+    "week-9": "week-09-dp",
+    "week-10": "week-10-sql-dp",
+    "week-11": "week-11-logarithmic-algorithms-two-pointer-heaps",
+    "week-12": "week-12-two-pointer-faster-sort-heap-segment-tree",
+    "week-13": "week-13-sort-order",
+    "week-14": "week-14-classifying-random-problems-humility"
+  },
   "modules": {
     "Milestones": 397145,
     "Data Structures": 397146,
