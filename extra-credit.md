@@ -34,8 +34,17 @@ took to get an offer**. Please consider including:
 1. **What did you do to prepare?**
 2. **Who did you network with** to get the interview or job?
 3. **What tips** do you have for other people?
+4. Was this offer over 60k/yr?
 4. **Did this offer meet your expectations**, on a scale from **10 (YES — perfectly)** to
    **1 (NO — not at all)?**
 
 Please share anything else you think would be helpful for other students! Post in the Offer
 channel so everyone can learn from you, and submit the Canvas assignment.
+
+## Get a Friend an Interview
+
+Post in the networking channel a brief story about how you got your friend an interview. Please give the full name of the friend and the name of the place they interviewed.
+
+## Get a Friend an Offer
+
+Post in the networking channel a brief story about how you go your friend an offer. Please give the full name of the friend and the name of the place they got an offer from.
