@@ -41,3 +41,21 @@ Post in the networking channel a brief story about how you got your friend an in
 ## Get a Friend an Offer
 
 Post in the networking channel a brief story about how you go your friend an offer. Please give the full name of the friend and the name of the place they got an offer from.
+
+
+## Amazing Project Built and Public
+
+It is strongly recommended you get a claude.ai subscription and use that to help you build something.
+
+All projects in this category should include a public github repo with meaningful value and a 3 minute or less video embedded in the root readme that explains the value of the product and demos the functionality. Public repo should mention something about you and link to something like your linked in profile. Each project should represent significant work and time (even if assisted by AI), target 20+ hours.
+
+There are three opportunities here:
+1. Project that helps the community or world in some not for profit way. 
+2. Project is a personal project that perhaps is only useful to you.
+3. Project earns money. Need to show proof that you have been paid as a result. Has to be freelance (not part of responsiblities of hourly or salary wages from an employer). If needed this option doesn't need to be in a public repo, but must be somehow public such that a TA can manually approve it.
+
+You can do each of these opportunities once for credit, but you can do them your whole career for growth!
+
+## Add a Feature or Fix a Bug (TBD)
+
+Sometimes employers will show you a large code base and ask you to fix bugs or add a feature. This often includes being able to use AI to do that. I don't have anything built yet, but hope to soon. TBD
