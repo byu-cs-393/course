@@ -11,7 +11,7 @@ presentation), routed off the shared structural facts (week `topic`, assignment
 `category`/`type`). `--apply` (not yet implemented) will create the objects and
 write build/deploy.fall-2026.json mapping each stable id -> Canvas id.
 """
-import json, os, re, argparse
+import json, os, re, argparse, subprocess, urllib.request, urllib.error
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -174,7 +174,142 @@ print(f"  max grade {plan_doc['maxGradePct']}%  |  {len(plan)} assignments  |  "
 if unrouted:
     print("  WARNING unrouted assignments:", unrouted)
 
+# ---- apply (idempotent Canvas writes, recorded in deploy map) ----
+DEPLOY = os.path.join(ROOT, "build", "deploy.fall-2026.json")
+
+
+def get_token():
+    r = subprocess.run(["gcloud", "secrets", "versions", "access", "latest",
+                        "--secret=CANVAS_API_TOKEN", "--project=personal-automation-mt"],
+                       capture_output=True, text=True)
+    if r.returncode or not r.stdout.strip():
+        raise SystemExit("could not read Canvas token from personal-automation-mt")
+    return r.stdout.strip()
+
+
+def canvas(tok, method, path, payload=None):
+    url = f"https://{CANVAS_HOST}/api/v1{path}"
+    data = json.dumps(payload).encode() if payload is not None else None
+    req = urllib.request.Request(url, data=data, method=method, headers={
+        "Authorization": "Bearer " + tok, "Content-Type": "application/json"})
+    try:
+        with urllib.request.urlopen(req) as r:
+            return json.load(r)
+    except urllib.error.HTTPError as e:
+        raise SystemExit(f"{method} {path} -> {e.code}: {e.read().decode()[:300]}")
+
+
+def canvas_list(tok, path):
+    sep = "&" if "?" in path else "?"
+    url = f"https://{CANVAS_HOST}/api/v1{path}{sep}per_page=100"
+    out = []
+    while url:
+        req = urllib.request.Request(url, headers={"Authorization": "Bearer " + tok})
+        with urllib.request.urlopen(req) as r:
+            out += json.load(r)
+            link = r.headers.get("Link", "")
+        m = re.search(r'<([^>]+)>;\s*rel="next"', link)
+        url = m.group(1) if m else None
+    return out
+
+
+def load_dm():
+    if os.path.exists(DEPLOY):
+        return json.load(open(DEPLOY, encoding="utf-8"))
+    return {"course": COURSE_ID, "host": CANVAS_HOST, "groups": {}, "assignments": {}, "modules": {}}
+
+
+def save_dm(dm):
+    with open(DEPLOY, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(dm, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+
+
+def prune(tok, dm):
+    """Delete any Canvas assignment/module/group not in the deploy map (mirror)."""
+    keep_a = set(dm["assignments"].values())
+    for a in canvas_list(tok, f"/courses/{COURSE_ID}/assignments"):
+        if a["id"] not in keep_a:
+            canvas(tok, "DELETE", f"/courses/{COURSE_ID}/assignments/{a['id']}")
+            print(f"  pruned assignment  {a['name']}")
+    keep_m = set(dm["modules"].values())
+    for m in canvas_list(tok, f"/courses/{COURSE_ID}/modules"):
+        if m["id"] not in keep_m:
+            canvas(tok, "DELETE", f"/courses/{COURSE_ID}/modules/{m['id']}")
+            print(f"  pruned module      {m['name']}")
+    keep_g = set(dm["groups"].values())
+    for g in canvas_list(tok, f"/courses/{COURSE_ID}/assignment_groups"):
+        if g["id"] not in keep_g:
+            canvas(tok, "DELETE", f"/courses/{COURSE_ID}/assignment_groups/{g['id']}")
+            print(f"  pruned group       {g['name']}")
+
+
+def apply():
+    """Mirror course.json to Canvas: create/update everything in the plan, prune the rest."""
+    tok = get_token()
+    old = load_dm()
+    dm = {"course": COURSE_ID, "host": CANVAS_HOST, "groups": {}, "assignments": {}, "modules": {}}
+
+    canvas(tok, "PUT", f"/courses/{COURSE_ID}", {"course": {"apply_assignment_group_weights": True}})
+    print("enabled weighted assignment groups")
+
+    for pos, g in enumerate(GROUPS, 1):
+        body = {"name": g["name"], "group_weight": g["weight"], "position": pos}
+        cid = old["groups"].get(g["id"])
+        if cid:
+            canvas(tok, "PUT", f"/courses/{COURSE_ID}/assignment_groups/{cid}", body); act = "updated"
+        else:
+            cid = canvas(tok, "POST", f"/courses/{COURSE_ID}/assignment_groups", body)["id"]; act = "created"
+        dm["groups"][g["id"]] = cid
+        print(f"  group  {g['name']:<26} {g['weight']:>3}%  {act}")
+
+    for a in sorted(plan, key=lambda a: a["id"]):
+        body = {"assignment": {"name": a["title"], "points_possible": a["points"],
+                               "assignment_group_id": dm["groups"][a["group"]],
+                               "submission_types": [a["subtype"]],
+                               "due_at": a["due"], "published": True}}
+        cid = old["assignments"].get(a["id"])
+        if cid:
+            canvas(tok, "PUT", f"/courses/{COURSE_ID}/assignments/{cid}", body)
+        else:
+            cid = canvas(tok, "POST", f"/courses/{COURSE_ID}/assignments", body)["id"]
+        dm["assignments"][a["id"]] = cid
+    print(f"  synced {len(plan)} assignments")
+
+    for pos, m in enumerate(plan_doc["modules"], 1):
+        mcid = old["modules"].get(m["name"])
+        body = {"module": {"name": m["name"], "position": pos}}
+        if mcid:
+            canvas(tok, "PUT", f"/courses/{COURSE_ID}/modules/{mcid}", body)
+        else:
+            mcid = canvas(tok, "POST", f"/courses/{COURSE_ID}/modules", body)["id"]
+        dm["modules"][m["name"]] = mcid
+        planned = [dm["assignments"][aid] for aid in m["items"] if aid in dm["assignments"]]
+        have = {}
+        for it in canvas_list(tok, f"/courses/{COURSE_ID}/modules/{mcid}/items"):
+            if it.get("type") == "Assignment":
+                have[it.get("content_id")] = it["id"]
+        for acid, iid in have.items():          # remove items no longer in the plan
+            if acid not in planned:
+                canvas(tok, "DELETE", f"/courses/{COURSE_ID}/modules/{mcid}/items/{iid}")
+        for ipos, acid in enumerate(planned, 1):
+            if acid in have:
+                canvas(tok, "PUT", f"/courses/{COURSE_ID}/modules/{mcid}/items/{have[acid]}",
+                       {"module_item": {"position": ipos}})
+            else:
+                canvas(tok, "POST", f"/courses/{COURSE_ID}/modules/{mcid}/items",
+                       {"module_item": {"type": "Assignment", "content_id": acid, "position": ipos}})
+        print(f"  module {m['name']:<26} {len(planned)} items")
+
+    prune(tok, dm)          # delete any Canvas group/assignment/module not in the plan
+    save_dm(dm)
+    print(f"\ndeploy map: build/deploy.fall-2026.json "
+          f"({len(dm['groups'])} groups, {len(dm['assignments'])} assignments, {len(dm['modules'])} modules)")
+
+
 parser = argparse.ArgumentParser()
-parser.add_argument("--apply", action="store_true")
+parser.add_argument("--apply", action="store_true",
+                    help="mirror course.json to Canvas (create/update in plan, prune the rest)")
 if parser.parse_args().apply:
-    raise SystemExit("apply mode not implemented yet — review build/canvas-plan.json first")
+    print(f"\nAPPLY -> Canvas course {COURSE_ID} (mirror)\n")
+    apply()
