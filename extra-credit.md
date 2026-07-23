@@ -1,19 +1,11 @@
 # Extra Credit
 
-Extra credit is available and generous — in Canvas it's set up as **weighted categories that
-can total more than 100%**, so these points add on top of your grade. Post the reports in the
-class **Microsoft Teams** channels (so everyone learns from you) *and* submit the matching
-Canvas assignment for credit.
 
 ## Interview Ready extension
 
-Install the **Interview Ready** Chrome extension and pursue getting **all categories to
-"green"**:
+Install the [**Interview Ready** Chrome extension](https://chromewebstore.google.com/detail/interview-ready/llicapjcmjifdbafkbicgplkmamfchmd?hl=en) and pursue getting **all categories to
+"green"** and 150+ solved problems.
 
-- **Published:** [Chrome Web Store](https://chromewebstore.google.com/detail/interview-ready/llicapjcmjifdbafkbicgplkmamfchmd?hl=en)
-- **Latest:** [github.com/interviewreadyext/interview-ready](https://github.com/interviewreadyext/interview-ready) (load manually in dev mode)
-
-> The published version can lag the latest by about 3 days.
 
 ## Real Interview Report
 
