@@ -295,6 +295,25 @@ def prune(tok, dm):
               f"(student work present) — resolve manually if intentional.")
 
 
+def set_missing_policy(tok):
+    """Missing submissions (past due, nothing submitted) → 0. No late penalty.
+    Applies to online-submission assignments; on_paper/none (the final) are exempt."""
+    url = f"/courses/{COURSE_ID}/late_policy"
+    try:
+        urllib.request.urlopen(urllib.request.Request(
+            f"https://{CANVAS_HOST}/api/v1{url}", headers={"Authorization": "Bearer " + tok}))
+        exists = True
+    except urllib.error.HTTPError as e:
+        if e.code != 404:
+            raise
+        exists = False
+    canvas(tok, "PATCH" if exists else "POST", url,
+           {"late_policy": {"missing_submission_deduction_enabled": True,
+                            "missing_submission_deduction": 100,
+                            "late_submission_deduction_enabled": False}})
+    print("  missing-submission policy: 0 for missing after due (no late penalty)")
+
+
 def set_ec_defaults(tok, dm):
     """Set a default grade of 0 on Extra Credit assignments, ONLY for ungraded
     submissions — so EC counts toward its group's points (1 pt = 1%) without ever
@@ -330,6 +349,7 @@ def apply():
            {"course": {"apply_assignment_group_weights": True,
                        "syllabus_body": content.syllabus_html(ROOT)}})
     print("enabled weighted groups + set syllabus")
+    set_missing_policy(tok)
 
     for pos, g in enumerate(GROUPS, 1):
         body = {"name": g["name"], "group_weight": g["weight"], "position": pos}
