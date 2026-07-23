@@ -34,7 +34,7 @@ took to get an offer**. Please consider including:
 1. **What did you do to prepare?**
 2. **Who did you network with** to get the interview or job?
 3. **What tips** do you have for other people?
-4. Was this offer over 60k/yr?
+4. Was this offer over 50k/yr?
 4. **Did this offer meet your expectations**, on a scale from **10 (YES — perfectly)** to
    **1 (NO — not at all)?**
 
