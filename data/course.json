@@ -1226,7 +1226,8 @@
           "problems": [
             {
               "name": "Divisor Game",
-              "url": "https://leetcode.com/problems/divisor-game/"
+              "url": "https://leetcode.com/problems/divisor-game/",
+              "notes": "<- most confusing imo"
             },
             {
               "name": "Edit Distance",

@@ -16,7 +16,7 @@
 
 ### Attempt 2 — Solve 2 of these problems, allowed 2 hours, no solution lookups, ai, or people help
 
-- [Divisor Game](https://leetcode.com/problems/divisor-game/)
+- [Divisor Game](https://leetcode.com/problems/divisor-game/) <- most confusing imo
 
 - [Edit Distance](https://leetcode.com/problems/edit-distance/)
 
