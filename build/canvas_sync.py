@@ -49,7 +49,8 @@ def due_iso(mon, day):
 
 
 WEEK_DUE = {s["week"]: due_iso(*end_date(s["dates"])) for s in C["schedule"] if "week" in s}
-EC_DUE = due_iso(8, 31)
+_ec_cat = next(g for g in C["grading"]["categories"] if g["id"] == "extra-credit")
+EC_DUE = due_iso(*(int(x) for x in _ec_cat["due"].split("-")[1:]))   # from grading config
 
 # ---- assignment groups (pinned weights; EC = sum of its points) ----
 ec_pts = sum(a["points"] for a in C["assignments"]
