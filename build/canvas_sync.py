@@ -295,6 +295,30 @@ def prune(tok, dm):
               f"(student work present) — resolve manually if intentional.")
 
 
+def set_ec_defaults(tok, dm):
+    """Set a default grade of 0 on Extra Credit assignments, ONLY for ungraded
+    submissions — so EC counts toward its group's points (1 pt = 1%) without ever
+    clobbering a grade a student has already earned."""
+    ec_ids = [dm["assignments"][a["id"]] for a in plan if a["group"] == "extra-credit"]
+    students = [u["id"] for u in
+                canvas_list(tok, f"/courses/{COURSE_ID}/users?enrollment_type[]=student")]
+    if not students:
+        print("  (no students enrolled yet — skipped EC defaults)")
+        return
+    touched = 0
+    for acid in ec_ids:
+        subs = canvas_list(tok, f"/courses/{COURSE_ID}/assignments/{acid}/submissions")
+        graded = {s["user_id"] for s in subs
+                  if s.get("score") is not None or s.get("grade") is not None}
+        ungraded = [u for u in students if u not in graded]
+        if ungraded:
+            canvas(tok, "POST",
+                   f"/courses/{COURSE_ID}/assignments/{acid}/submissions/update_grades",
+                   {"grade_data": {str(u): {"posted_grade": 0} for u in ungraded}})
+            touched += 1
+    print(f"  set default 0 on {touched}/{len(ec_ids)} EC assignments (ungraded only)")
+
+
 def apply():
     """Mirror course.json to Canvas: create/update everything in the plan, prune the rest."""
     tok = get_token()
@@ -342,7 +366,7 @@ def apply():
 
     for pos, m in enumerate(plan_doc["modules"], 1):
         mcid = old["modules"].get(m["name"])
-        body = {"module": {"name": m["name"], "position": pos}}
+        body = {"module": {"name": m["name"], "position": pos, "published": True}}
         if mcid:
             canvas(tok, "PUT", f"/courses/{COURSE_ID}/modules/{mcid}", body)
         else:
@@ -369,6 +393,7 @@ def apply():
                 canvas(tok, "POST", f"/courses/{COURSE_ID}/modules/{mcid}/items", {"module_item": mi})
         print(f"  module {m['name']:<26} {len(desired)} items")
 
+    set_ec_defaults(tok, dm)
     prune(tok, dm)          # delete any Canvas group/assignment/page/module not in the plan
     save_dm(dm)
     print(f"\ndeploy map: build/deploy.fall-2026.json ({len(dm['groups'])} groups, "
