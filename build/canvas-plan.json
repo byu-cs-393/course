@@ -31,9 +31,11 @@
       "id": "connect-with-class",
       "title": "Connect with Class",
       "group": "study",
+      "type": "connect-with-class",
       "points": 1,
       "due": "2026-09-05T23:59:00-06:00",
-      "module": "Week 01",
+      "module": "Data Structures",
+      "week": 1,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -42,9 +44,11 @@
       "id": "ec-amazing-project-community",
       "title": "Amazing Project — Community/World",
       "group": "extra-credit",
+      "type": "extra-credit",
       "points": 5,
       "due": "2026-08-31T23:59:00-06:00",
       "module": "Extra Credit",
+      "week": null,
       "submissionType": "online_text_entry",
       "defaultScore": 0,
       "note": "default score 0"
@@ -53,9 +57,11 @@
       "id": "ec-amazing-project-paid",
       "title": "Amazing Project — Earns Money",
       "group": "extra-credit",
+      "type": "extra-credit",
       "points": 5,
       "due": "2026-08-31T23:59:00-06:00",
       "module": "Extra Credit",
+      "week": null,
       "submissionType": "online_text_entry",
       "defaultScore": 0,
       "note": "default score 0"
@@ -64,9 +70,11 @@
       "id": "ec-amazing-project-personal",
       "title": "Amazing Project — Personal",
       "group": "extra-credit",
+      "type": "extra-credit",
       "points": 5,
       "due": "2026-08-31T23:59:00-06:00",
       "module": "Extra Credit",
+      "week": null,
       "submissionType": "online_text_entry",
       "defaultScore": 0,
       "note": "default score 0"
@@ -75,9 +83,11 @@
       "id": "ec-friend-interview",
       "title": "Get a Friend an Interview",
       "group": "extra-credit",
+      "type": "extra-credit",
       "points": 3,
       "due": "2026-08-31T23:59:00-06:00",
       "module": "Extra Credit",
+      "week": null,
       "submissionType": "online_text_entry",
       "defaultScore": 0,
       "note": "default score 0"
@@ -86,9 +96,11 @@
       "id": "ec-friend-offer",
       "title": "Get a Friend an Offer",
       "group": "extra-credit",
+      "type": "extra-credit",
       "points": 5,
       "due": "2026-08-31T23:59:00-06:00",
       "module": "Extra Credit",
+      "week": null,
       "submissionType": "online_text_entry",
       "defaultScore": 0,
       "note": "default score 0"
@@ -97,9 +109,11 @@
       "id": "ec-interview-ready",
       "title": "Interview Ready Chrome Extension",
       "group": "extra-credit",
+      "type": "extra-credit",
       "points": 8,
       "due": "2026-08-31T23:59:00-06:00",
       "module": "Extra Credit",
+      "week": null,
       "submissionType": "online_text_entry",
       "defaultScore": 0,
       "note": "default score 0"
@@ -108,9 +122,11 @@
       "id": "ec-real-interview-report-1",
       "title": "Real Interview Report 1",
       "group": "extra-credit",
+      "type": "extra-credit",
       "points": 3,
       "due": "2026-08-31T23:59:00-06:00",
       "module": "Extra Credit",
+      "week": null,
       "submissionType": "online_text_entry",
       "defaultScore": 0,
       "note": "default score 0"
@@ -119,9 +135,11 @@
       "id": "ec-real-interview-report-2",
       "title": "Real Interview Report 2",
       "group": "extra-credit",
+      "type": "extra-credit",
       "points": 3,
       "due": "2026-08-31T23:59:00-06:00",
       "module": "Extra Credit",
+      "week": null,
       "submissionType": "online_text_entry",
       "defaultScore": 0,
       "note": "default score 0"
@@ -130,9 +148,11 @@
       "id": "ec-real-interview-report-3",
       "title": "Real Interview Report 3",
       "group": "extra-credit",
+      "type": "extra-credit",
       "points": 3,
       "due": "2026-08-31T23:59:00-06:00",
       "module": "Extra Credit",
+      "week": null,
       "submissionType": "online_text_entry",
       "defaultScore": 0,
       "note": "default score 0"
@@ -141,9 +161,11 @@
       "id": "ec-real-interview-report-4",
       "title": "Real Interview Report 4",
       "group": "extra-credit",
+      "type": "extra-credit",
       "points": 3,
       "due": "2026-08-31T23:59:00-06:00",
       "module": "Extra Credit",
+      "week": null,
       "submissionType": "online_text_entry",
       "defaultScore": 0,
       "note": "default score 0"
@@ -152,9 +174,11 @@
       "id": "ec-real-interview-report-5",
       "title": "Real Interview Report 5",
       "group": "extra-credit",
+      "type": "extra-credit",
       "points": 3,
       "due": "2026-08-31T23:59:00-06:00",
       "module": "Extra Credit",
+      "week": null,
       "submissionType": "online_text_entry",
       "defaultScore": 0,
       "note": "default score 0"
@@ -163,9 +187,11 @@
       "id": "ec-real-offer-report-1",
       "title": "Real Offer Report 1",
       "group": "extra-credit",
+      "type": "extra-credit",
       "points": 5,
       "due": "2026-08-31T23:59:00-06:00",
       "module": "Extra Credit",
+      "week": null,
       "submissionType": "online_text_entry",
       "defaultScore": 0,
       "note": "default score 0"
@@ -174,9 +200,11 @@
       "id": "ec-real-offer-report-2",
       "title": "Real Offer Report 2",
       "group": "extra-credit",
+      "type": "extra-credit",
       "points": 5,
       "due": "2026-08-31T23:59:00-06:00",
       "module": "Extra Credit",
+      "week": null,
       "submissionType": "online_text_entry",
       "defaultScore": 0,
       "note": "default score 0"
@@ -185,9 +213,11 @@
       "id": "ec-real-offer-report-3",
       "title": "Real Offer Report 3",
       "group": "extra-credit",
+      "type": "extra-credit",
       "points": 5,
       "due": "2026-08-31T23:59:00-06:00",
       "module": "Extra Credit",
+      "week": null,
       "submissionType": "online_text_entry",
       "defaultScore": 0,
       "note": "default score 0"
@@ -196,9 +226,11 @@
       "id": "final",
       "title": "Final Exam",
       "group": "final",
+      "type": "final",
       "points": 20,
       "due": "2026-12-17T23:59:00-07:00",
       "module": "Milestones",
+      "week": null,
       "submissionType": "on_paper",
       "defaultScore": null,
       "note": "gate; proctored"
@@ -207,9 +239,11 @@
       "id": "instructor-interview",
       "title": "Instructor Pass/Fail Interview",
       "group": "performance",
+      "type": "instructor-interview",
       "points": 2,
       "due": null,
       "module": "Milestones",
+      "week": null,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": "gate; no due date"
@@ -218,9 +252,11 @@
       "id": "live-1",
       "title": "Live Interview 1",
       "group": "performance",
+      "type": "live-interview",
       "points": 3,
       "due": "2026-09-26T23:59:00-06:00",
-      "module": "Week 04",
+      "module": "Milestones",
+      "week": 4,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -229,9 +265,11 @@
       "id": "live-2",
       "title": "Live Interview 2",
       "group": "performance",
+      "type": "live-interview",
       "points": 3,
       "due": "2026-10-17T23:59:00-06:00",
-      "module": "Week 07",
+      "module": "Milestones",
+      "week": 7,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -240,9 +278,11 @@
       "id": "live-3",
       "title": "Live Interview 3",
       "group": "performance",
+      "type": "live-interview",
       "points": 3,
       "due": "2026-11-14T23:59:00-07:00",
-      "module": "Week 11",
+      "module": "Milestones",
+      "week": 11,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -251,9 +291,11 @@
       "id": "oa-data-structures",
       "title": "Data Structures — Online Assessment",
       "group": "performance",
+      "type": "oa",
       "points": 1,
       "due": "2026-09-19T23:59:00-06:00",
-      "module": "Week 02",
+      "module": "Data Structures",
+      "week": 2,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": "grace: +1 week"
@@ -262,9 +304,11 @@
       "id": "oa-dynamic-programming",
       "title": "Dynamic Programming & Counting — Online Assessment",
       "group": "performance",
+      "type": "oa",
       "points": 1,
       "due": "2026-11-07T23:59:00-07:00",
-      "module": "Week 09",
+      "module": "Dynamic Programming",
+      "week": 9,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": "grace: +1 week"
@@ -273,9 +317,11 @@
       "id": "oa-graphs",
       "title": "Graphs — Online Assessment",
       "group": "performance",
+      "type": "oa",
       "points": 1,
       "due": "2026-10-10T23:59:00-06:00",
-      "module": "Week 05",
+      "module": "Graphs",
+      "week": 5,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": "grace: +1 week"
@@ -284,9 +330,11 @@
       "id": "oa-sorting-two-pointer",
       "title": "Sorting, Two-Pointer, etc. — Online Assessment",
       "group": "performance",
+      "type": "oa",
       "points": 1,
       "due": "2026-11-24T23:59:00-07:00",
-      "module": "Week 12",
+      "module": "Sorting & Two-Pointer",
+      "week": 12,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": "grace: +1 week"
@@ -295,9 +343,11 @@
       "id": "peer-mock-w1",
       "title": "Peer Mock Interview",
       "group": "performance",
+      "type": "peer-mock",
       "points": 1,
       "due": "2026-09-05T23:59:00-06:00",
-      "module": "Week 01",
+      "module": "Data Structures",
+      "week": 1,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -306,9 +356,11 @@
       "id": "peer-mock-w10",
       "title": "Peer Mock Interview",
       "group": "performance",
+      "type": "peer-mock",
       "points": 1,
       "due": "2026-11-07T23:59:00-07:00",
-      "module": "Week 10",
+      "module": "Dynamic Programming",
+      "week": 10,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -317,9 +369,11 @@
       "id": "peer-mock-w12",
       "title": "Peer Mock Interview",
       "group": "performance",
+      "type": "peer-mock",
       "points": 1,
       "due": "2026-11-21T23:59:00-07:00",
-      "module": "Week 12",
+      "module": "Sorting & Two-Pointer",
+      "week": 12,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -328,9 +382,11 @@
       "id": "peer-mock-w2",
       "title": "Peer Mock Interview",
       "group": "performance",
+      "type": "peer-mock",
       "points": 1,
       "due": "2026-09-12T23:59:00-06:00",
-      "module": "Week 02",
+      "module": "Data Structures",
+      "week": 2,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -339,9 +395,11 @@
       "id": "peer-mock-w3",
       "title": "Peer Mock Interview",
       "group": "performance",
+      "type": "peer-mock",
       "points": 1,
       "due": "2026-09-19T23:59:00-06:00",
-      "module": "Week 03",
+      "module": "Data Structures",
+      "week": 3,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -350,9 +408,11 @@
       "id": "peer-mock-w5",
       "title": "Peer Mock Interview",
       "group": "performance",
+      "type": "peer-mock",
       "points": 1,
       "due": "2026-10-03T23:59:00-06:00",
-      "module": "Week 05",
+      "module": "Graphs",
+      "week": 5,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -361,9 +421,11 @@
       "id": "peer-mock-w6",
       "title": "Peer Mock Interview",
       "group": "performance",
+      "type": "peer-mock",
       "points": 1,
       "due": "2026-10-10T23:59:00-06:00",
-      "module": "Week 06",
+      "module": "Graphs",
+      "week": 6,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -372,9 +434,11 @@
       "id": "peer-mock-w8",
       "title": "Peer Mock Interview",
       "group": "performance",
+      "type": "peer-mock",
       "points": 1,
       "due": "2026-10-24T23:59:00-06:00",
-      "module": "Week 08",
+      "module": "Dynamic Programming",
+      "week": 8,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -383,9 +447,11 @@
       "id": "peer-mock-w9",
       "title": "Peer Mock Interview",
       "group": "performance",
+      "type": "peer-mock",
       "points": 1,
       "due": "2026-10-31T23:59:00-06:00",
-      "module": "Week 09",
+      "module": "Dynamic Programming",
+      "week": 9,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -394,9 +460,11 @@
       "id": "perf-data-structures",
       "title": "Data Structures — Performance Exam",
       "group": "performance",
+      "type": "performance",
       "points": 5,
       "due": "2026-09-19T23:59:00-06:00",
-      "module": "Week 03",
+      "module": "Data Structures",
+      "week": 3,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -405,9 +473,11 @@
       "id": "perf-dynamic-programming",
       "title": "Dynamic Programming & Counting — Performance Exam",
       "group": "performance",
+      "type": "performance",
       "points": 5,
       "due": "2026-11-07T23:59:00-07:00",
-      "module": "Week 10",
+      "module": "Dynamic Programming",
+      "week": 10,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -416,9 +486,11 @@
       "id": "perf-graphs",
       "title": "Graphs — Performance Exam",
       "group": "performance",
+      "type": "performance",
       "points": 5,
       "due": "2026-10-10T23:59:00-06:00",
-      "module": "Week 06",
+      "module": "Graphs",
+      "week": 6,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -427,9 +499,11 @@
       "id": "perf-sorting-two-pointer",
       "title": "Sorting, Two-Pointer, etc. — Performance Exam",
       "group": "performance",
+      "type": "performance",
       "points": 5,
       "due": "2026-11-24T23:59:00-07:00",
-      "module": "Week 13",
+      "module": "Sorting & Two-Pointer",
+      "week": 13,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -438,9 +512,11 @@
       "id": "professional-mock",
       "title": "Professional Mock Interview",
       "group": "performance",
+      "type": "professional-mock",
       "points": 3,
       "due": "2026-12-05T23:59:00-07:00",
-      "module": "Week 14",
+      "module": "Milestones",
+      "week": 14,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -449,9 +525,11 @@
       "id": "study-w1",
       "title": "Weekly Study",
       "group": "study",
+      "type": "study",
       "points": 3,
       "due": "2026-09-05T23:59:00-06:00",
-      "module": "Week 01",
+      "module": "Data Structures",
+      "week": 1,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -460,9 +538,11 @@
       "id": "study-w10",
       "title": "Weekly Study",
       "group": "study",
+      "type": "study",
       "points": 3,
       "due": "2026-11-07T23:59:00-07:00",
-      "module": "Week 10",
+      "module": "Dynamic Programming",
+      "week": 10,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -471,9 +551,11 @@
       "id": "study-w11",
       "title": "Weekly Study",
       "group": "study",
+      "type": "study",
       "points": 3,
       "due": "2026-11-14T23:59:00-07:00",
-      "module": "Week 11",
+      "module": "Sorting & Two-Pointer",
+      "week": 11,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -482,9 +564,11 @@
       "id": "study-w12",
       "title": "Weekly Study",
       "group": "study",
+      "type": "study",
       "points": 3,
       "due": "2026-11-21T23:59:00-07:00",
-      "module": "Week 12",
+      "module": "Sorting & Two-Pointer",
+      "week": 12,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -493,9 +577,11 @@
       "id": "study-w13",
       "title": "Weekly Study",
       "group": "study",
+      "type": "study",
       "points": 3,
       "due": "2026-11-24T23:59:00-07:00",
-      "module": "Week 13",
+      "module": "Sorting & Two-Pointer",
+      "week": 13,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -504,9 +590,11 @@
       "id": "study-w14",
       "title": "Weekly Study",
       "group": "study",
+      "type": "study",
       "points": 3,
       "due": "2026-12-05T23:59:00-07:00",
-      "module": "Week 14",
+      "module": "Milestones",
+      "week": 14,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -515,9 +603,11 @@
       "id": "study-w2",
       "title": "Weekly Study",
       "group": "study",
+      "type": "study",
       "points": 3,
       "due": "2026-09-12T23:59:00-06:00",
-      "module": "Week 02",
+      "module": "Data Structures",
+      "week": 2,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -526,9 +616,11 @@
       "id": "study-w3",
       "title": "Weekly Study",
       "group": "study",
+      "type": "study",
       "points": 3,
       "due": "2026-09-19T23:59:00-06:00",
-      "module": "Week 03",
+      "module": "Data Structures",
+      "week": 3,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -537,9 +629,11 @@
       "id": "study-w4",
       "title": "Weekly Study",
       "group": "study",
+      "type": "study",
       "points": 3,
       "due": "2026-09-26T23:59:00-06:00",
-      "module": "Week 04",
+      "module": "Graphs",
+      "week": 4,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -548,9 +642,11 @@
       "id": "study-w5",
       "title": "Weekly Study",
       "group": "study",
+      "type": "study",
       "points": 3,
       "due": "2026-10-03T23:59:00-06:00",
-      "module": "Week 05",
+      "module": "Graphs",
+      "week": 5,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -559,9 +655,11 @@
       "id": "study-w6",
       "title": "Weekly Study",
       "group": "study",
+      "type": "study",
       "points": 3,
       "due": "2026-10-10T23:59:00-06:00",
-      "module": "Week 06",
+      "module": "Graphs",
+      "week": 6,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -570,9 +668,11 @@
       "id": "study-w7",
       "title": "Weekly Study",
       "group": "study",
+      "type": "study",
       "points": 3,
       "due": "2026-10-17T23:59:00-06:00",
-      "module": "Week 07",
+      "module": "Dynamic Programming",
+      "week": 7,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -581,9 +681,11 @@
       "id": "study-w8",
       "title": "Weekly Study",
       "group": "study",
+      "type": "study",
       "points": 3,
       "due": "2026-10-24T23:59:00-06:00",
-      "module": "Week 08",
+      "module": "Dynamic Programming",
+      "week": 8,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
@@ -592,15 +694,80 @@
       "id": "study-w9",
       "title": "Weekly Study",
       "group": "study",
+      "type": "study",
       "points": 3,
       "due": "2026-10-31T23:59:00-06:00",
-      "module": "Week 09",
+      "module": "Dynamic Programming",
+      "week": 9,
       "submissionType": "online_text_entry",
       "defaultScore": null,
       "note": null
     }
   ],
   "modules": [
+    {
+      "name": "Milestones",
+      "items": [
+        "live-1",
+        "live-2",
+        "live-3",
+        "study-w14",
+        "professional-mock",
+        "final",
+        "instructor-interview"
+      ]
+    },
+    {
+      "name": "Data Structures",
+      "items": [
+        "connect-with-class",
+        "study-w1",
+        "peer-mock-w1",
+        "study-w2",
+        "oa-data-structures",
+        "peer-mock-w2",
+        "study-w3",
+        "perf-data-structures",
+        "peer-mock-w3"
+      ]
+    },
+    {
+      "name": "Graphs",
+      "items": [
+        "study-w4",
+        "study-w5",
+        "oa-graphs",
+        "peer-mock-w5",
+        "study-w6",
+        "perf-graphs",
+        "peer-mock-w6"
+      ]
+    },
+    {
+      "name": "Dynamic Programming",
+      "items": [
+        "study-w7",
+        "study-w8",
+        "peer-mock-w8",
+        "study-w9",
+        "oa-dynamic-programming",
+        "peer-mock-w9",
+        "study-w10",
+        "perf-dynamic-programming",
+        "peer-mock-w10"
+      ]
+    },
+    {
+      "name": "Sorting & Two-Pointer",
+      "items": [
+        "study-w11",
+        "study-w12",
+        "oa-sorting-two-pointer",
+        "peer-mock-w12",
+        "study-w13",
+        "perf-sorting-two-pointer"
+      ]
+    },
     {
       "name": "Extra Credit",
       "items": [
@@ -618,119 +785,6 @@
         "ec-real-offer-report-1",
         "ec-real-offer-report-2",
         "ec-real-offer-report-3"
-      ]
-    },
-    {
-      "name": "Milestones",
-      "items": [
-        "final",
-        "instructor-interview"
-      ]
-    },
-    {
-      "name": "Week 01",
-      "items": [
-        "connect-with-class",
-        "peer-mock-w1",
-        "study-w1"
-      ]
-    },
-    {
-      "name": "Week 02",
-      "items": [
-        "oa-data-structures",
-        "peer-mock-w2",
-        "study-w2"
-      ]
-    },
-    {
-      "name": "Week 03",
-      "items": [
-        "peer-mock-w3",
-        "perf-data-structures",
-        "study-w3"
-      ]
-    },
-    {
-      "name": "Week 04",
-      "items": [
-        "live-1",
-        "study-w4"
-      ]
-    },
-    {
-      "name": "Week 05",
-      "items": [
-        "oa-graphs",
-        "peer-mock-w5",
-        "study-w5"
-      ]
-    },
-    {
-      "name": "Week 06",
-      "items": [
-        "peer-mock-w6",
-        "perf-graphs",
-        "study-w6"
-      ]
-    },
-    {
-      "name": "Week 07",
-      "items": [
-        "live-2",
-        "study-w7"
-      ]
-    },
-    {
-      "name": "Week 08",
-      "items": [
-        "peer-mock-w8",
-        "study-w8"
-      ]
-    },
-    {
-      "name": "Week 09",
-      "items": [
-        "oa-dynamic-programming",
-        "peer-mock-w9",
-        "study-w9"
-      ]
-    },
-    {
-      "name": "Week 10",
-      "items": [
-        "peer-mock-w10",
-        "perf-dynamic-programming",
-        "study-w10"
-      ]
-    },
-    {
-      "name": "Week 11",
-      "items": [
-        "live-3",
-        "study-w11"
-      ]
-    },
-    {
-      "name": "Week 12",
-      "items": [
-        "oa-sorting-two-pointer",
-        "peer-mock-w12",
-        "study-w12"
-      ]
-    },
-    {
-      "name": "Week 13",
-      "items": [
-        "perf-sorting-two-pointer",
-        "study-w13"
-      ]
-    },
-    {
-      "name": "Week 14",
-      "items": [
-        "professional-mock",
-        "study-w14"
       ]
     }
   ]

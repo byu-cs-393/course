@@ -48,6 +48,57 @@
     "liveInterview": 3,
     "professionalMock": 3
   },
+  "canvas": {
+    "courseId": 35464,
+    "host": "byu.instructure.com",
+    "modules": [
+      {
+        "name": "Milestones",
+        "include": {
+          "types": [
+            "live-interview",
+            "professional-mock",
+            "instructor-interview",
+            "final"
+          ],
+          "weeks": [
+            14
+          ]
+        }
+      },
+      {
+        "name": "Data Structures",
+        "topic": "data-structures"
+      },
+      {
+        "name": "Graphs",
+        "topic": "graphs"
+      },
+      {
+        "name": "Dynamic Programming",
+        "topic": "dynamic-programming"
+      },
+      {
+        "name": "Sorting & Two-Pointer",
+        "topic": "sorting-two-pointer"
+      },
+      {
+        "name": "Extra Credit",
+        "category": "extra-credit"
+      }
+    ],
+    "itemOrder": [
+      "connect-with-class",
+      "study",
+      "oa",
+      "performance",
+      "live-interview",
+      "professional-mock",
+      "peer-mock",
+      "final",
+      "instructor-interview"
+    ]
+  },
   "static": {
     "journalingPrompt": "Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?",
     "oaInstructions": "*(These apply to every OA.)* The online assessment is designed to be **eventually passable by everyone**. Take the attempts **in order** — you only need to pass **one**. Attempt 1 is on your own; the final attempt allows help from a TA or the instructor. If you already solved a problem, click **reset** and do it again without looking back at your previous solution."
@@ -78,6 +129,7 @@
     {
       "week": 1,
       "dates": "Sep 2–5",
+      "topic": "data-structures",
       "half": true,
       "study": true,
       "performance": [
@@ -98,6 +150,7 @@
     {
       "week": 2,
       "dates": "Sep 7–12",
+      "topic": "data-structures",
       "study": true,
       "performance": [
         {
@@ -112,6 +165,7 @@
     {
       "week": 3,
       "dates": "Sep 14–19",
+      "topic": "data-structures",
       "study": true,
       "performance": [
         {
@@ -126,6 +180,7 @@
     {
       "week": 4,
       "dates": "Sep 21–26",
+      "topic": "graphs",
       "study": true,
       "performance": [
         {
@@ -144,6 +199,7 @@
     {
       "week": 5,
       "dates": "Sep 28–Oct 3",
+      "topic": "graphs",
       "study": true,
       "performance": [
         {
@@ -158,6 +214,7 @@
     {
       "week": 6,
       "dates": "Oct 5–10",
+      "topic": "graphs",
       "study": true,
       "performance": [
         {
@@ -172,6 +229,7 @@
     {
       "week": 7,
       "dates": "Oct 12–17",
+      "topic": "dynamic-programming",
       "study": true,
       "performance": [
         {
@@ -189,6 +247,7 @@
     {
       "week": 8,
       "dates": "Oct 19–24",
+      "topic": "dynamic-programming",
       "study": true,
       "performance": [
         {
@@ -199,6 +258,7 @@
     {
       "week": 9,
       "dates": "Oct 26–31",
+      "topic": "dynamic-programming",
       "study": true,
       "performance": [
         {
@@ -213,6 +273,7 @@
     {
       "week": 10,
       "dates": "Nov 2–7",
+      "topic": "dynamic-programming",
       "study": true,
       "performance": [
         {
@@ -234,6 +295,7 @@
     {
       "week": 11,
       "dates": "Nov 9–14",
+      "topic": "sorting-two-pointer",
       "study": true,
       "performance": [
         {
@@ -245,6 +307,7 @@
     {
       "week": 12,
       "dates": "Nov 16–21",
+      "topic": "sorting-two-pointer",
       "study": true,
       "performance": [
         {
@@ -259,6 +322,7 @@
     {
       "week": 13,
       "dates": "Nov 23–24",
+      "topic": "sorting-two-pointer",
       "thanksgiving": true,
       "study": true,
       "performance": [
