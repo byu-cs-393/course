@@ -704,87 +704,371 @@
       "note": null
     }
   ],
+  "pages": [
+    {
+      "id": "week-1",
+      "title": "Week 01 — BigO, Strings, Linked Lists, Sets",
+      "module": "Data Structures"
+    },
+    {
+      "id": "week-2",
+      "title": "Week 02 — BigO, Dictionaries, 2D Arrays, Linked Lists",
+      "module": "Data Structures"
+    },
+    {
+      "id": "week-3",
+      "title": "Week 03 — Super Advanced Data Structures, Sets, Dictionaries, Memoizing, Strings",
+      "module": "Data Structures"
+    },
+    {
+      "id": "week-4",
+      "title": "Week 04 — Graphs and Traversal",
+      "module": "Graphs"
+    },
+    {
+      "id": "week-5",
+      "title": "Week 05 — BFS",
+      "module": "Graphs"
+    },
+    {
+      "id": "week-6",
+      "title": "Week 06 — BFS Advanced",
+      "module": "Graphs"
+    },
+    {
+      "id": "week-7",
+      "title": "Week 07 — DP",
+      "module": "Dynamic Programming"
+    },
+    {
+      "id": "week-8",
+      "title": "Week 08 — DP, Counting, Prefix",
+      "module": "Dynamic Programming"
+    },
+    {
+      "id": "week-9",
+      "title": "Week 09 — DP",
+      "module": "Dynamic Programming"
+    },
+    {
+      "id": "week-10",
+      "title": "Week 10 — SQL, DP",
+      "module": "Dynamic Programming"
+    },
+    {
+      "id": "week-11",
+      "title": "Week 11 — Logarithmic Algorithms, Two Pointer, Heaps",
+      "module": "Sorting, Two-Pointer, etc."
+    },
+    {
+      "id": "week-12",
+      "title": "Week 12 — Two Pointer, Faster Sort, Heap, Segment Tree",
+      "module": "Sorting, Two-Pointer, etc."
+    },
+    {
+      "id": "week-13",
+      "title": "Week 13 — Sort, Order",
+      "module": "Sorting, Two-Pointer, etc."
+    },
+    {
+      "id": "week-14",
+      "title": "Week 14 — Classifying Random Problems, Humility",
+      "module": "Sorting, Two-Pointer, etc."
+    }
+  ],
   "modules": [
     {
       "name": "Milestones",
       "items": [
-        "live-1",
-        "live-2",
-        "live-3",
-        "professional-mock",
-        "final",
-        "instructor-interview"
+        {
+          "kind": "assignment",
+          "id": "live-1"
+        },
+        {
+          "kind": "assignment",
+          "id": "live-2"
+        },
+        {
+          "kind": "assignment",
+          "id": "live-3"
+        },
+        {
+          "kind": "assignment",
+          "id": "professional-mock"
+        },
+        {
+          "kind": "assignment",
+          "id": "final"
+        },
+        {
+          "kind": "assignment",
+          "id": "instructor-interview"
+        }
       ]
     },
     {
       "name": "Data Structures",
       "items": [
-        "connect-with-class",
-        "study-w1",
-        "peer-mock-w1",
-        "study-w2",
-        "oa-data-structures",
-        "peer-mock-w2",
-        "study-w3",
-        "perf-data-structures",
-        "peer-mock-w3"
+        {
+          "kind": "page",
+          "id": "week-1"
+        },
+        {
+          "kind": "assignment",
+          "id": "connect-with-class"
+        },
+        {
+          "kind": "assignment",
+          "id": "study-w1"
+        },
+        {
+          "kind": "assignment",
+          "id": "peer-mock-w1"
+        },
+        {
+          "kind": "page",
+          "id": "week-2"
+        },
+        {
+          "kind": "assignment",
+          "id": "study-w2"
+        },
+        {
+          "kind": "assignment",
+          "id": "oa-data-structures"
+        },
+        {
+          "kind": "assignment",
+          "id": "peer-mock-w2"
+        },
+        {
+          "kind": "page",
+          "id": "week-3"
+        },
+        {
+          "kind": "assignment",
+          "id": "study-w3"
+        },
+        {
+          "kind": "assignment",
+          "id": "perf-data-structures"
+        },
+        {
+          "kind": "assignment",
+          "id": "peer-mock-w3"
+        }
       ]
     },
     {
       "name": "Graphs",
       "items": [
-        "study-w4",
-        "study-w5",
-        "oa-graphs",
-        "peer-mock-w5",
-        "study-w6",
-        "perf-graphs",
-        "peer-mock-w6"
+        {
+          "kind": "page",
+          "id": "week-4"
+        },
+        {
+          "kind": "assignment",
+          "id": "study-w4"
+        },
+        {
+          "kind": "page",
+          "id": "week-5"
+        },
+        {
+          "kind": "assignment",
+          "id": "study-w5"
+        },
+        {
+          "kind": "assignment",
+          "id": "oa-graphs"
+        },
+        {
+          "kind": "assignment",
+          "id": "peer-mock-w5"
+        },
+        {
+          "kind": "page",
+          "id": "week-6"
+        },
+        {
+          "kind": "assignment",
+          "id": "study-w6"
+        },
+        {
+          "kind": "assignment",
+          "id": "perf-graphs"
+        },
+        {
+          "kind": "assignment",
+          "id": "peer-mock-w6"
+        }
       ]
     },
     {
       "name": "Dynamic Programming",
       "items": [
-        "study-w7",
-        "study-w8",
-        "peer-mock-w8",
-        "study-w9",
-        "oa-dynamic-programming",
-        "peer-mock-w9",
-        "study-w10",
-        "perf-dynamic-programming",
-        "peer-mock-w10"
+        {
+          "kind": "page",
+          "id": "week-7"
+        },
+        {
+          "kind": "assignment",
+          "id": "study-w7"
+        },
+        {
+          "kind": "page",
+          "id": "week-8"
+        },
+        {
+          "kind": "assignment",
+          "id": "study-w8"
+        },
+        {
+          "kind": "assignment",
+          "id": "peer-mock-w8"
+        },
+        {
+          "kind": "page",
+          "id": "week-9"
+        },
+        {
+          "kind": "assignment",
+          "id": "study-w9"
+        },
+        {
+          "kind": "assignment",
+          "id": "oa-dynamic-programming"
+        },
+        {
+          "kind": "assignment",
+          "id": "peer-mock-w9"
+        },
+        {
+          "kind": "page",
+          "id": "week-10"
+        },
+        {
+          "kind": "assignment",
+          "id": "study-w10"
+        },
+        {
+          "kind": "assignment",
+          "id": "perf-dynamic-programming"
+        },
+        {
+          "kind": "assignment",
+          "id": "peer-mock-w10"
+        }
       ]
     },
     {
       "name": "Sorting, Two-Pointer, etc.",
       "items": [
-        "study-w11",
-        "study-w12",
-        "oa-sorting-two-pointer",
-        "peer-mock-w12",
-        "study-w13",
-        "perf-sorting-two-pointer",
-        "study-w14"
+        {
+          "kind": "page",
+          "id": "week-11"
+        },
+        {
+          "kind": "assignment",
+          "id": "study-w11"
+        },
+        {
+          "kind": "page",
+          "id": "week-12"
+        },
+        {
+          "kind": "assignment",
+          "id": "study-w12"
+        },
+        {
+          "kind": "assignment",
+          "id": "oa-sorting-two-pointer"
+        },
+        {
+          "kind": "assignment",
+          "id": "peer-mock-w12"
+        },
+        {
+          "kind": "page",
+          "id": "week-13"
+        },
+        {
+          "kind": "assignment",
+          "id": "study-w13"
+        },
+        {
+          "kind": "assignment",
+          "id": "perf-sorting-two-pointer"
+        },
+        {
+          "kind": "page",
+          "id": "week-14"
+        },
+        {
+          "kind": "assignment",
+          "id": "study-w14"
+        }
       ]
     },
     {
       "name": "Extra Credit",
       "items": [
-        "ec-amazing-project-community",
-        "ec-amazing-project-paid",
-        "ec-amazing-project-personal",
-        "ec-friend-interview",
-        "ec-friend-offer",
-        "ec-interview-ready",
-        "ec-real-interview-report-1",
-        "ec-real-interview-report-2",
-        "ec-real-interview-report-3",
-        "ec-real-interview-report-4",
-        "ec-real-interview-report-5",
-        "ec-real-offer-report-1",
-        "ec-real-offer-report-2",
-        "ec-real-offer-report-3"
+        {
+          "kind": "assignment",
+          "id": "ec-amazing-project-community"
+        },
+        {
+          "kind": "assignment",
+          "id": "ec-amazing-project-paid"
+        },
+        {
+          "kind": "assignment",
+          "id": "ec-amazing-project-personal"
+        },
+        {
+          "kind": "assignment",
+          "id": "ec-friend-interview"
+        },
+        {
+          "kind": "assignment",
+          "id": "ec-friend-offer"
+        },
+        {
+          "kind": "assignment",
+          "id": "ec-interview-ready"
+        },
+        {
+          "kind": "assignment",
+          "id": "ec-real-interview-report-1"
+        },
+        {
+          "kind": "assignment",
+          "id": "ec-real-interview-report-2"
+        },
+        {
+          "kind": "assignment",
+          "id": "ec-real-interview-report-3"
+        },
+        {
+          "kind": "assignment",
+          "id": "ec-real-interview-report-4"
+        },
+        {
+          "kind": "assignment",
+          "id": "ec-real-interview-report-5"
+        },
+        {
+          "kind": "assignment",
+          "id": "ec-real-offer-report-1"
+        },
+        {
+          "kind": "assignment",
+          "id": "ec-real-offer-report-2"
+        },
+        {
+          "kind": "assignment",
+          "id": "ec-real-offer-report-3"
+        }
       ]
     }
   ]

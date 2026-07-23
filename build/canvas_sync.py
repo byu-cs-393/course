@@ -12,6 +12,7 @@ presentation), routed off the shared structural facts (week `topic`, assignment
 write build/deploy.fall-2026.json mapping each stable id -> Canvas id.
 """
 import json, os, re, argparse, subprocess, urllib.request, urllib.error
+import canvas_content as content
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -26,6 +27,8 @@ MODULE_ORDER = [m["name"] for m in MODULES_CFG]
 ITEM_ORDER = {t: i for i, t in enumerate(CFG["itemOrder"])}
 TOPIC = {t["id"]: t for t in C["topics"]}
 PTS = C["points"]
+ASSIGN_BY_ID = {a["id"]: a for a in C["assignments"]}
+WEEK_TITLE = {w["week"]: w["title"] for w in C["weeks"]}
 
 MONTHS = {m: i for i, m in enumerate(
     ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], 1)}
@@ -130,14 +133,24 @@ def route(a):
 for a in plan:
     a["module"] = route(a)
 
-# ---- build the deterministic plan artifact ----
-mods = {}
+# ---- pages: one per week, in the module of that week's study assignment ----
+study_module = {a["week"]: a["module"] for a in plan if a["type"] == "study"}
+PAGES = [{"id": f"week-{w}", "title": f"Week {w:02d} — {WEEK_TITLE[w]}", "week": w,
+          "module": study_module[w]} for w in sorted(study_module)]
+
+# ---- module items (assignments + week pages), ordered ----
+module_items = {}
 for a in plan:
-    mods.setdefault(a["module"], []).append(a)
+    module_items.setdefault(a["module"], []).append(
+        {"kind": "assignment", "id": a["id"], "week": a["week"],
+         "rank": ITEM_ORDER.get(a["type"], 99)})
+for p in PAGES:
+    module_items.setdefault(p["module"], []).append(
+        {"kind": "page", "id": p["id"], "week": p["week"], "rank": -1})   # page first
 
 
-def _item_key(a):
-    return (a["week"] if a["week"] is not None else 99, ITEM_ORDER.get(a["type"], 99), a["id"])
+def _item_key(it):
+    return (it["week"] if it["week"] is not None else 99, it["rank"], it["id"])
 
 
 plan_doc = {
@@ -153,8 +166,10 @@ plan_doc = {
          "note": a["note"] or None}
         for a in sorted(plan, key=lambda a: a["id"])
     ],
-    "modules": [{"name": m, "items": [x["id"] for x in sorted(mods[m], key=_item_key)]}
-                for m in MODULE_ORDER if m in mods],
+    "pages": [{"id": p["id"], "title": p["title"], "module": p["module"]} for p in PAGES],
+    "modules": [{"name": m, "items": [{"kind": it["kind"], "id": it["id"]}
+                                      for it in sorted(module_items.get(m, []), key=_item_key)]}
+                for m in MODULE_ORDER if m in module_items],
 }
 
 out = os.path.join(ROOT, "build", "canvas-plan.json")
@@ -218,8 +233,11 @@ def canvas_list(tok, path):
 
 def load_dm():
     if os.path.exists(DEPLOY):
-        return json.load(open(DEPLOY, encoding="utf-8"))
-    return {"course": COURSE_ID, "host": CANVAS_HOST, "groups": {}, "assignments": {}, "modules": {}}
+        dm = json.load(open(DEPLOY, encoding="utf-8"))
+        dm.setdefault("pages", {})
+        return dm
+    return {"course": COURSE_ID, "host": CANVAS_HOST, "groups": {}, "assignments": {},
+            "pages": {}, "modules": {}}
 
 
 def save_dm(dm):
@@ -250,6 +268,12 @@ def prune(tok, dm):
         canvas(tok, "DELETE", f"/courses/{COURSE_ID}/assignments/{a['id']}")
         print(f"  pruned assignment  {a['name']}")
 
+    keep_pg = set(dm.get("pages", {}).values())
+    for pg in canvas_list(tok, f"/courses/{COURSE_ID}/pages"):
+        if pg["url"] not in keep_pg:
+            canvas(tok, "DELETE", f"/courses/{COURSE_ID}/pages/{pg['url']}")
+            print(f"  pruned page        {pg['title']}")
+
     keep_m = set(dm["modules"].values())
     for m in canvas_list(tok, f"/courses/{COURSE_ID}/modules"):
         if m["id"] not in keep_m:                       # module items are just links; safe
@@ -275,10 +299,13 @@ def apply():
     """Mirror course.json to Canvas: create/update everything in the plan, prune the rest."""
     tok = get_token()
     old = load_dm()
-    dm = {"course": COURSE_ID, "host": CANVAS_HOST, "groups": {}, "assignments": {}, "modules": {}}
+    dm = {"course": COURSE_ID, "host": CANVAS_HOST, "groups": {}, "assignments": {},
+          "pages": {}, "modules": {}}
 
-    canvas(tok, "PUT", f"/courses/{COURSE_ID}", {"course": {"apply_assignment_group_weights": True}})
-    print("enabled weighted assignment groups")
+    canvas(tok, "PUT", f"/courses/{COURSE_ID}",
+           {"course": {"apply_assignment_group_weights": True,
+                       "syllabus_body": content.syllabus_html(ROOT)}})
+    print("enabled weighted groups + set syllabus")
 
     for pos, g in enumerate(GROUPS, 1):
         body = {"name": g["name"], "group_weight": g["weight"], "position": pos}
@@ -294,14 +321,24 @@ def apply():
         body = {"assignment": {"name": a["title"], "points_possible": a["points"],
                                "assignment_group_id": dm["groups"][a["group"]],
                                "submission_types": [a["subtype"]],
-                               "due_at": a["due"], "published": True}}
+                               "due_at": a["due"], "published": True,
+                               "description": content.description_html(ROOT, a, ASSIGN_BY_ID)}}
         cid = old["assignments"].get(a["id"])
         if cid:
             canvas(tok, "PUT", f"/courses/{COURSE_ID}/assignments/{cid}", body)
         else:
             cid = canvas(tok, "POST", f"/courses/{COURSE_ID}/assignments", body)["id"]
         dm["assignments"][a["id"]] = cid
-    print(f"  synced {len(plan)} assignments")
+    print(f"  synced {len(plan)} assignments (with descriptions)")
+
+    for p in PAGES:
+        wp = {"wiki_page": {"title": p["title"], "body": content.page_html(ROOT, p["week"]),
+                            "published": True}}
+        slug = old["pages"].get(p["id"])
+        r = (canvas(tok, "PUT", f"/courses/{COURSE_ID}/pages/{slug}", wp) if slug
+             else canvas(tok, "POST", f"/courses/{COURSE_ID}/pages", wp))
+        dm["pages"][p["id"]] = r["url"]
+    print(f"  synced {len(PAGES)} weekly pages")
 
     for pos, m in enumerate(plan_doc["modules"], 1):
         mcid = old["modules"].get(m["name"])
@@ -311,27 +348,31 @@ def apply():
         else:
             mcid = canvas(tok, "POST", f"/courses/{COURSE_ID}/modules", body)["id"]
         dm["modules"][m["name"]] = mcid
-        planned = [dm["assignments"][aid] for aid in m["items"] if aid in dm["assignments"]]
+        desired = [("Assignment", dm["assignments"][it["id"]]) if it["kind"] == "assignment"
+                   else ("Page", dm["pages"][it["id"]]) for it in m["items"]]
         have = {}
-        for it in canvas_list(tok, f"/courses/{COURSE_ID}/modules/{mcid}/items"):
-            if it.get("type") == "Assignment":
-                have[it.get("content_id")] = it["id"]
-        for acid, iid in have.items():          # remove items no longer in the plan
-            if acid not in planned:
+        for e in canvas_list(tok, f"/courses/{COURSE_ID}/modules/{mcid}/items"):
+            if e.get("type") == "Assignment":
+                have[("Assignment", e.get("content_id"))] = e["id"]
+            elif e.get("type") == "Page":
+                have[("Page", e.get("page_url"))] = e["id"]
+        for key, iid in have.items():           # remove items no longer in the plan
+            if key not in desired:
                 canvas(tok, "DELETE", f"/courses/{COURSE_ID}/modules/{mcid}/items/{iid}")
-        for ipos, acid in enumerate(planned, 1):
-            if acid in have:
-                canvas(tok, "PUT", f"/courses/{COURSE_ID}/modules/{mcid}/items/{have[acid]}",
+        for ipos, (kind, ref) in enumerate(desired, 1):
+            if (kind, ref) in have:
+                canvas(tok, "PUT", f"/courses/{COURSE_ID}/modules/{mcid}/items/{have[(kind, ref)]}",
                        {"module_item": {"position": ipos}})
             else:
-                canvas(tok, "POST", f"/courses/{COURSE_ID}/modules/{mcid}/items",
-                       {"module_item": {"type": "Assignment", "content_id": acid, "position": ipos}})
-        print(f"  module {m['name']:<26} {len(planned)} items")
+                mi = {"type": kind, "position": ipos}
+                mi["content_id" if kind == "Assignment" else "page_url"] = ref
+                canvas(tok, "POST", f"/courses/{COURSE_ID}/modules/{mcid}/items", {"module_item": mi})
+        print(f"  module {m['name']:<26} {len(desired)} items")
 
-    prune(tok, dm)          # delete any Canvas group/assignment/module not in the plan
+    prune(tok, dm)          # delete any Canvas group/assignment/page/module not in the plan
     save_dm(dm)
-    print(f"\ndeploy map: build/deploy.fall-2026.json "
-          f"({len(dm['groups'])} groups, {len(dm['assignments'])} assignments, {len(dm['modules'])} modules)")
+    print(f"\ndeploy map: build/deploy.fall-2026.json ({len(dm['groups'])} groups, "
+          f"{len(dm['assignments'])} assignments, {len(dm['pages'])} pages, {len(dm['modules'])} modules)")
 
 
 parser = argparse.ArgumentParser()
