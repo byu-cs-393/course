@@ -228,23 +228,47 @@ def save_dm(dm):
         f.write("\n")
 
 
+def has_student_work(a):
+    return bool(a.get("has_submitted_submissions") or a.get("graded_submissions_exist"))
+
+
 def prune(tok, dm):
-    """Delete any Canvas assignment/module/group not in the deploy map (mirror)."""
+    """Delete Canvas objects not in the deploy map (mirror), but NEVER delete an
+    assignment that has student work — and never cascade-delete a group holding one."""
     keep_a = set(dm["assignments"].values())
+    protected_groups = set()
+    blocked = 0
     for a in canvas_list(tok, f"/courses/{COURSE_ID}/assignments"):
-        if a["id"] not in keep_a:
-            canvas(tok, "DELETE", f"/courses/{COURSE_ID}/assignments/{a['id']}")
-            print(f"  pruned assignment  {a['name']}")
+        if a["id"] in keep_a:
+            protected_groups.add(a["assignment_group_id"])
+            continue
+        if has_student_work(a):
+            protected_groups.add(a["assignment_group_id"])
+            blocked += 1
+            print(f"  BLOCKED prune (has submissions): {a['name']}")
+            continue
+        canvas(tok, "DELETE", f"/courses/{COURSE_ID}/assignments/{a['id']}")
+        print(f"  pruned assignment  {a['name']}")
+
     keep_m = set(dm["modules"].values())
     for m in canvas_list(tok, f"/courses/{COURSE_ID}/modules"):
-        if m["id"] not in keep_m:
+        if m["id"] not in keep_m:                       # module items are just links; safe
             canvas(tok, "DELETE", f"/courses/{COURSE_ID}/modules/{m['id']}")
             print(f"  pruned module      {m['name']}")
+
     keep_g = set(dm["groups"].values())
     for g in canvas_list(tok, f"/courses/{COURSE_ID}/assignment_groups"):
-        if g["id"] not in keep_g:
-            canvas(tok, "DELETE", f"/courses/{COURSE_ID}/assignment_groups/{g['id']}")
-            print(f"  pruned group       {g['name']}")
+        if g["id"] in keep_g:
+            continue
+        if g["id"] in protected_groups:                 # would cascade-delete a protected assignment
+            print(f"  BLOCKED prune group (holds protected work): {g['name']}")
+            continue
+        canvas(tok, "DELETE", f"/courses/{COURSE_ID}/assignment_groups/{g['id']}")
+        print(f"  pruned group       {g['name']}")
+
+    if blocked:
+        print(f"\n  ⚠ {blocked} assignment(s) kept despite not being in the plan "
+              f"(student work present) — resolve manually if intentional.")
 
 
 def apply():
