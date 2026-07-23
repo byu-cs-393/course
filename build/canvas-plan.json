@@ -593,7 +593,7 @@
       "type": "study",
       "points": 3,
       "due": "2026-12-05T23:59:00-07:00",
-      "module": "Milestones",
+      "module": "Sorting, Two-Pointer, etc.",
       "week": 14,
       "submissionType": "online_text_entry",
       "defaultScore": null,
@@ -711,7 +711,6 @@
         "live-1",
         "live-2",
         "live-3",
-        "study-w14",
         "professional-mock",
         "final",
         "instructor-interview"
@@ -765,7 +764,8 @@
         "oa-sorting-two-pointer",
         "peer-mock-w12",
         "study-w13",
-        "perf-sorting-two-pointer"
+        "perf-sorting-two-pointer",
+        "study-w14"
       ]
     },
     {

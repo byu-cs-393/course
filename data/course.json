@@ -60,9 +60,6 @@
             "professional-mock",
             "instructor-interview",
             "final"
-          ],
-          "weeks": [
-            14
           ]
         }
       },
@@ -80,7 +77,12 @@
       },
       {
         "name": "Sorting, Two-Pointer, etc.",
-        "topic": "sorting-two-pointer"
+        "topic": "sorting-two-pointer",
+        "include": {
+          "ids": [
+            "study-w14"
+          ]
+        }
       },
       {
         "name": "Extra Credit",
