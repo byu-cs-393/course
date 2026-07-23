@@ -12,27 +12,41 @@
         "id": "study",
         "label": "Study",
         "weight": 40,
+        "weightMode": "pinned",
         "desc": "study hours, assigned problems"
       },
       {
         "id": "performance",
         "label": "Performance",
         "weight": 40,
+        "weightMode": "pinned",
         "desc": "Peer Interviews, Instructor Required Interview, Topic Exams"
       },
       {
         "id": "final",
         "label": "Final",
         "weight": 20,
+        "weightMode": "pinned",
         "desc": "must pass to pass the class"
       },
       {
         "id": "extra-credit",
         "label": "Extra Credit",
-        "weight": 25,
-        "extraCredit": true
+        "weightMode": "sum-of-points",
+        "extraCredit": true,
+        "defaultScore": 0,
+        "due": "2026-08-31",
+        "desc": "added on top; 1 point = 1% of the final grade"
       }
     ]
+  },
+  "points": {
+    "weeklyStudy": 3,
+    "peerMock": 1,
+    "oa": 1,
+    "performanceExam": 5,
+    "liveInterview": 3,
+    "professionalMock": 3
   },
   "static": {
     "journalingPrompt": "Consider journaling the answers to these questions. What guidance in your career and life search have you prayed for this week? What guidance have you been given this week?",
@@ -1539,6 +1553,7 @@
       "id": "connect-with-class",
       "title": "Connect with Class",
       "category": "study",
+      "points": 1,
       "week": 1,
       "desc": "Join the class Microsoft Teams and update your photo."
     },
@@ -1546,6 +1561,7 @@
       "id": "instructor-interview",
       "title": "Instructor Pass/Fail Interview",
       "category": "performance",
+      "points": 2,
       "gate": true,
       "doc": "syllabus.md#instructor-passfail-interview",
       "desc": "Required to pass the course. A random-topic live interview with the instructor; be caught up on topic exams and have passed at least one performance exam first."
@@ -1554,28 +1570,117 @@
       "id": "final",
       "title": "Final Exam",
       "category": "final",
+      "points": 20,
       "gate": true,
       "doc": "final/README.md"
     },
     {
       "id": "ec-interview-ready",
-      "title": "Interview Ready Extension",
+      "title": "Interview Ready Chrome Extension",
       "category": "extra-credit",
-      "doc": "extra-credit.md#interview-ready-extension"
+      "points": 8,
+      "doc": "extra-credit.md#interview-ready-chrome-extension"
     },
     {
-      "id": "ec-real-interview-report",
-      "title": "Real Interview Report",
+      "id": "ec-real-interview-report-1",
+      "title": "Real Interview Report 1",
       "category": "extra-credit",
-      "repeatable": true,
+      "points": 3,
       "doc": "extra-credit.md#real-interview-report"
     },
     {
-      "id": "ec-real-offer-report",
-      "title": "Real Offer Report",
+      "id": "ec-real-interview-report-2",
+      "title": "Real Interview Report 2",
       "category": "extra-credit",
-      "repeatable": true,
+      "points": 3,
+      "doc": "extra-credit.md#real-interview-report"
+    },
+    {
+      "id": "ec-real-interview-report-3",
+      "title": "Real Interview Report 3",
+      "category": "extra-credit",
+      "points": 3,
+      "doc": "extra-credit.md#real-interview-report"
+    },
+    {
+      "id": "ec-real-interview-report-4",
+      "title": "Real Interview Report 4",
+      "category": "extra-credit",
+      "points": 3,
+      "doc": "extra-credit.md#real-interview-report"
+    },
+    {
+      "id": "ec-real-interview-report-5",
+      "title": "Real Interview Report 5",
+      "category": "extra-credit",
+      "points": 3,
+      "doc": "extra-credit.md#real-interview-report"
+    },
+    {
+      "id": "ec-real-offer-report-1",
+      "title": "Real Offer Report 1",
+      "category": "extra-credit",
+      "points": 5,
       "doc": "extra-credit.md#real-offer-report"
+    },
+    {
+      "id": "ec-real-offer-report-2",
+      "title": "Real Offer Report 2",
+      "category": "extra-credit",
+      "points": 5,
+      "doc": "extra-credit.md#real-offer-report"
+    },
+    {
+      "id": "ec-real-offer-report-3",
+      "title": "Real Offer Report 3",
+      "category": "extra-credit",
+      "points": 5,
+      "doc": "extra-credit.md#real-offer-report"
+    },
+    {
+      "id": "ec-friend-interview",
+      "title": "Get a Friend an Interview",
+      "category": "extra-credit",
+      "points": 3,
+      "doc": "extra-credit.md#get-a-friend-an-interview",
+      "proposed": true
+    },
+    {
+      "id": "ec-friend-offer",
+      "title": "Get a Friend an Offer",
+      "category": "extra-credit",
+      "points": 5,
+      "doc": "extra-credit.md#get-a-friend-an-offer",
+      "proposed": true
+    },
+    {
+      "id": "ec-amazing-project-community",
+      "title": "Amazing Project — Community/World",
+      "category": "extra-credit",
+      "points": 5,
+      "doc": "extra-credit.md#amazing-project-built-and-public"
+    },
+    {
+      "id": "ec-amazing-project-personal",
+      "title": "Amazing Project — Personal",
+      "category": "extra-credit",
+      "points": 5,
+      "doc": "extra-credit.md#amazing-project-built-and-public"
+    },
+    {
+      "id": "ec-amazing-project-paid",
+      "title": "Amazing Project — Earns Money",
+      "category": "extra-credit",
+      "points": 5,
+      "doc": "extra-credit.md#amazing-project-built-and-public"
+    },
+    {
+      "id": "ec-feature-fix",
+      "title": "Add a Feature or Fix a Bug",
+      "category": "extra-credit",
+      "points": 0,
+      "tbd": true,
+      "doc": "extra-credit.md#add-a-feature-or-fix-a-bug-tbd"
     }
   ]
 }
