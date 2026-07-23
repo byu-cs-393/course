@@ -1642,16 +1642,14 @@
       "title": "Get a Friend an Interview",
       "category": "extra-credit",
       "points": 3,
-      "doc": "extra-credit.md#get-a-friend-an-interview",
-      "proposed": true
+      "doc": "extra-credit.md#get-a-friend-an-interview"
     },
     {
       "id": "ec-friend-offer",
       "title": "Get a Friend an Offer",
       "category": "extra-credit",
       "points": 5,
-      "doc": "extra-credit.md#get-a-friend-an-offer",
-      "proposed": true
+      "doc": "extra-credit.md#get-a-friend-an-offer"
     },
     {
       "id": "ec-amazing-project-community",
