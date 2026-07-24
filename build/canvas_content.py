@@ -157,9 +157,14 @@ def _content_md(root, a, assign_by_id, ctx):
     if typ == "live-interview":
         src = "topic-exams/live-interview-exam.md"
         return _strip_h1(_read(root, src)), src
-    if typ in ("peer-mock", "professional-mock"):
-        src = "mock-interviews/README.md"
-        return _strip_h1(_read(root, src)), src
+    if typ == "peer-mock":
+        return ("Practice a technical interview with a **classmate or TA** — as your honest, "
+                "curious self.\n\n" + _section_md(root, "mock-interviews/README.md", "what-to-do")), \
+               "mock-interviews/README.md"
+    if typ == "professional-mock":
+        return ("Complete at least one mock interview with a **working professional in industry**, "
+                "then report it below. See **[how to reach out](mock-interviews/linkedin-outreach.md)** "
+                "for message templates and tips — start early (it can take ~10 cold messages to land one)."), ""
     if typ == "final":
         return _strip_h1(_read(root, "final/README.md")), "final/README.md"
     if typ == "study":
