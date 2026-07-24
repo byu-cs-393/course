@@ -396,6 +396,35 @@ def pull_state(tok):
     return state
 
 
+def set_navigation(tok):
+    """Show only the tabs in canvas.nav (in that order); hide any other tab students
+    currently see. Tabs already limited to admins are left alone."""
+    keep = CFG.get("nav")
+    if not keep:
+        return
+    pos = {tid: i + 1 for i, tid in enumerate(keep)}
+    shown = hidden = 0
+    for t in canvas_list(tok, f"/courses/{COURSE_ID}/tabs"):
+        tid = t["id"]
+        if tid in pos:
+            body = {"hidden": False, "position": pos[tid]}
+            shown += 1
+        elif not t.get("hidden") and t.get("visibility") != "admins":
+            body = {"hidden": True}
+            hidden += 1
+        else:
+            continue
+        req = urllib.request.Request(
+            f"https://{CANVAS_HOST}/api/v1/courses/{COURSE_ID}/tabs/{tid}",
+            data=json.dumps(body).encode(), method="PUT",
+            headers={"Authorization": "Bearer " + tok, "Content-Type": "application/json"})
+        try:
+            urllib.request.urlopen(req)
+        except urllib.error.HTTPError:
+            pass   # Home/Settings and some tabs can't be modified
+    print(f"navigation: {shown} tabs kept, {hidden} hidden")
+
+
 def set_missing_policy(tok):
     """Apply grading.missingSubmissionPolicy from course.json. Missing = past due with
     nothing submitted; applies to online-submission assignments (on_paper/none exempt)."""
@@ -483,6 +512,7 @@ def apply():
            {"course": {"apply_assignment_group_weights": True,
                        "syllabus_body": content.syllabus_html(ROOT, link_map)}})
     print("enabled weighted groups + set syllabus")
+    set_navigation(tok)
     set_missing_policy(tok)
 
     for pos, g in enumerate(GROUPS, 1):

@@ -117,6 +117,14 @@
         "source": "amazing-project.md",
         "module": "Extra Credit"
       }
+    ],
+    "nav": [
+      "home",
+      "modules",
+      "assignments",
+      "syllabus",
+      "grades",
+      "people"
     ]
   },
   "static": {
