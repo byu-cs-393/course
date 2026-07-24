@@ -194,7 +194,7 @@
       "name": "Instructor Pass/Fail Interview",
       "points": 2.0,
       "group": 164497,
-      "due": null,
+      "due": "2026-12-06T06:59:00Z",
       "published": true,
       "submit": [
         "online_text_entry"
@@ -753,7 +753,7 @@
   "modules": [
     {
       "id": 397146,
-      "name": "Data Structures",
+      "name": "Data Structures (Sep 2 – 19)",
       "published": true,
       "items": [
         {
@@ -804,7 +804,7 @@
     },
     {
       "id": 397148,
-      "name": "Dynamic Programming",
+      "name": "Dynamic Programming (Oct 12 – Nov 7)",
       "published": true,
       "items": [
         {
@@ -930,7 +930,7 @@
     },
     {
       "id": 397147,
-      "name": "Graphs",
+      "name": "Graphs (Sep 21 – Oct 10)",
       "published": true,
       "items": [
         {
@@ -1012,7 +1012,7 @@
     },
     {
       "id": 397149,
-      "name": "Sorting, Two-Pointer, etc.",
+      "name": "Sorting, Two-Pointer, etc. (Nov 9 – Dec 5)",
       "published": true,
       "items": [
         {
