@@ -135,7 +135,7 @@ for a in C["assignments"]:
                       "extra-credit", subtype=a.get("submit", "online_text_entry"),
                       note="default score 0"))
     elif a["id"] == "connect-with-class":
-        plan.append(A(a["id"], a["title"], "study", a["points"], WEEK_DUE[1],
+        plan.append(A(a["id"], a["title"], a["category"], a["points"], WEEK_DUE[1],
                       "connect-with-class", week=1, topic="data-structures"))
     elif a["id"] == "instructor-interview":
         plan.append(A(a["id"], a["title"], "performance", a["points"], WEEK_DUE[14],
