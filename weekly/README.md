@@ -7,7 +7,7 @@ Each week you submit a **Study assignment** in Canvas logging your hours and pro
 | Points | For |
 |---:|---|
 | 4 | **Collaborative study** — 4 hrs (class, interviews, working with a friend on leetcode problems, etc) |
-| 4 | **Required problems** done (marked as "in class" or "required") |
+| 4 | **Required and "in class" problems** done |
 | 5 | **Personal study** — 5 hrs (may be collaborative, but doesn't have to be) |
 
 > **How to paste a submission URL:** link to your *accepted* submission, not the problem page.

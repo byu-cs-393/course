@@ -132,9 +132,15 @@ def _content_md(root, a, assign_by_id, ctx):
         return _strip_h1(_read(root, "final/README.md")), "final/README.md"
     if typ == "study":
         reduced = a.get("week") in ctx.get("reducedWeeks", set())
-        target = ("**~4.5 hours** — this is a half week, so everything is at half load"
-                  if reduced else "**~9 hours** (class counts as 3)")
-        return (f"Log your study for the week — target {target}. "
+        if reduced:
+            target = "**~4.5 hours** — this is a half week, so everything is at half load"
+            pts = ("**Points track your hours (6.5 total, half week):** ~2 for collaborative study, "
+                   "~2.5 for personal study, 2 for the required &amp; in-class problems.")
+        else:
+            target = "**~9 hours** (class counts as 3)"
+            pts = ("**Points track your hours (13 total):** 4 for ~4 hrs collaborative study, "
+                   "5 for ~5 hrs personal study, 4 for the required &amp; in-class problems.")
+        return (f"Log your study for the week — target {target}. {pts} "
                 "Paste the URL of your *accepted* LeetCode submission (open the problem → "
                 "**Submissions** → your accepted attempt → copy the address) after each problem below."), ""
     if typ == "connect-with-class":
