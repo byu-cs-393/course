@@ -500,170 +500,170 @@
     {
       "id": 1387114,
       "name": "Weekly Study",
-      "points": 1.5,
+      "points": 6.5,
       "group": 164496,
       "due": "2026-09-06T05:59:00Z",
       "published": true,
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1203
+      "descChars": 1365
     },
     {
       "id": 1387115,
       "name": "Weekly Study",
-      "points": 3.0,
+      "points": 13.0,
       "group": 164496,
       "due": "2026-11-08T06:59:00Z",
       "published": true,
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1120
+      "descChars": 1280
     },
     {
       "id": 1387116,
       "name": "Weekly Study",
-      "points": 3.0,
+      "points": 13.0,
       "group": 164496,
       "due": "2026-11-15T06:59:00Z",
       "published": true,
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1115
+      "descChars": 1275
     },
     {
       "id": 1387117,
       "name": "Weekly Study",
-      "points": 3.0,
+      "points": 13.0,
       "group": 164496,
       "due": "2026-11-22T06:59:00Z",
       "published": true,
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1092
+      "descChars": 1252
     },
     {
       "id": 1387118,
       "name": "Weekly Study",
-      "points": 1.5,
+      "points": 6.5,
       "group": 164496,
       "due": "2026-11-25T06:59:00Z",
       "published": true,
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1104
+      "descChars": 1266
     },
     {
       "id": 1387119,
       "name": "Weekly Study",
-      "points": 3.0,
+      "points": 13.0,
       "group": 164496,
       "due": "2026-12-06T06:59:00Z",
       "published": true,
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1091
+      "descChars": 1251
     },
     {
       "id": 1387120,
       "name": "Weekly Study",
-      "points": 3.0,
+      "points": 13.0,
       "group": 164496,
       "due": "2026-09-13T05:59:00Z",
       "published": true,
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1078
+      "descChars": 1238
     },
     {
       "id": 1387121,
       "name": "Weekly Study",
-      "points": 3.0,
+      "points": 13.0,
       "group": 164496,
       "due": "2026-09-20T05:59:00Z",
       "published": true,
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1142
+      "descChars": 1302
     },
     {
       "id": 1387122,
       "name": "Weekly Study",
-      "points": 3.0,
+      "points": 13.0,
       "group": 164496,
       "due": "2026-09-27T05:59:00Z",
       "published": true,
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1205
+      "descChars": 1365
     },
     {
       "id": 1387123,
       "name": "Weekly Study",
-      "points": 3.0,
+      "points": 13.0,
       "group": 164496,
       "due": "2026-10-04T05:59:00Z",
       "published": true,
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1030
+      "descChars": 1190
     },
     {
       "id": 1387124,
       "name": "Weekly Study",
-      "points": 3.0,
+      "points": 13.0,
       "group": 164496,
       "due": "2026-10-11T05:59:00Z",
       "published": true,
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1114
+      "descChars": 1274
     },
     {
       "id": 1387125,
       "name": "Weekly Study",
-      "points": 3.0,
+      "points": 13.0,
       "group": 164496,
       "due": "2026-10-18T05:59:00Z",
       "published": true,
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1097
+      "descChars": 1257
     },
     {
       "id": 1387126,
       "name": "Weekly Study",
-      "points": 3.0,
+      "points": 13.0,
       "group": 164496,
       "due": "2026-10-25T05:59:00Z",
       "published": true,
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1125
+      "descChars": 1285
     },
     {
       "id": 1387127,
       "name": "Weekly Study",
-      "points": 3.0,
+      "points": 13.0,
       "group": 164496,
       "due": "2026-11-01T05:59:00Z",
       "published": true,
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1115
+      "descChars": 1275
     }
   ],
   "pages": [
