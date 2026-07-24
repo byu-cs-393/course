@@ -12,7 +12,7 @@ Please see the shared [BYU Syllabus Statements](https://teaching.byu.edu/syllabu
 
 ## Communication
 
-We use **Microsoft Teams**. Section codes are handed out at the start of the semester.
+We use **Microsoft Teams** — [join the class team](https://teams.microsoft.com/l/team/19%3AyVgRINUk06mftu9v_CWvl0NCDt3k7CW4WEACLdD4Lls1%40thread.tacv2/conversations?groupId=bcf3c3da-c49a-4e19-a5e7-f9e2b049c802&tenantId=c6fc6e9b-51fb-48a8-b779-9ee564b40413). Section codes are handed out at the start of the semester.
 
 - **Meets:** Tuesday & Thursday, **8:00–9:15 am** (same room as the final exam).
 - **Instructor — Michael Reynolds**
