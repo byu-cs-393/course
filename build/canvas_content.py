@@ -98,8 +98,8 @@ def description_html(root, a, assign_by_id):
     return ""
 
 
-def page_html(root, week):
-    return render_file(root, f"weekly/week-{week:02d}.md", strip_h1=True)
+def page_html(root, source):
+    return render_file(root, source, strip_h1=True)
 
 
 def syllabus_html(root):

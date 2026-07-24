@@ -49,7 +49,7 @@
       "due": "2026-12-10T23:59:00-07:00",
       "module": "Extra Credit",
       "week": null,
-      "submissionType": "online_text_entry",
+      "submissionType": "online_url",
       "defaultScore": 0,
       "note": "default score 0"
     },
@@ -62,7 +62,7 @@
       "due": "2026-12-10T23:59:00-07:00",
       "module": "Extra Credit",
       "week": null,
-      "submissionType": "online_text_entry",
+      "submissionType": "online_url",
       "defaultScore": 0,
       "note": "default score 0"
     },
@@ -75,7 +75,7 @@
       "due": "2026-12-10T23:59:00-07:00",
       "module": "Extra Credit",
       "week": null,
-      "submissionType": "online_text_entry",
+      "submissionType": "online_url",
       "defaultScore": 0,
       "note": "default score 0"
     },
@@ -774,6 +774,11 @@
       "id": "week-14",
       "title": "Week 14 — Classifying Random Problems, Humility",
       "module": "Sorting, Two-Pointer, etc."
+    },
+    {
+      "id": "amazing-project",
+      "title": "Amazing Project",
+      "module": "Extra Credit"
     }
   ],
   "modules": [
@@ -1013,6 +1018,10 @@
     {
       "name": "Extra Credit",
       "items": [
+        {
+          "kind": "page",
+          "id": "amazing-project"
+        },
         {
           "kind": "assignment",
           "id": "ec-amazing-project-community"

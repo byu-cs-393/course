@@ -104,7 +104,8 @@ for a in C["assignments"]:
         continue
     if a["category"] == "extra-credit":
         plan.append(A(a["id"], a["title"], "extra-credit", a["points"], EC_DUE,
-                      "extra-credit", note="default score 0"))
+                      "extra-credit", subtype=a.get("submit", "online_text_entry"),
+                      note="default score 0"))
     elif a["id"] == "connect-with-class":
         plan.append(A(a["id"], a["title"], "study", a["points"], WEEK_DUE[1],
                       "connect-with-class", week=1, topic="data-structures"))
@@ -134,10 +135,14 @@ def route(a):
 for a in plan:
     a["module"] = route(a)
 
-# ---- pages: one per week, in the module of that week's study assignment ----
+# ---- pages: one per week (in that week's module) + standalone pages from config ----
 study_module = {a["week"]: a["module"] for a in plan if a["type"] == "study"}
 PAGES = [{"id": f"week-{w}", "title": f"Week {w:02d} — {WEEK_TITLE[w]}", "week": w,
-          "module": study_module[w]} for w in sorted(study_module)]
+          "module": study_module[w], "source": f"weekly/week-{w:02d}.md"}
+         for w in sorted(study_module)]
+for pg in CFG.get("pages", []):
+    PAGES.append({"id": pg["id"], "title": pg["title"], "week": None,
+                  "module": pg["module"], "source": pg["source"]})
 
 # ---- module items (assignments + week pages), ordered ----
 module_items = {}
@@ -417,7 +422,7 @@ def apply():
     print(f"  synced {len(plan)} assignments (with descriptions)")
 
     for p in PAGES:
-        wp = {"wiki_page": {"title": p["title"], "body": content.page_html(ROOT, p["week"]),
+        wp = {"wiki_page": {"title": p["title"], "body": content.page_html(ROOT, p["source"]),
                             "published": True}}
         slug = old["pages"].get(p["id"])
         r = (canvas(tok, "PUT", f"/courses/{COURSE_ID}/pages/{slug}", wp) if slug

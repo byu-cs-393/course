@@ -45,16 +45,10 @@ Post in the networking channel a brief story about how you go your friend an off
 
 ## Amazing Project Built and Public
 
-It is strongly recommended you get a claude.ai subscription and use that to help you build something.
-
-All projects in this category should include a public github repo with meaningful value and a 3 minute or less video embedded in the root readme that explains the value of the product and demos the functionality. Public repo should mention something about you and link to something like your linked in profile. Each project should represent significant work and time (even if assisted by AI), target 20+ hours.
-
-There are three opportunities here:
-1. Project that helps the community or world in some not for profit way. 
-2. Project is a personal project that perhaps is only useful to you.
-3. Project earns money. Need to show proof that you have been paid as a result. Has to be freelance (not part of responsiblities of hourly or salary wages from an employer). If needed this option doesn't need to be in a public repo, but must be somehow public such that a TA can manually approve it.
-
-You can do each of these opportunities once for credit, but you can do them your whole career for growth!
+Build something real and public — see **[Amazing Project](amazing-project.md)** for the full
+requirements (public repo, a time log in your commits, and a README with a 1–3 minute demo
+video). Three opportunities — **Community / Personal / Paid** — each once for credit. Submit
+your **repo URL** to the matching Canvas assignment.
 
 ## Add a Feature or Fix a Bug (TBD)
 
