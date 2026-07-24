@@ -23,7 +23,7 @@
 ## This week
 
 - 📅 [Live Interview 1](../topic-exams/live-interview-exam.md)
-- 📅 Schedule your [instructor interview](../fix-your-timezone.md)
+- 📅 Schedule your [instructor interview](../fix-your-timezone.md) 🔥
 
 ## Learning objectives
 

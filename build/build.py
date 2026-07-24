@@ -76,7 +76,7 @@ def this_week_lines(week):
             out.append(f"📖 [{o['label']}](../resources/textbook.md)")
         elif o.get("type") == "reminder" and o.get("action") == "schedule":
             r = REF[o["ref"]]
-            out.append(f"📅 Schedule your [{r['label']}]({r['link']})")
+            out.append(f"📅 Schedule your [{r['label']}]({r['link']}) 🔥")
         elif "ref" in o:
             r = REF[o["ref"]]
             out.append(r["label"] if "link" not in r
@@ -137,7 +137,7 @@ def sched_other_cell(items):
             out.append(f"📖 {o['label']}")
         elif o.get("type") == "reminder" and o.get("action") == "schedule":
             label, key = SCHED_REMINDER[o["ref"]]
-            out.append(f"📅 schedule [{label}][{key}]")
+            out.append(f"📅 schedule [{label}][{key}] 🔥")
         elif o.get("ref") == "connect-with-class":
             out.append("Connect with class")
     return "<br>".join(out)

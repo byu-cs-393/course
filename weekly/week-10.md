@@ -38,7 +38,7 @@
 
 - 📅 [Dynamic Programming & Counting Performance](../topic-exams/dynamic-programming/live-performance-exam.md)
 - 📅 [Peer Mock](../mock-interviews/README.md)
-- 📅 Schedule your [professional mock](../mock-interviews/linkedin-outreach.md)
+- 📅 Schedule your [professional mock](../mock-interviews/linkedin-outreach.md) 🔥
 
 ## Learning objectives
 
