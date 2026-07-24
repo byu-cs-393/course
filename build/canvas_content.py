@@ -203,8 +203,7 @@ def _template_md(a):
             "Date you did it:", "How it went (a few sentences):",
             "Self-rating (1-3):", "Link to your solution:"])
     if typ in ("peer-mock", "professional-mock"):
-        return _block(["Who you interviewed with:", "When:", "Problem(s) you worked on:",
-                       "Feedback you received:", "Self-rating (1-3):"])
+        return _block(["Who you interviewed with:", "When:", "How did it go?"])
     if typ == "instructor-interview":
         return _block(["Date you did it:", "Link to your passing solution:", "How did it go?"])
     if typ == "connect-with-class":
