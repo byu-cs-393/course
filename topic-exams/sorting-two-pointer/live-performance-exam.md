@@ -19,12 +19,6 @@ follow graph.
 
 ## Learning objectives
 
-This exam targets the same outcomes as the [online assessment](online-assessment.md):
-
-- Implement binary search in common contexts (rotated int array, median of two sorted arrays).
-- Apply binary search in novel contexts (space coordinates, number lists, strings, graphs, etc.).
-- Implement common search algorithms (quicksort, mergesort, bucket/counting sort).
-- Use or create an ordered structure to solve a novel problem.
-- Solve priority queue (heap) problems.
-- Implement various two-pointer algorithms.
-- Iterate through a data set while tracking multiple things (intervals, multiple constraints).
+- Quickly write correct, non-trivial code in a **proctored setting with no assistance** — no lookups, AI, or help.
+- Build the fluency to perform under time pressure, so in a real interview your energy goes to **problem-solving**, not mechanics.
+- Internalize the basic **syntax** of your chosen language until it is automatic.

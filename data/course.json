@@ -1518,11 +1518,9 @@
         "desc": "Design a data structure with `O(1)` `get` and `put` that evicts the least-recently-used key\nwhen at capacity. A strong solution combines a hash map with a doubly linked list."
       },
       "objectives": [
-        "Implement solutions requiring hashset, dictionaries, or key/value constant-time lookup structures.",
-        "Implement solutions involving 2D arrays.",
-        "Implement solutions involving iterating over characters of a string.",
-        "Implement solutions involving modifying a linked list.",
-        "Implement solutions requiring indexing into a linked list from a dictionary."
+        "Quickly write correct, non-trivial code in a **proctored setting with no assistance** — no lookups, AI, or help.",
+        "Build the fluency to perform under time pressure, so in a real interview your energy goes to **problem-solving**, not mechanics.",
+        "Internalize the basic **syntax** of your chosen language until it is automatic."
       ]
     },
     {
@@ -1534,9 +1532,9 @@
         "desc": "Given prerequisite pairs, answer queries about whether one course is a prerequisite\n(directly or indirectly) of another. Exercises directed-graph reachability — DFS/BFS from\neach node, or a transitive-closure approach."
       },
       "objectives": [
-        "Implement solutions requiring DFS.",
-        "Implement solutions requiring BFS.",
-        "Implement solutions requiring cycle detection in a graph."
+        "Quickly write correct, non-trivial code in a **proctored setting with no assistance** — no lookups, AI, or help.",
+        "Build the fluency to perform under time pressure, so in a real interview your energy goes to **problem-solving**, not mechanics.",
+        "Internalize the basic **syntax** of your chosen language until it is automatic."
       ]
     },
     {
@@ -1548,10 +1546,9 @@
         "desc": "Count the ways to roll `n` dice with `k` faces each to reach a target sum, modulo\n`10^9 + 7`. A classic counting DP — DFS with memoization over `(dice remaining, target)`, or\na bottom-up table."
       },
       "objectives": [
-        "Implement DP solutions using DFS with memoization (boolean, sum, min/max).",
-        "Implement counting solutions where a formula increments a total count at each iteration (e.g., N(N-1)/2 for subsequences).",
-        "Implement solutions that use a prefix or postfix to be more efficient.",
-        "Implement bottom-up solutions that build from a base case iteratively."
+        "Quickly write correct, non-trivial code in a **proctored setting with no assistance** — no lookups, AI, or help.",
+        "Build the fluency to perform under time pressure, so in a real interview your energy goes to **problem-solving**, not mechanics.",
+        "Internalize the basic **syntax** of your chosen language until it is automatic."
       ]
     },
     {
@@ -1563,13 +1560,9 @@
         "desc": "Design a simplified Twitter supporting `postTweet`, `follow`, `unfollow`, and a\n`getNewsFeed` that returns the 10 most recent tweets from a user and everyone they follow.\nExercises merging ordered streams with a **heap / priority queue** plus hash maps for the\nfollow graph."
       },
       "objectives": [
-        "Implement binary search in common contexts (rotated int array, median of two sorted arrays).",
-        "Apply binary search in novel contexts (space coordinates, number lists, strings, graphs, etc.).",
-        "Implement common search algorithms (quicksort, mergesort, bucket/counting sort).",
-        "Use or create an ordered structure to solve a novel problem.",
-        "Solve priority queue (heap) problems.",
-        "Implement various two-pointer algorithms.",
-        "Iterate through a data set while tracking multiple things (intervals, multiple constraints)."
+        "Quickly write correct, non-trivial code in a **proctored setting with no assistance** — no lookups, AI, or help.",
+        "Build the fluency to perform under time pressure, so in a real interview your energy goes to **problem-solving**, not mechanics.",
+        "Internalize the basic **syntax** of your chosen language until it is automatic."
       ]
     }
   ],

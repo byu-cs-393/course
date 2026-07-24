@@ -18,9 +18,6 @@ a bottom-up table.
 
 ## Learning objectives
 
-This exam targets the same outcomes as the [online assessment](online-assessment.md):
-
-- Implement DP solutions using DFS with memoization (boolean, sum, min/max).
-- Implement counting solutions where a formula increments a total count at each iteration (e.g., N(N-1)/2 for subsequences).
-- Implement solutions that use a prefix or postfix to be more efficient.
-- Implement bottom-up solutions that build from a base case iteratively.
+- Quickly write correct, non-trivial code in a **proctored setting with no assistance** — no lookups, AI, or help.
+- Build the fluency to perform under time pressure, so in a real interview your energy goes to **problem-solving**, not mechanics.
+- Internalize the basic **syntax** of your chosen language until it is automatic.

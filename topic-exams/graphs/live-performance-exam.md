@@ -18,8 +18,6 @@ each node, or a transitive-closure approach.
 
 ## Learning objectives
 
-This exam targets the same outcomes as the [online assessment](online-assessment.md):
-
-- Implement solutions requiring DFS.
-- Implement solutions requiring BFS.
-- Implement solutions requiring cycle detection in a graph.
+- Quickly write correct, non-trivial code in a **proctored setting with no assistance** — no lookups, AI, or help.
+- Build the fluency to perform under time pressure, so in a real interview your energy goes to **problem-solving**, not mechanics.
+- Internalize the basic **syntax** of your chosen language until it is automatic.

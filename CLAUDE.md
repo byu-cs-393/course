@@ -49,6 +49,34 @@ how much it's worth, where it goes, and the grading rules live in the JSON. How 
 Canvas, render markdown, and route modules lives in Python. Keep that line — don't push
 Canvas mechanics into the JSON, and don't hardcode course facts into the code.
 
+## For the extension (Jack)
+
+**Goal:** let the extension auto-submit on a student's behalf so submitting is effortless.
+**Flow:** Chrome extension → your Google Cloud backend → Canvas Submissions API.
+
+Two files are the contract you build against:
+
+- **`data/course.json`** — the course content and every assignment's **stable id**, e.g.
+  `study-w7`, `oa-graphs`, `perf-data-structures`, `live-2`, `peer-mock-w5`,
+  `professional-mock`, `instructor-interview`, `ec-real-offer-report-1`. These ids **do not
+  change** across semesters. Submission type is `online_text_entry` for everything except the
+  three Amazing Project EC items, which are `online_url`. Each assignment's description already
+  contains the exact fill-in template its submission expects, so you can pre-fill the body.
+- **`build/deploy.fall-2026.json`** — maps each stable id → the **Canvas id** for this
+  semester: `{ "course": 35464, "groups": {...}, "assignments": { "oa-graphs": 998xxx, ... },
+  "pages": {...}, "modules": {...} }`. A fresh file is generated each semester (new Canvas
+  course = new Canvas ids); the **stable ids stay constant**, so key your logic off those.
+
+**To auto-submit:** detect the student action → resolve its stable id → look up the Canvas
+assignment id in the deploy map → `POST` to
+`/api/v1/courses/<course>/assignments/<canvasId>/submissions` with
+`submission[submission_type]=online_text_entry` + `submission[body]=<filled template>`
+(or `online_url` + `submission[url]` for the URL items).
+
+Our side is a **mirror**: re-running it updates assignments **in place** (never changes an
+assignment's Canvas id) and never deletes an assignment that already has student work — so the
+ids you cache stay valid, and your submissions are safe.
+
 ## Requirements
 
 Python 3 with `jinja2` and `markdown` (`pip install -r build/requirements.txt`).

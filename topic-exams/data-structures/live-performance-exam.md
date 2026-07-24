@@ -17,10 +17,6 @@ when at capacity. A strong solution combines a hash map with a doubly linked lis
 
 ## Learning objectives
 
-This exam targets the same outcomes as the [online assessment](online-assessment.md):
-
-- Implement solutions requiring hashset, dictionaries, or key/value constant-time lookup structures.
-- Implement solutions involving 2D arrays.
-- Implement solutions involving iterating over characters of a string.
-- Implement solutions involving modifying a linked list.
-- Implement solutions requiring indexing into a linked list from a dictionary.
+- Quickly write correct, non-trivial code in a **proctored setting with no assistance** — no lookups, AI, or help.
+- Build the fluency to perform under time pressure, so in a real interview your energy goes to **problem-solving**, not mechanics.
+- Internalize the basic **syntax** of your chosen language until it is automatic.
