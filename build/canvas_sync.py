@@ -44,8 +44,11 @@ def _week_problems(w):
     return req, inclass
 
 
+REDUCED_WEEKS = {s["week"] for s in C["schedule"]
+                 if s.get("week") and (s.get("half") or s.get("thanksgiving"))}
 CTX = {"weeklyProblems": {w["week"]: _week_problems(w) for w in C["weeks"]},
-       "booking": C.get("booking", {})}
+       "booking": C.get("booking", {}),
+       "reducedWeeks": REDUCED_WEEKS}
 
 MON = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 MONTHS = {m: i for i, m in enumerate(MON[1:], 1)}
@@ -100,7 +103,8 @@ for s in C["schedule"]:
     tp = s.get("topic")
     due = WEEK_DUE[wk]
     if s.get("study"):
-        plan.append(A(f"study-w{wk}", "Weekly Study", "study", PTS["weeklyStudy"], due,
+        study_pts = PTS["weeklyStudy"] / 2 if wk in REDUCED_WEEKS else PTS["weeklyStudy"]
+        plan.append(A(f"study-w{wk}", "Weekly Study", "study", study_pts, due,
                       "study", week=wk, topic=tp))
     for p in s.get("performance", []):
         t = p["type"]

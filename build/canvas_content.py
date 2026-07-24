@@ -131,7 +131,10 @@ def _content_md(root, a, assign_by_id, ctx):
     if typ == "final":
         return _strip_h1(_read(root, "final/README.md")), "final/README.md"
     if typ == "study":
-        return ("Log your study for the week — target **~9 hours** (class counts as 3). "
+        reduced = a.get("week") in ctx.get("reducedWeeks", set())
+        target = ("**~4.5 hours** — this is a half week, so everything is at half load"
+                  if reduced else "**~9 hours** (class counts as 3)")
+        return (f"Log your study for the week — target {target}. "
                 "Paste the URL of your *accepted* LeetCode submission (open the problem → "
                 "**Submissions** → your accepted attempt → copy the address) after each problem below."), ""
     if typ == "connect-with-class":
@@ -233,7 +236,7 @@ def _template_md(a):
                   "Personal study: __ hrs",
                   "For growth I (mark any): re-timed myself / re-did without lookups /",
                   "  studied others' solutions after / just finished / other:",
-                  "Want a TA to review a solution? (Yes / No)"]
+                  "Want a TA to review a solution? If yes, paste the submission link below:"]
         return _block("Submit this:", lines)
     return ""   # amazing projects (URL submission), final (no submission)
 
