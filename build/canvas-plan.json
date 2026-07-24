@@ -523,7 +523,7 @@
     },
     {
       "id": "study-w1",
-      "title": "Weekly Study",
+      "title": "Weekly Study 01",
       "group": "study",
       "type": "study",
       "points": 6.5,
@@ -536,7 +536,7 @@
     },
     {
       "id": "study-w10",
-      "title": "Weekly Study",
+      "title": "Weekly Study 10",
       "group": "study",
       "type": "study",
       "points": 13,
@@ -549,7 +549,7 @@
     },
     {
       "id": "study-w11",
-      "title": "Weekly Study",
+      "title": "Weekly Study 11",
       "group": "study",
       "type": "study",
       "points": 13,
@@ -562,7 +562,7 @@
     },
     {
       "id": "study-w12",
-      "title": "Weekly Study",
+      "title": "Weekly Study 12",
       "group": "study",
       "type": "study",
       "points": 13,
@@ -575,7 +575,7 @@
     },
     {
       "id": "study-w13",
-      "title": "Weekly Study",
+      "title": "Weekly Study 13",
       "group": "study",
       "type": "study",
       "points": 6.5,
@@ -588,7 +588,7 @@
     },
     {
       "id": "study-w14",
-      "title": "Weekly Study",
+      "title": "Weekly Study 14",
       "group": "study",
       "type": "study",
       "points": 13,
@@ -601,7 +601,7 @@
     },
     {
       "id": "study-w2",
-      "title": "Weekly Study",
+      "title": "Weekly Study 02",
       "group": "study",
       "type": "study",
       "points": 13,
@@ -614,7 +614,7 @@
     },
     {
       "id": "study-w3",
-      "title": "Weekly Study",
+      "title": "Weekly Study 03",
       "group": "study",
       "type": "study",
       "points": 13,
@@ -627,7 +627,7 @@
     },
     {
       "id": "study-w4",
-      "title": "Weekly Study",
+      "title": "Weekly Study 04",
       "group": "study",
       "type": "study",
       "points": 13,
@@ -640,7 +640,7 @@
     },
     {
       "id": "study-w5",
-      "title": "Weekly Study",
+      "title": "Weekly Study 05",
       "group": "study",
       "type": "study",
       "points": 13,
@@ -653,7 +653,7 @@
     },
     {
       "id": "study-w6",
-      "title": "Weekly Study",
+      "title": "Weekly Study 06",
       "group": "study",
       "type": "study",
       "points": 13,
@@ -666,7 +666,7 @@
     },
     {
       "id": "study-w7",
-      "title": "Weekly Study",
+      "title": "Weekly Study 07",
       "group": "study",
       "type": "study",
       "points": 13,
@@ -679,7 +679,7 @@
     },
     {
       "id": "study-w8",
-      "title": "Weekly Study",
+      "title": "Weekly Study 08",
       "group": "study",
       "type": "study",
       "points": 13,
@@ -692,7 +692,7 @@
     },
     {
       "id": "study-w9",
-      "title": "Weekly Study",
+      "title": "Weekly Study 09",
       "group": "study",
       "type": "study",
       "points": 13,

@@ -104,7 +104,7 @@ for s in C["schedule"]:
     due = WEEK_DUE[wk]
     if s.get("study"):
         study_pts = PTS["weeklyStudy"] / 2 if wk in REDUCED_WEEKS else PTS["weeklyStudy"]
-        plan.append(A(f"study-w{wk}", "Weekly Study", "study", study_pts, due,
+        plan.append(A(f"study-w{wk}", f"Weekly Study {wk:02d}", "study", study_pts, due,
                       "study", week=wk, topic=tp))
     for p in s.get("performance", []):
         t = p["type"]

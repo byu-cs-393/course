@@ -139,7 +139,7 @@ def _study_content(a, ctx):
         target = "**~9 hours** (class counts as 3)"
         pts = ("**Points track your hours (13 total):** 4 for ~4 hrs collaborative study, "
                "5 for ~5 hrs personal study, 4 for the required &amp; in-class problems.")
-    page = f"📄 [Open the **Week {wk:02d}** page — these problems in context](weekly/week-{wk:02d}.md)"
+    page = f"📄 [Week {wk:02d}](weekly/week-{wk:02d}.md)"
     return (f"{page}\n\n"
             f"Log your study for the week — target {target}. {pts} Paste the URL of your "
             "*accepted* LeetCode submission (open the problem → **Submissions** → your accepted "
