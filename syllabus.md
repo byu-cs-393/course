@@ -17,9 +17,11 @@ We use **Microsoft Teams**. Section codes are handed out at the start of the sem
 - **Meets:** Tuesday & Thursday, **8:00–9:15 am** (same room as the final exam).
 - **Instructor — Michael Reynolds**
     - Message me on **Microsoft Teams** (preferred)
-    - mtr26@byu.edu · 208.502.0425
+    - mtr26@byu.edu
     - Meet in person or online: [tinyurl.com/mtr26](https://tinyurl.com/mtr26) — first [fix your time zone](fix-your-timezone.md)
-- **Teaching Assistants:** TBD for Fall 2026
+- **Teaching Assistants**
+    - **Jack (John) Leonard** — [book a time](https://calendly.com/jack-john684/15min)
+    - **Andrew Cambridge** — contact info TBD
 
 ## Topics
 
