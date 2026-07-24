@@ -384,16 +384,39 @@ def set_ec_defaults(tok, dm):
     print(f"  set default 0 on {touched}/{len(ec_ids)} EC assignments (ungraded only)")
 
 
+def build_link_map(old):
+    """repo source path -> Canvas internal URL, from the deploy map (pages by slug,
+    1:1 exam files by assignment id). Lets internal .md links resolve inside Canvas."""
+    lm = {}
+    for p in PAGES:
+        slug = old.get("pages", {}).get(p["id"])
+        if slug:
+            lm[p["source"]] = f"/courses/{COURSE_ID}/pages/{slug}"
+    for a in plan:
+        aid = old.get("assignments", {}).get(a["id"])
+        if not aid:
+            continue
+        url = f"/courses/{COURSE_ID}/assignments/{aid}"
+        if a["type"] == "oa":
+            lm[f"topic-exams/{a['topic']}/online-assessment.md"] = url
+        elif a["type"] == "performance":
+            lm[f"topic-exams/{a['topic']}/live-performance-exam.md"] = url
+        elif a["id"] == "final":
+            lm["final/README.md"] = url
+    return lm
+
+
 def apply():
     """Mirror course.json to Canvas: create/update everything in the plan, prune the rest."""
     tok = get_token()
     old = load_dm()
+    link_map = build_link_map(old)
     dm = {"course": COURSE_ID, "host": CANVAS_HOST, "groups": {}, "assignments": {},
           "pages": {}, "modules": {}}
 
     canvas(tok, "PUT", f"/courses/{COURSE_ID}",
            {"course": {"apply_assignment_group_weights": True,
-                       "syllabus_body": content.syllabus_html(ROOT)}})
+                       "syllabus_body": content.syllabus_html(ROOT, link_map)}})
     print("enabled weighted groups + set syllabus")
     set_missing_policy(tok)
 
@@ -412,7 +435,7 @@ def apply():
                                "assignment_group_id": dm["groups"][a["group"]],
                                "submission_types": [a["subtype"]],
                                "due_at": a["due"], "published": True,
-                               "description": content.description_html(ROOT, a, ASSIGN_BY_ID)}}
+                               "description": content.description_html(ROOT, a, ASSIGN_BY_ID, link_map)}}
         cid = old["assignments"].get(a["id"])
         if cid:
             canvas(tok, "PUT", f"/courses/{COURSE_ID}/assignments/{cid}", body)
@@ -422,7 +445,7 @@ def apply():
     print(f"  synced {len(plan)} assignments (with descriptions)")
 
     for p in PAGES:
-        wp = {"wiki_page": {"title": p["title"], "body": content.page_html(ROOT, p["source"]),
+        wp = {"wiki_page": {"title": p["title"], "body": content.page_html(ROOT, p["source"], link_map),
                             "published": True}}
         slug = old["pages"].get(p["id"])
         r = (canvas(tok, "PUT", f"/courses/{COURSE_ID}/pages/{slug}", wp) if slug

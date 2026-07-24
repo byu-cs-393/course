@@ -34,7 +34,7 @@
       "type": "connect-with-class",
       "points": 1,
       "due": "2026-09-05T23:59:00-06:00",
-      "module": "Data Structures",
+      "module": "Milestones",
       "week": 1,
       "submissionType": "online_text_entry",
       "defaultScore": null,
@@ -787,6 +787,10 @@
       "items": [
         {
           "kind": "assignment",
+          "id": "connect-with-class"
+        },
+        {
+          "kind": "assignment",
           "id": "live-1"
         },
         {
@@ -817,10 +821,6 @@
         {
           "kind": "page",
           "id": "week-1"
-        },
-        {
-          "kind": "assignment",
-          "id": "connect-with-class"
         },
         {
           "kind": "assignment",
