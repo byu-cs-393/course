@@ -428,7 +428,7 @@ def apply():
         r = (canvas(tok, "PUT", f"/courses/{COURSE_ID}/pages/{slug}", wp) if slug
              else canvas(tok, "POST", f"/courses/{COURSE_ID}/pages", wp))
         dm["pages"][p["id"]] = r["url"]
-    print(f"  synced {len(PAGES)} weekly pages")
+    print(f"  synced {len(PAGES)} pages")
 
     for pos, m in enumerate(plan_doc["modules"], 1):
         mcid = old["modules"].get(m["name"])

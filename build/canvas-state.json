@@ -41,9 +41,9 @@
       "due": "2026-12-11T06:59:00Z",
       "published": true,
       "submit": [
-        "online_text_entry"
+        "online_url"
       ],
-      "descChars": 1381
+      "descChars": 529
     },
     {
       "id": 1387078,
@@ -53,9 +53,9 @@
       "due": "2026-12-11T06:59:00Z",
       "published": true,
       "submit": [
-        "online_text_entry"
+        "online_url"
       ],
-      "descChars": 1381
+      "descChars": 519
     },
     {
       "id": 1387079,
@@ -65,9 +65,9 @@
       "due": "2026-12-11T06:59:00Z",
       "published": true,
       "submit": [
-        "online_text_entry"
+        "online_url"
       ],
-      "descChars": 1381
+      "descChars": 515
     },
     {
       "id": 1387076,
@@ -660,6 +660,12 @@
   ],
   "pages": [
     {
+      "pageId": 1595348,
+      "url": "amazing-project",
+      "title": "Amazing Project",
+      "published": true
+    },
+    {
       "pageId": 1595196,
       "url": "week-01-bigo-strings-linked-lists-sets",
       "title": "Week 01 — BigO, Strings, Linked Lists, Sets",
@@ -864,6 +870,10 @@
       "name": "Extra Credit",
       "published": true,
       "items": [
+        {
+          "type": "Page",
+          "title": "Amazing Project"
+        },
         {
           "type": "Assignment",
           "title": "Amazing Project — Community/World"
