@@ -24,7 +24,7 @@
 ## This week
 
 - 📅 [Live Interview 2](../topic-exams/live-interview-exam.md)
-- 📖 DP reading
+- 📖 [DP reading](../resources/textbook.md)
 
 ## Learning objectives
 

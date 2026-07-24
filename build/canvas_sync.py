@@ -482,6 +482,9 @@ def build_link_map(old):
     """repo source path -> Canvas internal URL, from the deploy map (pages by slug,
     1:1 exam files by assignment id). Lets internal .md links resolve inside Canvas."""
     lm = {"syllabus.md": f"/courses/{COURSE_ID}/assignments/syllabus"}
+    cc = old.get("assignments", {}).get("connect-with-class")
+    if cc:
+        lm["connect-with-class"] = f"/courses/{COURSE_ID}/assignments/{cc}"
     for p in PAGES:
         slug = old.get("pages", {}).get(p["id"])
         if slug:

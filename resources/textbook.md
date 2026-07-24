@@ -3,7 +3,8 @@
 **Cracking the Coding Interview** by Gayle Laakmann McDowell.
 
 - Free selections are available via **BYU Library reserve**:
-  [apps.lib.byu.edu/reserve/docs/39812](https://apps.lib.byu.edu/reserve/docs/39812/)
+  [apps.lib.byu.edu/reserve/docs/39812](https://apps.lib.byu.edu/reserve/docs/39812/). The same
+  PDF selections are also posted in the **general** channel of our class Microsoft Teams.
 - Or buy on Amazon.
 
 This text has an approachable format, a lot of interesting problems, and a helpful system

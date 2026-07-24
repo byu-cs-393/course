@@ -34,7 +34,7 @@ REF = {
                           "link": "../mock-interviews/linkedin-outreach.md"},
     "instructor-interview": {"label": "instructor interview",
                              "link": "../fix-your-timezone.md"},
-    "connect-with-class": {"label": "Connect with class"},  # plain text, no link
+    "connect-with-class": {"label": "Connect with class", "link": "../connect-with-class"},
 }
 
 
@@ -73,7 +73,7 @@ def this_week_lines(week):
             out.append("📅 [Professional Mock](../mock-interviews/linkedin-outreach.md)")
     for o in s.get("other", []):
         if o.get("type") == "reading":
-            out.append(f"📖 {o['label']}")
+            out.append(f"📖 [{o['label']}](../resources/textbook.md)")
         elif o.get("type") == "reminder" and o.get("action") == "schedule":
             r = REF[o["ref"]]
             out.append(f"📅 Schedule your [{r['label']}]({r['link']})")

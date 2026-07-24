@@ -20,8 +20,8 @@
 ## This week
 
 - 📅 [Peer Mock](../mock-interviews/README.md)
-- 📖 Big O reading
-- Connect with class
+- 📖 [Big O reading](../resources/textbook.md)
+- [Connect with class](../connect-with-class)
 
 ## Learning objectives
 
