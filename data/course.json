@@ -38,7 +38,11 @@
         "due": "2026-12-10",
         "desc": "added on top; 1 point = 1% of the final grade"
       }
-    ]
+    ],
+    "missingSubmissionPolicy": {
+      "missingGrade": 0,
+      "penalizeLate": false
+    }
   },
   "points": {
     "weeklyStudy": 3,

@@ -5,10 +5,18 @@
     "weightedGroups": true,
     "syllabusChars": 6633
   },
-  "latePolicy": {
-    "missing_submission_deduction_enabled": true,
-    "missing_submission_deduction": 100.0,
-    "late_submission_deduction_enabled": false
+  "policies": {
+    "latePolicy": {
+      "missing_submission_deduction_enabled": true,
+      "missing_submission_deduction": 100.0,
+      "late_submission_deduction_enabled": false
+    },
+    "categoryDefaults": [
+      {
+        "category": "extra-credit",
+        "defaultScore": 0
+      }
+    ]
   },
   "groups": [
     {

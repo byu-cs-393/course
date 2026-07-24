@@ -344,8 +344,14 @@ def pull_state(tok):
         "course": {"id": COURSE_ID, "workflow_state": course["workflow_state"],
                    "weightedGroups": course.get("apply_assignment_group_weights"),
                    "syllabusChars": len(course.get("syllabus_body") or "")},
-        "latePolicy": {k: lp.get(k) for k in ("missing_submission_deduction_enabled",
-                       "missing_submission_deduction", "late_submission_deduction_enabled")},
+        "policies": {
+            # actual late policy read back from Canvas
+            "latePolicy": {k: lp.get(k) for k in ("missing_submission_deduction_enabled",
+                           "missing_submission_deduction", "late_submission_deduction_enabled")},
+            # category default scores (declared in course.json; applied as grades, not a Canvas setting)
+            "categoryDefaults": [{"category": c["id"], "defaultScore": c["defaultScore"]}
+                                 for c in C["grading"]["categories"] if "defaultScore" in c],
+        },
         "groups": sorted(({"id": g["id"], "name": g["name"], "weight": g["group_weight"]}
                           for g in groups), key=lambda x: x["name"]),
         "assignments": sorted(({"id": a["id"], "name": a["name"], "points": a["points_possible"],
@@ -370,8 +376,11 @@ def pull_state(tok):
 
 
 def set_missing_policy(tok):
-    """Missing submissions (past due, nothing submitted) → 0. No late penalty.
-    Applies to online-submission assignments; on_paper/none (the final) are exempt."""
+    """Apply grading.missingSubmissionPolicy from course.json. Missing = past due with
+    nothing submitted; applies to online-submission assignments (on_paper/none exempt)."""
+    pol = C["grading"].get("missingSubmissionPolicy")
+    if not pol:
+        return
     url = f"/courses/{COURSE_ID}/late_policy"
     try:
         urllib.request.urlopen(urllib.request.Request(
@@ -383,33 +392,40 @@ def set_missing_policy(tok):
         exists = False
     canvas(tok, "PATCH" if exists else "POST", url,
            {"late_policy": {"missing_submission_deduction_enabled": True,
-                            "missing_submission_deduction": 100,
-                            "late_submission_deduction_enabled": False}})
-    print("  missing-submission policy: 0 for missing after due (no late penalty)")
+                            "missing_submission_deduction": 100 - pol.get("missingGrade", 0),
+                            "late_submission_deduction_enabled": bool(pol.get("penalizeLate", False))}})
+    print(f"  missing-submission policy: {pol.get('missingGrade', 0)}% for missing"
+          f"{'' if pol.get('penalizeLate') else ', no late penalty'}")
 
 
-def set_ec_defaults(tok, dm):
-    """Set a default grade of 0 on Extra Credit assignments, ONLY for ungraded
-    submissions — so EC counts toward its group's points (1 pt = 1%) without ever
-    clobbering a grade a student has already earned."""
-    ec_ids = [dm["assignments"][a["id"]] for a in plan if a["group"] == "extra-credit"]
+def set_default_scores(tok, dm):
+    """Apply each grading category's `defaultScore` (course.json) to its assignments,
+    ONLY for ungraded submissions — so the category counts toward its points without
+    ever clobbering a grade a student earned. (EC uses this so 1 pt = 1%.)"""
+    cats = [c for c in C["grading"]["categories"] if "defaultScore" in c]
+    if not cats:
+        return
     students = [u["id"] for u in
                 canvas_list(tok, f"/courses/{COURSE_ID}/users?enrollment_type[]=student")]
     if not students:
-        print("  (no students enrolled yet — skipped EC defaults)")
+        print("  (no students enrolled yet — skipped default scores)")
         return
-    touched = 0
-    for acid in ec_ids:
-        subs = canvas_list(tok, f"/courses/{COURSE_ID}/assignments/{acid}/submissions")
-        graded = {s["user_id"] for s in subs
-                  if s.get("score") is not None or s.get("grade") is not None}
-        ungraded = [u for u in students if u not in graded]
-        if ungraded:
-            canvas(tok, "POST",
-                   f"/courses/{COURSE_ID}/assignments/{acid}/submissions/update_grades",
-                   {"grade_data": {str(u): {"posted_grade": 0} for u in ungraded}})
-            touched += 1
-    print(f"  set default 0 on {touched}/{len(ec_ids)} EC assignments (ungraded only)")
+    for cat in cats:
+        score = cat["defaultScore"]
+        ids = [dm["assignments"][a["id"]] for a in plan if a["group"] == cat["id"]]
+        touched = 0
+        for acid in ids:
+            subs = canvas_list(tok, f"/courses/{COURSE_ID}/assignments/{acid}/submissions")
+            graded = {s["user_id"] for s in subs
+                      if s.get("score") is not None or s.get("grade") is not None}
+            ungraded = [u for u in students if u not in graded]
+            if ungraded:
+                canvas(tok, "POST",
+                       f"/courses/{COURSE_ID}/assignments/{acid}/submissions/update_grades",
+                       {"grade_data": {str(u): {"posted_grade": score} for u in ungraded}})
+                touched += 1
+        print(f"  default score {score} on {touched}/{len(ids)} {cat['label']} "
+              f"assignments (ungraded only)")
 
 
 def build_link_map(old):
@@ -511,7 +527,7 @@ def apply():
                 canvas(tok, "POST", f"/courses/{COURSE_ID}/modules/{mcid}/items", {"module_item": mi})
         print(f"  module {m['name']:<26} {len(desired)} items")
 
-    set_ec_defaults(tok, dm)
+    set_default_scores(tok, dm)
     prune(tok, dm)          # delete any Canvas group/assignment/page/module not in the plan
     save_dm(dm)
     print(f"\ndeploy map: build/deploy.fall-2026.json ({len(dm['groups'])} groups, "
