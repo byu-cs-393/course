@@ -452,7 +452,7 @@ def set_default_scores(tok, dm):
 def build_link_map(old):
     """repo source path -> Canvas internal URL, from the deploy map (pages by slug,
     1:1 exam files by assignment id). Lets internal .md links resolve inside Canvas."""
-    lm = {}
+    lm = {"syllabus.md": f"/courses/{COURSE_ID}/assignments/syllabus"}
     for p in PAGES:
         slug = old.get("pages", {}).get(p["id"])
         if slug:

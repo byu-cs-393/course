@@ -112,7 +112,8 @@ def _block(lines, heading="Submit", note=None):
 
 
 def _booking_ta():
-    return "📅 **Book a time with a TA** — the TA booking links are in the course syllabus."
+    return ("📅 **Book a time with a TA** — the TA booking links are in the "
+            "[course syllabus](syllabus.md).")
 
 
 def _connect_content(a):
@@ -200,7 +201,7 @@ def _template_md(a):
             "How long it took:", "Attempt you passed on:", "Link to your passing solution:"])
     if typ == "live-interview":
         return _booking_ta() + "\n\n" + _block([
-            "Date you did it:", "How it went (a few sentences):",
+            "Date you did it:", "How did it go?",
             "Self-rating (1-3):", "Link to your solution:"])
     if typ in ("peer-mock", "professional-mock"):
         return _block(["Who you interviewed with:", "When:", "How did it go?"])
@@ -258,5 +259,9 @@ def description_html(root, a, assign_by_id, link_map=None, ctx=None):
         a = dict(a, _weekly=ctx.get("weeklyProblems", {}).get(a.get("week")))
     content, src = _content_md(root, a, assign_by_id, ctx)
     template = _template_md(a)
-    md = "\n\n".join(p for p in (content, template) if p)
-    return _to_html(_rewrite_links(md, src, link_map))
+    html = ""
+    if content:                                    # content links resolve from its own file
+        html += _to_html(_rewrite_links(content, src, link_map))
+    if template:                                   # template links (syllabus) resolve from root
+        html += _to_html(_rewrite_links(template, "", link_map))
+    return html
