@@ -43,7 +43,7 @@
       "submit": [
         "online_url"
       ],
-      "descChars": 529
+      "descChars": 721
     },
     {
       "id": 1387078,
@@ -55,7 +55,7 @@
       "submit": [
         "online_url"
       ],
-      "descChars": 519
+      "descChars": 711
     },
     {
       "id": 1387079,
@@ -67,7 +67,7 @@
       "submit": [
         "online_url"
       ],
-      "descChars": 515
+      "descChars": 707
     },
     {
       "id": 1387076,
@@ -103,7 +103,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1674
+      "descChars": 1762
     },
     {
       "id": 1387097,
@@ -127,7 +127,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1752
+      "descChars": 1836
     },
     {
       "id": 1387091,
@@ -187,7 +187,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1463
+      "descChars": 1560
     },
     {
       "id": 1387092,
@@ -487,7 +487,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1993
+      "descChars": 2077
     },
     {
       "id": 1387114,
@@ -499,7 +499,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 3741
+      "descChars": 5835
     },
     {
       "id": 1387115,
@@ -511,7 +511,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 3741
+      "descChars": 5835
     },
     {
       "id": 1387116,
@@ -523,7 +523,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 3741
+      "descChars": 5835
     },
     {
       "id": 1387117,
@@ -535,7 +535,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 3741
+      "descChars": 5835
     },
     {
       "id": 1387118,
@@ -547,7 +547,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 3741
+      "descChars": 5835
     },
     {
       "id": 1387119,
@@ -559,7 +559,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 3741
+      "descChars": 5835
     },
     {
       "id": 1387120,
@@ -571,7 +571,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 3741
+      "descChars": 5835
     },
     {
       "id": 1387121,
@@ -583,7 +583,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 3741
+      "descChars": 5835
     },
     {
       "id": 1387122,
@@ -595,7 +595,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 3741
+      "descChars": 5835
     },
     {
       "id": 1387123,
@@ -607,7 +607,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 3741
+      "descChars": 5835
     },
     {
       "id": 1387124,
@@ -619,7 +619,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 3741
+      "descChars": 5835
     },
     {
       "id": 1387125,
@@ -631,7 +631,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 3741
+      "descChars": 5835
     },
     {
       "id": 1387126,
@@ -643,7 +643,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 3741
+      "descChars": 5835
     },
     {
       "id": 1387127,
@@ -655,7 +655,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 3741
+      "descChars": 5835
     }
   ],
   "pages": [
@@ -759,10 +759,6 @@
         {
           "type": "Page",
           "title": "Week 01 — BigO, Strings, Linked Lists, Sets"
-        },
-        {
-          "type": "Assignment",
-          "title": "Connect with Class"
         },
         {
           "type": "Assignment",
@@ -984,6 +980,10 @@
       "name": "Milestones",
       "published": true,
       "items": [
+        {
+          "type": "Assignment",
+          "title": "Connect with Class"
+        },
         {
           "type": "Assignment",
           "title": "Live Interview 1"
