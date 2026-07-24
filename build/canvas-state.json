@@ -3,7 +3,7 @@
     "id": 35464,
     "workflow_state": "unpublished",
     "weightedGroups": true,
-    "syllabusChars": 7031
+    "syllabusChars": 7356
   },
   "policies": {
     "latePolicy": {
@@ -87,7 +87,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 582
+      "descChars": 1547
     },
     {
       "id": 1387096,
@@ -99,7 +99,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 3056
+      "descChars": 3323
     },
     {
       "id": 1387109,
@@ -111,7 +111,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1762
+      "descChars": 2018
     },
     {
       "id": 1387097,
@@ -123,7 +123,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 3006
+      "descChars": 3273
     },
     {
       "id": 1387110,
@@ -135,7 +135,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1836
+      "descChars": 2092
     },
     {
       "id": 1387091,
@@ -145,9 +145,9 @@
       "due": "2026-12-18T06:59:00Z",
       "published": true,
       "submit": [
-        "on_paper"
+        "none"
       ],
-      "descChars": 1310
+      "descChars": 1385
     },
     {
       "id": 1387080,
@@ -159,7 +159,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 435
+      "descChars": 624
     },
     {
       "id": 1387081,
@@ -171,7 +171,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 436
+      "descChars": 624
     },
     {
       "id": 1387098,
@@ -183,7 +183,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 4797
+      "descChars": 5064
     },
     {
       "id": 1387111,
@@ -195,7 +195,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1560
+      "descChars": 1816
     },
     {
       "id": 1387092,
@@ -207,7 +207,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 985
+      "descChars": 776
     },
     {
       "id": 1387082,
@@ -219,7 +219,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 522
+      "descChars": 682
     },
     {
       "id": 1387093,
@@ -231,7 +231,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1106
+      "descChars": 1382
     },
     {
       "id": 1387094,
@@ -243,7 +243,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1106
+      "descChars": 1382
     },
     {
       "id": 1387095,
@@ -255,7 +255,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1106
+      "descChars": 1382
     },
     {
       "id": 1387100,
@@ -267,7 +267,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 2400
+      "descChars": 2662
     },
     {
       "id": 1387101,
@@ -279,7 +279,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 2400
+      "descChars": 2662
     },
     {
       "id": 1387102,
@@ -291,7 +291,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 2400
+      "descChars": 2662
     },
     {
       "id": 1387103,
@@ -303,7 +303,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 2400
+      "descChars": 2662
     },
     {
       "id": 1387104,
@@ -315,7 +315,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 2400
+      "descChars": 2662
     },
     {
       "id": 1387105,
@@ -327,7 +327,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 2400
+      "descChars": 2662
     },
     {
       "id": 1387106,
@@ -339,7 +339,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 2400
+      "descChars": 2662
     },
     {
       "id": 1387107,
@@ -351,7 +351,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 2400
+      "descChars": 2662
     },
     {
       "id": 1387108,
@@ -363,7 +363,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 2400
+      "descChars": 2662
     },
     {
       "id": 1387113,
@@ -375,7 +375,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 2400
+      "descChars": 2662
     },
     {
       "id": 1387083,
@@ -387,7 +387,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 808
+      "descChars": 1042
     },
     {
       "id": 1387084,
@@ -399,7 +399,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 808
+      "descChars": 1042
     },
     {
       "id": 1387085,
@@ -411,7 +411,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 808
+      "descChars": 1042
     },
     {
       "id": 1387086,
@@ -423,7 +423,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 808
+      "descChars": 1042
     },
     {
       "id": 1387087,
@@ -435,7 +435,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 808
+      "descChars": 1042
     },
     {
       "id": 1387088,
@@ -447,7 +447,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1057
+      "descChars": 1386
     },
     {
       "id": 1387089,
@@ -459,7 +459,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1057
+      "descChars": 1386
     },
     {
       "id": 1387090,
@@ -471,7 +471,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1057
+      "descChars": 1386
     },
     {
       "id": 1387099,
@@ -483,7 +483,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 4300
+      "descChars": 4567
     },
     {
       "id": 1387112,
@@ -495,7 +495,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 2077
+      "descChars": 2333
     },
     {
       "id": 1387114,
@@ -507,7 +507,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 5835
+      "descChars": 1138
     },
     {
       "id": 1387115,
@@ -519,7 +519,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 5835
+      "descChars": 1090
     },
     {
       "id": 1387116,
@@ -531,7 +531,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 5835
+      "descChars": 1085
     },
     {
       "id": 1387117,
@@ -543,7 +543,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 5835
+      "descChars": 1062
     },
     {
       "id": 1387118,
@@ -555,7 +555,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 5835
+      "descChars": 1039
     },
     {
       "id": 1387119,
@@ -567,7 +567,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 5835
+      "descChars": 1061
     },
     {
       "id": 1387120,
@@ -579,7 +579,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 5835
+      "descChars": 1048
     },
     {
       "id": 1387121,
@@ -591,7 +591,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 5835
+      "descChars": 1112
     },
     {
       "id": 1387122,
@@ -603,7 +603,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 5835
+      "descChars": 1175
     },
     {
       "id": 1387123,
@@ -615,7 +615,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 5835
+      "descChars": 1000
     },
     {
       "id": 1387124,
@@ -627,7 +627,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 5835
+      "descChars": 1084
     },
     {
       "id": 1387125,
@@ -639,7 +639,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 5835
+      "descChars": 1067
     },
     {
       "id": 1387126,
@@ -651,7 +651,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 5835
+      "descChars": 1095
     },
     {
       "id": 1387127,
@@ -663,7 +663,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 5835
+      "descChars": 1085
     }
   ],
   "pages": [
