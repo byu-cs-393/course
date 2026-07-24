@@ -510,7 +510,14 @@ def apply():
     print(f"  synced {len(plan)} assignments (with descriptions)")
 
     for p in PAGES:
-        wp = {"wiki_page": {"title": p["title"], "body": content.page_html(ROOT, p["source"], link_map),
+        weekly_link = None
+        if p["week"] is not None:
+            sid = dm["assignments"].get(f"study-w{p['week']}")
+            if sid:
+                weekly_link = ("**➡️ [Submit this week's Weekly Study]"
+                               f"(/courses/{COURSE_ID}/assignments/{sid})**")
+        wp = {"wiki_page": {"title": p["title"],
+                            "body": content.page_html(ROOT, p["source"], link_map, weekly_link),
                             "published": True}}
         slug = old["pages"].get(p["id"])
         r = (canvas(tok, "PUT", f"/courses/{COURSE_ID}/pages/{slug}", wp) if slug

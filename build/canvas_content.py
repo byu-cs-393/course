@@ -3,12 +3,14 @@
 
 Assignment descriptions are TAILORED per assignment: the relevant content, then a
 fill-in submission template (a greyed code block) telling the student exactly what
-to submit. Internal .md links resolve to real Canvas objects via `link_map`
-(else GitHub blob). Headings get extra top margin so sections breathe in Canvas.
+to submit. Weekly Study links to its week page and vice-versa, and its template tags
+each problem (in class) / (required). Internal .md links resolve to real Canvas
+objects via `link_map` (else GitHub blob). Headings get extra top margin.
 """
 import os, re, posixpath, markdown
 
 REPO_BLOB = "https://github.com/byu-cs-393/course/blob/main/"
+PLACEMENTS = {"Class", "Class 1", "Class 2", "Outside of Class"}
 
 
 def _read(root, path):
@@ -17,7 +19,7 @@ def _read(root, path):
 
 
 def _resolve(src_path, target, link_map):
-    if target.startswith(("http://", "https://", "#", "mailto:")):
+    if target.startswith(("http://", "https://", "#", "mailto:", "/courses/")):
         return None
     path, _, anchor = target.partition("#")
     if not path:
@@ -52,13 +54,6 @@ def _strip_h1(md):
     return re.sub(r"^#\s+.*\n", "", md, count=1)
 
 
-def render_file(root, path, strip_h1=False, link_map=None):
-    md = _read(root, path)
-    if strip_h1:
-        md = _strip_h1(md)
-    return _to_html(_rewrite_links(md, path, link_map))
-
-
 def _slug(s):
     s = re.sub(r"[^\w\s-]", "", s.lower())
     return re.sub(r"-+", "-", re.sub(r"\s+", "-", s.strip()))
@@ -83,17 +78,37 @@ def render_section(root, path, anchor, link_map=None):
     return _to_html(_rewrite_links(_section_md(root, path, anchor), path, link_map))
 
 
-def page_html(root, source, link_map=None):
-    return render_file(root, source, strip_h1=True, link_map=link_map)
+def _inject_after_problems(md, insert):
+    """Insert `insert` right after the class/outside sections (before Reflection etc.)."""
+    out, done = [], False
+    for ln in md.splitlines():
+        m = re.match(r"^##\s+(.*)", ln)
+        if m and not done and m.group(1).strip() not in PLACEMENTS:
+            out += ["", insert, ""]
+            done = True
+        out.append(ln)
+    if not done:
+        out += ["", insert]
+    return "\n".join(out)
+
+
+def page_html(root, source, link_map=None, weekly_link=None):
+    md = _strip_h1(_read(root, source))
+    if weekly_link:
+        md = _inject_after_problems(md, weekly_link)
+    return _to_html(_rewrite_links(md, source, link_map))
 
 
 def syllabus_html(root, link_map=None):
-    return render_file(root, "syllabus.md", strip_h1=True, link_map=link_map)
+    return _to_html(_rewrite_links(_strip_h1(_read(root, "syllabus.md")), "syllabus.md", link_map))
 
 
 # ---------------------------------------------------------------- descriptions
-def _block(title, lines):
-    return f"**{title}**\n\n```\n" + "\n".join(lines) + "\n```"
+def _block(lines, heading="Submit", note=None):
+    md = f"## {heading}\n\n"
+    if note:
+        md += note + "\n\n"
+    return md + "```\n" + "\n".join(lines) + "\n```"
 
 
 def _booking_ta():
@@ -113,8 +128,25 @@ def _connect_content(a):
             "- **Share your LeetCode profile URL** below")
 
 
+def _study_content(a, ctx):
+    wk = a.get("week")
+    reduced = wk in ctx.get("reducedWeeks", set())
+    if reduced:
+        target = "**~4.5 hours** — this is a half week, so everything is at half load"
+        pts = ("**Points track your hours (6.5 total, half week):** ~2 for collaborative study, "
+               "~2.5 for personal study, 2 for the required &amp; in-class problems.")
+    else:
+        target = "**~9 hours** (class counts as 3)"
+        pts = ("**Points track your hours (13 total):** 4 for ~4 hrs collaborative study, "
+               "5 for ~5 hrs personal study, 4 for the required &amp; in-class problems.")
+    page = f"📄 [Open the **Week {wk:02d}** page — these problems in context](weekly/week-{wk:02d}.md)"
+    return (f"{page}\n\n"
+            f"Log your study for the week — target {target}. {pts} Paste the URL of your "
+            "*accepted* LeetCode submission (open the problem → **Submissions** → your accepted "
+            "attempt → copy the address) after each problem below.")
+
+
 def _content_md(root, a, assign_by_id, ctx):
-    """(markdown, src_path) for the content above the template."""
     typ, aid = a["type"], a["id"]
     if typ == "oa":
         src = f"topic-exams/{aid[3:]}/online-assessment.md"
@@ -131,18 +163,7 @@ def _content_md(root, a, assign_by_id, ctx):
     if typ == "final":
         return _strip_h1(_read(root, "final/README.md")), "final/README.md"
     if typ == "study":
-        reduced = a.get("week") in ctx.get("reducedWeeks", set())
-        if reduced:
-            target = "**~4.5 hours** — this is a half week, so everything is at half load"
-            pts = ("**Points track your hours (6.5 total, half week):** ~2 for collaborative study, "
-                   "~2.5 for personal study, 2 for the required &amp; in-class problems.")
-        else:
-            target = "**~9 hours** (class counts as 3)"
-            pts = ("**Points track your hours (13 total):** 4 for ~4 hrs collaborative study, "
-                   "5 for ~5 hrs personal study, 4 for the required &amp; in-class problems.")
-        return (f"Log your study for the week — target {target}. {pts} "
-                "Paste the URL of your *accepted* LeetCode submission (open the problem → "
-                "**Submissions** → your accepted attempt → copy the address) after each problem below."), ""
+        return _study_content(a, ctx), ""
     if typ == "connect-with-class":
         return _connect_content(assign_by_id.get(aid, {})), ""
     if typ == "instructor-interview":
@@ -163,93 +184,73 @@ def _content_md(root, a, assign_by_id, ctx):
 
 
 def _template_md(a):
-    """The fill-in submission template (greyed code block), or '' for none."""
     typ, aid = a["type"], a["id"]
     if typ == "oa":
-        return _block("Submit this:", [
-            "Attempt you passed (1 / 2 / 3):",
-            "Accepted-solution URLs for every problem in that attempt:",
-            "  - ", "  - ", "  - "])
+        return _block(["Attempt you passed (1 / 2 / 3):",
+                       "Accepted-solution URLs for every problem in that attempt:",
+                       "  - ", "  - ", "  - "])
     if typ == "performance":
-        return _booking_ta() + "\n\n" + _block("Submit this:", [
-            "Date you did it:",
-            "Who you worked with (TA / instructor):",
-            "How long it took:",
-            "Attempt you passed on:",
-            "Link to your passing solution:"])
+        return _booking_ta() + "\n\n" + _block([
+            "Date you did it:", "Who you worked with (TA / instructor):",
+            "How long it took:", "Attempt you passed on:", "Link to your passing solution:"])
     if typ == "live-interview":
-        return _booking_ta() + "\n\n" + _block("Submit this:", [
-            "Date you did it:",
-            "How it went (a few sentences):",
-            "Self-rating (1-3):",
-            "Link to your solution:"])
+        return _booking_ta() + "\n\n" + _block([
+            "Date you did it:", "How it went (a few sentences):",
+            "Self-rating (1-3):", "Link to your solution:"])
     if typ in ("peer-mock", "professional-mock"):
-        return _block("Submit this:", [
-            "Who you interviewed with:",
-            "When:",
-            "Problem(s) you worked on:",
-            "Feedback you received:",
-            "Self-rating (1-3):"])
+        return _block(["Who you interviewed with:", "When:", "Problem(s) you worked on:",
+                       "Feedback you received:", "Self-rating (1-3):"])
     if typ == "instructor-interview":
-        return _block("Submit this:", [
-            "Date you did it:",
-            "Link to your passing solution:",
-            "How did it go?"])
+        return _block(["Date you did it:", "Link to your passing solution:", "How did it go?"])
     if typ == "connect-with-class":
-        return _block("Submit this:", [
-            "Joined Teams: (Did it! / Not yet — why?)",
-            "Updated my photo: (Did it! / Not yet — why?)",
-            "Posted my intro: (Did it! / Not yet — why?)",
-            "Reacted to 3 intros: (Did it! / Not yet — why?)",
-            "DM'd a classmate for a mock: (Did it! / Not yet — why?)",
-            "My LeetCode profile URL:",
-            "How I plan to connect with others and network this semester:"])
+        return _block(["Joined Teams: (Did it! / Not yet — why?)",
+                       "Updated my photo: (Did it! / Not yet — why?)",
+                       "Posted my intro: (Did it! / Not yet — why?)",
+                       "Reacted to 3 intros: (Did it! / Not yet — why?)",
+                       "DM'd a classmate for a mock: (Did it! / Not yet — why?)",
+                       "My LeetCode profile URL:",
+                       "How I plan to connect with others and network this semester:"])
     if aid == "ec-interview-ready":
-        return _block("Submit this:", [
-            "All categories green? (Yes / No)",
-            "Total problems solved:",
-            "Anything you learned using the extension:"])
+        return _block(["All categories green? (Yes / No)", "Total problems solved:",
+                       "Anything you learned using the extension:"])
     if aid.startswith("ec-real-interview-report"):
-        return _block("Post this in the \"Real Interview\" Teams channel, then paste it here:", [
-            "Where did you interview?",
-            "What types of questions were you asked?",
-            "How was your experience? Would you recommend them?"])
+        return _block(["Where did you interview?", "What types of questions were you asked?",
+                       "How was your experience? Would you recommend them?"],
+                      note='Post this in the "Real Interview" Teams channel, then paste it here.')
     if aid.startswith("ec-real-offer-report"):
-        return _block("Post this in the \"Real Offer\" Teams channel, then paste it here:", [
-            "What did you do to prepare?",
-            "Who did you network with to get the interview/job?",
-            "Tips for others:",
-            "Was the offer over 50k/yr?   Full-time / Internship / Other:",
-            "Did it meet your expectations? (1 = no … 10 = perfectly):"])
+        return _block(["What did you do to prepare?",
+                       "Who did you network with to get the interview/job?", "Tips for others:",
+                       "Was the offer over 50k/yr?   Full-time / Internship / Other:",
+                       "Did it meet your expectations? (1 = no … 10 = perfectly):"],
+                      note='Post this in the "Real Offer" Teams channel, then paste it here.')
     if aid == "ec-friend-interview":
-        return _block("Post this in the networking channel, then paste it here:", [
-            "Friend's full name:",
-            "Where they interviewed:",
-            "How you helped them get the interview:"])
+        return _block(["Friend's full name:", "Where they interviewed:",
+                       "How you helped them get the interview:"],
+                      note="Post this in the networking channel, then paste it here.")
     if aid == "ec-friend-offer":
-        return _block("Post this in the networking channel, then paste it here:", [
-            "Friend's full name:",
-            "Where they got the offer:",
-            "How you helped them get the offer:"])
+        return _block(["Friend's full name:", "Where they got the offer:",
+                       "How you helped them get the offer:"],
+                      note="Post this in the networking channel, then paste it here.")
     if typ == "study":
         req, inclass = (a.get("_weekly") or ([], []))
-        lines = ["Required problems (paste your accepted-submission URL after each):"]
-        lines += [f"  - {r}: " for r in (req or ["(none assigned this week)"])]
-        if inclass:
-            lines.append("In-class problems (URL or \"done in class\"):")
-            lines += [f"  - {r}: " for r in inclass]
-        lines += ["Collaborative study: __ hrs (with whom?)",
-                  "Personal study: __ hrs",
-                  "For growth I (mark any): re-timed myself / re-did without lookups /",
-                  "  studied others' solutions after / just finished / other:",
-                  "Want a TA to review a solution? If yes, paste the submission link below:"]
-        return _block("Submit this:", lines)
+        probs = [f"  - {r} (required): " for r in req] + [f"  - {r} (in class): " for r in inclass]
+        if not probs:
+            probs = ["  - (none assigned this week)"]
+        lines = ["Problems (paste your accepted-submission URL after each):"] + probs + [
+            "Collaborative study: __ hrs (with whom?)",
+            "Personal study: __ hrs",
+            "For growth I (mark any): re-timed myself / re-did without lookups /",
+            "  studied others' solutions after / just finished / other:",
+            "Want a TA to review a solution? If yes, paste the submission link below:"]
+        return _block(lines, note=('Do the **(required)** problems on your own. We do the '
+                                   '**(in class)** ones together in class — don\'t grind those '
+                                   'ahead of time; just note "done in class" after.'))
     return ""   # amazing projects (URL submission), final (no submission)
 
 
 def description_html(root, a, assign_by_id, link_map=None, ctx=None):
     ctx = ctx or {}
-    if a["type"] == "study":                       # attach this week's problems for the template
+    if a["type"] == "study":
         a = dict(a, _weekly=ctx.get("weeklyProblems", {}).get(a.get("week")))
     content, src = _content_md(root, a, assign_by_id, ctx)
     template = _template_md(a)
