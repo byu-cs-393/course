@@ -241,12 +241,12 @@
       "group": "performance",
       "type": "instructor-interview",
       "points": 2,
-      "due": null,
+      "due": "2026-12-05T23:59:00-07:00",
       "module": "Milestones",
       "week": null,
       "submissionType": "online_text_entry",
       "defaultScore": null,
-      "note": "gate; no due date"
+      "note": "gate"
     },
     {
       "id": "live-1",
@@ -784,6 +784,7 @@
   "modules": [
     {
       "name": "Milestones",
+      "display": "Milestones",
       "items": [
         {
           "kind": "assignment",
@@ -817,6 +818,7 @@
     },
     {
       "name": "Data Structures",
+      "display": "Data Structures (Sep 2 – 19)",
       "items": [
         {
           "kind": "page",
@@ -866,6 +868,7 @@
     },
     {
       "name": "Graphs",
+      "display": "Graphs (Sep 21 – Oct 10)",
       "items": [
         {
           "kind": "page",
@@ -911,6 +914,7 @@
     },
     {
       "name": "Dynamic Programming",
+      "display": "Dynamic Programming (Oct 12 – Nov 7)",
       "items": [
         {
           "kind": "page",
@@ -968,6 +972,7 @@
     },
     {
       "name": "Sorting, Two-Pointer, etc.",
+      "display": "Sorting, Two-Pointer, etc. (Nov 9 – Dec 5)",
       "items": [
         {
           "kind": "page",
@@ -1017,6 +1022,7 @@
     },
     {
       "name": "Extra Credit",
+      "display": "Extra Credit",
       "items": [
         {
           "kind": "page",

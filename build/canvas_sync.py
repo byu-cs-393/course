@@ -30,8 +30,8 @@ PTS = C["points"]
 ASSIGN_BY_ID = {a["id"]: a for a in C["assignments"]}
 WEEK_TITLE = {w["week"]: w["title"] for w in C["weeks"]}
 
-MONTHS = {m: i for i, m in enumerate(
-    ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], 1)}
+MON = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+MONTHS = {m: i for i, m in enumerate(MON[1:], 1)}
 
 
 def end_date(dates):
@@ -42,6 +42,12 @@ def end_date(dates):
     return MONTHS[mon], int(m.group(2))
 
 
+def start_date(dates):
+    """First calendar day of a schedule 'dates' range, as (month, day) in 2026."""
+    m = re.match(r"([A-Z][a-z]{2})\s+(\d+)", dates)
+    return MONTHS[m.group(1)], int(m.group(2))
+
+
 def due_iso(mon, day):
     """23:59 America/Denver on 2026-mon-day (DST ends Nov 1 2026)."""
     off = "-06:00" if (mon, day) < (11, 1) else "-07:00"
@@ -49,6 +55,7 @@ def due_iso(mon, day):
 
 
 WEEK_DUE = {s["week"]: due_iso(*end_date(s["dates"])) for s in C["schedule"] if "week" in s}
+SCHED_DATES = {s["week"]: s["dates"] for s in C["schedule"] if "week" in s}
 _ec_cat = next(g for g in C["grading"]["categories"] if g["id"] == "extra-credit")
 EC_DUE = due_iso(*(int(x) for x in _ec_cat["due"].split("-")[1:]))   # from grading config
 
@@ -110,8 +117,8 @@ for a in C["assignments"]:
         plan.append(A(a["id"], a["title"], "study", a["points"], WEEK_DUE[1],
                       "connect-with-class", week=1, topic="data-structures"))
     elif a["id"] == "instructor-interview":
-        plan.append(A(a["id"], a["title"], "performance", a["points"], None,
-                      "instructor-interview", note="gate; no due date"))
+        plan.append(A(a["id"], a["title"], "performance", a["points"], WEEK_DUE[14],
+                      "instructor-interview", note="gate"))
     elif a["id"] == "final":
         plan.append(A(a["id"], a["title"], "final", a["points"], due_iso(12, 17),
                       "final", subtype="on_paper", note="gate; proctored"))
@@ -155,6 +162,26 @@ for p in PAGES:
         {"kind": "page", "id": p["id"], "week": p["week"], "rank": -1})   # page first
 
 
+def _module_daterange(name):
+    """'Nov 9 – Dec 5' from the span of weeks in a module (None if it has no weeks)."""
+    weeks = [it["week"] for it in module_items.get(name, []) if it["week"] is not None]
+    if not weeks:
+        return None
+    sm, sd = start_date(SCHED_DATES[min(weeks)])
+    em, ed = end_date(SCHED_DATES[max(weeks)])
+    return f"{MON[sm]} {sd} – " + (str(ed) if sm == em else f"{MON[em]} {ed}")
+
+
+# Annotate the chronological (topic) modules with their date span; leave the
+# cross-cutting ones (Milestones, Extra Credit) as-is. Display name is separate
+# from the stable identity (m["name"]) used for the deploy map / idempotency.
+_TOPIC_MODULES = {m["name"] for m in MODULES_CFG if "topic" in m}
+MODULE_DISPLAY = {}
+for nm in MODULE_ORDER:
+    rng = _module_daterange(nm) if nm in _TOPIC_MODULES else None
+    MODULE_DISPLAY[nm] = f"{nm} ({rng})" if rng else nm
+
+
 def _item_key(it):
     return (it["week"] if it["week"] is not None else 99, it["rank"], it["id"])
 
@@ -173,8 +200,9 @@ plan_doc = {
         for a in sorted(plan, key=lambda a: a["id"])
     ],
     "pages": [{"id": p["id"], "title": p["title"], "module": p["module"]} for p in PAGES],
-    "modules": [{"name": m, "items": [{"kind": it["kind"], "id": it["id"]}
-                                      for it in sorted(module_items.get(m, []), key=_item_key)]}
+    "modules": [{"name": m, "display": MODULE_DISPLAY[m],
+                 "items": [{"kind": it["kind"], "id": it["id"]}
+                           for it in sorted(module_items.get(m, []), key=_item_key)]}
                 for m in MODULE_ORDER if m in module_items],
 }
 
@@ -455,7 +483,8 @@ def apply():
 
     for pos, m in enumerate(plan_doc["modules"], 1):
         mcid = old["modules"].get(m["name"])
-        body = {"module": {"name": m["name"], "position": pos, "published": True}}
+        body = {"module": {"name": MODULE_DISPLAY.get(m["name"], m["name"]),
+                           "position": pos, "published": True}}
         if mcid:
             canvas(tok, "PUT", f"/courses/{COURSE_ID}/modules/{mcid}", body)
         else:
