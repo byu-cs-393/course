@@ -231,9 +231,9 @@
       "due": "2026-12-17T23:59:00-07:00",
       "module": "Milestones",
       "week": null,
-      "submissionType": "on_paper",
+      "submissionType": "none",
       "defaultScore": null,
-      "note": "gate; proctored"
+      "note": "gate; proctored; no Canvas submission"
     },
     {
       "id": "instructor-interview",

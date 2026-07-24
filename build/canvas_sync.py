@@ -30,6 +30,23 @@ PTS = C["points"]
 ASSIGN_BY_ID = {a["id"]: a for a in C["assignments"]}
 WEEK_TITLE = {w["week"]: w["title"] for w in C["weeks"]}
 
+
+def _week_problems(w):
+    """(required, in-class) problem labels for a week's Study submission template."""
+    req, inclass = [], []
+    for items in w.get("placements", {}).values():
+        for it in items:
+            label = it.get("name") or it.get("notes") or ""
+            if it.get("tag") == "required":
+                req.append(label)
+            elif it.get("tag") == "in class":
+                inclass.append(label)
+    return req, inclass
+
+
+CTX = {"weeklyProblems": {w["week"]: _week_problems(w) for w in C["weeks"]},
+       "booking": C.get("booking", {})}
+
 MON = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 MONTHS = {m: i for i, m in enumerate(MON[1:], 1)}
 
@@ -121,7 +138,7 @@ for a in C["assignments"]:
                       "instructor-interview", note="gate"))
     elif a["id"] == "final":
         plan.append(A(a["id"], a["title"], "final", a["points"], due_iso(12, 17),
-                      "final", subtype="on_paper", note="gate; proctored"))
+                      "final", subtype="none", note="gate; proctored; no Canvas submission"))
 
 
 # ---- route each assignment to a module (first matching rule wins) ----
@@ -479,7 +496,7 @@ def apply():
                                "assignment_group_id": dm["groups"][a["group"]],
                                "submission_types": [a["subtype"]],
                                "due_at": a["due"], "published": True,
-                               "description": content.description_html(ROOT, a, ASSIGN_BY_ID, link_map)}}
+                               "description": content.description_html(ROOT, a, ASSIGN_BY_ID, link_map, CTX)}}
         cid = old["assignments"].get(a["id"])
         if cid:
             canvas(tok, "PUT", f"/courses/{COURSE_ID}/assignments/{cid}", body)

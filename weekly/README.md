@@ -2,8 +2,6 @@
 
 Each week you submit a **Study assignment** in Canvas logging your hours and problems. Target **~9 hours/week** (class counts as 3hrs). For holiday weeks those times are adjusted.
 
-> These templates are the source for the Canvas Study assignments.
-
 ## Rubric (13 pts/week)
 
 | Points | For |
@@ -11,8 +9,6 @@ Each week you submit a **Study assignment** in Canvas logging your hours and pro
 | 4 | **Collaborative study** — 4 hrs (class, interviews, working with a friend on leetcode problems, etc) |
 | 4 | **Required problems** done (marked as "in class" or "required") |
 | 5 | **Personal study** — 5 hrs (may be collaborative, but doesn't have to be) |
-
-Roughly **half your time on your own, half with others**. 
 
 > **How to paste a submission URL:** link to your *accepted* submission, not the problem page.
 > On LeetCode: open the problem → **Submissions** tab → click your accepted attempt → copy the

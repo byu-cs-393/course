@@ -40,7 +40,7 @@ Post in the networking channel a brief story about how you got your friend an in
 
 ## Get a Friend an Offer
 
-Post in the networking channel a brief story about how you go your friend an offer. Please give the full name of the friend and the name of the place they got an offer from.
+Post in the networking channel a brief story about how you got your friend an offer. Please give the full name of the friend and the name of the place they got an offer from.
 
 
 ## Amazing Project Built and Public

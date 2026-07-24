@@ -52,6 +52,9 @@
     "liveInterview": 3,
     "professionalMock": 3
   },
+  "booking": {
+    "instructor": "https://tinyurl.com/mtr26"
+  },
   "canvas": {
     "courseId": 35464,
     "host": "byu.instructure.com",
@@ -1636,7 +1639,7 @@
       "category": "study",
       "points": 1,
       "week": 1,
-      "desc": "[Join the class Microsoft Teams team](https://teams.microsoft.com/l/team/19%3AyVgRINUk06mftu9v_CWvl0NCDt3k7CW4WEACLdD4Lls1%40thread.tacv2/conversations?groupId=bcf3c3da-c49a-4e19-a5e7-f9e2b049c802&tenantId=c6fc6e9b-51fb-48a8-b779-9ee564b40413), then update your photo so classmates and TAs recognize you."
+      "teamsUrl": "https://teams.microsoft.com/l/team/19%3AyVgRINUk06mftu9v_CWvl0NCDt3k7CW4WEACLdD4Lls1%40thread.tacv2/conversations?groupId=bcf3c3da-c49a-4e19-a5e7-f9e2b049c802&tenantId=c6fc6e9b-51fb-48a8-b779-9ee564b40413"
     },
     {
       "id": "instructor-interview",
