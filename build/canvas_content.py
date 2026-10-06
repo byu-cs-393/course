@@ -249,7 +249,7 @@ def _template_md(a):
             "Want a TA to review a solution? If yes, paste the submission link below:"]
         return _block(lines, note=('Do the **(required)** problems on your own. We do the '
                                    '**(in class)** ones together in class — don\'t grind those '
-                                   'ahead of time; just note "done in class" after.'))
+                                   'ahead of time.'))
     return ""   # amazing projects (URL submission), final (no submission)
 
 

@@ -20,7 +20,6 @@ Each week you submit a **Study assignment** in Canvas logging your hours and pro
 - Required and in class problems (paste your accepted-submission URLs):
     1.
     2.
-- In-class problems (URLs or "done in class"):
 - Collaborative study: __ hrs (with whom?)
 - Personal study: __ hrs
 - Did you do anything beyond solving the problem for your growth?
