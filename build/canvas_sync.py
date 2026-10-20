@@ -604,6 +604,13 @@ parser.add_argument("--apply", action="store_true",
 parser.add_argument("--pull", action="store_true",
                     help="snapshot actual Canvas state to build/canvas-state.json (read-only)")
 args = parser.parse_args()
+# HOLD (Week 08, Oct 19–24 2026): a daily-assignment experiment for one student uses
+# assignments and overrides made by hand in Canvas. --apply would prune them (and the
+# Weekly Study 08 override), so it is blocked until Michael ends the experiment. To lift
+# the hold, delete this block (or move the items into canvas.handsOff first).
+if args.apply:
+    raise SystemExit("canvas_sync --apply is on HOLD for the Week 08 daily-assignment "
+                     "experiment (hand-made Canvas items would be pruned). Ask Michael.")
 if args.apply:
     print(f"\nAPPLY -> Canvas course {COURSE_ID} (mirror)\n")
     apply()
