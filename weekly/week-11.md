@@ -1,11 +1,11 @@
-# Week 11 - Logarithmic Algorithms, Two Pointer, Heaps
+# Week 11 (Nov 9–14) - Logarithmic Algorithms, Two Pointer, Heaps
 
-## Class 1
+## Class 1 — Tuesday, Nov 10
 
 - [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) *(in class)*
 - [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) *(in class)*
 
-## Class 2
+## Class 2 — Thursday, Nov 12
 
 - [Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/) *(in class)*
 - [Video Stitching](https://leetcode.com/problems/video-stitching/) *(in class)*

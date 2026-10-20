@@ -10,6 +10,7 @@ reconstructed here from `schedule` + `oas` -- they are NOT stored in the JSON.
 """
 import json, os, re
 from jinja2 import Environment, FileSystemLoader
+from dates import class_days, day_label, week_label
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TPL = os.path.join(ROOT, "build", "templates")
@@ -27,6 +28,16 @@ OA_WEEK = {s["week"]: p["topic"]
 
 PLACEMENT_ORDER = [("class", "Class"), ("class1", "Class 1"),
                    ("class2", "Class 2"), ("outside", "Outside of Class")]
+
+CLASS_INDEX = {"class": 0, "class1": 0, "class2": 1}
+
+
+def placement_heading(key, label, days):
+    """'Class 1 — Tuesday, Oct 20'; a lone `class` is that week's only meeting."""
+    if key not in CLASS_INDEX or not days:
+        return label
+    return f"{label} — {day_label(days[min(CLASS_INDEX[key], len(days) - 1)])}"
+
 
 # reminder/ref rendering for the "This week" list
 REF = {
@@ -189,10 +200,11 @@ def write(path, text):
 # ---- weeks ----
 wk_tpl = env.get_template("week.md.j2")
 for w in C["weeks"]:
-    placements = [(label, w["placements"][key])
+    dates = SCHED_BY_WEEK[w["week"]]["dates"]
+    placements = [(placement_heading(key, label, class_days(dates)), w["placements"][key])
                   for key, label in PLACEMENT_ORDER if key in w["placements"]]
     write(f"weekly/week-{w['week']:02d}.md", wk_tpl.render(
-        w=w, placements=placements,
+        w=w, week_label=week_label(w["week"], dates), placements=placements,
         prev_oa=prev_oa_problems(w["week"]),
         journaling=C["static"]["journalingPrompt"],
         this_week=this_week_lines(w["week"]),

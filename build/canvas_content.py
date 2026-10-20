@@ -10,7 +10,7 @@ objects via `link_map` (else GitHub blob). Headings get extra top margin.
 import os, re, posixpath, markdown
 
 REPO_BLOB = "https://github.com/byu-cs-393/course/blob/main/"
-PLACEMENTS = {"Class", "Class 1", "Class 2", "Outside of Class"}
+PLACEMENTS = re.compile(r"(Class( [12])?|Outside of Class)( — .*)?$")   # optional "— Tuesday, Oct 20"
 
 
 def _read(root, path):
@@ -83,7 +83,7 @@ def _inject_after_problems(md, insert):
     out, done = [], False
     for ln in md.splitlines():
         m = re.match(r"^##\s+(.*)", ln)
-        if m and not done and m.group(1).strip() not in PLACEMENTS:
+        if m and not done and not PLACEMENTS.match(m.group(1).strip()):
             out += ["", insert, ""]
             done = True
         out.append(ln)
@@ -140,7 +140,7 @@ def _study_content(a, ctx):
         target = "**~9 hours** (class counts as 3)"
         pts = ("**Points track your hours (13 total):** 4 for ~4 hrs collaborative study, "
                "5 for ~5 hrs personal study, 4 for the required &amp; in-class problems.")
-    page = f"📄 [Week {wk:02d}](weekly/week-{wk:02d}.md)"
+    page = f"📄 [{ctx['weekLabels'][wk]}](weekly/week-{wk:02d}.md)"
     return (f"{page}\n\n"
             f"Log your study for the week — target {target}. {pts} Paste the URL of your "
             "*accepted* LeetCode submission (open the problem → **Submissions** → your accepted "

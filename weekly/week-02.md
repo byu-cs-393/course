@@ -1,11 +1,11 @@
-# Week 02 - BigO, Dictionaries, 2D Arrays, Linked Lists
+# Week 02 (Sep 7–12) - BigO, Dictionaries, 2D Arrays, Linked Lists
 
-## Class 1
+## Class 1 — Tuesday, Sep 8
 
 - [Big O Together Quiz](https://docs.google.com/presentation/d/1jgXYQxPTG28GfzyFwcynhDH-VXrH2ze7C4pMfGU8JuM/edit?usp=sharing) *(in class)*
 - [LRU Cache](https://leetcode.com/problems/lru-cache/) *(in class)*
 
-## Class 2
+## Class 2 — Thursday, Sep 10
 
 - [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) *(in class)*
 - [Pascals Triangle](https://leetcode.com/problems/pascals-triangle/) *(in class)*

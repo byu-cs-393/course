@@ -1,7 +1,7 @@
 {
   "course": {
     "id": 35464,
-    "workflow_state": "unpublished",
+    "workflow_state": "available",
     "weightedGroups": true,
     "syllabusChars": 7356
   },
@@ -76,6 +76,18 @@
         "online_url"
       ],
       "descChars": 707
+    },
+    {
+      "id": 1498932,
+      "name": "Connect Your Account (Optional — Cs 393 Buddy)",
+      "points": 0.0,
+      "group": 164499,
+      "due": "2026-09-17T05:59:59Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1739
     },
     {
       "id": 1387076,
@@ -499,7 +511,7 @@
     },
     {
       "id": 1387114,
-      "name": "Weekly Study 01",
+      "name": "Weekly Study 01 (Sep 2–5)",
       "points": 6.5,
       "group": 164496,
       "due": "2026-09-06T05:59:00Z",
@@ -507,11 +519,11 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1822
+      "descChars": 1799
     },
     {
       "id": 1387120,
-      "name": "Weekly Study 02",
+      "name": "Weekly Study 02 (Sep 7–12)",
       "points": 13.0,
       "group": 164496,
       "due": "2026-09-13T05:59:00Z",
@@ -519,11 +531,11 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1672
+      "descChars": 1650
     },
     {
       "id": 1387121,
-      "name": "Weekly Study 03",
+      "name": "Weekly Study 03 (Sep 14–19)",
       "points": 13.0,
       "group": 164496,
       "due": "2026-09-20T05:59:00Z",
@@ -531,11 +543,11 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1853
+      "descChars": 1832
     },
     {
       "id": 1387122,
-      "name": "Weekly Study 04",
+      "name": "Weekly Study 04 (Sep 21–26)",
       "points": 13.0,
       "group": 164496,
       "due": "2026-09-27T05:59:00Z",
@@ -543,11 +555,11 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1835
+      "descChars": 1814
     },
     {
       "id": 1387123,
-      "name": "Weekly Study 05",
+      "name": "Weekly Study 05 (Sep 28–Oct 3)",
       "points": 13.0,
       "group": 164496,
       "due": "2026-10-04T05:59:00Z",
@@ -555,11 +567,11 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1571
+      "descChars": 1553
     },
     {
       "id": 1387124,
-      "name": "Weekly Study 06",
+      "name": "Weekly Study 06 (Oct 5–10)",
       "points": 13.0,
       "group": 164496,
       "due": "2026-10-11T05:59:00Z",
@@ -567,11 +579,11 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1684
+      "descChars": 1662
     },
     {
       "id": 1387125,
-      "name": "Weekly Study 07",
+      "name": "Weekly Study 07 (Oct 12–17)",
       "points": 13.0,
       "group": 164496,
       "due": "2026-10-18T05:59:00Z",
@@ -579,11 +591,11 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1615
+      "descChars": 1594
     },
     {
       "id": 1387126,
-      "name": "Weekly Study 08",
+      "name": "Weekly Study 08 (Oct 19–24)",
       "points": 13.0,
       "group": 164496,
       "due": "2026-10-25T05:59:00Z",
@@ -591,11 +603,11 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1675
+      "descChars": 1654
     },
     {
       "id": 1387127,
-      "name": "Weekly Study 09",
+      "name": "Weekly Study 09 (Oct 26–31)",
       "points": 13.0,
       "group": 164496,
       "due": "2026-11-01T05:59:00Z",
@@ -603,11 +615,11 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1633
+      "descChars": 1612
     },
     {
       "id": 1387115,
-      "name": "Weekly Study 10",
+      "name": "Weekly Study 10 (Nov 2–7)",
       "points": 13.0,
       "group": 164496,
       "due": "2026-11-08T06:59:00Z",
@@ -615,11 +627,11 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1667
+      "descChars": 1644
     },
     {
       "id": 1387116,
-      "name": "Weekly Study 11",
+      "name": "Weekly Study 11 (Nov 9–14)",
       "points": 13.0,
       "group": 164496,
       "due": "2026-11-15T06:59:00Z",
@@ -627,11 +639,11 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1709
+      "descChars": 1687
     },
     {
       "id": 1387117,
-      "name": "Weekly Study 12",
+      "name": "Weekly Study 12 (Nov 16–21)",
       "points": 13.0,
       "group": 164496,
       "due": "2026-11-22T06:59:00Z",
@@ -639,11 +651,11 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1688
+      "descChars": 1667
     },
     {
       "id": 1387118,
-      "name": "Weekly Study 13",
+      "name": "Weekly Study 13 (Nov 23–24)",
       "points": 6.5,
       "group": 164496,
       "due": "2026-11-25T06:59:00Z",
@@ -651,11 +663,11 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1618
+      "descChars": 1597
     },
     {
       "id": 1387119,
-      "name": "Weekly Study 14",
+      "name": "Weekly Study 14 (Nov 30–Dec 5)",
       "points": 13.0,
       "group": 164496,
       "due": "2026-12-06T06:59:00Z",
@@ -663,7 +675,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1698
+      "descChars": 1680
     }
   ],
   "pages": [
@@ -675,86 +687,86 @@
     },
     {
       "pageId": 1595196,
-      "url": "week-01-bigo-strings-linked-lists-sets",
-      "title": "Week 01 — BigO, Strings, Linked Lists, Sets",
+      "url": "week-01-sep-2-5-bigo-strings-linked-lists-sets",
+      "title": "Week 01 (Sep 2–5) — BigO, Strings, Linked Lists, Sets",
       "published": true
     },
     {
       "pageId": 1595197,
-      "url": "week-02-bigo-dictionaries-2d-arrays-linked-lists",
-      "title": "Week 02 — BigO, Dictionaries, 2D Arrays, Linked Lists",
+      "url": "week-02-sep-7-12-bigo-dictionaries-2d-arrays-linked-lists",
+      "title": "Week 02 (Sep 7–12) — BigO, Dictionaries, 2D Arrays, Linked Lists",
       "published": true
     },
     {
       "pageId": 1595198,
-      "url": "week-03-super-advanced-data-structures-sets-dictionaries-memoizing-strings",
-      "title": "Week 03 — Super Advanced Data Structures, Sets, Dictionaries, Memoizing, Strings",
+      "url": "week-03-sep-14-19-super-advanced-data-structures-sets-dictionaries-memoizing-strings",
+      "title": "Week 03 (Sep 14–19) — Super Advanced Data Structures, Sets, Dictionaries, Memoizing, Strings",
       "published": true
     },
     {
       "pageId": 1595199,
-      "url": "week-04-graphs-and-traversal",
-      "title": "Week 04 — Graphs and Traversal",
+      "url": "week-04-sep-21-26-graphs-and-traversal",
+      "title": "Week 04 (Sep 21–26) — Graphs and Traversal",
       "published": true
     },
     {
       "pageId": 1595200,
-      "url": "week-05-bfs",
-      "title": "Week 05 — BFS",
+      "url": "week-05-sep-28-oct-3-bfs",
+      "title": "Week 05 (Sep 28–Oct 3) — BFS",
       "published": true
     },
     {
       "pageId": 1595201,
-      "url": "week-06-bfs-advanced",
-      "title": "Week 06 — BFS Advanced",
+      "url": "week-06-oct-5-10-bfs-advanced",
+      "title": "Week 06 (Oct 5–10) — BFS Advanced",
       "published": true
     },
     {
       "pageId": 1595202,
-      "url": "week-07-dp",
-      "title": "Week 07 — DP",
+      "url": "week-07-oct-12-17-dp",
+      "title": "Week 07 (Oct 12–17) — DP",
       "published": true
     },
     {
       "pageId": 1595203,
-      "url": "week-08-dp-counting-prefix",
-      "title": "Week 08 — DP, Counting, Prefix",
+      "url": "week-08-oct-19-24-dp-counting-prefix",
+      "title": "Week 08 (Oct 19–24) — DP, Counting, Prefix",
       "published": true
     },
     {
       "pageId": 1595204,
-      "url": "week-09-dp",
-      "title": "Week 09 — DP",
+      "url": "week-09-oct-26-31-dp",
+      "title": "Week 09 (Oct 26–31) — DP",
       "published": true
     },
     {
       "pageId": 1595205,
-      "url": "week-10-sql-dp",
-      "title": "Week 10 — SQL, DP",
+      "url": "week-10-nov-2-7-sql-dp",
+      "title": "Week 10 (Nov 2–7) — SQL, DP",
       "published": true
     },
     {
       "pageId": 1595206,
-      "url": "week-11-logarithmic-algorithms-two-pointer-heaps",
-      "title": "Week 11 — Logarithmic Algorithms, Two Pointer, Heaps",
+      "url": "week-11-nov-9-14-logarithmic-algorithms-two-pointer-heaps",
+      "title": "Week 11 (Nov 9–14) — Logarithmic Algorithms, Two Pointer, Heaps",
       "published": true
     },
     {
       "pageId": 1595207,
-      "url": "week-12-two-pointer-faster-sort-heap-segment-tree",
-      "title": "Week 12 — Two Pointer, Faster Sort, Heap, Segment Tree",
+      "url": "week-12-nov-16-21-two-pointer-faster-sort-heap-segment-tree",
+      "title": "Week 12 (Nov 16–21) — Two Pointer, Faster Sort, Heap, Segment Tree",
       "published": true
     },
     {
       "pageId": 1595208,
-      "url": "week-13-sort-order",
-      "title": "Week 13 — Sort, Order",
+      "url": "week-13-nov-23-24-sort-order",
+      "title": "Week 13 (Nov 23–24) — Sort, Order",
       "published": true
     },
     {
       "pageId": 1595209,
-      "url": "week-14-classifying-random-problems-humility",
-      "title": "Week 14 — Classifying Random Problems, Humility",
+      "url": "week-14-nov-30-dec-5-classifying-random-problems-humility",
+      "title": "Week 14 (Nov 30–Dec 5) — Classifying Random Problems, Humility",
       "published": true
     }
   ],
@@ -766,11 +778,11 @@
       "items": [
         {
           "type": "Page",
-          "title": "Week 01 — BigO, Strings, Linked Lists, Sets"
+          "title": "Week 01 (Sep 2–5) — BigO, Strings, Linked Lists, Sets"
         },
         {
           "type": "Assignment",
-          "title": "Weekly Study 01"
+          "title": "Weekly Study 01 (Sep 2–5)"
         },
         {
           "type": "Assignment",
@@ -778,11 +790,11 @@
         },
         {
           "type": "Page",
-          "title": "Week 02 — BigO, Dictionaries, 2D Arrays, Linked Lists"
+          "title": "Week 02 (Sep 7–12) — BigO, Dictionaries, 2D Arrays, Linked Lists"
         },
         {
           "type": "Assignment",
-          "title": "Weekly Study 02"
+          "title": "Weekly Study 02 (Sep 7–12)"
         },
         {
           "type": "Assignment",
@@ -794,11 +806,11 @@
         },
         {
           "type": "Page",
-          "title": "Week 03 — Super Advanced Data Structures, Sets, Dictionaries, Memoizing, Strings"
+          "title": "Week 03 (Sep 14–19) — Super Advanced Data Structures, Sets, Dictionaries, Memoizing, Strings"
         },
         {
           "type": "Assignment",
-          "title": "Weekly Study 03"
+          "title": "Weekly Study 03 (Sep 14–19)"
         },
         {
           "type": "Assignment",
@@ -817,19 +829,19 @@
       "items": [
         {
           "type": "Page",
-          "title": "Week 07 — DP"
+          "title": "Week 07 (Oct 12–17) — DP"
         },
         {
           "type": "Assignment",
-          "title": "Weekly Study 07"
+          "title": "Weekly Study 07 (Oct 12–17)"
         },
         {
           "type": "Page",
-          "title": "Week 08 — DP, Counting, Prefix"
+          "title": "Week 08 (Oct 19–24) — DP, Counting, Prefix"
         },
         {
           "type": "Assignment",
-          "title": "Weekly Study 08"
+          "title": "Weekly Study 08 (Oct 19–24)"
         },
         {
           "type": "Assignment",
@@ -837,11 +849,11 @@
         },
         {
           "type": "Page",
-          "title": "Week 09 — DP"
+          "title": "Week 09 (Oct 26–31) — DP"
         },
         {
           "type": "Assignment",
-          "title": "Weekly Study 09"
+          "title": "Weekly Study 09 (Oct 26–31)"
         },
         {
           "type": "Assignment",
@@ -853,11 +865,11 @@
         },
         {
           "type": "Page",
-          "title": "Week 10 — SQL, DP"
+          "title": "Week 10 (Nov 2–7) — SQL, DP"
         },
         {
           "type": "Assignment",
-          "title": "Weekly Study 10"
+          "title": "Weekly Study 10 (Nov 2–7)"
         },
         {
           "type": "Assignment",
@@ -943,19 +955,19 @@
       "items": [
         {
           "type": "Page",
-          "title": "Week 04 — Graphs and Traversal"
+          "title": "Week 04 (Sep 21–26) — Graphs and Traversal"
         },
         {
           "type": "Assignment",
-          "title": "Weekly Study 04"
+          "title": "Weekly Study 04 (Sep 21–26)"
         },
         {
           "type": "Page",
-          "title": "Week 05 — BFS"
+          "title": "Week 05 (Sep 28–Oct 3) — BFS"
         },
         {
           "type": "Assignment",
-          "title": "Weekly Study 05"
+          "title": "Weekly Study 05 (Sep 28–Oct 3)"
         },
         {
           "type": "Assignment",
@@ -967,11 +979,11 @@
         },
         {
           "type": "Page",
-          "title": "Week 06 — BFS Advanced"
+          "title": "Week 06 (Oct 5–10) — BFS Advanced"
         },
         {
           "type": "Assignment",
-          "title": "Weekly Study 06"
+          "title": "Weekly Study 06 (Oct 5–10)"
         },
         {
           "type": "Assignment",
@@ -1025,19 +1037,19 @@
       "items": [
         {
           "type": "Page",
-          "title": "Week 11 — Logarithmic Algorithms, Two Pointer, Heaps"
+          "title": "Week 11 (Nov 9–14) — Logarithmic Algorithms, Two Pointer, Heaps"
         },
         {
           "type": "Assignment",
-          "title": "Weekly Study 11"
+          "title": "Weekly Study 11 (Nov 9–14)"
         },
         {
           "type": "Page",
-          "title": "Week 12 — Two Pointer, Faster Sort, Heap, Segment Tree"
+          "title": "Week 12 (Nov 16–21) — Two Pointer, Faster Sort, Heap, Segment Tree"
         },
         {
           "type": "Assignment",
-          "title": "Weekly Study 12"
+          "title": "Weekly Study 12 (Nov 16–21)"
         },
         {
           "type": "Assignment",
@@ -1049,11 +1061,11 @@
         },
         {
           "type": "Page",
-          "title": "Week 13 — Sort, Order"
+          "title": "Week 13 (Nov 23–24) — Sort, Order"
         },
         {
           "type": "Assignment",
-          "title": "Weekly Study 13"
+          "title": "Weekly Study 13 (Nov 23–24)"
         },
         {
           "type": "Assignment",
@@ -1061,11 +1073,11 @@
         },
         {
           "type": "Page",
-          "title": "Week 14 — Classifying Random Problems, Humility"
+          "title": "Week 14 (Nov 30–Dec 5) — Classifying Random Problems, Humility"
         },
         {
           "type": "Assignment",
-          "title": "Weekly Study 14"
+          "title": "Weekly Study 14 (Nov 30–Dec 5)"
         }
       ]
     }

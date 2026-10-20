@@ -1,12 +1,12 @@
-# Week 08 - DP, Counting, Prefix
+# Week 08 (Oct 19–24) - DP, Counting, Prefix
 
-## Class 1
+## Class 1 — Tuesday, Oct 20
 
 - [Number of Ways to Select Buildings](https://leetcode.com/problems/number-of-ways-to-select-buildings/) *(in class)*
 - [Range Sum Query Immutable](https://leetcode.com/problems/range-sum-query-immutable/) *(in class)*
 - [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) *(recommended)*
 
-## Class 2
+## Class 2 — Thursday, Oct 22
 
 - [Range Sum Query 2D Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) *(in class)*
 - [Sum of Distances](https://leetcode.com/problems/sum-of-distances/) *(in class)*

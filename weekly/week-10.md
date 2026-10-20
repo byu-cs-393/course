@@ -1,10 +1,10 @@
-# Week 10 - SQL, DP
+# Week 10 (Nov 2–7) - SQL, DP
 
-## Class 1
+## Class 1 — Tuesday, Nov 3
 
 - Random problem or voted on problem from the OA *(in class)*
 
-## Class 2
+## Class 2 — Thursday, Nov 5
 
 - [Combine Two Tables](https://leetcode.com/problems/combine-two-tables) (SQL) *(recommended)*
 - Some Random DP Problem *(in class)*

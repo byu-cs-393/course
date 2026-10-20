@@ -1,10 +1,10 @@
-# Week 03 - Super Advanced Data Structures, Sets, Dictionaries, Memoizing, Strings
+# Week 03 (Sep 14–19) - Super Advanced Data Structures, Sets, Dictionaries, Memoizing, Strings
 
-## Class 1
+## Class 1 — Tuesday, Sep 15
 
 - [All O'one Data Structure](https://leetcode.com/problems/all-oone-data-structure/) *(in class)*
 
-## Class 2
+## Class 2 — Thursday, Sep 17
 
 - [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) *(in class)*
 - [Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/) *(in class)*

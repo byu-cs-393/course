@@ -13,6 +13,7 @@ write build/deploy.fall-2026.json mapping each stable id -> Canvas id.
 """
 import json, os, re, argparse, subprocess, urllib.request, urllib.error
 import canvas_content as content
+from dates import MON, start_date, end_date, week_label
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -48,25 +49,9 @@ REDUCED_WEEKS = {s["week"] for s in C["schedule"]
                  if s.get("week") and (s.get("half") or s.get("thanksgiving"))}
 CTX = {"weeklyProblems": {w["week"]: _week_problems(w) for w in C["weeks"]},
        "booking": C.get("booking", {}),
-       "reducedWeeks": REDUCED_WEEKS}
-
-MON = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
-MONTHS = {m: i for i, m in enumerate(MON[1:], 1)}
-
-
-def end_date(dates):
-    """Last calendar day of a schedule 'dates' range, as (month, day) in 2026."""
-    tail = dates.split("–")[-1].strip()
-    m = re.match(r"([A-Z][a-z]{2})?\s*(\d+)", tail)
-    mon = m.group(1) or dates.split()[0]
-    return MONTHS[mon], int(m.group(2))
-
-
-def start_date(dates):
-    """First calendar day of a schedule 'dates' range, as (month, day) in 2026."""
-    m = re.match(r"([A-Z][a-z]{2})\s+(\d+)", dates)
-    return MONTHS[m.group(1)], int(m.group(2))
-
+       "reducedWeeks": REDUCED_WEEKS,
+       "weekLabels": {s["week"]: week_label(s["week"], s["dates"])
+                      for s in C["schedule"] if "week" in s}}
 
 def due_iso(mon, day):
     """23:59 America/Denver on 2026-mon-day (DST ends Nov 1 2026)."""
@@ -104,7 +89,7 @@ for s in C["schedule"]:
     due = WEEK_DUE[wk]
     if s.get("study"):
         study_pts = PTS["weeklyStudy"] / 2 if wk in REDUCED_WEEKS else PTS["weeklyStudy"]
-        plan.append(A(f"study-w{wk}", f"Weekly Study {wk:02d}", "study", study_pts, due,
+        plan.append(A(f"study-w{wk}", f"Weekly Study {wk:02d} ({s['dates']})", "study", study_pts, due,
                       "study", week=wk, topic=tp))
     for p in s.get("performance", []):
         t = p["type"]
@@ -165,7 +150,7 @@ for a in plan:
 
 # ---- pages: one per week (in that week's module) + standalone pages from config ----
 study_module = {a["week"]: a["module"] for a in plan if a["type"] == "study"}
-PAGES = [{"id": f"week-{w}", "title": f"Week {w:02d} — {WEEK_TITLE[w]}", "week": w,
+PAGES = [{"id": f"week-{w}", "title": f"{week_label(w, SCHED_DATES[w])} — {WEEK_TITLE[w]}", "week": w,
           "module": study_module[w], "source": f"weekly/week-{w:02d}.md"}
          for w in sorted(study_module)]
 for pg in CFG.get("pages", []):

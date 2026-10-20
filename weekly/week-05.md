@@ -1,11 +1,11 @@
-# Week 05 - BFS
+# Week 05 (Sep 28–Oct 3) - BFS
 
-## Class 1
+## Class 1 — Tuesday, Sep 29
 
 - [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) *(in class)*
 - [As Far from Land As Possible](https://leetcode.com/problems/as-far-from-land-as-possible/) *(recommended)*
 
-## Class 2
+## Class 2 — Thursday, Oct 1
 
 - [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/) *(in class)*
 - [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) *(required)*

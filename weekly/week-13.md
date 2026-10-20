@@ -1,6 +1,6 @@
-# Week 13 - Sort, Order
+# Week 13 (Nov 23–24) - Sort, Order
 
-## Class
+## Class — Tuesday, Nov 24
 
 - [Removing Minimum and Maximum from Array](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/) *(in class)*
 - [Minimum Area Rectangle](https://leetcode.com/problems/minimum-area-rectangle/) *(in class)*

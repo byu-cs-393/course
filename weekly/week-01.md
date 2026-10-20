@@ -1,6 +1,6 @@
-# Week 01 - BigO, Strings, Linked Lists, Sets
+# Week 01 (Sep 2–5) - BigO, Strings, Linked Lists, Sets
 
-## Class
+## Class — Thursday, Sep 3
 
 - [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) *(in class)*
 - [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) *(in class)*

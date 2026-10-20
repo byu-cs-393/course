@@ -1,10 +1,10 @@
-# Week 06 - BFS Advanced
+# Week 06 (Oct 5–10) - BFS Advanced
 
-## Class 1
+## Class 1 — Tuesday, Oct 6
 
 - [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/) *(in class)*
 
-## Class 2
+## Class 2 — Thursday, Oct 8
 
 - [Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) *(in class)*
 

@@ -1,11 +1,11 @@
-# Week 12 - Two Pointer, Faster Sort, Heap, Segment Tree
+# Week 12 (Nov 16–21) - Two Pointer, Faster Sort, Heap, Segment Tree
 
-## Class 1
+## Class 1 — Tuesday, Nov 17
 
 - [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) *(in class)*
 - [Sort Colors](https://leetcode.com/problems/sort-colors/) *(in class)*
 
-## Class 2
+## Class 2 — Thursday, Nov 19
 
 - [Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/) *(in class)*
 - [Range Sum Query Mutable](https://leetcode.com/problems/range-sum-query-mutable/) *(in class)*

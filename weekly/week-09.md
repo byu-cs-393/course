@@ -1,12 +1,12 @@
-# Week 09 - DP
+# Week 09 (Oct 26–31) - DP
 
-## Class 1
+## Class 1 — Tuesday, Oct 27
 
 - [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) *Could you write a solution that runs in O(m + n) time and use only O(1) memory?* *(in class)*
 - [Coin Change](https://leetcode.com/problems/coin-change/) *(in class)*
 - [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) *(recommended)*
 
-## Class 2
+## Class 2 — Thursday, Oct 29
 
 - [Coin Change II](https://leetcode.com/problems/coin-change-ii/) *(in class)*
 - [Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/) *(in class)*

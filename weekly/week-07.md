@@ -1,11 +1,11 @@
-# Week 07 - DP
+# Week 07 (Oct 12–17) - DP
 
-## Class 1
+## Class 1 — Tuesday, Oct 13
 
 - [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) *(in class)*
 - [Word Break](https://leetcode.com/problems/word-break/) *(in class)*
 
-## Class 2
+## Class 2 — Thursday, Oct 15
 
 - [Knight Dialer](https://leetcode.com/problems/knight-dialer/) *(in class)*
 - [Number of Dice Rolls with Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) *(in class)*

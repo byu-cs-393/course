@@ -1,10 +1,10 @@
-# Week 14 - Classifying Random Problems, Humility
+# Week 14 (Nov 30–Dec 5) - Classifying Random Problems, Humility
 
-## Class 1
+## Class 1 — Tuesday, Dec 1
 
 - Random problem, classify it, solve it! *(in class)*
 
-## Class 2
+## Class 2 — Thursday, Dec 3
 
 - Random problem, classify it, solve it! *(in class)*
 

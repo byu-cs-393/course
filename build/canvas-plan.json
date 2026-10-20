@@ -523,7 +523,7 @@
     },
     {
       "id": "study-w1",
-      "title": "Weekly Study 01",
+      "title": "Weekly Study 01 (Sep 2–5)",
       "group": "study",
       "type": "study",
       "points": 6.5,
@@ -536,7 +536,7 @@
     },
     {
       "id": "study-w10",
-      "title": "Weekly Study 10",
+      "title": "Weekly Study 10 (Nov 2–7)",
       "group": "study",
       "type": "study",
       "points": 13,
@@ -549,7 +549,7 @@
     },
     {
       "id": "study-w11",
-      "title": "Weekly Study 11",
+      "title": "Weekly Study 11 (Nov 9–14)",
       "group": "study",
       "type": "study",
       "points": 13,
@@ -562,7 +562,7 @@
     },
     {
       "id": "study-w12",
-      "title": "Weekly Study 12",
+      "title": "Weekly Study 12 (Nov 16–21)",
       "group": "study",
       "type": "study",
       "points": 13,
@@ -575,7 +575,7 @@
     },
     {
       "id": "study-w13",
-      "title": "Weekly Study 13",
+      "title": "Weekly Study 13 (Nov 23–24)",
       "group": "study",
       "type": "study",
       "points": 6.5,
@@ -588,7 +588,7 @@
     },
     {
       "id": "study-w14",
-      "title": "Weekly Study 14",
+      "title": "Weekly Study 14 (Nov 30–Dec 5)",
       "group": "study",
       "type": "study",
       "points": 13,
@@ -601,7 +601,7 @@
     },
     {
       "id": "study-w2",
-      "title": "Weekly Study 02",
+      "title": "Weekly Study 02 (Sep 7–12)",
       "group": "study",
       "type": "study",
       "points": 13,
@@ -614,7 +614,7 @@
     },
     {
       "id": "study-w3",
-      "title": "Weekly Study 03",
+      "title": "Weekly Study 03 (Sep 14–19)",
       "group": "study",
       "type": "study",
       "points": 13,
@@ -627,7 +627,7 @@
     },
     {
       "id": "study-w4",
-      "title": "Weekly Study 04",
+      "title": "Weekly Study 04 (Sep 21–26)",
       "group": "study",
       "type": "study",
       "points": 13,
@@ -640,7 +640,7 @@
     },
     {
       "id": "study-w5",
-      "title": "Weekly Study 05",
+      "title": "Weekly Study 05 (Sep 28–Oct 3)",
       "group": "study",
       "type": "study",
       "points": 13,
@@ -653,7 +653,7 @@
     },
     {
       "id": "study-w6",
-      "title": "Weekly Study 06",
+      "title": "Weekly Study 06 (Oct 5–10)",
       "group": "study",
       "type": "study",
       "points": 13,
@@ -666,7 +666,7 @@
     },
     {
       "id": "study-w7",
-      "title": "Weekly Study 07",
+      "title": "Weekly Study 07 (Oct 12–17)",
       "group": "study",
       "type": "study",
       "points": 13,
@@ -679,7 +679,7 @@
     },
     {
       "id": "study-w8",
-      "title": "Weekly Study 08",
+      "title": "Weekly Study 08 (Oct 19–24)",
       "group": "study",
       "type": "study",
       "points": 13,
@@ -692,7 +692,7 @@
     },
     {
       "id": "study-w9",
-      "title": "Weekly Study 09",
+      "title": "Weekly Study 09 (Oct 26–31)",
       "group": "study",
       "type": "study",
       "points": 13,
@@ -707,72 +707,72 @@
   "pages": [
     {
       "id": "week-1",
-      "title": "Week 01 — BigO, Strings, Linked Lists, Sets",
+      "title": "Week 01 (Sep 2–5) — BigO, Strings, Linked Lists, Sets",
       "module": "Data Structures"
     },
     {
       "id": "week-2",
-      "title": "Week 02 — BigO, Dictionaries, 2D Arrays, Linked Lists",
+      "title": "Week 02 (Sep 7–12) — BigO, Dictionaries, 2D Arrays, Linked Lists",
       "module": "Data Structures"
     },
     {
       "id": "week-3",
-      "title": "Week 03 — Super Advanced Data Structures, Sets, Dictionaries, Memoizing, Strings",
+      "title": "Week 03 (Sep 14–19) — Super Advanced Data Structures, Sets, Dictionaries, Memoizing, Strings",
       "module": "Data Structures"
     },
     {
       "id": "week-4",
-      "title": "Week 04 — Graphs and Traversal",
+      "title": "Week 04 (Sep 21–26) — Graphs and Traversal",
       "module": "Graphs"
     },
     {
       "id": "week-5",
-      "title": "Week 05 — BFS",
+      "title": "Week 05 (Sep 28–Oct 3) — BFS",
       "module": "Graphs"
     },
     {
       "id": "week-6",
-      "title": "Week 06 — BFS Advanced",
+      "title": "Week 06 (Oct 5–10) — BFS Advanced",
       "module": "Graphs"
     },
     {
       "id": "week-7",
-      "title": "Week 07 — DP",
+      "title": "Week 07 (Oct 12–17) — DP",
       "module": "Dynamic Programming"
     },
     {
       "id": "week-8",
-      "title": "Week 08 — DP, Counting, Prefix",
+      "title": "Week 08 (Oct 19–24) — DP, Counting, Prefix",
       "module": "Dynamic Programming"
     },
     {
       "id": "week-9",
-      "title": "Week 09 — DP",
+      "title": "Week 09 (Oct 26–31) — DP",
       "module": "Dynamic Programming"
     },
     {
       "id": "week-10",
-      "title": "Week 10 — SQL, DP",
+      "title": "Week 10 (Nov 2–7) — SQL, DP",
       "module": "Dynamic Programming"
     },
     {
       "id": "week-11",
-      "title": "Week 11 — Logarithmic Algorithms, Two Pointer, Heaps",
+      "title": "Week 11 (Nov 9–14) — Logarithmic Algorithms, Two Pointer, Heaps",
       "module": "Sorting, Two-Pointer, etc."
     },
     {
       "id": "week-12",
-      "title": "Week 12 — Two Pointer, Faster Sort, Heap, Segment Tree",
+      "title": "Week 12 (Nov 16–21) — Two Pointer, Faster Sort, Heap, Segment Tree",
       "module": "Sorting, Two-Pointer, etc."
     },
     {
       "id": "week-13",
-      "title": "Week 13 — Sort, Order",
+      "title": "Week 13 (Nov 23–24) — Sort, Order",
       "module": "Sorting, Two-Pointer, etc."
     },
     {
       "id": "week-14",
-      "title": "Week 14 — Classifying Random Problems, Humility",
+      "title": "Week 14 (Nov 30–Dec 5) — Classifying Random Problems, Humility",
       "module": "Sorting, Two-Pointer, etc."
     },
     {
