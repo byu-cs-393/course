@@ -167,6 +167,16 @@ for p in PAGES:
     module_items.setdefault(p["module"], []).append(
         {"kind": "page", "id": p["id"], "week": p["week"], "rank": -1})   # page first
 
+# Hands-off: objects authored directly in Canvas (e.g. Jack's CS 393 Buddy items). The
+# mirror never edits, publishes or prunes them; their Canvas ids live in the deploy map,
+# and it only keeps the ones with a `module` placed in that module.
+HANDS_OFF = CFG.get("handsOff", [])
+for h in HANDS_OFF:
+    if h.get("module"):
+        module_items.setdefault(h["module"], []).append(
+            {"kind": h["kind"], "id": h["id"], "week": h.get("week"),
+             "rank": -1 if h["kind"] == "page" else ITEM_ORDER.get(h["id"], 0) + 0.5})
+
 
 def _module_daterange(name):
     """'Nov 9 – Dec 5' from the span of weeks in a module (None if it has no weeks)."""
@@ -206,6 +216,7 @@ plan_doc = {
         for a in sorted(plan, key=lambda a: a["id"])
     ],
     "pages": [{"id": p["id"], "title": p["title"], "module": p["module"]} for p in PAGES],
+    "handsOff": [{"kind": h["kind"], "id": h["id"], "module": h.get("module")} for h in HANDS_OFF],
     "modules": [{"name": m, "display": MODULE_DISPLAY[m],
                  "items": [{"kind": it["kind"], "id": it["id"]}
                            for it in sorted(module_items.get(m, []), key=_item_key)]}
@@ -495,6 +506,12 @@ def apply():
     link_map = build_link_map(old)
     dm = {"course": COURSE_ID, "host": CANVAS_HOST, "groups": {}, "assignments": {},
           "pages": {}, "modules": {}}
+    for h in HANDS_OFF:                 # carried over untouched, so prune keeps them
+        bucket = "pages" if h["kind"] == "page" else "assignments"
+        if h["id"] not in old[bucket]:
+            raise SystemExit(f"handsOff {h['kind']} {h['id']!r} has no Canvas id in "
+                             f"{os.path.basename(DEPLOY)} — add it before --apply")
+        dm[bucket][h["id"]] = old[bucket][h["id"]]
 
     canvas(tok, "PUT", f"/courses/{COURSE_ID}",
            {"course": {"apply_assignment_group_weights": True,

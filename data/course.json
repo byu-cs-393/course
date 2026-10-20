@@ -125,6 +125,32 @@
       "syllabus",
       "grades",
       "people"
+    ],
+    "handsOff": [
+      {
+        "kind": "page",
+        "id": "cs393-buddy",
+        "module": "Milestones",
+        "week": 1,
+        "note": "CS 393 Buddy extension page (Jack); authored in Canvas, linked from connect-account"
+      },
+      {
+        "kind": "page",
+        "id": "cs393-buddy-duplicate",
+        "note": "identical earlier copy of cs393-buddy (Sep 10); unlinked, left unpublished"
+      },
+      {
+        "kind": "assignment",
+        "id": "connect-account",
+        "module": "Milestones",
+        "week": 1,
+        "note": "students paste their Buddy connection code here; the extension backend reads it"
+      },
+      {
+        "kind": "assignment",
+        "id": "ta-access",
+        "note": "staff paste Buddy connection codes in its description; MUST stay unpublished"
+      }
     ]
   },
   "static": {

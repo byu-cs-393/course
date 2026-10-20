@@ -781,14 +781,44 @@
       "module": "Extra Credit"
     }
   ],
+  "handsOff": [
+    {
+      "kind": "page",
+      "id": "cs393-buddy",
+      "module": "Milestones"
+    },
+    {
+      "kind": "page",
+      "id": "cs393-buddy-duplicate",
+      "module": null
+    },
+    {
+      "kind": "assignment",
+      "id": "connect-account",
+      "module": "Milestones"
+    },
+    {
+      "kind": "assignment",
+      "id": "ta-access",
+      "module": null
+    }
+  ],
   "modules": [
     {
       "name": "Milestones",
       "display": "Milestones",
       "items": [
         {
+          "kind": "page",
+          "id": "cs393-buddy"
+        },
+        {
           "kind": "assignment",
           "id": "connect-with-class"
+        },
+        {
+          "kind": "assignment",
+          "id": "connect-account"
         },
         {
           "kind": "assignment",

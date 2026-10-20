@@ -8,6 +8,8 @@
     "extra-credit": 164499
   },
   "assignments": {
+    "connect-account": 1498932,
+    "ta-access": 1500010,
     "connect-with-class": 1387076,
     "ec-amazing-project-community": 1387077,
     "ec-amazing-project-paid": 1387078,
@@ -62,6 +64,8 @@
     "study-w9": 1387127
   },
   "pages": {
+    "cs393-buddy": "cs-393-buddy-optional-extension-2",
+    "cs393-buddy-duplicate": "cs-393-buddy-optional-extension",
     "week-1": "week-01-sep-2-5-bigo-strings-linked-lists-sets",
     "week-2": "week-02-sep-7-12-bigo-dictionaries-2d-arrays-linked-lists",
     "week-3": "week-03-sep-14-19-super-advanced-data-structures-sets-dictionaries-memoizing-strings",

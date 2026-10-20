@@ -510,6 +510,18 @@
       "descChars": 1967
     },
     {
+      "id": 1500010,
+      "name": "Ta Access",
+      "points": 0.0,
+      "group": 164496,
+      "due": null,
+      "published": false,
+      "submit": [
+        "none"
+      ],
+      "descChars": 315
+    },
+    {
       "id": 1387114,
       "name": "Weekly Study 01 (Sep 2–5)",
       "points": 6.5,
@@ -519,7 +531,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1799
+      "descChars": 1815
     },
     {
       "id": 1387120,
@@ -531,7 +543,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1650
+      "descChars": 1668
     },
     {
       "id": 1387121,
@@ -543,7 +555,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1832
+      "descChars": 1852
     },
     {
       "id": 1387122,
@@ -555,7 +567,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1814
+      "descChars": 1834
     },
     {
       "id": 1387123,
@@ -567,7 +579,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1553
+      "descChars": 1579
     },
     {
       "id": 1387124,
@@ -579,7 +591,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1662
+      "descChars": 1680
     },
     {
       "id": 1387125,
@@ -591,7 +603,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1594
+      "descChars": 1614
     },
     {
       "id": 1387126,
@@ -603,7 +615,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1654
+      "descChars": 1674
     },
     {
       "id": 1387127,
@@ -615,7 +627,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1612
+      "descChars": 1632
     },
     {
       "id": 1387115,
@@ -627,7 +639,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1644
+      "descChars": 1660
     },
     {
       "id": 1387116,
@@ -639,7 +651,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1687
+      "descChars": 1705
     },
     {
       "id": 1387117,
@@ -651,7 +663,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1667
+      "descChars": 1687
     },
     {
       "id": 1387118,
@@ -663,7 +675,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1597
+      "descChars": 1617
     },
     {
       "id": 1387119,
@@ -675,7 +687,7 @@
       "submit": [
         "online_text_entry"
       ],
-      "descChars": 1680
+      "descChars": 1706
     }
   ],
   "pages": [
@@ -684,6 +696,18 @@
       "url": "amazing-project",
       "title": "Amazing Project",
       "published": true
+    },
+    {
+      "pageId": 1703255,
+      "url": "cs-393-buddy-optional-extension",
+      "title": "CS 393 Buddy (Optional Extension)",
+      "published": false
+    },
+    {
+      "pageId": 1703688,
+      "url": "cs-393-buddy-optional-extension-2",
+      "title": "CS 393 Buddy (Optional Extension)",
+      "published": false
     },
     {
       "pageId": 1595196,
@@ -1001,8 +1025,16 @@
       "published": true,
       "items": [
         {
+          "type": "Page",
+          "title": "CS 393 Buddy (Optional Extension)"
+        },
+        {
           "type": "Assignment",
           "title": "Connect with Class"
+        },
+        {
+          "type": "Assignment",
+          "title": "Connect Your Account (Optional — Cs 393 Buddy)"
         },
         {
           "type": "Assignment",
