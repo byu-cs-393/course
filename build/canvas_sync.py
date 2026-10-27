@@ -604,13 +604,17 @@ parser.add_argument("--apply", action="store_true",
 parser.add_argument("--pull", action="store_true",
                     help="snapshot actual Canvas state to build/canvas-state.json (read-only)")
 args = parser.parse_args()
-# HOLD (Week 08, Oct 19–24 2026): a daily-assignment experiment for one student uses
-# assignments and overrides made by hand in Canvas. --apply would prune them (and the
-# Weekly Study 08 override), so it is blocked until Michael ends the experiment. To lift
-# the hold, delete this block (or move the items into canvas.handsOff first).
+# HOLD (Weeks 08–14, Oct 19–Dec 5 2026): one student does daily study logs instead of the
+# Weekly Study. That is 31 "Daily Study NN — <Day>" assignments (Study group, one-student
+# overrides, indented under each Weekly Study in its module) made outside this mirror, and
+# Weekly Study 08–14 switched to only_visible_to_overrides with an "Everyone except
+# daily-study experiment" override. --apply would prune the dailies and reset the weekly
+# visibility, so it is blocked for the rest of Fall 2026. To lift it, delete this block
+# (or move the items into canvas.handsOff first). Ids are in the gitignored manifest
+# private_students/2026f_cs393/daily_study_experiment.json in the ag repo.
 if args.apply:
-    raise SystemExit("canvas_sync --apply is on HOLD for the Week 08 daily-assignment "
-                     "experiment (hand-made Canvas items would be pruned). Ask Michael.")
+    raise SystemExit("canvas_sync --apply is on HOLD for the daily-study plan (Weeks 08–14; "
+                     "hand-made Canvas items would be pruned). Ask Michael.")
 if args.apply:
     print(f"\nAPPLY -> Canvas course {COURSE_ID} (mirror)\n")
     apply()

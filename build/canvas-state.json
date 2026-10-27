@@ -102,6 +102,378 @@
       "descChars": 1550
     },
     {
+      "id": 1513789,
+      "name": "Daily Study 08 — Fri Oct 23",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-10-24T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1159
+    },
+    {
+      "id": 1513790,
+      "name": "Daily Study 08 — Sat Oct 24",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-10-25T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 971
+    },
+    {
+      "id": 1513788,
+      "name": "Daily Study 08 — Thu Oct 22",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-10-23T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1195
+    },
+    {
+      "id": 1513786,
+      "name": "Daily Study 08 — Tue Oct 20",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-10-21T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1213
+    },
+    {
+      "id": 1513787,
+      "name": "Daily Study 08 — Wed Oct 21",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-10-22T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1186
+    },
+    {
+      "id": 1516169,
+      "name": "Daily Study 09 — Fri Oct 30",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-10-31T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1176
+    },
+    {
+      "id": 1516170,
+      "name": "Daily Study 09 — Sat Oct 31",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-11-01T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 928
+    },
+    {
+      "id": 1516168,
+      "name": "Daily Study 09 — Thu Oct 29",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-10-30T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1110
+    },
+    {
+      "id": 1516166,
+      "name": "Daily Study 09 — Tue Oct 27",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-10-28T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1164
+    },
+    {
+      "id": 1516167,
+      "name": "Daily Study 09 — Wed Oct 28",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-10-29T05:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1101
+    },
+    {
+      "id": 1516174,
+      "name": "Daily Study 10 — Fri Nov 6",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-11-07T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1118
+    },
+    {
+      "id": 1516175,
+      "name": "Daily Study 10 — Sat Nov 7",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-11-08T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1250
+    },
+    {
+      "id": 1516173,
+      "name": "Daily Study 10 — Thu Nov 5",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-11-06T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1068
+    },
+    {
+      "id": 1516171,
+      "name": "Daily Study 10 — Tue Nov 3",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-11-04T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1100
+    },
+    {
+      "id": 1516172,
+      "name": "Daily Study 10 — Wed Nov 4",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-11-05T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1118
+    },
+    {
+      "id": 1516179,
+      "name": "Daily Study 11 — Fri Nov 13",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-11-14T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1186
+    },
+    {
+      "id": 1516180,
+      "name": "Daily Study 11 — Sat Nov 14",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-11-15T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1001
+    },
+    {
+      "id": 1516178,
+      "name": "Daily Study 11 — Thu Nov 12",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-11-13T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1234
+    },
+    {
+      "id": 1516176,
+      "name": "Daily Study 11 — Tue Nov 10",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-11-11T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1225
+    },
+    {
+      "id": 1516177,
+      "name": "Daily Study 11 — Wed Nov 11",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-11-12T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1198
+    },
+    {
+      "id": 1516184,
+      "name": "Daily Study 12 — Fri Nov 20",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-11-21T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1215
+    },
+    {
+      "id": 1516185,
+      "name": "Daily Study 12 — Sat Nov 21",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-11-22T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1006
+    },
+    {
+      "id": 1516183,
+      "name": "Daily Study 12 — Thu Nov 19",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-11-20T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1197
+    },
+    {
+      "id": 1516181,
+      "name": "Daily Study 12 — Tue Nov 17",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-11-18T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1203
+    },
+    {
+      "id": 1516182,
+      "name": "Daily Study 12 — Wed Nov 18",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-11-19T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1179
+    },
+    {
+      "id": 1516186,
+      "name": "Daily Study 13 — Tue Nov 24",
+      "points": 6.5,
+      "group": 164496,
+      "due": "2026-11-25T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1267
+    },
+    {
+      "id": 1516190,
+      "name": "Daily Study 14 — Fri Dec 4",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-12-05T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1149
+    },
+    {
+      "id": 1516191,
+      "name": "Daily Study 14 — Sat Dec 5",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-12-06T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1237
+    },
+    {
+      "id": 1516189,
+      "name": "Daily Study 14 — Thu Dec 3",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-12-04T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1177
+    },
+    {
+      "id": 1516187,
+      "name": "Daily Study 14 — Tue Dec 1",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-12-02T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1177
+    },
+    {
+      "id": 1516188,
+      "name": "Daily Study 14 — Wed Dec 2",
+      "points": 2.6,
+      "group": 164496,
+      "due": "2026-12-03T06:59:00Z",
+      "published": true,
+      "submit": [
+        "online_text_entry"
+      ],
+      "descChars": 1149
+    },
+    {
       "id": 1387096,
       "name": "Data Structures — Online Assessment",
       "points": 1.0,
@@ -707,7 +1079,7 @@
       "pageId": 1703688,
       "url": "cs-393-buddy-optional-extension-2",
       "title": "CS 393 Buddy (Optional Extension)",
-      "published": false
+      "published": true
     },
     {
       "pageId": 1595196,
@@ -869,6 +1241,26 @@
         },
         {
           "type": "Assignment",
+          "title": "Daily Study 08 — Tue Oct 20"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 08 — Wed Oct 21"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 08 — Thu Oct 22"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 08 — Fri Oct 23"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 08 — Sat Oct 24"
+        },
+        {
+          "type": "Assignment",
           "title": "Peer Mock Interview"
         },
         {
@@ -878,6 +1270,26 @@
         {
           "type": "Assignment",
           "title": "Weekly Study 09 (Oct 26–31)"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 09 — Tue Oct 27"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 09 — Wed Oct 28"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 09 — Thu Oct 29"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 09 — Fri Oct 30"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 09 — Sat Oct 31"
         },
         {
           "type": "Assignment",
@@ -894,6 +1306,26 @@
         {
           "type": "Assignment",
           "title": "Weekly Study 10 (Nov 2–7)"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 10 — Tue Nov 3"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 10 — Wed Nov 4"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 10 — Thu Nov 5"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 10 — Fri Nov 6"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 10 — Sat Nov 7"
         },
         {
           "type": "Assignment",
@@ -1076,12 +1508,52 @@
           "title": "Weekly Study 11 (Nov 9–14)"
         },
         {
+          "type": "Assignment",
+          "title": "Daily Study 11 — Tue Nov 10"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 11 — Wed Nov 11"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 11 — Thu Nov 12"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 11 — Fri Nov 13"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 11 — Sat Nov 14"
+        },
+        {
           "type": "Page",
           "title": "Week 12 (Nov 16–21) — Two Pointer, Faster Sort, Heap, Segment Tree"
         },
         {
           "type": "Assignment",
           "title": "Weekly Study 12 (Nov 16–21)"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 12 — Tue Nov 17"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 12 — Wed Nov 18"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 12 — Thu Nov 19"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 12 — Fri Nov 20"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 12 — Sat Nov 21"
         },
         {
           "type": "Assignment",
@@ -1101,6 +1573,10 @@
         },
         {
           "type": "Assignment",
+          "title": "Daily Study 13 — Tue Nov 24"
+        },
+        {
+          "type": "Assignment",
           "title": "Sorting, Two-Pointer, etc. — Performance Exam"
         },
         {
@@ -1110,6 +1586,26 @@
         {
           "type": "Assignment",
           "title": "Weekly Study 14 (Nov 30–Dec 5)"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 14 — Tue Dec 1"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 14 — Wed Dec 2"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 14 — Thu Dec 3"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 14 — Fri Dec 4"
+        },
+        {
+          "type": "Assignment",
+          "title": "Daily Study 14 — Sat Dec 5"
         }
       ]
     }
