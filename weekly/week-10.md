@@ -12,6 +12,7 @@
 ## Outside of Class
 
 - Do problems from the OA, review, or explore something new! 4 problems *(required)*
+- [Range Sum Query Mutable](https://leetcode.com/problems/range-sum-query-mutable/) ([interactive segment tree demo](https://michaeltreynolds.github.io/cs393/range-sum-query/)) *(recommended)*
 
 ## Online Assessment from last week 😊
 

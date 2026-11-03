@@ -903,6 +903,12 @@
           {
             "notes": "Do problems from the OA, review, or explore something new! 4 problems",
             "tag": "required"
+          },
+          {
+            "name": "Range Sum Query Mutable",
+            "url": "https://leetcode.com/problems/range-sum-query-mutable/",
+            "notes": "([interactive segment tree demo](https://michaeltreynolds.github.io/cs393/range-sum-query/))",
+            "tag": "recommended"
           }
         ]
       },
